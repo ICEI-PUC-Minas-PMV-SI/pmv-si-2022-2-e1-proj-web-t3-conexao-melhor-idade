@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Gustavo da Silva Novaes
 * Marilia Maciel Bruzzi Felipe
-* Nome completo do aluno 3
+* Bruno Eduardo da Silva
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
