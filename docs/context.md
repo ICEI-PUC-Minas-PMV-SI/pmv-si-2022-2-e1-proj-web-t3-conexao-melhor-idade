@@ -51,7 +51,8 @@ Permitir cadastro de voluntários (preferencialmente da área da saúde, familia
 
 <!-- Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doença ou acidentes domésticos, o que se faz necessário uma atitude para auxiliá-los.
+Levando-se em conta que vivemos em uma sociedade com a expectativa de vida cada vez maior, devemos levar em consideração as demandas que estão surgindo. Uma delas é a necessidade que muitos (e cada vez mais) idosos estão tendo em adquirir ajuda quando vivem sozinhos, nos atentando principalmente para aqueles que vivem em locais distantes de centros de saúde, assim como em locais que podem apresentar riscos (locais sem saneamento básico, por exemplo).
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/) -->
