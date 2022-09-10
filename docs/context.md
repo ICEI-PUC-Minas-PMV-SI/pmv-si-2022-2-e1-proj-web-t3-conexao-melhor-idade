@@ -1,6 +1,6 @@
 # Introdução
 
-<!-- Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. -->
+<!-- exto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. -->
 
 Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doenças ou acidentes domésticos. Dessa forma o projeto se propõe a auxiliá-los, através de voluntários especificamente qualificados, familiares ou pessoas próximas. 
 
@@ -15,25 +15,24 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/) --> 
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/) -->
 
- 
+ O número de idosos que vivem sozinhos e socialmente isolados ultrapassa 4 milhões, apenas no Brasil. Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco.  
 
 ## Objetivos
 
-<--! Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+<!-- Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho. -->
+Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
-> **Links Úteis**:
+**Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/) -->
 
+## Objetivo Geral:
 
-> **Objetivo Geral:**
+Permitir cadastro de voluntários (preferencialmente da área da saúde, familiares ou pessoas próximas) para uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados. 
 
-<!-- Permitir cadastro de voluntários (preferencialmente da área da saúde, familiares ou pessoas próximas) para uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados. -->
-
-> **Objetivos específicos:**
+## Objetivos específicos:
 
 - Visualizar com rapidez e facilidade os primeiros socorros para pequenos acidentes domésticos. 
 - Identificar e selecionar voluntários confiáveis para assistir idosos que vivem sozinhos 
