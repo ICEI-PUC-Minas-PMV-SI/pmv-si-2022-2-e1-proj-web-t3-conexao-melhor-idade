@@ -49,7 +49,7 @@ Permitir cadastro de voluntários (preferencialmente da área da saúde, familia
 
 ## Justificativa
 
-<!-- Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+<!-- Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.-->
 
 Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doença ou acidentes domésticos, o que se faz necessário uma atitude para auxiliá-los.
 Levando-se em conta que vivemos em uma sociedade com a expectativa de vida cada vez maior, devemos levar em consideração as demandas que estão surgindo. Uma delas é a necessidade que muitos (e cada vez mais) idosos estão tendo em adquirir ajuda quando vivem sozinhos, nos atentando principalmente para aqueles que vivem em locais distantes de centros de saúde, assim como em locais que podem apresentar riscos (locais sem saneamento básico, por exemplo).
