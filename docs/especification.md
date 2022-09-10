@@ -84,6 +84,10 @@ Administrador(contratante): Eu como contratante, preciso de um voluntário que p
      |RF-002| ------------   | MÉDIA | | 
 -->
 
+- Cadastro de usuário 
+- Cadastro de voluntário 
+- Cadastro de vagas (emprego ou voluntariado) 
+
 
 ### Requisitos não Funcionais
 
