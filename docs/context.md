@@ -4,6 +4,10 @@
 
 Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doenças ou acidentes domésticos. Dessa forma o projeto se propõe a auxiliá-los, através de voluntários especificamente qualificados, familiares ou pessoas próximas. 
 
+Além de ser de grande ajuda para os idosos em situação de vulnerabilidade, é também uma grande oportunidade prática para aqueles que são formados ou estejam cursando na área da saúde, além de tornar possível que familiares que moram distantes possam encontrar pessoas qualificadas para realizar os cuidados necessários. 
+
+O projeto acaba por conectar idosos que necessitem de atenção domiciliar a familiares ou pessoas próximas autorizadas, assim como pessoas que estejam cursando ou formados em cursos da área da saúde, com o intuito de fornecer a ajuda necessária.
+
 ## Problema
 
 <!-- Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
