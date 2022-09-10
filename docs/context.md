@@ -53,7 +53,8 @@ Permitir cadastro de voluntários (preferencialmente da área da saúde, familia
 Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doença ou acidentes domésticos, o que se faz necessário uma atitude para auxiliá-los.
 Levando-se em conta que vivemos em uma sociedade com a expectativa de vida cada vez maior, devemos levar em consideração as demandas que estão surgindo. Uma delas é a necessidade que muitos (e cada vez mais) idosos estão tendo em adquirir ajuda quando vivem sozinhos, nos atentando principalmente para aqueles que vivem em locais distantes de centros de saúde, assim como em locais que podem apresentar riscos (locais sem saneamento básico, por exemplo).
 
-<!--> **Links Úteis**:
+<!--
+> **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/) -->
 
 ## Público-Alvo
