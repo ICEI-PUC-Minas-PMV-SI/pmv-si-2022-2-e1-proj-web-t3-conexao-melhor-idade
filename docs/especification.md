@@ -2,7 +2,7 @@
 
 <!-- Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto **>
+Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto -->
 
 ## Personas
 
@@ -53,6 +53,10 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/) -->
 
 
+Como Ana, eu quero contratar um cuidador para acompanhar meu pai, Seu Antônio, ao mercado, consultas médicas e outros. 
+
+Como Seu Antônio, eu quero conhecer vizinhos que eu possa contactar em caso de emergência ou para jogar xadrez comigo de vez em quando. 
+
 //Como Julia desejo ter um controle sobre as últimas medições de glicose de minha vó para saber seu estado atual e um controle se ela está seguindo a dieta e aplicando insulina.
 
 //Como Eugenea desejo poder comer alguns morangos de vez em quando e poder ter controle sobre minha dieta e saúde em tempo real.
@@ -70,15 +74,15 @@ Administrador(contratante): Eu como contratante, preciso de um voluntário que p
 
 ## Requisitos
 
-<!-- As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. --> 
+<!-- As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. -->
 
 ### Requisitos Funcionais
 
 <!-- |ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001|  Cadastro das habilidades/conhecimentos no perfil dos prestadores de serviço. | ALTA |  |
-|RF-002| ------------   | MÉDIA | | -->
-
+     |------|-----------------------------------------|----| ----|
+     |RF-001|  Cadastro das habilidades/conhecimentos no perfil dos prestadores de serviço. | ALTA |  |
+     |RF-002| ------------   | MÉDIA | | 
+-->
 
 
 ### Requisitos não Funcionais
