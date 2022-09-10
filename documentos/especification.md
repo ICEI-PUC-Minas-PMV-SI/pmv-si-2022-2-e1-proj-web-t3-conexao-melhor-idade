@@ -8,6 +8,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
+//Parente da Idosa - Julia neta da senhora Eugenea tem como sua rotina o maior empecilho com sua avó, já que ela é quem é responsável pelos cuidados da idosa, Julia sai de casa as 06:00 e volta apenas as 22:30 horas, tendo que conciliar trabalho e faculdade. Ela se preocupa muito com sua avó em sua ausência, já que a mesma é diabética.
+
+//Idosa - Senhora Eugenea está na casa dos 68 anos, mora apenas com sua neta Julia, Senhora Eugenea gosta de cuidar de sua horta e fazer crochê, por outro lado ela é bastante ativa e deve seguir uma dieta rigorosa, mas de vez em quando escapa de sua dieta e come alguns morangos, estando sozinha em casa e em algum caso estando longe de sua insulina ela corre o risco recorrente de um acidente grave.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -30,6 +34,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
+//Como Julia desejo ter um controle sobre as últimas medições de glicose de minha vó para saber seu estado atual e um controle se ela está seguindo a dieta e aplicando insulina.
+
+//Como Eugenea desejo poder comer alguns morangos de vez em quando e poder ter controle sobre minha dieta e saúde em tempo real.
+
+//Como administrador devo criar uma funcionalidade para controle de dieta, controle de últimas medições de glicose e controle sobre últimos medicamentos utilizados.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
