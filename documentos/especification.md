@@ -12,6 +12,10 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 
 //Idosa - Senhora Eugenea está na casa dos 68 anos, mora apenas com sua neta Julia, Senhora Eugenea gosta de cuidar de sua horta e fazer crochê, por outro lado ela é bastante ativa e deve seguir uma dieta rigorosa, mas de vez em quando escapa de sua dieta e come alguns morangos, estando sozinha em casa e em algum caso estando longe de sua insulina ela corre o risco recorrente de um acidente grave.
 
+Estudante – Beatriz tem 18 anos, acabou de se formar no ensino médio e iniciou um curso de Técnico em enfermagem. Para pagar o curso e começar a ter alguma experiência prática na área está procurando algum trabalho ou estágio que possibilite ganhar algum dinheiro e colocar em prática o que tem aprendido no curso. 
+
+Voluntário - Maria tem 25 anos e atualmente tem procurado formas de ajudar pessoas no seu tempo livre. Ela possui alguns horários vagos durante a semana, assim como nos sábados e domingos. Tem procurado locais que precisem de ajuda, principalmente, de acordo com suas habilidades. Maria sabe cozinha muito bem, assim como ensinar, e tem experiencia com remédios  farmacêuticos. 
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -41,6 +45,14 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 //Como administrador devo criar uma funcionalidade para controle de dieta, controle de últimas medições de glicose e controle sobre últimos medicamentos utilizados.
 
+Usuário(contratado): Como estudante, quero me candidatar a um estágio (remunerado) ou emprego que se relacione com a área da saúde. 
+
+Usuário(contratado): Como voluntário, quero encontrar locais que necessitem de ajuda, preferencialmente de acordo com minhas habilidades. 
+
+Administrador(contratante): Eu como contratante, desejo contratar alguém para cuidar do meu avô de segunda a sexta na parte da manhã, de 7 as 12h. 
+
+Administrador(contratante): Eu como contratante, preciso de um voluntário que possa me ajudar nas tarefas do dia-a-dia, como preparar comida, limpeza, ajuda com remédios, etc.
+
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
@@ -56,8 +68,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001|  Cadastro das habilidades/conhecimentos no perfil dos prestadores de serviço. | ALTA |  |
+|RF-002| ------------   | MÉDIA | |
 
 
 ### Requisitos não Funcionais
