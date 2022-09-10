@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Marilia Maciel Bruzzi Felipe
 * Bruno Eduardo da Silva
 * Jose Francisco Lopes Dalseco
-* Nome completo do aluno 5
+* Breno Benfica de Souza Freitas
 
 ## Orientador
 
