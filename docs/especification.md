@@ -111,6 +111,9 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 
+- Integração com API da Polícia Federal para conferência de antecedentes criminais. 
+- Uso de design responsivo nas interfaces gráficas
+
 
 
 ## Restrições
