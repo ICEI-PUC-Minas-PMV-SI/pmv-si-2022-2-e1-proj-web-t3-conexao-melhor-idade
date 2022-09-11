@@ -24,9 +24,9 @@ Ana, 30 anos, filha de Seu Antônio, foi fazer um mestrado em Ciências da Compu
 
 Seu Antônio, 72 anos, aposentado, mora sozinho em Belo Horizonte, é muito independente e adora jogar xadrez. Seu Antônio não tem muitos conhecidos no Bairro em que mora (conhece alguns vizinhos, mas não tem intimidade com nenhum deles). Apesar de Seu Antônio não se incomodar em ficar mais sozinho, ele gostaria de ter um ou mais vizinhos que ele pudesse contatar em caso de emergência, ou até mesmo visitá-lo de vez em quando para jogar um partida de xadrez. 
 
-//Parente da Idosa - Julia neta da senhora Eugenea tem como sua rotina o maior empecilho com sua avó, já que ela é quem é responsável pelos cuidados da idosa, Julia sai de casa as 06:00 e volta apenas as 22:30 horas, tendo que conciliar trabalho e faculdade. Ela se preocupa muito com sua avó em sua ausência, já que a mesma é diabética.
+Parente da Idosa - Julia neta da senhora Eugenea tem como sua rotina o maior empecilho com sua avó, já que ela é quem é responsável pelos cuidados da idosa, Julia sai de casa as 06:00 e volta apenas as 22:30 horas, tendo que conciliar trabalho e faculdade. Ela se preocupa muito com sua avó em sua ausência, já que a mesma é diabética.
 
-//Idosa - Senhora Eugenea está na casa dos 68 anos, mora apenas com sua neta Julia, Senhora Eugenea gosta de cuidar de sua horta e fazer crochê, por outro lado ela é bastante ativa e deve seguir uma dieta rigorosa, mas de vez em quando escapa de sua dieta e come alguns morangos, estando sozinha em casa e em algum caso estando longe de sua insulina ela corre o risco recorrente de um acidente grave.
+Idosa - Senhora Eugenea está na casa dos 68 anos, mora apenas com sua neta Julia, Senhora Eugenea gosta de cuidar de sua horta e fazer crochê, por outro lado ela é bastante ativa e deve seguir uma dieta rigorosa, mas de vez em quando escapa de sua dieta e come alguns morangos, estando sozinha em casa e em algum caso estando longe de sua insulina ela corre o risco recorrente de um acidente grave.
 
 Estudante – Beatriz tem 18 anos, acabou de se formar no ensino médio e iniciou um curso de Técnico em enfermagem. Para pagar o curso e começar a ter alguma experiência prática na área está procurando algum trabalho ou estágio que possibilite ganhar algum dinheiro e colocar em prática o que tem aprendido no curso. 
 
@@ -57,11 +57,11 @@ Como Ana, eu quero contratar um cuidador para acompanhar meu pai, Seu Antônio, 
 
 Como Seu Antônio, eu quero conhecer vizinhos que eu possa contactar em caso de emergência ou para jogar xadrez comigo de vez em quando. 
 
-//Como Julia desejo ter um controle sobre as últimas medições de glicose de minha vó para saber seu estado atual e um controle se ela está seguindo a dieta e aplicando insulina.
+Como Julia desejo ter um controle sobre as últimas medições de glicose de minha vó para saber seu estado atual e um controle se ela está seguindo a dieta e aplicando insulina.
 
-//Como Eugenea desejo poder comer alguns morangos de vez em quando e poder ter controle sobre minha dieta e saúde em tempo real.
+Como Eugenea desejo poder comer alguns morangos de vez em quando e poder ter controle sobre minha dieta e saúde em tempo real.
 
-//Como administrador devo criar uma funcionalidade para controle de dieta, controle de últimas medições de glicose e controle sobre últimos medicamentos utilizados.
+Como administrador devo criar uma funcionalidade para controle de dieta, controle de últimas medições de glicose e controle sobre últimos medicamentos utilizados.
 
 Usuário(contratado): Como estudante, quero me candidatar a um estágio (remunerado) ou emprego que se relacione com a área da saúde. 
 
@@ -89,6 +89,8 @@ Administrador(contratante): Eu como contratante, preciso de um voluntário que p
 - Cadastro de vagas (emprego ou voluntariado) 
 - Sistema de notas para avaliar o prestador de serviço
 - Mostrar para os usuários prestadores de serviços com o perfil compatível ao seu
+- Sistema para controle de medicação
+- Sistema de controle para dieta
 
 ### Requisitos não Funcionais
 
