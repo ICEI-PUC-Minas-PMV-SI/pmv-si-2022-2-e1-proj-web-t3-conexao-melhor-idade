@@ -87,7 +87,8 @@ Administrador(contratante): Eu como contratante, preciso de um voluntário que p
 - Cadastro de usuário 
 - Cadastro de voluntário 
 - Cadastro de vagas (emprego ou voluntariado) 
-
+- Sistema de notas para avaliar o prestador de serviço
+- Mostrar para os usuários prestadores de serviços com o perfil compatível ao seu
 
 ### Requisitos não Funcionais
 
