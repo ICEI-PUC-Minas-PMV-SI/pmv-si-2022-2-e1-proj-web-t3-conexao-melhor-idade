@@ -23,7 +23,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/) -->
 
-Atualmente no Brasil, o número de idosos com 60  anos ou mais ultrapassa o número de crianças com até nove anos de idade. Caso esse cenário continue da mesma forma, a expectativa é de que esse número em relação ao ano de 2018, triplique chegando a 58,2 milhões em 2060. Logo, deve-se levar em conta que o número de idosos que vivem sozinhos e socialmente isolados ultrapassam 4 milhões, apenas no Brasil. 
+Atualmente no Brasil, o número de idosos com 60  anos ou mais ultrapassa o número de crianças com até nove anos de idade. Caso esse cenário continue da mesma forma, a expectativa é de que esse número em relação ao ano de 2018, triplique chegando a 58,2 milhões em 2060{1}. Logo, deve-se levar em conta que o número de idosos que vivem sozinhos e socialmente isolados ultrapassam 4 milhões, apenas no Brasil{2}. 
 
 Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar dois pontos importantíssimos: a terceira idade sendo uma das grandes etapas de  mudanças do indivíduo e o cenário pós-pandêmico em que vivemos. 
 
@@ -54,7 +54,7 @@ Permitir cadastro de voluntários (preferencialmente da área da saúde, familia
 
 ## Justificativa
 
-Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 39,8% [1], ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, devemos levar em consideração as demandas que estão surgindo devido a esta situação.
+Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 39,8% {3}, ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, devemos levar em consideração as demandas que estão surgindo devido a esta situação.
 
 Muitos idosos (e cada vez mais) moram sozinhos ou precisam de cuidados especiais, muitas vezes em tempo integral. Sendo assim, cada vez mais se faz necessário a criação de projetos para auxiliar tais idosos e suas famílias a contornar as dificuldades que surgem no dia-a-dia.
 
@@ -87,4 +87,5 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 
 {1} https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25.; 
-
+{2}https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml
+{3}https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/
