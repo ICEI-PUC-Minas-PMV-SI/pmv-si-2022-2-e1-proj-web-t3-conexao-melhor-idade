@@ -82,16 +82,16 @@ Administrador(contratante): Eu como contratante, preciso de um voluntário que p
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-     |------|-----------------------------------------|----| ----|
-     |RF-001| Cadastro de usuário  | ALTA |  |
-     |RF-002| Cadastro de voluntário  | ALTA | | 
-     |RF-003| Cadastro de vagas (emprego ou voluntariado) | ALTA | |
-     |RF-001| Sistema de avaliação do prestador de serviço  | ALTA |  |
-     |RF-002| Mostrar usuários com perfis compativeis | ALTA | | 
-     |RF-003| Cadastro de habilidades e conhecimentos | ALTA | |
-     |RF-003| Sistema para controle de medicação | MÉDIA | |
-     |RF-003| Sistema de controle para dieta | MÉDIA | |
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----| ----|
+|RF-001| Cadastro de usuário  | ALTA |
+|RF-002| Cadastro de voluntário  | ALTA |
+|RF-003| Cadastro de vagas (emprego ou voluntariado) | ALTA |
+|RF-001| Sistema de avaliação do prestador de serviço  | ALTA |
+|RF-002| Mostrar usuários com perfis compativeis | ALTA | 
+|RF-003| Cadastro de habilidades e conhecimentos | ALTA |
+|RF-003| Sistema para controle de medicação | MÉDIA |
+|RF-003| Sistema de controle para dieta | MÉDIA |
 
 ### Requisitos não Funcionais
 
