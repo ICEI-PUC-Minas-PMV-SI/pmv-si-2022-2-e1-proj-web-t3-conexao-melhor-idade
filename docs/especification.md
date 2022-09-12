@@ -57,6 +57,11 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/) -->
 
 
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
 Como Ana, eu quero contratar um cuidador para acompanhar meu pai, Seu Antônio, ao mercado, consultas médicas e outros. 
 
 Como Seu Antônio, eu quero conhecer vizinhos que eu possa contactar em caso de emergência ou para jogar xadrez comigo de vez em quando. 
