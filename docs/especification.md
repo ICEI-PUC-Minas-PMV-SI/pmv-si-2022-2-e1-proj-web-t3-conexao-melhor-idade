@@ -124,9 +124,7 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 |RNF-002| O frontend deve ser desenvolvido em HTML, CSS e JavaScript | ALTA |
 |RNF-003| Deve processar requisições do usuário em no máximo 2s | ALTA |
 |RNF-004| Integração com API da Polícia Federal para conferência de antecedentes criminais. | ALTA |
-
-- Integração com API da Polícia Federal para conferência de antecedentes criminais. 
-- Uso de design responsivo nas interfaces gráficas
+|RNF-004| Ter a capacidade de suportar grande taxa de acessos simultâneos. | ALTA |
 
 
 
