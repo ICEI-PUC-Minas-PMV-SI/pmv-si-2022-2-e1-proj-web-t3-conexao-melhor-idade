@@ -4,6 +4,8 @@
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto -->
 
+O problema tratado pelo nosso projeto será a falta de segurança e bem estar de pessoas idosas, pois só no Brasil, o numero de idosos que vivem sozinhos e socialmente isolados ultrapassa mais de 4 milhões, o que pode levar a um alto risco de acidentes domésticos. A nossa ideia de solução é a criação de um website que auxilie diretamente pessoas que precisam de ajuda, por exemplo:
+
 ## Personas
 
 <!-- Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
