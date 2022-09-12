@@ -69,11 +69,16 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/) -->
+> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/) --> 
+ 
+- Familiares ou pessoas próximas de idosos que vivem ou passam a maior parte do tempo sozinhos em casa; 18 anos à 60 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso, pois moram longe ou passam grande parte do tempo fora de casa.
 
-- Idosos que vivem sozinhos e socialmente isolados. (viúvos, separados/divorciados, solteiros), que têm contato limitado com a família, ou passam a grande parte do tempo sozinhos em casa; brasileiros; aposentados; com 60 anos ou mais; com problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.; com conhecimentos básicos de tecnologia (ex.: acessar websites e aplicativos). 
-- Pessoas que sejam formados ou estejam cursando nas áreas da saúde, como enfermagem, medicina, etc. 
-- Familiares ou pessoas próximas dos idosos que precisam do atendimento; 16 anos ou mais; moram longe ou não tem tempo para visitas frequentes ao idoso, podem ter contato frequente com o idoso por telefone/internet ou não. 
+- Idosos que vivem ou passam a maior parte do tempo sozinhos em casa, que têm contato limitado com a família ou são socialmente isolados; viúvos, separados/divorciados ou solteiros; aposentados; podem ter problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.; com conhecimentos básicos de tecnologia (ex.: acessar websites e aplicativos). 
+ 
+- Pessoas formadas ou estudantes de áreas da saúde como medicina e enfermagem; 18 à 55 anos; de diversas classes sociais e renda; em busca de uma oportunidades de estágio ou trabalho voluntário.
+
+- Enfermeiros, técnicos de enfermagem e cuidadores profissionais; 18 à 55 anos; em busca de oportunidades de emprego permanente ou temporário.
+
 
 
 {1} https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25.; 
