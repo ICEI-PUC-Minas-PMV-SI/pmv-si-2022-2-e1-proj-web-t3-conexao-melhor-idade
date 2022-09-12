@@ -54,8 +54,10 @@ Permitir cadastro de voluntários (preferencialmente da área da saúde, familia
 
 ## Justificativa
 
-Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 39,8%.{1} Por isso devemos considerar que como muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doença ou acidentes domésticos, o que se faz necessário uma atitude para auxiliá-los.
-Levando-se em conta que vivemos em uma sociedade com a expectativa de vida cada vez maior, devemos levar em consideração as demandas que estão surgindo. Uma delas é a necessidade que muitos (e cada vez mais) idosos estão tendo em adquirir ajuda quando vivem sozinhos, nos atentando principalmente para aqueles que vivem em locais distantes de centros de saúde, assim como em locais que podem apresentar riscos (locais sem saneamento básico, por exemplo).
+Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 39,8% [1], ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, devemos levar em consideração as demandas que estão surgindo devido a esta situação.
+
+Muitos idosos (e cada vez mais) moram sozinhos ou precisam de cuidados especiais, muitas vezes em tempo integral. Sendo assim, cada vez mais se faz necessário a criação de projetos para auxiliar tais idosos e suas famílias a contornar as dificuldades que surgem no dia-a-dia.
+
 
 <!--
 > **Links Úteis**:
