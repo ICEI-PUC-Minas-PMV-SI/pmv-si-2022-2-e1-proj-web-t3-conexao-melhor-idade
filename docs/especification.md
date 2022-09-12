@@ -118,13 +118,12 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 
- |ID     | Descrição do Requisito  |Prioridade |
-
-|RNF-001| Integração com API da Polícia Federal para conferência de antecedentes criminais. | MÉDIA |
-
-|RNF-002| Uso de design responsivo nas interfaces gráficas | MÉDIA |
-
-|RNF-003| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| Uso de design responsivo nas interfaces gráficas | ALTA |
+|RNF-002| O frontend deve ser desenvolvido em HTML, CSS e JavaScript | ALTA |
+|RNF-003| Deve processar requisições do usuário em no máximo 2s | ALTA |
+|RNF-004| Integração com API da Polícia Federal para conferência de antecedentes criminais. | ALTA |
 
 - Integração com API da Polícia Federal para conferência de antecedentes criminais. 
 - Uso de design responsivo nas interfaces gráficas
