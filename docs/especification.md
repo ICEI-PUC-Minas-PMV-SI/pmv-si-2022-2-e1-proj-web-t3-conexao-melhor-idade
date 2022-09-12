@@ -61,6 +61,8 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Como Ana, eu quero contratar um cuidador para acompanhar meu pai, Seu Antônio, ao mercado, consultas médicas e outros. 
 
