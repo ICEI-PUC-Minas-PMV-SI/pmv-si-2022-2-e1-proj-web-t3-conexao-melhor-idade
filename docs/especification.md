@@ -4,7 +4,9 @@
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto -->
 
-O problema tratado pelo nosso projeto será a falta de segurança e bem estar de pessoas idosas, pois só no Brasil, o numero de idosos que vivem sozinhos e socialmente isolados ultrapassa mais de 4 milhões, o que pode levar a um alto risco de acidentes domésticos. A nossa ideia de solução é a criação de um website que auxilie diretamente pessoas que precisam de ajuda, por exemplo:
+O problema tratado pelo nosso projeto será a falta de segurança e bem estar de pessoas idosas, pois só no Brasil, o numero de idosos que vivem sozinhos e socialmente isolados ultrapassa mais de 4 milhões, o que pode levar a um alto risco de acidentes domésticos. A nossa ideia de solução é a criação de um website que auxilie diretamente pessoas que precisam desse tipo de ajuda, conectando quem precisa desse auxilio com quem pode prestar esse serviço de cuidador. Traremos também funções com sistemas de controle para remédios e dietas. 
+Inicialmente, o nosso Website possuirá um cadastrado de usuários, onde o usuário definirá se a sua conta será de a um prestador de serviços / voluntario ou se deseja contratar serviços e/ou utilizar as ferramentas, o site possuíra um sistema de avaliações para que os contratantes avaliem o perfil de quem presta os serviços. Temos a ideia de fazer uma integração com API da Polícia Federal para conferência de antecedentes criminais, para que não ocorra nenhum tipo de golpe por parte do prestador de serviço.
+
 
 ## Personas
 
