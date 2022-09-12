@@ -85,7 +85,10 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 - Enfermeiros, técnicos de enfermagem e cuidadores profissionais; 18 à 55 anos; em busca de oportunidades de emprego permanente ou temporário.
 
 
+## Referência
 
-{1} https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25.; 
-{2}https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml
-{3}https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/
+-{1} https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25.; 
+
+-{2}https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml
+
+-{3}https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/
