@@ -119,9 +119,12 @@ característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 
  |ID     | Descrição do Requisito  |Prioridade |
- |RNF-001| Integração com API da Polícia Federal para conferência de antecedentes criminais. | MÉDIA |
- |RNF-002| Uso de design responsivo nas interfaces gráficas | MÉDIA |
- |RNF-003| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+
+|RNF-001| Integração com API da Polícia Federal para conferência de antecedentes criminais. | MÉDIA |
+
+|RNF-002| Uso de design responsivo nas interfaces gráficas | MÉDIA |
+
+|RNF-003| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
 
 - Integração com API da Polícia Federal para conferência de antecedentes criminais. 
 - Uso de design responsivo nas interfaces gráficas
