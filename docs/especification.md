@@ -57,14 +57,12 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/) -->
 
 
-| História do Usuário | Descrição do Requisito | Prioridade |
+|ID    | História do Usuário | Descrição do Requisito | Prioridade |
 |------|---------------------|------------------------|------------|
-| Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. | Criação de uma aba de contrataçãos de serviços de companhia| ALTA |
-| Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai| Criação de um sistema de avaliação para validar autenticidade do prestador de serviços| ALTA |
-| Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos| Criação de uma aba para cadastro de estagiários | ALTA | 
-
-
-
+|RF-001 | Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. |  Criação de uma aba de contrataçãos de serviços de companhia e cuidados. | ALTA |
+|RF-002 | Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai. | Criação de um sistema de avaliação para validar autenticidade do prestador de serviços. | ALTA |
+|RF-003 | Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos. | Criação de um sistema de cadastro para serviços prestados. | ALTA |
+ 
 ## Requisitos
 
 <!-- As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. -->
