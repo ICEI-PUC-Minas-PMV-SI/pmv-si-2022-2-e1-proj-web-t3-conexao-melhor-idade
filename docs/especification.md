@@ -57,30 +57,12 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/) -->
 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| História do Usuário | Descrição do Requisito | Prioridade |
+|------|---------------------|------------------------|------------|
+| Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. | Criação de uma aba de contrataçãos de serviços de companhia| ALTA |
+| Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai| Criação de um sistema de avaliação para validar autenticidade do prestador de serviços| ALTA |
+| Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos| Criação de uma aba para cadastro de estagiários | ALTA | 
 
-Como Ana, eu quero contratar um cuidador para acompanhar meu pai, Seu Antônio, ao mercado, consultas médicas e outros. 
-
-Como Seu Antônio, eu quero conhecer vizinhos que eu possa contactar em caso de emergência ou para jogar xadrez comigo de vez em quando. 
-
-Como Julia desejo ter um controle sobre as últimas medições de glicose de minha vó para saber seu estado atual e um controle se ela está seguindo a dieta e aplicando insulina.
-
-Como Eugenea desejo poder comer alguns morangos de vez em quando e poder ter controle sobre minha dieta e saúde em tempo real.
-
-Como administrador devo criar uma funcionalidade para controle de dieta, controle de últimas medições de glicose e controle sobre últimos medicamentos utilizados.
-
-Usuário(contratado): Como estudante, quero me candidatar a um estágio (remunerado) ou emprego que se relacione com a área da saúde. 
-
-Usuário(contratado): Como voluntário, quero encontrar locais que necessitem de ajuda, preferencialmente de acordo com minhas habilidades. 
-
-Administrador(contratante): Eu como contratante, desejo contratar alguém para cuidar do meu avô de segunda a sexta na parte da manhã, de 7 as 12h. 
-
-Administrador(contratante): Eu como contratante, preciso de um voluntário que possa me ajudar nas tarefas do dia-a-dia, como preparar comida, limpeza, ajuda com remédios, etc.
 
 
 ## Requisitos
