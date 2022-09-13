@@ -39,7 +39,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Objetivo Geral:
 
-Permitir cadastro de voluntários (preferencialmente da área da saúde, familiares ou pessoas próximas) para uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados. 
+Permitir cadastro de pessoas (profissionais ou voluntários) para uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados, com uma rede de informações completa.
 
 ## Objetivos específicos:
 
