@@ -79,15 +79,18 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/) --> 
- 
-- Familiares ou pessoas próximas de idosos que vivem ou passam a maior parte do tempo sozinhos em casa; 18 anos à 60 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso, pois moram longe ou passam grande parte do tempo fora de casa.
+> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/) 
 
-- Idosos que vivem ou passam a maior parte do tempo sozinhos em casa, que têm contato limitado com a família ou são socialmente isolados; viúvos, separados/divorciados ou solteiros; aposentados; podem ter problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.; com conhecimentos básicos de tecnologia (ex.: acessar websites e aplicativos). 
- 
-- Pessoas formadas ou estudantes de áreas da saúde como medicina e enfermagem; 18 à 55 anos; de diversas classes sociais e renda; em busca de uma oportunidades de estágio ou trabalho voluntário.
+--> 
 
-- Enfermeiros, técnicos de enfermagem e cuidadores profissionais; 18 à 55 anos; em busca de oportunidades de emprego permanente ou temporário.
+- Familiares ou pessoas próximas de idosos que vivem, ou passam a maior parte do tempo sozinhos em casa; 18 anos à 55 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso.
+
+- Idosos que vivem ou passam a maior parte do tempo sozinhos em casa, que têm contato limitado com a família ou são socialmente isolados; viúvos, separados/divorciados ou solteiros; aposentados; podem ter problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.
+
+- Profissionais qualificados ou estudantes de áreas da saúde; 18 à 55 anos; em busca de uma oportunidades de emprego formal, renda extra, estágio ou trabalho voluntário.
+
+- Pessoas a partir de 16 anos que queiram se voluntariar para fazer parte de uma rede de apoio a idosos que vivem em seu bairro ou região.
+
 
 
 ## Referência
