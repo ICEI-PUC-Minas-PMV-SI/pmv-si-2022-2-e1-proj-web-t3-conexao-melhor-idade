@@ -59,9 +59,9 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 |ID    | História do Usuário | Descrição do Requisito | Prioridade |
 |------|---------------------|------------------------|------------|
-|RF-001 | Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. |  Criação de uma aba de contrataçãos de serviços de companhia e cuidados. | ALTA |
-|RF-002 | Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai. | Criação de um sistema de avaliação para validar autenticidade do prestador de serviços. | ALTA |
-|RF-003 | Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos. | Criação de um sistema de cadastro para serviços prestados. | ALTA |
+|HU-001 | Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. |  Criação de uma aba de contrataçãos de serviços de companhia e cuidados. | ALTA |
+|HU-002 | Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai. | Criação de um sistema de avaliação para validar autenticidade do prestador de serviços. | ALTA |
+|HU-003 | Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos. | Criação de um sistema de cadastro para serviços prestados. | ALTA |
  
 ## Requisitos
 
@@ -75,8 +75,8 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 |RF-002| A aplicação deve permitir a descrição de uma biografia no perfil.  | ALTA |
 |RF-003| A aplicação deve permitir o gerenciamento dos serviços requisitados. | ALTA |
 |RF-004| A aplicação deve permitir uma avaliação de ambas as partes. | ALTA |
-|RF-007| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
-|RF-008| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
+|RF-005| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
+|RF-006| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -102,12 +102,15 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Uso de design responsivo nas interfaces gráficas | ALTA |
+|RNF-001| Aplicação deve usar design responsivo nas interfaces gráficas | ALTA |
 |RNF-002| O frontend deve ser desenvolvido em HTML, CSS e JavaScript | ALTA |
-|RNF-003| Deve processar requisições do usuário em no máximo 2s | ALTA |
-|RNF-004| Integração com API da Polícia Federal para conferência de antecedentes criminais. | ALTA |
-|RNF-004| Ter a capacidade de suportar grande taxa de acessos simultâneos. | ALTA |
-
+|RNF-003| Aplicação deve processar requisições do usuário em no máximo 2s | ALTA |
+|RNF-004| Aplicação deve ser acessível a partir de qualquer browser | MÉDIA |
+|RNF-005| Aplicação eve usar uma integração com API da Polícia Federal para conferência de antecedentes criminais. | ALTA |
+|RNF-006| Aplicação deve ter disponibilidade de 99% do tempo| MÉDIA |
+|RNF-007| Aplicação não deve apresentar aos usuários quaisquer dados de cunho privativo | MÉDIA |
+|RNF-008| Aplicação deve apresentar um layout simples e de fácil utilização| MÉDIA |
+|RNF-007| Aplicação não deve apresentar uma ocorrência de falha de maior que 25/500 | MÉDIA |
 
 
 ## Restrições
