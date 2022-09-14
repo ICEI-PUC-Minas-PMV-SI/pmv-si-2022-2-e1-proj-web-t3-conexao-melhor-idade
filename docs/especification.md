@@ -71,14 +71,12 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Cadastro de usuário  | ALTA |
-|RF-002| Cadastro de voluntário  | ALTA |
-|RF-003| Cadastro de vagas (emprego ou voluntariado) | ALTA |
-|RF-004| Sistema de avaliação do prestador de serviço  | ALTA |
-|RF-005| Mostrar usuários com perfis compativeis | ALTA | 
-|RF-006| Cadastro de habilidades e conhecimentos | ALTA |
-|RF-007| Sistema para controle de medicação | MÉDIA |
-|RF-008| Sistema de controle para dieta | MÉDIA |
+|RF-001| A aplicação deve permitir o cadastro de usuários.  | ALTA |
+|RF-002| A aplicação deve permitir a descrição de uma biografia no perfil.  | ALTA |
+|RF-003| A aplicação deve permitir o gerenciamento dos serviços requisitados. | ALTA |
+|RF-004| A aplicação deve permitir uma avaliação de ambas as partes. | ALTA |
+|RF-007| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
+|RF-008| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
 
 ### Requisitos não Funcionais
 
