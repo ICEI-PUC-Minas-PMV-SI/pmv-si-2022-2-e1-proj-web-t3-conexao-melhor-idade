@@ -22,7 +22,7 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja. -->
+Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 Ana, 30 anos, filha de Seu Antônio, foi fazer um mestrado em Ciências da Computação no Rio de Janeiro e só pode visitar Seu Antônio duas vezes ao ano. Eles conversam por telefone sempre que possível. Seu Antônio tenta não preocupar Ana e sempre diz que está tudo bem, mas Ana não deixa de se preocupar e teme que caso algo aconteça, Seu Antônio não tenha a quem recorrer. Apesar de Seu Antônio ser bem independente, Ana gostaria de poder contratar um cuidador de confiança para acompanhar Seu Antônio algumas horas por dia para acompanhar Seu Antônio para ir ao mercado, consultas médicas e verificar se ele está tomando seus medicamentos corretamente.  
 
@@ -36,7 +36,9 @@ Estudante – Beatriz tem 18 anos, acabou de se formar no ensino médio e inicio
 
 Voluntário - Maria tem 25 anos e atualmente tem procurado formas de ajudar pessoas no seu tempo livre. Ela possui alguns horários vagos durante a semana, assim como nos sábados e domingos. Tem procurado locais que precisem de ajuda, principalmente, de acordo com suas habilidades. Maria sabe cozinha muito bem, assim como ensinar, e tem experiencia com remédios  farmacêuticos. 
 
+-->
 
+<img src="/src/cards.jpg" alt="Persona Cards"/>
 
 ## Histórias de Usuários
 
