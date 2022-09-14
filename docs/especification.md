@@ -110,7 +110,7 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 |RNF-006| Aplicação deve ter disponibilidade de 99% do tempo| MÉDIA |
 |RNF-007| Aplicação não deve apresentar aos usuários quaisquer dados de cunho privativo | MÉDIA |
 |RNF-008| Aplicação deve apresentar um layout simples e de fácil utilização| MÉDIA |
-|RNF-007| Aplicação não deve apresentar uma ocorrência de falha de maior que 25/500 | MÉDIA |
+|RNF-009| Aplicação não deve apresentar uma ocorrência de falha de maior que 25/500 | MÉDIA |
 
 
 ## Restrições
