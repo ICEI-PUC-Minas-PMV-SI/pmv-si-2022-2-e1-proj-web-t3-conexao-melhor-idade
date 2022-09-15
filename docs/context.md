@@ -48,7 +48,7 @@ Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da pop
 
 Sendo assim, o aumento da quantidade de pessoas idosas na sociedade e o desamparo de muitos deles é um problema a ser resolvido para o benefício de toda a população, uma vez que todos podem passar por esta etapa da vida ou possui contato com algum familiar (ou pessoa próxima) que possa passar por situações semelhenates.
 
-Dessa forma, a motivação pelo desenvolvimento dessa aplicação é criação de uma rede de apoio para idosos e suas familias que precisam de ajuda nos cuidados do dia-a-dia, conectando pessoas que estejam dispostas a ajudar voluntariamente ou prestando serviços remunerados a familias e idosos que necessitem de tais serviços.
+Dessa forma, a motivação pelo desenvolvimento dessa aplicação é a criação de uma rede de apoio para idosos e suas familias que precisam de ajuda nos cuidados do dia-a-dia, conectando pessoas que estejam dispostas a ajudar voluntariamente ou prestando serviços remunerados a familias e idosos que necessitem de tais serviços.
 
 <!--
 > **Links Úteis**:
