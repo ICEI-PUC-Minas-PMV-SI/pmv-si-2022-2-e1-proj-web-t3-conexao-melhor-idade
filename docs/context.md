@@ -79,8 +79,7 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 - [1] encurtador.com.br/klnvV
 
-- [2]  <a title="Clique aqui" href="https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml" >Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Acesso em: 15 set. de 2022</a>
+- [2]  <a title="Clique aqui" href="https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml" > Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Acesso em: 15 set. de 2022.</a>
 
-- [3] encurtador.com.br/empY3
-
+- [3] Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022
 - [4]
