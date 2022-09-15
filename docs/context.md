@@ -46,7 +46,6 @@ Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos 
 
 ## Objetivos específicos:
 
-- Validar informações providas pelo voluntário
 - Fornecer informações com postos de saúde ou hospitais mais próximos.
 - Fornecer com rapidez e facilidade informações sobre os primeiros socorros para pequenos acidentes domésticos.
 - Fornecer números de emergência com a localidade mais próxima para (Samu, Polícia, Bombeiros, etc.).
