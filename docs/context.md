@@ -42,7 +42,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Objetivo Geral:
 
-Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados, com uma rede de informações completa.
+Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados, tendo uma rede de informações completa.
 
 ## Objetivos específicos:
 
