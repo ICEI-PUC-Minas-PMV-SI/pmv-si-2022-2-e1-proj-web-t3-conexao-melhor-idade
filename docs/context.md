@@ -12,24 +12,11 @@ O projeto acaba por conectar idosos que necessitem de atenção domiciliar a fam
 
 ## Problema
 
-<!-- Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/) -->
-
 Atualmente no Brasil, o número de idosos com 60 anos ou mais, ultrapassa o número de crianças com até nove anos de idade. Caso esse cenário continue, a expectativa é de que esse número em relação ao ano de 2018, triplique chegando a 58,2 milhões em 2060<sup>[1]</sup>. Logo, deve-se levar em conta que o número de idosos que vivem sozinhos e socialmente isolados ultrapassam 4 milhões, apenas no Brasi<sup>[2]</sup>.
 
-Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar dois pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo e o cenário pós-pandêmico em que vivemos.
+Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar dois pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo e o cenário pós-pandêmico em que a sociedade se encontra.
 
-Esses aspectos fundidos com o isolamento social e o sentimento de falta de autonomia do idoso, acarreta em um envelhecimento não saudável. Ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar. O que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco de morte consideravelmente. Segundo psicólogos, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse.
-
-Desse modo, a proposta tem por objetivo amparar idosos para que tenham um envelhecimento saudável e produtivo, sem o sentimento de invalidez. Mostrando-os que, na medida do possível, podem continuar a vida normalmente contando com as pessoas que estão ao seu redor.
+Esses aspectos fundidos com o isolamento social e o sentimento de falta de autonomia do idoso, acarreta em um envelhecimento não saudável, ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco de morte consideravelmente. Segundo psicólogos, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse<sup>[2]</sup>.
 
 ## Objetivos
 
