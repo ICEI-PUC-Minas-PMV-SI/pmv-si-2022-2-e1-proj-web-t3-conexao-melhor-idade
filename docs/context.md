@@ -76,8 +76,8 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Referência
 
-- {1} https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25.; 
+- [1] encurtador.com.br/klnvV
 
-- {2}https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml
+- [2] Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em : encurtador.com.br/gjCI0
 
-- {3}https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/
+- [3] encurtador.com.br/empY3
