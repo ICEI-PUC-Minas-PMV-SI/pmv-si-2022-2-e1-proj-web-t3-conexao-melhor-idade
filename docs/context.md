@@ -42,17 +42,16 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Objetivo Geral:
 
-Permitir cadastro de pessoas (profissionais ou voluntários) para uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados, com uma rede de informações completa.
+Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos ou que são pouco amparados, com uma rede de informações completa.
 
 ## Objetivos específicos:
 
-- Visualizar com rapidez e facilidade os primeiros socorros para pequenos acidentes domésticos. 
-- Identificar e selecionar voluntários confiáveis para assistir idosos que vivem sozinhos 
+- Fornecer informações com postos de saúde ou hospitais mais próximos.
+- Fornecer com rapidez e facilidade informações sobre os primeiros socorros para pequenos acidentes domésticos.
+- Fornecer números de emergência com a localidade mais próxima para (Samu, Polícia, Bombeiros, etc.). 
+- Fornecer lista de contatos de emergência (vizinhos, amigos).
+- Fornecer perfis para seleção de voluntários confiáveis para prestação de serviços para idosos que dependem de um serviço. 
 - Validar informações providas pelo voluntário 
-- Parcerias com instituições de ensino para programas de estágio com o cuidado de idosos por parte dos alunos. 
-- Visualizar postos de saúde ou hospitais mais próximos 
-- Visualizar números de emergência locais (Samu, Polícia, Bombeiros, etc.) 
-- Visualizar lista de contatos de emergência (vizinhos, amigos) 
 
 
 ## Justificativa
