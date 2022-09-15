@@ -17,7 +17,7 @@ Atualmente no Brasil, o número de idosos com 60 anos ou mais, ultrapassa o núm
 Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar alguns pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo, fazendo com que ele perca grande parte da sua autonomia se tornando mais dependete e sentimental. E o cenário pós-pandêmico em que a sociedade se encontra, levando em contato que "A pandemia aumenta o estresse, a ansiedade, pensamentos negativos, raiva, conflitos pessoais, sociais e econômicos. Esses problemas são observados na depressão, na ansiedade, na síndrome da gaiola, na atrofia social e por isso há íntima relação entre a situação que a pandemia provoca e no desenvolvimento das doenças(Rafael Polakiewicz, 05/10/2021)<sup>[3]</sup>".
  
 
-Esses aspectos acarretam em um envelhecimento não saudável para o idoso, pois, o mesmo vai ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco de morte consideravelmente. Segundo psicólogos, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse<sup>[2]</sup>.
+Esses aspectos acarretam em um envelhecimento não saudável para o idoso, pois, o mesmo vai ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco doenças cardíacas e acidentes vasculares, assim, consequentemente aumentando o risco de morte, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse<sup>[4]</sup>.
 
 ## Objetivos
 
@@ -44,7 +44,7 @@ Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos 
 
 ## Justificativa
 
-Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 9,8% <sup>[4]</sup>, ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, devemos levar em consideração as demandas que estão surgindo devido a esta situação.
+Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 9,8% <sup>[5]</sup>, ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, devemos levar em consideração as demandas que estão surgindo devido a esta situação.
 
 Muitos idosos (e cada vez mais) moram sozinhos ou precisam de cuidados especiais, muitas vezes em tempo integral. Sendo assim, se faz necessário a criação de projetos para auxiliar tais idosos e suas famílias a contornar as dificuldades que surgem no dia-a-dia.
 
@@ -77,7 +77,8 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Referência
 
-- [1] IBGE. Envelhecimento da população: Brasil terá mais idosos do que jovens em 2060. Disponível em: [previva.com.br](https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/). Acesso em: 15 Set. de 2022
-- [2]  Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022
-- [3] Polakiewicz, R. Doenças mentais pós-pandemia: o que podemos fazer enquanto enfermeiros? Disponível em: [pebmed.com.br](https://pebmed.com.br/doencas-mentais-pos-pandemia-o-que-o-podemos-fazer-enquanto-enfermeiros/). Acesso em: 15 Set. de 2022
-- [4] Rodrigues, L. Contingente de idosos residentes no Brasil aumenta 39,8% em 9 anos. Disponível em: [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25). Acesso em: 15 Set. de 2022
+- [1] IBGE. Envelhecimento da população: Brasil terá mais idosos do que jovens em 2060. Disponível em: [previva.com.br](https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/). Acesso em: 15 Set. de 2022.
+- [2]  Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022.
+- [3] Polakiewicz, R. Doenças mentais pós-pandemia: o que podemos fazer enquanto enfermeiros? Disponível em: [pebmed.com.br](https://pebmed.com.br/doencas-mentais-pos-pandemia-o-que-o-podemos-fazer-enquanto-enfermeiros/). Acesso em: 15 Set. de 2022.
+- [4] Uchicago News. O impacto do isolamento social em idosos durante a quarentena. Disponível em: [previva.com.br](http://previva.com.br/impacto-do-isolamento-social-em-idosos/#:~:text=Pesquisadores%20da%20Universidade%20de%20Chicago,de%20situações%20de%20alto%20estresse.). Acesso em: 15 Set. de 2022.
+- [5] Rodrigues, L. Contingente de idosos residentes no Brasil aumenta 39,8% em 9 anos. Disponível em: [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25). Acesso em: 15 Set. de 2022.
