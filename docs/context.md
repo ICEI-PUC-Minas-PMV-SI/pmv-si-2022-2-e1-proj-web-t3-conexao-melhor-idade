@@ -77,10 +77,7 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Referência
 
-- [1] Disponível em:[previva.com.br](https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/)
-
+- [1] IBGE. Envelhecimento da população: Brasil terá mais idosos do que jovens em 2060. Disponível em: [previva.com.br](https://previva.com.br/envelhecimento-da-populacao-brasil-tera-mais-idosos-do-que-jovens-em-2060/). Acesso em: 15 Set. de 2022
 - [2]  Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022
-
-- [3] Disponível em:[pebmed.com.br](https://pebmed.com.br/doencas-mentais-pos-pandemia-o-que-o-podemos-fazer-enquanto-enfermeiros/)
-- 
-- [4] Disponível em:[agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25)
+- [3] Polakiewicz, R.Doenças mentais pós-pandemia: o que podemos fazer enquanto enfermeiros? Disponível em: [pebmed.com.br](https://pebmed.com.br/doencas-mentais-pos-pandemia-o-que-o-podemos-fazer-enquanto-enfermeiros/). Acesso em: 15 Set. de 2022
+- [4] Rodrigues, L.Contingente de idosos residentes no Brasil aumenta 39,8% em 9 anos. Disponível em: [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20números%20absolutos%2C%20são%2031,Brasil%20aumentou%2039%2C8%25). Acesso em: 15 Set. de 2022
