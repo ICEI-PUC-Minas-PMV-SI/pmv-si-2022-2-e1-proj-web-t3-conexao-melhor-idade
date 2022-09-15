@@ -44,11 +44,11 @@ Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos 
 
 ## Justificativa
 
-Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 9,8% [5], ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, se faz necessário projetos que se proponham a resolver as demandas que estão surgindo devido a esta situação. Uma das demandas é a necessidade de cuidados que muitos desses idosos tem, por morarem sozinhos ou por precisarem de cuidados especiais em tempo integral, onde a família não é capaz de prover tais cuidados.
+Segundo um levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais e esse número, nos últimos nove anos teve um aumento de cerca de 9,8% [5], ou seja, a população está envelhecendo, pois a expectativa de vida está cada vez maior. Dessa forma, se faz necessário projetos que se proponham a resolver as demandas que estão surgindo devido a esta situação. Uma das demandas é a necessidade de cuidados que muitos desses idosos tem, por morarem sozinhos ou por precisarem de cuidados especiais em tempo integral, onde a família não é capaz de prover tais cuidados. 
 
-Sendo assim, o aumento da quantidade de pessoas idosas na sociedade e o desamparo de muitos deles é um problema a ser resolvido para o benefício de toda a população, uma vez que todos podem passar por esta etapa da vida ou possui contato com algum familiar (ou pessoa próxima) que possa passar por situações semelhenates.
+Sendo assim, o aumento da quantidade de pessoas idosas na sociedade e o desamparo de muitos deles é um problema a ser resolvido para o benefício de toda a população, uma vez que todos podem passar por esta etapa da vida ou possui contato com algum familiar (ou pessoa próxima) que possa passar por situações semelhantes. 
 
-Dessa forma, a motivação pelo desenvolvimento dessa aplicação é a criação de uma rede de apoio para idosos e suas familias que precisam de ajuda nos cuidados do dia-a-dia, conectando pessoas que estejam dispostas a ajudar voluntariamente ou prestando serviços remunerados a familias e idosos que necessitem de tais serviços.
+Dessa forma, a motivação pelo desenvolvimento dessa aplicação é a criação de uma rede de apoio para idosos e suas famílias que precisam de ajuda nos cuidados do dia-a-dia, conectando pessoas que estejam dispostas a ajudar voluntariamente ou prestando serviços remunerados a famílias e idosos que necessitem de tais serviços. 
 
 <!--
 > **Links Úteis**:
