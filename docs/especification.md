@@ -62,8 +62,11 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 |ID    | História do Usuário | Descrição do Requisito | Prioridade |
 |------|---------------------|------------------------|------------|
 |HU-001 | Como Seu Antônio, eu quero conhecer pessoas que eu possa contactar em caso de emergência ou fazer companhia em tarefas cotidianas. |  Criação de uma aba de contrataçãos de serviços de companhia e cuidados. | ALTA |
-|HU-002 | Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai. | Criação de um sistema de avaliação para validar autenticidade do prestador de serviços. | ALTA |
-|HU-003 | Como Beatriz, eu quero uma oportunidade de estágio para complementar as horas do meu curso e adquirir experiência cuidando de idosos. | Criação de um sistema de cadastro para serviços prestados. | ALTA |
+|HU-002 | Como Ana, desejo ter um noção de quem estou contratando os serviços para cuidar do meu pai. | Criação de um sistema de avaliação para validar autenticidade do prestador de serviços. | MÉDIA |
+|HU-003 | Como Beatriz, eu quero me voluntariar em prol de idosos, ajudando eles em suas dietas e cuidados | Criação de um sistema para informar diferenciais em serviços prestados. | ALTA |
+|HU-004 | Como Julia, desejo encontrar um prestador de serviços voluntario para cuidar da minha avó, senhora Eugênia, pelo fato de me preocupar muito pela sua fragilidade| Criação de um sistema para encontrar voluntarios e seus diferenciais. | ALTA |
+|HU-005 | Como Carlos, procuro um meio de renda extra e uma oportunidade de estagio na minha formação| Criação de um sistema para serviços remunerados. | ALTA |
+
  
 ## Requisitos
 
