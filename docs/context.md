@@ -78,6 +78,6 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 - [1] encurtador.com.br/klnvV
 
-- [2] Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em : encurtador.com.br/gjCI0
+- [2] Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em : encurtador.com.br/gjCI0 l1nq.com/0Ilzw
 
 - [3] encurtador.com.br/empY3
