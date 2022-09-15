@@ -14,10 +14,10 @@ O projeto acaba por conectar idosos que necessitem de atenção domiciliar a fam
 
 Atualmente no Brasil, o número de idosos com 60 anos ou mais, ultrapassa o número de crianças com até nove anos de idade. Caso esse cenário continue, a expectativa é de que esse número em relação ao ano de 2018, triplique chegando a 58,2 milhões em 2060<sup>[1]</sup>. Logo, deve-se levar em conta que o número de idosos que vivem sozinhos e socialmente isolados ultrapassam 4 milhões, apenas no Brasi<sup>[2]</sup>.
 
-Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar alguns pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo, fazendo com que ele se torne mais dependete e sentimental. E o cenário pós-pandêmico em que a sociedade se encontra,levando em contato que"A pandemia aumenta o estresse, a ansiedade, pensamentos negativos, raiva, conflitos pessoais, sociais e econômicos. Esses problemas são observados na depressão, na ansiedade, na síndrome da gaiola, na atrofia social e por isso há íntima relação entre a situação que a pandemia provoca e no desenvolvimento das doenças(Rafael Polakiewicz, 05/10/2021)<sup>[3]</sup>".
+Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, devemos considerar alguns pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo, fazendo com que ele perca grande parte da sua autonomia se tornando mais dependete e sentimental. E o cenário pós-pandêmico em que a sociedade se encontra, levando em contato que "A pandemia aumenta o estresse, a ansiedade, pensamentos negativos, raiva, conflitos pessoais, sociais e econômicos. Esses problemas são observados na depressão, na ansiedade, na síndrome da gaiola, na atrofia social e por isso há íntima relação entre a situação que a pandemia provoca e no desenvolvimento das doenças(Rafael Polakiewicz, 05/10/2021)<sup>[3]</sup>".
  
 
-Esses aspectos fundidos com o isolamento social e o sentimento de falta de autonomia do idoso, acarreta em um envelhecimento não saudável, ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco de morte consideravelmente. Segundo psicólogos, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse<sup>[2]</sup>.
+Esses aspectos acarretam em um envelhecimento não saudável para o idoso, pois, o mesmo vai ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco de morte consideravelmente. Segundo psicólogos, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse<sup>[2]</sup>.
 
 ## Objetivos
 
@@ -79,7 +79,7 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 - [1] encurtador.com.br/klnvV
 
-- [2]  <a title="Clique aqui" href="https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml" >Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios.</a>
+- [2]  <a title="Clique aqui" href="https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml" >Por Felipe Grandin e Matheus Rodrigues. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Acesso em: 15 set. de 2022</a>
 
 - [3] encurtador.com.br/empY3
 
