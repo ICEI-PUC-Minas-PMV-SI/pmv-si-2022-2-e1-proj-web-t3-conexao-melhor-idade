@@ -81,13 +81,10 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 --> 
 
-- Familiares ou pessoas próximas de idosos que vivem, ou passam a maior parte do tempo sozinhos em casa; 18 anos à 55 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso.
-
+- Familiares ou pessoas próximas de idosos que vivem, ou passam a maior parte do tempo sozinhos em casa; 18 à 55 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso.
 - Idosos que vivem ou passam a maior parte do tempo sozinhos em casa, que têm contato limitado com a família ou são socialmente isolados; viúvos, separados/divorciados ou solteiros; aposentados; podem ter problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.
-
 - Profissionais qualificados ou estudantes de áreas da saúde; 18 à 55 anos; em busca de uma oportunidades de emprego formal, renda extra, estágio ou trabalho voluntário.
-
-- Pessoas a partir de 16 anos que queiram se voluntariar para fazer parte de uma rede de apoio a idosos que vivem em seu bairro ou região.
+- Pessoas a partir de 16 anos que queiram se cadastrar para fazer parte de uma rede de apoio a idosos que vivem em seu bairro ou região.
 
 
 
