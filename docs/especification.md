@@ -135,3 +135,4 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 - O projeto deverá estar finalizado até 20/12? 
 - O projeto deverá ser executado utilizando HTML, JavaScript e CSS
+- Náo será possível efetuar pagamentos pelo site 
