@@ -77,9 +77,9 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 |RF-002| A aplicação deve permitir a descrição de uma biografia no perfil.  | ALTA |
 |RF-003| A aplicação deve permitir o gerenciamento dos serviços requisitados. | ALTA |
 |RF-004| A aplicação deve permitir uma avaliação de ambas as partes. | ALTA |
-|RF-007| A aplicação deve fornecer informações sobre os primeiros socorros. | MÉDIA |
-|RF-005| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
-|RF-006| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
+|RF-005| A aplicação deve fornecer informações sobre os primeiros socorros. | MÉDIA |
+|RF-006| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
+|RF-007| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -110,7 +110,7 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 |RNF-002| O frontend deve ser desenvolvido em HTML, CSS e JavaScript | ALTA |
 |RNF-003| Aplicação deve processar requisições do usuário em no máximo 2s | ALTA |
 |RNF-004| Aplicação deve ser acessível a partir de qualquer browser | MÉDIA |
-|RNF-005| Aplicação eve usar uma integração com API da Polícia Federal para conferência de antecedentes criminais. | ALTA |
+|RNF-005| Aplicação eve usar uma integração com API da Polícia Federal para conferência de antecedentes criminais. | MÉDIA |
 |RNF-006| Aplicação deve ter disponibilidade de 99% do tempo| MÉDIA |
 |RNF-007| Aplicação não deve apresentar aos usuários quaisquer dados de cunho privativo | MÉDIA |
 |RNF-008| Aplicação deve apresentar um layout simples e de fácil utilização| MÉDIA |
