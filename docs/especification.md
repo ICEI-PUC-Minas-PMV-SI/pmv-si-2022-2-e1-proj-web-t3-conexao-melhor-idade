@@ -38,7 +38,7 @@ Voluntário - Maria tem 25 anos e atualmente tem procurado formas de ajudar pess
 
 -->
 
-<img src="/src/cards.jpg" alt="Persona Cards"/>
+<img src="/src/persona-cards.jpg" alt="Persona Cards"/>
 
 ## Histórias de Usuários
 
