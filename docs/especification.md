@@ -52,7 +52,7 @@
 |RNF-001| Aplicação deve usar design responsivo nas interfaces gráficas. | ALTA |
 |RNF-002| Aplicação deve ser desenvolvida em HTML, CSS e JavaScript. | ALTA |
 |RNF-003| Aplicação deve processar requisições do usuário em no máximo 2s. | ALTA |
-|RNF-004| Aplicação deve ser compativel com os principais navegadores. | MÉDIA |
+|RNF-004| Aplicação deve ser compatível com os principais navegadores. | MÉDIA |
 |RNF-005| Aplicação deve ter disponibilidade de 99% do tempo. | MÉDIA |
 |RNF-006| Aplicação não deve apresentar aos usuários quaisquer dados de cunho privativo. | MÉDIA |
 |RNF-007| Aplicação deve apresentar um layout simples e de fácil utilização. | MÉDIA |
