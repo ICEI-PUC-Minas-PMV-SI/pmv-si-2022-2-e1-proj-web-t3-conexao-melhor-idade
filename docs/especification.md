@@ -63,11 +63,11 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 | Ana (usuário do sistema) | Procurar perfis com boa avaliação. | Garantir a qualidade dos serviços prestados. |
 | Gabriela (usuário do sistema) | Buscar voluntarios de confiança. | Fazer companhia e auxiliar minha avó na dieta. |
 | Antonio (usuário do sistema) | Encontrar voluntarios nas proximidades. | Me socorrer em casos de emergência. |
-| Eguênia (usuário do sistema) | Encontrar pessoas com ideias parecidas | Me acompanhar nas caminhadas diarias.  |
+| Eguênia (usuário do sistema) | Encontrar pessoas com ideias parecidas. | Me acompanhar nas caminhadas diarias.  |
 | Beatriz (usuário do sistema) | Encontrar idosos menos afortunados. | Prestar serviços voluntarios com especialidade. |
-| Carlos (usuário do sistema) | Encontrar um emprego ou estágio remunerado | Pagar meus estudos |
-| Carlos (usuário do sistema) | Receber avaliações | Promover meu perfil |
-| Carlos (usuário do sistema) | Me cadastrar | Candidatar para prestar serviços e receber atualizações de novas vagas compativeis com meu perfil. |
+| Carlos (usuário do sistema) | Encontrar um emprego ou estágio remunerado. | Pagar meus estudos. |
+| Carlos (usuário do sistema) | Receber avaliações | Promover meu perfil. |
+| Carlos (usuário do sistema) | Me cadastrar. | Candidatar para prestar serviços e receber atualizações de novas vagas compativeis com meu perfil. |
  
 ## Requisitos
 
