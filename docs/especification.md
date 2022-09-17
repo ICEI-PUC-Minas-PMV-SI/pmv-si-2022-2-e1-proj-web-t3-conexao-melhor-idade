@@ -41,7 +41,7 @@
 |RF-006| A aplicação deve fornecer informações sobre os primeiros socorros. | MÉDIA |
 |RF-007| A aplicação deve fornecer informações de contatos emergenciais. | MÉDIA |
 |RF-008| A aplicação deve fornecer a localização de postos de saúde nas proximidades. | MÉDIA |
-
+|RF-008| A aplicação deve permitir o envio de mensagens entre os usuários. | BAIXA |
 
 ### Requisitos não Funcionais
 
