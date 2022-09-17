@@ -1,13 +1,6 @@
 # Introdução
 
-
-Ao passar dos anos, com o envelhecimento de nossos avós e pais percebemos como a terceira idade precisa de um olhar especial, tanto no tratamento, quanto no cuidado. Por isso a iniciativa Conexão melhor idade traz a ideia de dar autonomia e segurança aos idosos, pois caso precisem, poderão contar com profissionais capacitados e compatíveis com sua personalidade
-
-Muitos idosos moram sozinhos e podem ter dificuldade de pedir socorro em casos de doenças ou acidentes domésticos. Dessa forma o projeto se propõe a auxiliá-los, através de voluntários especificamente qualificados, familiares ou pessoas próximas. 
-
-Além de ser de grande ajuda para os idosos em situação de vulnerabilidade, é também uma grande oportunidade prática para aqueles que são formados ou estejam cursando na área da saúde, além de tornar possível que familiares que moram distantes possam encontrar pessoas qualificadas para realizar os cuidados necessários. 
-
-O projeto acaba por conectar idosos que necessitem de atenção domiciliar a familiares ou pessoas próximas autorizadas, assim como pessoas que estejam cursando ou formados em cursos da área da saúde, com o intuito de fornecer a ajuda necessária.
+De acordo com os dados fornecidos pelo IBGE (Instituto Brasileiro de Geografia e Estatística), a expectativa de vida no Brasil subiu para 75,8 anos, e consequentemente a quantidade de idosos na sociedade também aumentou. infelizmente os mais velhos ainda enfrentam diversos desafios, os quais na maioria das vezes precisam ser superados com ajuda de familiares, seja uma simples companhia no dia-a-dia até cuidados medicinais em tempo integral. Pensando nisto, desenvolvemos a ideia de criar um website que atenderá desde familias que não tem tempo e/ou dinheiro para cuidar de seus familiares idosos, até propiamente idosos que não tem nenhum amparo familiar e que precisam de um auxilio mais especifico ou técnico, atendendo também profissionais que estejam aptos a prestarem tal serviço, seja de forma remunerada ou voluntária.
 
 ## Problema
 
