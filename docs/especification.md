@@ -65,3 +65,4 @@
 - O projeto deverá estar finalizado até 20/12? 
 - O projeto deverá ser executado utilizando HTML, JavaScript e CSS
 - Náo será possível efetuar pagamentos pelo site 
+- O grupo que desenvolverá esta aplicação será composto por 6 pessoas
