@@ -1,6 +1,5 @@
 # Introdução
 
-<!-- exto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto. -->
 
 Ao passar dos anos, com o envelhecimento de nossos avós e pais percebemos como a terceira idade precisa de um olhar especial, tanto no tratamento, quanto no cuidado. Por isso a iniciativa Conexão melhor idade traz a ideia de dar autonomia e segurança aos idosos, pois caso precisem, poderão contar com profissionais capacitados e compatíveis com sua personalidade
 
@@ -21,12 +20,7 @@ Esses aspectos acarretam em um envelhecimento não saudável para o idoso, pois,
 
 ## Objetivos
 
-<!-- Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-**Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/) -->
 
 ## Objetivo Geral:
 
@@ -50,24 +44,10 @@ Sendo assim, o aumento da quantidade de pessoas idosas na sociedade e o desampar
 
 Dessa forma, a motivação pelo desenvolvimento dessa aplicação é a criação de uma rede de apoio para idosos e suas famílias que precisam de ajuda nos cuidados do dia-a-dia, conectando pessoas que estejam dispostas a ajudar voluntariamente ou prestando serviços remunerados a famílias e idosos que necessitem de tais serviços. 
 
-<!--
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/) -->
+
 
 ## Público-Alvo
 
-<!-- Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc. 
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/) 
-
---> 
 
 - Familiares ou pessoas próximas de idosos que vivem, ou passam a maior parte do tempo sozinhos em casa; 18 à 55 anos; gostariam de encontrar e contratar pessoas qualificadas para fazer companhia ou auxiliar no cuidado do idoso.
 - Idosos que vivem ou passam a maior parte do tempo sozinhos em casa, que têm contato limitado com a família ou são socialmente isolados; viúvos, separados/divorciados ou solteiros; aposentados; podem ter problemas de saúde como: pressão alta, diabetes, dificuldade de mobilidade, visão, audição, etc.
