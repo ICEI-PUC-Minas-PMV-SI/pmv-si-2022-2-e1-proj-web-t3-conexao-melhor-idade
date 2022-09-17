@@ -26,7 +26,7 @@ Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos 
 - Fornecer números de emergência com a localidade mais próxima para (Samu, Polícia, Bombeiros, etc.).
 - Fornecer lista de contatos de emergência (vizinhos, amigos).
 - Fornecer perfis para seleção de voluntários confiáveis para prestação de serviços para idosos que dependem de um serviço.
-- Validar informações providas pelo voluntário 
+- Validar informações providas pelo voluntário. 
 
 
 ## Justificativa
