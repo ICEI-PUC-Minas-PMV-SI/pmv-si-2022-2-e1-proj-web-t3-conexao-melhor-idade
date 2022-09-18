@@ -7,7 +7,7 @@
 
 
 
-<img src="/src/persona-cards.jpg" alt="Persona Cards"/>
+<img src="/src/cards.png" alt="Persona Cards"/>
 
 ## Histórias de Usuários
 
