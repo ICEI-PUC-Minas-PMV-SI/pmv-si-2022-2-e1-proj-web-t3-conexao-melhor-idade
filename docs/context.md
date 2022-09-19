@@ -1,6 +1,11 @@
 # Introdução
 
-Ao longo dos anos, a expectativa vem aumentando consideravelmente, e consequentemente a quantidade de idosos na sociedade cresce junto. infelizmente os mais velhos ainda enfrentam diversos desafios, os quais na maioria das vezes precisam ser superados com ajuda de familiares, seja uma simples companhia no dia-a-dia até cuidados medicinais em tempo integral. Com isto, vem-se a ideia de criar um website que atenderá desde familias que não tem tempo para cuidar de seus familiares idosos, até propiamente idosos que não tem nenhum amparo familiar e que precisam de um auxilio mais especifico ou técnico, atendendo também profissionais que estejam aptos a prestarem tal serviço, seja de forma remunerada ou voluntária.
+Ao longo dos anos, a expectativa de vida da população brasileira vem aumentando consideravelmente, e como resultado, o número de idosos não para de crescer.
+
+Um fato que se destaca é o grande número de idosos que  moram ou passam a maior parte do tempo sozinhos. Esses idosos enfrentam diversos desafios nessa fase da vida e muitos necessitam de apoio, pois tendem a estar mais susceptíveis a problemas de saúde, acidentes domésticos e dificuldades em executar tarefas cotidianas.
+
+Assim surgiu o projeto Conexão Melhor Idade, uma plataforma web intuitiva, que visa facilitar a conexão de idosos ou famílias de idosos vulneráveis que precisam de auxílio, à indivíduos que estejam disponíveis a ajudá-los.
+
 
 ## Problema
 
