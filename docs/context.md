@@ -55,8 +55,8 @@ Dessa forma, a motivação pelo desenvolvimento dessa aplicação é a criação
 
 ## Referência
 
--[1] Negrini, E. Nascimento, C. Silva, A. Antunes J. Quem são e como vivem os idosos que moram sozinhos no Brasil Disponivel em: [Scielo.br](https://www.scielo.br/j/rbgg/a/q4R46LjNVjtSTfWBZgjLKhr/?lang=pt&format=pdf) Quem são e como vivem os idosos que moram sozinhos no Brasil Acesso em: 17 de Set. de 2022
+- [1] Negrini, E. Nascimento, C. Silva, A. Antunes J. Quem são e como vivem os idosos que moram sozinhos no Brasil Disponivel em: [Scielo.br](https://www.scielo.br/j/rbgg/a/q4R46LjNVjtSTfWBZgjLKhr/?lang=pt&format=pdf) Quem são e como vivem os idosos que moram sozinhos no Brasil Acesso em: 17 de Set. de 2022
 
--[2] Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022.
+- [2] Grandin, F. e Rodrigues, M. Brasil tem 4,3 milhões de idosos vivendo sozinhos; coronavírus muda rotinas e impõe desafios. Disponível em: [g1.globo.com](https://g1.globo.com/fique-em-casa/noticia/2020/03/27/brasil-tem-43-milhoes-de-idosos-vivendo-sozinhos-coronavirus-muda-rotinas-e-impoe-desafios.ghtml). Acesso em: 15 Set. de 2022.
 
--[3] Rodrigues, L. Contingente de idosos residentes no Brasil aumenta 39,8% em 9 anos. Disponível em: [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20n%C3%BAmeros%20absolutos%2C%20s%C3%A3o%2031,Brasil%20aumentou%2039%2C8%25). Acesso em: 15 Set. de 2022.
+- [3] Rodrigues, L. Contingente de idosos residentes no Brasil aumenta 39,8% em 9 anos. Disponível em: [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/geral/noticia/2022-07/contingente-de-idosos-residentes-no-brasil-aumenta-398-em-9-anos#:~:text=Em%20n%C3%BAmeros%20absolutos%2C%20s%C3%A3o%2031,Brasil%20aumentou%2039%2C8%25). Acesso em: 15 Set. de 2022.
