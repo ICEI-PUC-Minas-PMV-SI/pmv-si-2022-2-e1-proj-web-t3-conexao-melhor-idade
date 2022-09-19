@@ -9,12 +9,11 @@ Assim surgiu o projeto Conexão Melhor Idade, uma plataforma web intuitiva, que 
 
 ## Problema
 
-Atualmente no Brasil, o número de idosos com 60 anos ou mais, ultrapassa o número de crianças com até nove anos de idade. Caso esse cenário continue, a expectativa é de que esse número em relação ao ano de 2018, triplique chegando a 58,2 milhões em 2060<sup>[1]</sup>. Logo, deve-se levar em conta que o número de idosos que vivem sozinhos e socialmente isolados ultrapassam 4 milhões, apenas no Brasi<sup>[2]</sup>.
+ Assim como em outros países de renda média, o Brasil vem passando por um processo acelerado de envelhecimento populacional e o grande número de idosos morando sozinhos foi visto como uma das mudanças mais significativas da sociedade atual.[1] De acordo com o IBGE, este número já ultrapassa de  4 milhões.[2]
 
-Muitos não recebem visitas regulares de parentes ou amigos. Em casos de acidentes domésticos ou doenças, pode ser difícil pedir ajuda ou contactar a família em tempo hábil, colocando a vida desse idoso em risco. Portanto, deve-se considerar alguns pontos importantíssimos: a terceira idade sendo uma das grandes etapas de mudanças do indivíduo, fazendo com que ele perca grande parte da sua autonomia se tornando mais dependete e sentimental. E o cenário pós-pandêmico em que a sociedade se encontra, levando em conta que. "A pandemia aumenta o estresse, a ansiedade, pensamentos negativos, raiva, conflitos pessoais, sociais e econômicos. Esses problemas são observados na depressão, na ansiedade, na síndrome da gaiola, na atrofia social e por isso há íntima relação entre a situação que a pandemia provoca e no desenvolvimento das doenças(Rafael Polakiewicz, 05/10/2021)<sup>[3]</sup>".
- 
+Seja pelo abandono, distância física, ou devido à falta de tempo dos familiares mais próximos, muitos passam a maior parte do tempo sem ninguém por perto para auxiliar em atividades cotidianas ou não tem a quem recorrer em casos de emergência.
 
-Esses aspectos acarretam em um envelhecimento não saudável para o idoso, pois, o mesmo vai ficando cada vez menos ativo por não ter um suporte, ou simplesmente alguém para conversar, o que também afeta sua saúde física e mental, em razão de que o sentimento de solidão se agrava nessa parte da vida, aumentando o risco doenças cardíacas e acidentes vasculares, assim, consequentemente aumentando o risco de morte, isso se deve ao fato de que a solidão é capaz de gerar no organismo a reação de "lutar ou fugir", devido ao alto nível de estresse, assim reduzindo a produção de leucócitos, responsáveis por proteger o organismo<sup>[4]</sup>.
+   A falta de convívio diário com familiares e amigos geram prejuízos profundos aos idosos que em casos de acidentes domésticos, desenvolvimento de doenças ou transtornos depressivos, podem ter dificuldade em pedir ajuda ou contactar a família em tempo hábil, colocando a vida destes idosos em risco.
 
 ## Objetivos
 
