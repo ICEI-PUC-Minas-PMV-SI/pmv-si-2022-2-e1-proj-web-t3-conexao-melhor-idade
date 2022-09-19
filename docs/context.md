@@ -37,7 +37,7 @@ Conectar pessoas em uma "rede de apoio" a idosos que vivem sozinhos 
 
 A terceira idade é uma das fases de maiores mudanças do indivíduo e muitos perdem grande parte de sua autonomia, necessitando de cuidados especiais e auxílio em tarefas diárias. A saúde mental destes idosos também é motivo de preocupação, pois o convívio social é de extrema importância para um envelhecimento saudável e feliz. Esses idosos necessitam de um olhar especial nos anos que lhe restam, seja de forma independente ou assistida, mas não deixando de garantir sua dignidade e bem-estar.
 
-  Segundo levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais. Esse número, nos últimos nove anos, teve um aumento de cerca de 9,8% [5], ou seja, a população está envelhecendo. Dessa forma, se faz necessário projetos que se proponham a resolver as demandas que estão surgindo devido a esta situação.
+  Segundo levantamento realizado pelo IBGE no ano de 2021 cerca de 14,7% da população tem 60 anos ou mais. Esse número, nos últimos nove anos, teve um aumento de cerca de 9,8% [3], ou seja, a população está envelhecendo. Dessa forma, se faz necessário projetos que se proponham a resolver as demandas que estão surgindo devido a esta situação.
 
   Nesse contexto, o projeto tem como objetivo principal, o desenvolvimento de uma plataforma, que proporcione a conexão entre idosos e famílias de idosos vulneráveis que precisam de auxílio, à indivíduos que estejam disponíveis a auxiliá-los prestando serviços pagos ou voluntários. Criando assim uma rede de apoio, para que o idoso se sinta amparado e tenha com quem contar nos momentos que mais precisar.
 
