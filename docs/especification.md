@@ -15,16 +15,16 @@
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Ana (usuário do sistema) | Me cadastrar. | Visualizar perfis de prestadores de serviço. |
+| Ana (usuário do sistema) | Buscar pessoas para contratar serviços | Visualizar perfis de prestadores de serviço. |
 | Ana (usuário do sistema) | Contratar alguém de confiança. | Auxiliar meu pai em nescessidades médicas e tarefas rotineiras. |
 | Ana (usuário do sistema) | Procurar perfis com boa avaliação. | Garantir a qualidade dos serviços prestados. |
 | Gabriela (usuário do sistema) | Buscar voluntarios de confiança. | Fazer companhia e auxiliar minha avó na dieta. |
 | Antonio (usuário do sistema) | Encontrar voluntarios nas proximidades. | Me socorrer em casos de emergência. |
-| Eguênia (usuário do sistema) | Encontrar pessoas com ideias parecidas. | Me acompanhar nas caminhadas diarias.  |
+| Euguênia (usuário do sistema) | Encontrar pessoas com ideias parecidas. | Me acompanhar nas caminhadas diarias.  |
 | Beatriz (usuário do sistema) | Encontrar idosos menos afortunados. | Prestar serviços voluntarios com especialidade. |
 | Carlos (usuário do sistema) | Encontrar um emprego ou estágio remunerado. | Pagar meus estudos. |
-| Carlos (usuário do sistema) | Receber avaliações | Promover meu perfil. |
-| Carlos (usuário do sistema) | Me cadastrar. | Candidatar para prestar serviços e receber atualizações de novas vagas compativeis com meu perfil. |
+| Carlos (usuário do sistema) | Adequar meu cúrriculo e melhorar minhas competências | Promover meu perfil. |
+| Carlos (usuário do sistema) | Buscas vagas compativeis com meu perfil | Candidatar para prestar serviços e receber atualizações de novas vagas compativeis com meu perfil. |
  
 ## Requisitos
 
@@ -63,6 +63,5 @@
 
 
 - O projeto deverá estar finalizado até 20/12.
-- O projeto deverá ser executado utilizando HTML, JavaScript e CSS.
 - Náo será possível efetuar pagamentos pelo site.
 - O grupo que desenvolverá esta aplicação será composto por 6 pessoas.
