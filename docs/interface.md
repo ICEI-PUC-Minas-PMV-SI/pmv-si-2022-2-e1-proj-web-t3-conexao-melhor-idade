@@ -1,28 +1,30 @@
 
 # Projeto de Interface
 
+### Funcionamento da aplicação
+
 O projeto contém cinco (5) páginas principais, sendo elas: 
 
- 1- Home: Página de apresentação do site para dar um panorama geral do objetivo do projeto e como e este funciona. Através desta página o usuário poderá se cadastrar ou fazer login. Além disso poderá acessar páginas emergenciais, como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
+ **1- Home:** Página de apresentação do site para dar um panorama geral do objetivo do projeto e como e este funciona. Através desta página o usuário poderá se cadastrar ou fazer login. Além disso poderá acessar páginas emergenciais, como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
 
-2- Login: Página para logar ou cadastrar uma nova conta. Nesse momento o usuário pode escolher qual tipo de conta irá criar de acordo com sua necessidade, podendo ser um Prestador De Serviço ou Cliente (procurar por um prestador de serviço). 
+**2- Login:** Página para logar ou cadastrar uma nova conta. Nesse momento o usuário pode escolher qual tipo de conta irá criar de acordo com sua necessidade, podendo ser um Prestador De Serviço ou Cliente (procurar por um prestador de serviço). 
 A página seguinte para o qual o usuário será direcionado dependerá do tipo de conta selecionada. 
 
  
-3- Página Principal: Cada tipo de usuário terá acesso a uma determinada Página Principal correspondente ao seu tipo de conta. 
+**3- Página Principal:** Cada tipo de usuário terá acesso a uma determinada Página Principal correspondente ao seu tipo de conta. 
 
-Prestador De Serviço: Nesta página o Prestador De Serviço poderá visualizar e candidatar-se as vagas cadastradas pelos Clientes, assim como acessar seu perfil e páginas emergenciais como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
+* **Prestador De Serviço:** Nesta página o Prestador De Serviço poderá visualizar e candidatar-se as vagas cadastradas pelos Clientes, assim como acessar seu perfil e páginas emergenciais como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
 
-Cliente: Nesta página o Cliente poderá cadastrar vagas e visualizar perfis de Prestadores De Serviços que serão recomendados de acordo com determinados critérios semelhantes entre seus perfis, como a proximidade física entre eles. Além disso, também poderá acessar seu perfil, assim como páginas emergenciais como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
+* **Cliente:** Nesta página o Cliente poderá cadastrar vagas e visualizar perfis de Prestadores De Serviços que serão recomendados de acordo com determinados critérios semelhantes entre seus perfis, como a proximidade física entre eles. Além disso, também poderá acessar seu perfil, assim como páginas emergenciais como primeiros socorros, números de emergência, localização de postos de saúde nas proximidades e informações do funcionamento da aplicação. 
 
-4- Perfil: Cada tipo de usuário terá acesso a uma determinada de Perfil correspondente ao seu tipo de conta. 
+**4- Perfil:** Cada tipo de usuário terá acesso a uma determinada de Perfil correspondente ao seu tipo de conta. 
 
-Prestador De Serviço: Nesta página o Prestador De Serviço poderá visualizar e editar suas informações pessoais de localidade, contato, biografia e habilidades. Poderá também visualizar as avaliações feitas pelos Clientes que tenha prestado serviços. 
+* **Prestador De Serviço:** Nesta página o Prestador De Serviço poderá visualizar e editar suas informações pessoais de localidade, contato, biografia e habilidades. Poderá também visualizar as avaliações feitas pelos Clientes que tenha prestado serviços. 
 
-Cliente: Nesta página o Cliente poderá visualizar e editar suas informações pessoais de localidade, contato e biografia, assim como gerenciar suas vagas cadastradas. 
+* **Cliente:** Nesta página o Cliente poderá visualizar e editar suas informações pessoais de localidade, contato e biografia, assim como gerenciar suas vagas cadastradas. 
 
 
-5- Página de Cadastro de Vagas: Está é uma página que será criada exclusivamente pelo usuário Cliente e ser visualizada pelo usuário Prestador De Serviço. Os Clientes poderão cadastrar vagas para que Prestadores De Serviços possam se candidatar.  
+**5- Página de Cadastro de Vagas:** Está é uma página que será criada exclusivamente pelo usuário Cliente e ser visualizada pelo usuário Prestador De Serviço. Os Clientes poderão cadastrar vagas para que Prestadores De Serviços possam se candidatar.  
 Nesta página constará informações do Cliente anunciante e dos serviços a serem prestados. Todas essas informações poderão ser editadas pelo Cliente e visualizadas pelo Prestador De Serviço. Este também poderá se candidatar-se a vaga através desta página. 
 
 
