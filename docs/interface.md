@@ -27,7 +27,11 @@ A página seguinte para o qual o usuário será direcionado dependerá do tipo d
 **5- Página de Cadastro de Vagas:** Está é uma página que será criada exclusivamente pelo usuário Cliente e ser visualizada pelo usuário Prestador De Serviço. Os Clientes poderão cadastrar vagas para que Prestadores De Serviços possam se candidatar.  
 Nesta página constará informações do Cliente anunciante e dos serviços a serem prestados. Todas essas informações poderão ser editadas pelo Cliente e visualizadas pelo Prestador De Serviço. Este também poderá se candidatar-se a vaga através desta página. 
 
+### Paleta de Cores
 
+Nossa aplicação será composta por cores com tons de azul, verde claro e branco. Escolhemos essas cores pois nosso publico será composto por idosos e cuidadores, visando trazer tons mais claros para que seja agradável aos olhos e torne um ambiente seguro, visto que psicologicamente essas cores remetem a paz, tranquilidade, confiança estabilidade e harmonia.
+
+![image](https://user-images.githubusercontent.com/90632832/194731335-90a92a79-abda-4082-9b8e-ea6df54b2a26.png)
 
 
 
