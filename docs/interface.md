@@ -58,11 +58,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Cliente
 
-<img src="/src/userflow-cliente.png" alt="Userflow Cliente"/>
+<img src="/src/cliente.png" alt="Userflow Cliente"/>
 
 ### Prestador de Serviço 
 
-<img src="/src/userflow-profissional.png" alt="Userflow Prestador de Serviço"/>
+<img src="/src/profissional.png" alt="Userflow Prestador de Serviço"/>
 
 ## Wireframes
 
