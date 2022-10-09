@@ -59,13 +59,26 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-### Página Home
+### Página home sem login
 
 <img src="/src/home.png" alt="Página Home"/>
 
 ### Página de Login
 
 <img src="/src/login.png" alt="Página de Login"/>
+
+### Página home com login
+
+![userflow-logado](https://user-images.githubusercontent.com/109998601/194774535-a23a010a-8984-4bbf-9eac-a2812f6ee1ba.png)
+
+### Página de perfil
+
+![userflow-perfil](https://user-images.githubusercontent.com/109998601/194774624-63452833-e282-40ab-ae46-00ddf8eecec3.png)
+
+### Página de login mobile
+
+![userflow-login-mobile](https://user-images.githubusercontent.com/109998601/194774896-6b7a2492-a8c4-40aa-9123-4cb388a5afe5.png)
+
 
 <!--
 ![Exemplo de Wireframe](img/wireframe-example.png)
