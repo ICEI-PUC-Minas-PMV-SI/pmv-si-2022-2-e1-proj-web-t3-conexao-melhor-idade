@@ -68,17 +68,17 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Página home sem login
 
+Através desta página o usuário poderá poderá acessar páginas emergenciais, como primeiros socorros(RF-008), números de emergência(RF-009), localização de postos de saúde nas proximidades(RF-010) e informações do funcionamento da aplicação.
+
 <img src="/src/home.png" alt="Página Home"/>
 
 ### Página de Login
 
 <img src="/src/login.png" alt="Página de Login"/>
 
-### Página home com login
+### Home do cliente
 
-* ** Home** 
-
-Através desta página o usuário poderá poderá acessar páginas emergenciais, como primeiros socorros(RF-008), números de emergência(RF-009), localização de postos de saúde nas proximidades(RF-010) e informações do funcionamento da aplicação.
+Nesta página o Cliente poderá iniciar a busca por Prestadores De Serviços(RF-006), visualizar perfis recomendados de acordo com os dados informados em seu perfil como a proximidade física, tipo de serviço que procura e habilidades. O Cliente também poderá conferir suas avaliações, acessar a caixa de mensagens(RF-011), poderá visualizar vagas já postadas ou ser direcionado ao cadastro de novas vagas.
 
 ![userflow-logado](https://user-images.githubusercontent.com/109998601/194774535-a23a010a-8984-4bbf-9eac-a2812f6ee1ba.png)
 
