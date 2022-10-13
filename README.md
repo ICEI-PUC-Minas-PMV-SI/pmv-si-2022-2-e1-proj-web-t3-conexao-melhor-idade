@@ -1,20 +1,18 @@
-# Conexão Melhor Idade
+<div align="center">
+<h1>Conexão Melhor Idade</h1>
+<p>Projeto - Aplicações Web - 1º semestre</p>
+<p>Sistemas de Informação</p>
+<p>Pontifícia Universidade Católica de Minas Gerais</p>
 
-`CURSO: Sistemas de Informação`
+ </div>
 
-`DISCIPLINA: Projeto - Aplicações Web`
-
-`SEMESTRE: 1º`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
-* Gustavo da Silva Novaes
-* Marilia Maciel Bruzzi Felipe
-* Bruno Eduardo da Silva
-* Jose Francisco Lopes Dalseco
 * Breno Benfica de Souza Freitas
+* Bruno Eduardo da Silva
+* Gustavo da Silva Novaes
+* Jose Francisco Lopes Dalseco
+* Marilia Maciel Bruzzi Felipe
 
 ## Orientador
 
