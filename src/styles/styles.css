@@ -1,13 +1,111 @@
-
-
-
-
-html, body {
-    font-family: 'Inter', sans-serif !important;
-    font-weight: 400 !important;
+html,
+body {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400 !important;
+  background-color: #fafafa;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Work Sans', sans-serif !important;
-    font-weight: 700 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/*************************************************************
+* UTILITITES
+*************************************************************/
+.border-light {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/*************************************************************
+* HERO
+*************************************************************/
+.cmi-hero {
+  position: relative;
+  padding: 120px 0;
+  background-image: url("/src/img/banner-main.jpg");
+  background-size: cover;
+  background-position: -20%;
+}
+
+.cmi-hero:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(62, 154, 238, 0.95),
+    rgba(67, 253, 208, 0.9) 60%
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    180deg,
+    rgba(62, 154, 238, 0.95),
+    rgba(67, 253, 208, 0.9) 60%
+  );
+}
+
+.cmi-hero > div {
+  position: relative;
+  z-index: 10;
+}
+
+/*************************************************************
+* HERO
+*************************************************************/
+.cmi-hero-search {
+  width: 400px;
+}
+
+.cmi-hero-search > div {
+  position: relative;
+}
+
+.cmi-hero-search ul li.active {
+  border-bottom: 2px solid #fff;
+}
+
+.cmi-hero-search .form-control {
+  border-radius: 25px !important;
+  height: 50px;
+  font-size: 80%;
+}
+
+.cmi-hero-search > div > button {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  line-height: 0.6;
+}
+
+/*************************************************************
+*Como funciona 
+*************************************************************/
+
+main .container {
+  max-width: 980px !important;
+}
+
+main .container > div {
+  flex: 1 1 100% !important;
+}
+
+/*************************************************************
+*Carousel
+*************************************************************/
+.rating {
+  font-size: 200%;
+  color: rgb(255, 230, 0);
 }

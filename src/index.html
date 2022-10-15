@@ -1,100 +1,343 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <base href="/" target="_self" />
-    <title>Conexão Melhor Idade</title>
-    <!-- MDB icon 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <base href="/" target="_self" />
+  <title>Conexão Melhor Idade</title>
+  <!-- MDB icon 
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
-    <!-- MDB -->
-    <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
-    <!-- Material Icons -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/src/styles/styles.css" />
-  </head>
+  <!-- MDB -->
+  <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!-- Google Fonts Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/carousel.css" />
+  <link rel="stylesheet" href="/src/styles/styles.css" />
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <!-- Container wrapper -->
-        <div class="container">
-          <!-- Navbar brand -->
-          <a class="navbar-brand me-2" href="https://mdbgo.com/">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-              height="16"
-              alt="MDB Logo"
-              loading="lazy"
-              style="margin-top: -1px"
-            />
-          </a>
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2" href="#">
+          <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" loading="lazy" style="margin-top: -1px" />
+        </a>
 
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarButtonsExample"
-            aria-controls="navbarButtonsExample"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="material-symbols-outlined"> menu </span>
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+          aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Emergências</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+
+          <button type="button" class="btn btn-secondary btn-rounded me-3">
+            Cadastre-se
           </button>
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
 
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarButtonsExample">
-            <!-- Left links -->
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Quem Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Emergências</a>
-              </li>
-            </ul>
-            <!-- Left links -->
+  <!-- Background image -->
+  <section class="cmi-hero">
+    <div class="text-white d-flex flex-column align-items-center text-center">
+      <h1 class="mb-3 fs-1">Cuide daqueles que sempre <br /> cuidaram de você!</h1>
+      <p class="mb-5 fs-5">Conectamos profissionais e voluntários à familias e <br /> idosos que precisam de cuidado
 
-            <div class="d-flex align-items-center">
-              <button type="button" class="btn btn-link text-light px-3 me-2">
-                Entrar
-              </button>
-              <button type="button" class="btn btn-secondary me-3">
-                Cadastre-se
-              </button>
+      <div class="cmi-hero-search">
+        <ul class="p-0 ms-0">
+          <li class="d-inline p-2 active"><a href="#" class="text-white">Profissional</a></li>
+          <li class="d-inline p-2"><a href="#" class="text-white">Voluntário</a></li>
+          <li class="d-inline p-2"><a href="#" class="text-white">Vagas abertas</a></li>
+        </ul>
+        <div>
+          <input type="Busca" class="form-control rounded" placeholder="Encontre profissionais e voluntários "
+            aria-label="Search" aria-describedby="search-addon" />
+          <button class="btn btn-secondary btn-floating">
+            <i class="material-symbols-outlined">search</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+
+
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 "><span class="text-muted">Crie seu perfil.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore magna
+          aliqua.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+
+        <img class="bd-placeholder-img bd-placeholder-img-lg form-icon img-fluid mx-auto" width="100" height="100" img
+          src="src/img/form-icon.png" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+        </svg>
+      </div>
+    </div>
+
+
+
+    <div class="row Crie seu perfil">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 "><span class="text-muted">Crie seu perfil.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore magna
+          aliqua.
+        </p>
+      </div>
+
+
+
+
+      <section class="text-center">
+        <div class="container">
+          <h4 class="mb-5"><strong>Conecte-se a profissionais na sua região</strong></h4>
+          <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
+              <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/beatriz.jfif" class="img-fluid" />
+                        </div>
+                      </div>
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="src/img/carlos.jpg" class="img-fluid" />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Carlos</h5>
+                        <p class="card-text">
+                          <br> Estudante de Enfermagem<br>Belo Horizonte, MG</br>
+                        </p>
+
+                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="bg-image rounded-circle hover-overlay ">
+                        <img src="src/img/maria.jfif" class="img-fluid" />
+
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Maria</h5>
+                        <p class="card-text">
+                          <br> Enfermeira<br>Belo Horizonte, MG</br>
+                        </p>
+
+
+                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="bg-image rounded-circle hover-overlay ">
+                        <img src="src/img/maria.jfif" class="img-fluid" />
+
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Maria</h5>
+                        <p class="card-text">
+                          <br> Enfermeira<br>Belo Horizonte, MG</br>
+                        </p>
+
+
+                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="bg-image rounded-circle hover-overlay ">
+                        <img src="src/img/maria.jfif" class="img-fluid" />
+
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Maria</h5>
+                        <p class="card-text">
+                          <br> Enfermeira<br>Belo Horizonte, MG</br>
+                        </p>
+
+
+                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="col-md-3 px-2">
+                    <div class="card">
+                      <div class="bg-image rounded-circle hover-overlay ">
+                        <img src="src/img/maria.jfif" class="img-fluid" />
+
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Maria</h5>
+                        <p class="card-text">
+                          <br> Enfermeira<br>Belo Horizonte, MG</br>
+                        </p>
+
+
+                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+                data-mdb-slide="prev">
+                <span class="material-symbols-outlined fs-1">
+                  arrow_back_ios
+                </span>
+
+              </a>
+              <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+                data-mdb-slide="next">
+                <span class="material-symbols-outlined  fs-1">
+                  arrow_forward_ios
+                </span>
+              </a>
             </div>
           </div>
-          <!-- Collapsible wrapper -->
         </div>
-        <!-- Container wrapper -->
+      </section>
+      <!--Section: Content-->
+      <div class="col-md-5">
+
+
+
+
+
+        <!-- /END THE FEATURETTES -->
+
+
+
+  </main>
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-primary">
+    <div class="text-center py-4">
+      <nav>
+        <ul class="p-0 m-0">
+          <li class="d-inline px-2">
+            <a href="#!" class="text-white">Home</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="text-white">Quem somos</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="text-white">Termos de uso</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="text-white">Privacidade</a>
+          </li>
+        </ul>
       </nav>
-      <!-- Navbar -->
-    </header>
-    <!-- MDB -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
-    ></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-  </body>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-primary opacity-75">
+      <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="/src/scripts/scripts.js"></script>
+  <script type="text/javascript" src="/src/scripts/carousel.js"></script>
+</body>
+
 </html>
