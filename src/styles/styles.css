@@ -15,11 +15,39 @@ h6 {
   font-weight: 700 !important;
 }
 
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.875rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
+}
 /*************************************************************
 * UTILITITES
 *************************************************************/
+.bg-light {
+  background-color: #ecf0f4 !important;
+}
+
 .border-light {
   border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /*************************************************************
