@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <base href="/" target="_self" />
+    <title>Conexão Melhor Idade</title>
+    <!-- MDB icon 
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
+    <!-- MDB -->
+    <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/carousel.css" />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="#">
+                    <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="material-symbols-outlined "> menu </span>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav nav-link ms-auto me-3">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-bright" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-bright" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-bright" href="#">Emergências</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-bright" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                    <button type="button" class="btn btn-secondary btn-rounded me-3">
+                        Cadastre-se
+                    </button>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <main>
+        <section class="vh-100
+     bg-image">
+            <div class="mask d-flex align-items-center h-100  bg-light">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+
+
+                            <h2 class="text-uppercase text-center text-primary mb-5">Crie sua conta</h2>
+
+                            <div class="container" form-outline mb-4>
+                                <input type="text" id="form3Example1cg" class="form-control form-control-lg bg-white" />
+                                <label class="form-label" for="form3Example1cg">Nome</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="text" id="form3Example1cg" class="form-control form-control-lg bg-white"
+                                    data="form-field_bithdate" required mask="99/99/9999" maxlength="10"
+                                    placeholder="__/__/____" />
+                                <label class="form-label" for="form3Example1cg">Data de nascimento</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="text" id="typeCPF" class="form-control form-control-lg bg-white"
+                                    data="form-field_CPF" required mask="999.999.999-99" maxlength="14"
+                                    placeholder="___.___.___-__" />
+                                <label class="form-label" for="typenumber">CPF</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="text" id="tel" class="form-control form-control-lg bg-white"
+                                    mask="(99) 99999-9999" maxlength="14" placeholder="(__) _____-____" />
+                                <label class="form-label" for="typephone">Telefone</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form3Example3cg" class="form-control form-control-lg bg-white"
+                                    minlength="6" maxlength="20" />
+                                <label class="form-label" for="form3Example3cg">E-mail</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="password" id="typePassword"
+                                    class="form-control form-control-lg bg-white" />
+                                <label class="form-label" for="form3Example4cg">Senha</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="password" id="typePassword"
+                                    class="form-control form-control-lg bg-white" />
+                                <label class="form-label" for="typePassword">Digite sua senha novamente</label>
+                            </div>
+
+                            <div class="form-check d-flex justify-content-center mb-5">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="checkbox-termos" />
+                                <label class="form-check-label" for="checkbox-termos">
+                                    Li e concordo com os <a href="#!" class="text-primary"><u>Termos de Uso</u></a>
+                                    e <a href="#!" class="text-primary"><u>Política de Privacidade</u></a>
+                                </label>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <button type="button"
+                                    class="btn btn-success btn-block btn-lg bg-secondary text-white">Cadastrar</button>
+                            </div>
+
+                            <p class="text-center text-muted mt-5 mb-0 ">Já tem uma conta? <a href="#!"
+                                    class="fw-bold text-primary"><u>Entre</u></a></p>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-white bg-primary">
+        <div class="text-center py-4">
+            <nav>
+                <ul class="p-0 m-0">
+                    <li class="d-inline px-2">
+                        <a href="#!" class="nav-link-bright">Home</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="nav-link-bright">Quem somos</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="nav-link-bright">Termos de uso</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="nav-link-bright">Privacidade</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-primary opacity-75">
+            <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="/src/scripts/scripts.js"></script>
+    <script type="text/javascript" src="/src/scripts/carousel.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
