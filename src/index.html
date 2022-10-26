@@ -30,19 +30,18 @@
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand me-2" href="#">
-          <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" loading="lazy" style="margin-top: -1px" />
+          <img src="./src/img/text-logo.svg" alt="CMI Logo" loading="lazy" />
         </a>
 
         <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="material-symbols-outlined"> menu </span>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample">
+          <span class="material-symbols-outlined"> Menu </span>
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <div class="collapse navbar-collapse " id="navbarButtonsExample">
           <!-- Left links -->
-          <ul class="navbar-nav ms-auto me-3">
+          <ul class="navbar-nav ms-auto me-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -50,12 +49,15 @@
               <a class="nav-link" href="#">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="#">Emergências</a>
+              <a class="nav-link" href="#">Emergências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
             </li>
           </ul>
           <!-- Left links -->
 
-          <button type="button" class="btn btn-secondary btn-rounded me-3">
+          <button type="button" class="btn btn-secondary btn-rounded ">
             Cadastre-se
           </button>
         </div>
@@ -63,9 +65,9 @@
       </div>
       <!-- Container wrapper -->
     </nav>
-    <!-- Navbar -->
-  </header>
 
+  </header>
+  <!-- Navbar -->
   <!-- Background image -->
   <section class="cmi-hero">
     <div class="text-white d-flex flex-column align-items-center text-center">
@@ -130,18 +132,17 @@
 
 
       <section class="text-center">
-        <div class="container">
+        <div class="container mb-5">
           <h4 class="mb-5"><strong>Conecte-se a profissionais na sua região</strong></h4>
           <div class="row mx-auto my-auto justify-content-center">
             <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
-              <div class="carousel-inner" role="listbox">
-
+              <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="col-md-3 px-2">
                     <div class="card">
                       <div class="p-3">
                         <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                          <img src="src/img/beatriz.jfif" class="img-fluid" />
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
                         </div>
                       </div>
                       <div class="card-body py-2">
@@ -159,19 +160,16 @@
                 <div class="carousel-item">
                   <div class="col-md-3 px-2">
                     <div class="card">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="src/img/carlos.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Carlos</h5>
-                        <p class="card-text">
-                          <br> Estudante de Enfermagem<br>Belo Horizonte, MG</br>
-                        </p>
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
                       </div>
                     </div>
                   </div>
@@ -180,22 +178,16 @@
                 <div class="carousel-item">
                   <div class="col-md-3 px-2">
                     <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
                       </div>
                     </div>
                   </div>
@@ -204,22 +196,16 @@
                 <div class="carousel-item">
                   <div class="col-md-3 px-2">
                     <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
                       </div>
                     </div>
                   </div>
@@ -228,22 +214,16 @@
                 <div class="carousel-item">
                   <div class="col-md-3 px-2">
                     <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
                       </div>
                     </div>
                   </div>
@@ -252,25 +232,20 @@
                 <div class="carousel-item">
                   <div class="col-md-3 px-2">
                     <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
+                      <div class="p-3">
+                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                          <img src="src/img/profissionais/Beatriz.jpg" title="foto do profissional" class="img-fluid" />
+                        </div>
                       </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
+                      <div class="card-body py-2">
+                        <h5 class="card-title">Beatriz</h5>
+                        <p class="card-text mb-0">Nutricionista</p>
+                        <small class="d-block text-muted">Belo Horizonte, MG</small>
+                        <span class="rating">★★★★★</span>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
               <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
@@ -311,16 +286,16 @@
       <nav>
         <ul class="p-0 m-0">
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Home</a>
+            <a href="#!" class="footer-link footer-link-hover">Home</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Quem somos</a>
+            <a href="#!" class="footer-link footer-link-hover">Quem somos</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Termos de uso</a>
+            <a href="#!" class="footer-link footer-link-hover">Termos de uso</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Privacidade</a>
+            <a href="#!" class="footer-link footer-link-hover">Privacidade</a>
           </li>
         </ul>
       </nav>
