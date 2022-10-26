@@ -347,3 +347,17 @@ header {
 .show {
     display: flex;
 }
+
+/* CSS DA PAGINA POLITICAS E PRIVACIDADE - BRUNO */
+
+.politica{
+    text-align: center;
+}
+
+.politica h3{
+
+    font-style: normal;
+
+
+    
+}
