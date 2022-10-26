@@ -34,31 +34,32 @@
                 </a>
 
                 <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="material-symbols-outlined "> menu </span>
+                    <span class="material-symbols-outlined text-white"> Menu </span>
                 </button>
 
                 <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <div class="collapse navbar-collapse " id="navbarButtonsExample">
                     <!-- Left links -->
-                    <ul class="navbar-nav nav-link ms-auto me-3">
+                    <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
-                            <a class="nav-link nav-link-bright" href="#">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-bright" href="#">Quem Somos</a>
+                            <a class="nav-link" href="#">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-bright" href="#">Emergências</a>
+                            <a class="nav-link" href="#">Emergências</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-bright" href="#">Login</a>
+                            <a class="nav-link" href="#">Login</a>
                         </li>
                     </ul>
                     <!-- Left links -->
-                    <button type="button" class="btn btn-secondary btn-rounded me-3">
+
+                    <button type="button" class="btn btn-secondary btn-rounded ">
                         Cadastre-se
                     </button>
                 </div>
@@ -66,87 +67,100 @@
             </div>
             <!-- Container wrapper -->
         </nav>
-        <!-- Navbar -->
+
     </header>
+    <!-- Navbar -->
 
-    <main>
-        <section class="vh-100
-     bg-image">
-            <div class="mask d-flex align-items-center h-100  bg-light">
-                <div class="container">
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+    <main class="py-5">
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="col col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
+                    <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
 
+                    <form>
+                        <div class="account-choice text-center">
+                            <p class="mb-0">Escolha o tipo de conta</p>
 
-                            <h2 class="text-uppercase text-center text-primary mb-5">Crie sua conta</h2>
+                            <div class="btn-group mb-5">
+                                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
+                                    checked />
+                                <label class="btn btn-secondary" for="option1">Cliente</label>
 
-                            <div class="container" form-outline mb-4>
-                                <input type="text" id="form3Example1cg" class="form-control form-control-lg bg-white" />
-                                <label class="form-label" for="form3Example1cg">Nome</label>
+                                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+                                <label class="btn btn-secondary" for="option2">Profissional ou voluntário</label>
                             </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="text" id="form3Example1cg" class="form-control form-control-lg bg-white"
-                                    data="form-field_bithdate" required mask="99/99/9999" maxlength="10"
-                                    placeholder="__/__/____" />
-                                <label class="form-label" for="form3Example1cg">Data de nascimento</label>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="text" id="typeCPF" class="form-control form-control-lg bg-white"
-                                    data="form-field_CPF" required mask="999.999.999-99" maxlength="14"
-                                    placeholder="___.___.___-__" />
-                                <label class="form-label" for="typenumber">CPF</label>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="text" id="tel" class="form-control form-control-lg bg-white"
-                                    mask="(99) 99999-9999" maxlength="14" placeholder="(__) _____-____" />
-                                <label class="form-label" for="typephone">Telefone</label>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3cg" class="form-control form-control-lg bg-white"
-                                    minlength="6" maxlength="20" />
-                                <label class="form-label" for="form3Example3cg">E-mail</label>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="password" id="typePassword"
-                                    class="form-control form-control-lg bg-white" />
-                                <label class="form-label" for="form3Example4cg">Senha</label>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input type="password" id="typePassword"
-                                    class="form-control form-control-lg bg-white" />
-                                <label class="form-label" for="typePassword">Digite sua senha novamente</label>
-                            </div>
-
-                            <div class="form-check d-flex justify-content-center mb-5">
-                                <input class="form-check-input me-2" type="checkbox" value="" id="checkbox-termos" />
-                                <label class="form-check-label" for="checkbox-termos">
-                                    Li e concordo com os <a href="#!" class="text-primary"><u>Termos de Uso</u></a>
-                                    e <a href="#!" class="text-primary"><u>Política de Privacidade</u></a>
-                                </label>
-                            </div>
-
-                            <div class="d-flex justify-content-center">
-                                <button type="button"
-                                    class="btn btn-success btn-block btn-lg bg-secondary text-white">Cadastrar</button>
-                            </div>
-
-                            <p class="text-center text-muted mt-5 mb-0 ">Já tem uma conta? <a href="#!"
-                                    class="fw-bold text-primary"><u>Entre</u></a></p>
-
-                            </form>
-
                         </div>
-                    </div>
+
+                        <div class="form-outline mb-4">
+                            <input name="nome" aria-label="nome completo" type="text"
+                                class="form-control form-control-lg bg-white shadow-3" />
+                            <label class="form-label">Nome completo</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input aria-label="data de nascimento" type="text"
+                                class="form-control form-control-lg bg-white shadow-3 focus" required
+                                data="form-field_bithdate" mask="99/99/9999" maxlength="10" placeholder="__/__/____" />
+                            <label class="form-label">Data de nascimento</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input aria-label="CPF" type="text" class="form-control form-control-lg bg-white shadow-3"
+                                data="form-field_CPF" required mask="999.999.999-99" maxlength="14"
+                                placeholder="___.___.___-__" />
+                            <label class="form-label">CPF</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input aria-label="telefone" type="text" id="tel"
+                                class="form-control form-control-lg bg-white shadow-3" mask="(99) 99999-9999"
+                                maxlength="14" placeholder="(__) _____-____" />
+                            <label class="form-label" for="typephone">Telefone</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input aria-label="email" type="email" id="email"
+                                class="form-control form-control-lg bg-white shadow-3" />
+                            <label class="form-label" for="email">E-mail</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input aria-label="senha" type="text" id="password"
+                                class="form-control form-control-lg bg-white shadow-3" minlength="6" maxlength="20"
+                                data="form-field_password" />
+                            <label class="form-label" for="typepassword">Senha</label>
+                        </div>
+
+                        <div class="form-outline mb-5">
+                            <input aria-label="repetir senha" type="text" id="typePassword"
+                                class="form-control form-control-lg bg-white shadow-3" minlength="6" maxlength="20"
+                                data="form-field_password" />
+                            <label class="form-label" for="retypePassword">Digite sua senha novamente</label>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input aria-label="checkbox" type="checkbox" class="form-check-input shadow-3"
+                                value="li-e-concordo" id="checkbox-termos" />
+                            <label class="form-check-label" for="checkbox-termos">
+                                Li e concordo com os <a href="#!" class="text-primary"><u>Termos de Uso</u></a>
+                                e <a href="#!" class="text-primary"><u>Política de Privacidade</u></a>
+                            </label>
+                        </div>
+
+                        <div class="d-flex justify-content-center mb-5">
+                            <button type="button" aria-label="Cadastre-se"
+                                class="btn btn-rounded btn-lg btn-secondary">Cadastre-se</button>
+                        </div>
+
+                        <p class="text-center text-muted">Já tem uma conta? <a href="#!"
+                                class="fw-bold text-primary"><u>Entre</u></a></p>
+
+                    </form>
                 </div>
+
             </div>
-            </div>
-            </div>
+        </div>
+        </div>
     </main>
 
     <!-- Footer -->
@@ -155,16 +169,16 @@
             <nav>
                 <ul class="p-0 m-0">
                     <li class="d-inline px-2">
-                        <a href="#!" class="nav-link-bright">Home</a>
+                        <a href="#!" class="footer-link footer-link-hover">Home</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="nav-link-bright">Quem somos</a>
+                        <a href="#!" class="footer-link footer-link-hover">Quem somos</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="nav-link-bright">Termos de uso</a>
+                        <a href="#!" class="footer-link footer-link-hover">Termos de uso</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="nav-link-bright">Privacidade</a>
+                        <a href="#!" class="footer-link footer-link-hover">Privacidade</a>
                     </li>
                 </ul>
             </nav>
@@ -182,9 +196,7 @@
     <!-- Custom scripts -->
     <script type="text/javascript" src="/src/scripts/scripts.js"></script>
     <script type="text/javascript" src="/src/scripts/carousel.js"></script>
-</body>
 
-</html>
 </body>
 
 </html>
