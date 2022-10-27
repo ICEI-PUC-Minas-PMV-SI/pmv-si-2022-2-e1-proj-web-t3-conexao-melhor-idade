@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Números de Emergências</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/padrao.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img
+            class="logo-imagem"
+            src="imagens/logo.png"
+            alt="Logo Conexão Melhor Idade"
+          />
+          <img
+            class="logo-texto"
+            src="imagens/logo-texto.png"
+            alt="logo texto"
+          />
+        </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Emergências</a></li>
+
+            <div class="login-cadastro">
+              <li><a href="#">Entrar</a></li>
+              <li><a href="#">Cadastre-se</a></li>
+            </div>
+          </ul>
+        </nav>
+        <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav class="menu-mobile">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Emergências</a></li>
+
+        <div class="login-cadastro">
+          <li><a href="#">Entrar</a></li>
+          <li><a href="#">Cadastre-se</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <main class="container-main">
+      <div class="perfil">
+        <img src="../img/Ana3_1.png" alt="Perfil" />
+        <div class="id-1">
+          <h1>Olá, Ana Maria</h1>
+          <h2>Preencha seu perfil!</h2>
+        </div>
+      </div>
+      <div class="form">
+        <div class="form-edit">
+          <img
+            src="../img/location_on_FILL0_wght400_GRAD0_opsz48.png"
+            alt="location"
+          />
+          <div class="text-edit">
+            <label for="endereco">Localização</label>
+            Rua Radialista Darci Da Silva 77"
+          </div>
+        </div>
+        <!-- edit1 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <label for="endereco">Cep</label>
+            <input
+              type="text"
+              id="cep"
+              name="cep"
+              placeholder="31578-510"
+              size="9"
+              maxlength="9"
+            />
+          </div>
+        </div>
+        <!-- edit 2 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <label for="endereco">Endereço</label>
+            <input
+              type="text"
+              id="lozation"
+              name="lozation"
+              size="50"
+              maxlength="50"
+              placeholder="Rua Radialista Darci Da Silva 77"
+            />
+          </div>
+        </div>
+        <!-- edit 3 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <label for="endereco">Cidade</label>
+            <input
+              type="text"
+              id="lozation"
+              name="lozation"
+              size="30"
+              maxlength="30"
+              placeholder="Belo Horizonte, MG"
+            />
+          </div>
+        </div>
+        <!-- edit 4 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <label for="endereco">Telefone</label>
+            <input
+              type="text"
+              id="lozation"
+              name="lozation"
+              placeholder="(91) 97070-7070"
+            />
+          </div>
+        </div>
+        <!-- edit 5 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <label for="endereco">CPF</label>
+            <input
+              type="text"
+              id="lozation"
+              name="lozation"
+              size="15"
+              maxlength="15"
+              placeholder="123.456.789.10"
+            />
+          </div>
+        </div>
+
+        <!-- edit 7 -->
+        <div class="form-radio">
+          <div class="radio">
+            <h1>Gênero</h1>
+            <div class="rain">
+              <input type="radio" id="genero" name="genero" /> Masculino
+            </div>
+
+            <div class="rain">
+              <input type="radio" id="genero" name="genero" /> Feminino
+            </div>
+
+            <div class="rain">
+              <input type="radio" id="genero" name="genero" /> Outro
+            </div>
+
+            <div class="rain">
+              <input type="radio" id="genero" name="genero" /> Prefiro não
+              responder
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="hobbie">
+          <div class="hob-edit">
+            <div class="add">
+              <label for="endereco">Habilidades e Hobbies</label>
+              <button>
+                <img
+                  src="../img/add_circle_FILL0_wght400_GRAD0_opsz48.png"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="hobit">
+              <h3>Conversar</h3>
+              <h3>Caminhar</h3>
+              <h3>Jogar Xadrez</h3>
+            </div>
+          </div>
+        </div>
+        <div class="save">
+          <button>Salvar</button> <button>Cancelar</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <nav>
+        <ul class="rodape-2">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Termo de uso</a></li>
+        </ul>
+        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+      </nav>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
