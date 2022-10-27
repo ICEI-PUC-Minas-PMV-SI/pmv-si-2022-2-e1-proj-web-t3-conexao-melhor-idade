@@ -55,6 +55,19 @@ h6 {
   text-align: justify;
 }
 
+.nav-link-bright {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link-bright:hover,
+.nav-link-bright:focus {
+  color: var(--mdb-secondary) !important;
+}
+
+.text-bright {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
 /*************************************************************
 * HERO
 *************************************************************/
@@ -143,6 +156,7 @@ main .container > div {
   line-height: 80%;
   color: rgb(255, 230, 0);
 }
+
 /**********************************************************
 *Vagas
 ***********************************************************/
