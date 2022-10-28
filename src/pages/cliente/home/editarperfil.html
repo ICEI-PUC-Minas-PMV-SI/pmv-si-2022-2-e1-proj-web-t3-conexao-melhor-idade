@@ -4,42 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="editarperfil.css">
+    <title>Editar / Preencher perfil</title>
 </head>
 <body>
-
+<!--FORMULÁRIO DE PERFIL-->
     <div>
-        <h1>Editar perfil profissional</h1>
+        <h1 id="titulo">Editar perfil profissional</h1>
+        <br>
+        <p id="subtitulo">Altere suas informações</p>
         <br>
 
         <form>
-            <fieldset>
-                <div>
-                    <label>Bio</label>
-                    <input type="text" name="sobre" id="sobre">
+            <fieldset class="grupo">
+                <!--PREENCHIMENTO DE NOME-->
+                <div class="campo">
+                    <label for="nome"><strong>Nome completo</strong> </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <!--PREENCHIMENTO DE EMAIL-->
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>                     
+
+                <div class="campo">
+                    <!--PREENCHIMENTO DE TELEFONE-->
+                    <label><strong>Telefone</strong></label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </div>                     
+
+                <div class="campo">
+                    <!--PREENCHIMENTO DA DATA DE NASCIMENTO-->
+                    <label><strong>Data de Nascimento</strong></label>
+                    <input type="date" name="data" id="data" required>
                 </div>
 
-                <div>
-                    <label>Sobre</label>
-                    <input type="text" name="sobre" id="sobre">
-                </div>
-
-                <div>
-                    <label>Cidade</label>
-                    <input type="text" name="cidade" id="cidade">
-                </div>
-
-                <div>
-                    <label>Estado</label>
-                    <input type="text" name="estado" id="estado">
-                </div>
-
-                <div>
-                    <label>Bio</label>
-                    <input type="text" name="sobre" id="sobre">
-                </div>           
-
+                <div class="campo">
+                    <!--PREENCHIMENTO DE GENERO-->
+                    <label><strong>Gênero</strong>:</label>
+                    <input type="radio" name="genero" value="feminino" checked>Feminino
+                    <input type="radio" name="genero" value="masculino">Masculino
+                    <input type="radio" name="genero" value="outro">Outro
+                </div>                  
             </fieldset>
+            <br>
+
+
+        <!--FORMULÁRIO DE HABILIDADES-->
+            <fieldset class="grupo"> 
+                <div id="check">
+                    <label><strong>Selecione suas habilidades</strong></label><br>
+                    <input type="checkbox" id="habilidade1" name="habilidade1" value="Cuidadoso">
+                    <label for="habilidade1">Cuidadoso</label>
+                    <input type="checkbox" id="habilidade2" name="habilidade2" value="Organizado">
+                    <label for="habilidade2">Organizado</label>
+                    <input type="checkbox" id="habilidade3" name="habilidade3" value="Paciente">
+                    <label for="habilidade3">Paciente</label>
+                    <input type="checkbox" id="habilidade4" name="habilidade4" value="Consistente">
+                    <label for="habilidade4">Consistente</label>
+                    <input type="checkbox" id="habilidade5" name="habilidade5" value="Cozinha">
+                    <label for="habilidade5">Cozinha</label>
+
+                </div>
+            </fieldset>
+            <br>
+            
+            <!--FORMULÁRIO DE IDIOMAS-->
+            <fieldset class="grupo"> 
+                <div id="check">
+                    <label><strong>Selecione seu(s) Idioma(as)</strong></label><br>
+                    <input type="checkbox" id="idioma1" name="idioma1" value="Português" checked>
+                    <label for="idioma1">Português</label>
+                    <input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
+                    <label for="idioma2">Inglês</label>
+                    <input type="checkbox" id="idioma3" name="idioma3" value="Espanhol">
+                    <label for="idioma3">Espanhol</label>
+                    <input type="checkbox" id="idioma4" name="idioma4" value="Francês">
+                    <label for="idioma4">Francês</label>
+                    <input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
+                    <label for="idioma5">Italiano</label>
+                    <input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
+                    <label for="idioma6">Espanhol</label>
+                </div>
+            </fieldset>
+            <br>
+            
+            <div class="campo">
+                
+                <label><strong>Sobre</strong></label>
+                <textarea row="6" style="width: 26em;" id="sobre" name="sobre"></textarea>
+            </div>
+            <br>
+            <button type="submit">Salvar alterações</button>
+
+            <!--Educação-->
+
+            <!--Curriculo-->
+
+
+
         </form>
 
     </div>
