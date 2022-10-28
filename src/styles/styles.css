@@ -68,6 +68,12 @@ h6 {
   color: rgba(255, 255, 255, 1) !important;
 }
 
+.navbar-transparent {
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+}
+
 /*************************************************************
 * HERO
 *************************************************************/
