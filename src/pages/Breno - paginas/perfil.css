@@ -121,8 +121,43 @@ header {
 }
 
 /* Conteudo princial */
+.perfil-voluntario {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 95vw;
+    height: 100vh;
+    justify-content: center;
+}
+.borda-links nav li {
+	display: inline;    
+}
 
+.borda-links nav a {
+	color: white;
+	text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    background-color:#3e9aee ;
+}
+.borda-links li a:hover {
+    background-color: #3ee7c7;
+}
+.nome {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    width: 100vh;
 
+}
+.beatriz{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+}
 
 
 /* Rodapé */
