@@ -49,6 +49,9 @@ input, select, textarea, button{
 fieldset.grupo .campo{
     float: inline-start;
     margin-right: 1em;
+    font-family: dm sans-serif;
+    font-weight: bold;
+
 }
 
 .campo select option{

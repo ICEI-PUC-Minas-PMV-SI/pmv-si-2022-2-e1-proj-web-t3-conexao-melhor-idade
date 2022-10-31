@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="editarperfil.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/carousel.css" />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+
     <title>Editar / Preencher perfil</title>
 </head>
 <body>
+    <header>
+
+        <!--CABEÇALHO-->
+        <div class="header-container">
+            <div class="logo">
+                <img class="logo-texto" src="../../../img/logo-texto.png" alt="logo texto" />
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Emergências</a></li>
+
+                    <div class="login-cadastro">
+                        <li><a href="#">Entrar</a></li>
+                        <li><a href="#">Cadastre-se</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Emergências</a></li>
+
+                <div class="login-cadastro">
+                    <li><a href="#">Entrar</a></li>
+                    <li><a href="#">Cadastre-se</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
 <!--FORMULÁRIO DE PERFIL-->
     <div>
+        <br>
         <h1 id="titulo">Editar perfil profissional</h1>
         <br>
         <p id="subtitulo">Altere suas informações</p>
@@ -96,17 +145,66 @@
                 <textarea row="6" style="width: 26em;" id="sobre" name="sobre"></textarea>
             </div>
             <br>
+
+            <fieldset class="grupo"> 
+                <div id="check">
+                    <label><strong>Selecione seu(s) Idioma(as)</strong></label><br>
+                    <input type="checkbox" id="idioma1" name="idioma1" value="Português" checked>
+                    <label for="idioma1">Português</label>
+                    <input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
+                    <label for="idioma2">Inglês</label>
+                    <input type="checkbox" id="idioma3" name="idioma3" value="Espanhol">
+                    <label for="idioma3">Espanhol</label>
+                    <input type="checkbox" id="idioma4" name="idioma4" value="Francês">
+                    <label for="idioma4">Francês</label>
+                    <input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
+                    <label for="idioma5">Italiano</label>
+                    <input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
+                    <label for="idioma6">Espanhol</label>
+                </div>
+            </fieldset>
+
+            <br>
+
             <button type="submit">Salvar alterações</button>
 
-            <!--Educação-->
+            <!--EDUCAÇÃO-->
 
-            <!--Curriculo-->
+            <!--CURRICULO-->
 
 
 
         </form>
-
+<br>
     </div>
     
+    <!--RODAPÉ-->
+    <footer class="text-center text-white bg-primary">
+        <div class="text-center py-4">
+            <nav>
+                <ul class="p-0 m-0">
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Home</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Quem somos</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Termos de uso</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Privacidade</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-primary opacity-75">
+            <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 </body>
 </html>
