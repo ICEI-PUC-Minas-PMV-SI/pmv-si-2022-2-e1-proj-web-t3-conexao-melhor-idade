@@ -37,11 +37,11 @@
                 <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="material-symbols-outlined text-white "> Menu </span>
+                    <span class="material-symbols-outlined text-white"> Menu </span>
                 </button>
 
                 <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <div class="collapse navbar-collapse " id="navbarButtonsExample">
                     <!-- Left links -->
                     <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
@@ -53,19 +53,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Emergências</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
                     </ul>
-                    <!-- Left links -->
-
-                    <button type="button" class="btn btn-secondary btn-rounded ">
-                        Cadastre-se
-                    </button>
                 </div>
-                <!-- Collapsible wrapper -->
+
+                <div class="d-flex nav-link align-items-center px-3" href="/login.html" data-mdb-container="body"
+                    data-mdb-toggle="popover" data-mdb-placement="bottom"
+                    data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                    <span class="material-symbols-outlined me-2">account_circle</span>
+                    <span class="text"></span>
+                </div>
             </div>
-            <!-- Container wrapper -->
         </nav>
     </header>
     <!-- Navbar -->
@@ -114,8 +111,8 @@
                                 <h4 class="card-title mb-3">Dados do anunciante</h4>
 
                                 <div class="mb-2">
-                                    <img src="src/img/clientes/Ana.jpg" alt="foto do contratante"
-                                        class="rounded-circle me-1" width="40" />
+                                    <img src="/src/img/ana.png" alt="foto do contratante" class="rounded-circle me-1"
+                                        width="40" />
                                     <strong>Ana R.</strong>
                                 </div>
 
@@ -241,37 +238,34 @@
             <nav>
                 <ul class="p-0 m-0">
                     <li class="d-inline px-2">
-                        <a href="#!" class="footer-link footer-link-hover">Home</a>
+                        <a href="#!" class="footer-link ">Home</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="footer-link footer-link-hover">Quem somos</a>
+                        <a href="#!" class="footer-link">Quem somos</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="footer-link footer-link-hover">Termos de uso</a>
+                        <a href="#!" class="footer-link">Termos de uso</a>
                     </li>
                     <li class="d-inline px-2">
-                        <a href="#!" class="footer-link footer-link-hover">Privacidade</a>
+                        <a href="#!" class="footer-link">Privacidade</a>
                     </li>
                 </ul>
             </nav>
         </div>
 
         <!-- Copyright -->
-        <div class="text-center pb-2 bg-primary opacity-75">
+        <div class="text-center pb-3 bg-primary opacity-75">
             <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
         </div>
-        <!-- Copyright end-->
+        <!-- Copyright -->
     </footer>
 
-    <!--Footer end-->
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="/src/scripts/scripts.js"></script>
     <script type="text/javascript" src="/src/scripts/carousel.js"></script>
-</body>
 
-</html>
 </body>
 
 </html>
