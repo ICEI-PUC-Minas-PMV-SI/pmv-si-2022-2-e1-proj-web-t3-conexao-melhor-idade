@@ -30,14 +30,14 @@
             <div class="container">
                 <!-- Navbar brand -->
                 <a class="navbar-brand me-2" href="#">
-                    <img src="./src/img/text-logo.svg" alt="CMI Logo" loading="lazy" />
+                    <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
                 </a>
 
                 <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="material-symbols-outlined"> menu </span>
+                    <span class="material-symbols-outlined text-white"> Menu </span>
                 </button>
 
                 <!-- Collapsible wrapper -->
@@ -53,19 +53,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Emergências</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
                     </ul>
-                    <!-- Left links -->
-
-                    <button type="button" class="btn btn-secondary btn-rounded ">
-                        Cadastre-se
-                    </button>
                 </div>
-                <!-- Collapsible wrapper -->
+
+                <div class="d-flex nav-link align-items-center px-3" href="/login.html" data-mdb-container="body"
+                    data-mdb-toggle="popover" data-mdb-placement="bottom"
+                    data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                    <span class="material-symbols-outlined me-2">account_circle</span>
+                    <span class="text"></span>
+                </div>
             </div>
-            <!-- Container wrapper -->
         </nav>
 
     </header>
@@ -155,7 +152,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center p-3 bg-primary opacity-75">
+        <div class="text-center pb-3 bg-primary opacity-75">
             <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
         </div>
         <!-- Copyright -->
