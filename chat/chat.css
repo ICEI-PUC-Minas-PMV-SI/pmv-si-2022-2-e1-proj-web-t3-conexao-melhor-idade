@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3E9AEE;
+    height: 4.6875rem;
+    padding: 1rem;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.menu a{
+    display: block;
+    padding: 0.5rem;
+    border-radius: 1.0rem;
+}
+
+.menu a:hover{
+    background-color: #3EE7C7;
+}
+
+.label-menu, .checkbox{
+    display: none;
+}
+
+@media (max-width: 800px){
+
+        .menu{
+            display: none;
+            position: absolute;
+            top: 4.6875rem;
+            left: 0;
+            background-color: #3E9AEE;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .label-menu{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+            padding-block: 1rem;
+            cursor: pointer;
+        }
+
+        .hamburger{
+            border-top: 0.125rem solid;
+            width: 1.25rem;
+        }
+
+        .hamburger::before, .hamburger::after{
+            content: " ";
+            display: block;
+            width: 1,.25rem;
+            height: 0.125rem;
+            background-color: currentColor;
+            margin-top: 0.3125rem;
+        }
+
+        .checkbox:checked ~ .menu{
+            display: block;
+        }
+}
+
+@media (max-width: 800px){
+    .conteiner{
+        margin-top: 150px;
+    }
+}
+
+.conteiner{
+    margin-left: 30px;
+    
+}
+
+
+
+h1{
+    color: #3E9AEE;
+    margin-top: 30px;
+}
+
+.buscar{
+    margin-top: 20px;
+}
+
+
+.buscar p{
+    margin-bottom: 5px;
+}
+
+.botao{
+    background-color: #3E9AEE;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 55px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color: #4fa5f5;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    background-color: #3E9AEE;
+    text-align: center;
+}
+
+footer li{
+
+    display: inline-block;
+    margin: 20px 10px 5px 10px;
+    font-size: 12px;
+}
+
+footer p{
+    display: inline;
+    font-size: 10px;
+    color: white; 
+}
+
+footer li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: white;
+}
