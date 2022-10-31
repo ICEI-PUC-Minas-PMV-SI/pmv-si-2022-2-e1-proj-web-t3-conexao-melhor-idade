@@ -58,40 +58,41 @@
 
 <!--FORMULÁRIO DE PERFIL-->
     <div>
+        <br></br>
+        <h1 id="titulo">EDITAR PERFIL</h1>
         <br>
-        <h1 id="titulo">Editar perfil profissional</h1>
-        <br>
-        <p id="subtitulo">Altere suas informações</p>
+        <p id="subtitulo">ALTERE SUAS INFORMAÇÕES</p>
         <br>
 
         <form>
             <fieldset class="grupo">
                 <!--PREENCHIMENTO DE NOME-->
                 <div class="campo">
-                    <label for="nome"><strong>Nome completo</strong> </label>
+                    <label for="nome">Nome completo</label>
                     <input type="text" name="nome" id="nome" required>
                 </div>
+                <br>
                 <div class="campo">
                     <!--PREENCHIMENTO DE EMAIL-->
-                    <label for="email"><strong>Email</strong></label>
+                    <label for="email">Email</label>
                     <input type="email" name="email" id="email" required>
                 </div>                     
-
+                <br>
                 <div class="campo">
                     <!--PREENCHIMENTO DE TELEFONE-->
-                    <label><strong>Telefone</strong></label>
+                    <label>Telefone</label>
                     <input type="tel" name="telefone" id="telefone" required>
                 </div>                     
-
+                <br>
                 <div class="campo">
                     <!--PREENCHIMENTO DA DATA DE NASCIMENTO-->
-                    <label><strong>Data de Nascimento</strong></label>
+                    <label>Data de Nascimento</label>
                     <input type="date" name="data" id="data" required>
                 </div>
-
+                <br>
                 <div class="campo">
                     <!--PREENCHIMENTO DE GENERO-->
-                    <label><strong>Gênero</strong>:</label>
+                    <label>Gênero:</label>
                     <input type="radio" name="genero" value="feminino" checked>Feminino
                     <input type="radio" name="genero" value="masculino">Masculino
                     <input type="radio" name="genero" value="outro">Outro
@@ -99,11 +100,10 @@
             </fieldset>
             <br>
 
-
         <!--FORMULÁRIO DE HABILIDADES-->
             <fieldset class="grupo"> 
                 <div id="check">
-                    <label><strong>Selecione suas habilidades</strong></label><br>
+                    <label>Habilidades:</label><br>
                     <input type="checkbox" id="habilidade1" name="habilidade1" value="Cuidadoso">
                     <label for="habilidade1">Cuidadoso</label>
                     <input type="checkbox" id="habilidade2" name="habilidade2" value="Organizado">
@@ -112,17 +112,17 @@
                     <label for="habilidade3">Paciente</label>
                     <input type="checkbox" id="habilidade4" name="habilidade4" value="Consistente">
                     <label for="habilidade4">Consistente</label>
-                    <input type="checkbox" id="habilidade5" name="habilidade5" value="Cozinha">
-                    <label for="habilidade5">Cozinha</label>
+                    <input type="checkbox" id="habilidade5" name="habilidade5" value="Trabalho em Equipe">
+                    <label for="habilidade5">Trabalho em Equipe</label>
 
                 </div>
             </fieldset>
-            <br>
+            <br></br>
             
             <!--FORMULÁRIO DE IDIOMAS-->
             <fieldset class="grupo"> 
                 <div id="check">
-                    <label><strong>Selecione seu(s) Idioma(as)</strong></label><br>
+                    <label>Idioma(s):</label><br>
                     <input type="checkbox" id="idioma1" name="idioma1" value="Português" checked>
                     <label for="idioma1">Português</label>
                     <input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
@@ -137,38 +137,32 @@
                     <label for="idioma6">Espanhol</label>
                 </div>
             </fieldset>
-            <br>
+            <br></br>
             
             <div class="campo">
                 
-                <label><strong>Sobre</strong></label>
+                <label>Sobre</label>
                 <textarea row="6" style="width: 26em;" id="sobre" name="sobre"></textarea>
             </div>
             <br>
 
-            <fieldset class="grupo"> 
-                <div id="check">
-                    <label><strong>Selecione seu(s) Idioma(as)</strong></label><br>
-                    <input type="checkbox" id="idioma1" name="idioma1" value="Português" checked>
-                    <label for="idioma1">Português</label>
-                    <input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
-                    <label for="idioma2">Inglês</label>
-                    <input type="checkbox" id="idioma3" name="idioma3" value="Espanhol">
-                    <label for="idioma3">Espanhol</label>
-                    <input type="checkbox" id="idioma4" name="idioma4" value="Francês">
-                    <label for="idioma4">Francês</label>
-                    <input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
-                    <label for="idioma5">Italiano</label>
-                    <input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
-                    <label for="idioma6">Espanhol</label>
-                </div>
-            </fieldset>
+            <div class="campo">
+                <!--PREENCHIMENTO DE GENERO-->
+                <label>Escolaridade:</label>
+                <input type="radio" name="ensino1" value="ensino1">Ensino Médio Incompleto
+                <input type="radio" name="ensino2" value="ensino2">Ensino Médio Completo
+                <input type="radio" name="ensino3" value="ensino3">Superior Incompleto
+                <input type="radio" name="ensino4" value="ensino4">Superior Completo
+            </div>                  
+        </fieldset>
 
             <br>
 
-            <button type="submit">Salvar alterações</button>
+            <button class="botao" type="submit">⠀⠀Salvar Alterações⠀⠀</button>
 
             <!--EDUCAÇÃO-->
+
+            
 
             <!--CURRICULO-->
 

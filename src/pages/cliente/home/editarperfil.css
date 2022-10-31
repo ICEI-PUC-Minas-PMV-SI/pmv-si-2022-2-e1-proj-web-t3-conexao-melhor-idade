@@ -4,11 +4,12 @@
 }
 
 #titulo{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #3e9aee;
     text-align: center;
-
-
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    text-decoration: underline;
 }
 
 #subtitulo{
@@ -16,6 +17,7 @@
     color: #3e9aee;
     text-align: center;
     font-weight: bold;
+    text-align: center;
 }
 
 fieldset{
@@ -38,6 +40,8 @@ input, select, textarea, button{
 
 .campo{
     margin-bottom: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
 }
 
 .campo label{
@@ -46,13 +50,6 @@ input, select, textarea, button{
     display: block;
 }
 
-fieldset.grupo .campo{
-    float: inline-start;
-    margin-right: 1em;
-    font-family: dm sans-serif;
-    font-weight: bold;
-
-}
 
 .campo select option{
     padding-right: 1em;
@@ -63,4 +60,17 @@ fieldset.grupo .campo{
 #check{
 
     display: inline-block;
+}
+
+#label .campo{
+
+    font-family: dm sans-serif;
+
+}
+
+.botao{
+
+    background-color: #3e9aee;
+    color: aliceblue;
+    font-weight: bold;
 }
