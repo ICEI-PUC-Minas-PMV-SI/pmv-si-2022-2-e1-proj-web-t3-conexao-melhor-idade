@@ -19,8 +19,6 @@
 .base {
     display: flex;
     justify-content: center;
-    width: 95vw;
-    height: 80vh;
 }
 .base h2 {
     font-size: 20px;
@@ -164,11 +162,8 @@ header {
 /* Rodapé */
 
 .rodape {
-    display: inline-block;
     width: 100%;
-    margin-bottom: 100% #3e9aee ;
-    margin-top: 100px;
-    height: 130px;
+    height: 90px;
     background-color: #3e9aee;
     display: flex;
     justify-content: space-around;
@@ -177,7 +172,7 @@ header {
 
 .rodape-2 li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 20px 10px;
 }
 
 .rodape-2 li a {
@@ -187,7 +182,7 @@ header {
 
 .copyright {
     display: inline-block;
-    margin: 15px 60px;
+    margin: 15px 10px 0px 70px;
     text-align: center;
     color: white;
 }

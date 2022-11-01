@@ -121,9 +121,72 @@ header {
 }
 
 /* Conteudo princial */
+.bloco{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 1150px;
+    margin: 40px auto;
+    border: 1px solid rgb(243, 242, 242);
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+}
 
+.beatriz{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.edicao h1 {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.edicao li a{
+    text-decoration: none;
+    color: white;
+}
+.edicao li{
+    display:inline-flex;
+    margin-left: 15px;
+    margin-bottom: 30px ;
+    color: white;
+    background: #3e9aee;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
 
+.perfil-edit li a {
+    text-decoration: none;
+    color: #3e9aee;
+    font-size: 16px;
+}
+.perfil-edit li {
+    display:inline-flex;
+    margin: 15px 15px 5px 15px;
+}
+.edit-1 p{
+    display: inline-flex;
+    text-align: center;
+}
+.icons {
+    margin: 5px 15px 5px 15px;
+    color: #ffc000;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contratacoes{
+    display:inline-flex;
+    margin: 5px 15px 5px 60px;
+    font-size: 16px;
+}
 
 /* Rodapé */
 
