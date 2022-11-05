@@ -57,24 +57,15 @@
 
                 </div>
 
+                <button class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
+                    data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
+                    <span class="nav-link material-symbols-outlined">account_circle</span>
+                </button>
 
-                <div class="drop-down d-flex justify-content-center " id="login">
-                    <a class="hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button"
-                        data-mdb-toggle="dropdown" aria-expanded="false">
-                        <span class="nav-link material-symbols-outlined">account_circle</span></a>
-
-
-                    <div class="dropdown-menu align-right pb-4 py-2 " style="width: 320px">
-                        <div class="container">
-                            <div class="row mb-4">
-                                <div class="col d-flex justify-content-center">
-                                </div>
-                            </div>
-
-                            <button type="submit" class="btn btn-secondary btn-block mb-3">Entrar</button>
-                            <div class="dropdown-divider"></div>
-                            <button type="submit" class="btn btn-primary btn-block mt-3">Cadastrar</button>
-                        </div>
+                <div id="user-menu" class="d-none">
+                    <div>
+                        <a href="/#" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
+                        <a href="/#" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
                     </div>
                 </div>
             </div>
@@ -91,15 +82,16 @@
                         <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
                         <form>
                             <div class="account-choice text-center">
-                                <p class="mb-0">Escolha o tipo de conta</p>
+                                <p class="mb-1">Escolha o tipo de conta</p>
 
-                                <div class="btn-group mb-5">
+                                <div class="cmi-sign-up-type btn-group mb-3">
                                     <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
                                         checked />
-                                    <label class="btn btn-secondary" for="option1">Cliente</label>
+                                    <label class="cmi-sign-up-client btn btn-secondary" for="option1">Cliente</label>
                                     <input type="radio" class="btn-check" name="options" id="option2"
                                         autocomplete="off" />
-                                    <label class="btn btn-secondary" for="option2">Profissional ou voluntário</label>
+                                    <label class="cmi-sign-up-pro btn btn-light" for="option2">Profissional ou
+                                        voluntário</label>
                                 </div>
                             </div>
 
@@ -206,7 +198,8 @@
     </footer>
 
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.1/cash.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="/src/scripts/scripts.js"></script>
     <script type="text/javascript" src="/src/scripts/carousel.js"></script>
