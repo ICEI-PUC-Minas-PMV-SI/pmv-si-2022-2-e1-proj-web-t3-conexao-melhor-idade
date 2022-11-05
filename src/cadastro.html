@@ -41,7 +41,7 @@
                 </button>
 
                 <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse " id="navbarButtonsExample">
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
                     <!-- Left links -->
                     <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
@@ -54,13 +54,28 @@
                             <a class="nav-link" href="#">Emergências</a>
                         </li>
                     </ul>
+
                 </div>
 
-                <div class="d-flex nav-link align-items-center px-3" href="/login.html" data-mdb-container="body"
-                    data-mdb-toggle="popover" data-mdb-placement="bottom"
-                    data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-                    <span class="material-symbols-outlined me-2">account_circle</span>
-                    <span class="text"></span>
+
+                <div class="drop-down d-flex justify-content-center " id="login">
+                    <a class="hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        <span class="nav-link material-symbols-outlined">account_circle</span></a>
+
+
+                    <div class="dropdown-menu align-right pb-4 py-2 " style="width: 320px">
+                        <div class="container">
+                            <div class="row mb-4">
+                                <div class="col d-flex justify-content-center">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary btn-block mb-3">Entrar</button>
+                            <div class="dropdown-divider"></div>
+                            <button type="submit" class="btn btn-primary btn-block mt-3">Cadastrar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
