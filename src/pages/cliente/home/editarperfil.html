@@ -42,7 +42,7 @@
                 <i data-feather="menu"></i>
             </button>
         </div>
-        <nav class="menu-mobile">
+        <nav class="menu-mobile" style="position: absolute;">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Quem somos</a></li>
@@ -58,147 +58,111 @@
 
 <!--FORMULÁRIO DE PERFIL-->
     <div id="formulario">
-        <br></br>
+        
         <h1 id="titulo">EDITAR PERFIL</h1>
         <br>
-        <p id="subtitulo">ALTERE SUAS INFORMAÇÕES</p>
-        <br>
+        <p id="subtitulo">⠀ALTERE SUAS INFORMAÇÕES</p>
+        <br></br>
 
         <form>
             <fieldset class="grupo">
                 <!--PREENCHIMENTO DE NOME-->
                 <div class="campo">
-                    <label for="nome">Nome completo</label>
-                    <input type="text" name="nome" id="nome" required>
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco" required>
                 </div>
                 <br>
                 <div class="campo">
-                    <!--PREENCHIMENTO DE EMAIL-->
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <!--PREENCHIMENTO DE CIDADE-->
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" required>
                 </div>                     
-                <br>
+                <div class="campo">
+                    <!--PREENCHIMENTO DE CEP-->
+                    <label>CEP</label>
+                    <input type="text" name="cep" id="cep" required>
+                </div>
+                
                 <div class="campo">
                     <!--PREENCHIMENTO DE TELEFONE-->
                     <label>Telefone</label>
                     <input type="tel" name="telefone" id="telefone" required>
-                </div>                     
-                <br>
-                <div class="campo">
-                    <!--PREENCHIMENTO DA DATA DE NASCIMENTO-->
-                    <label>Data de Nascimento</label>
-                    <input type="date" name="data" id="data" required>
-                </div>
-                <br>
-                <div class="campo">
-                    <!--PREENCHIMENTO DE GENERO-->
-                    <label>Gênero:</label>
-                    <input type="radio" name="genero" value="feminino" checked>Feminino
-                    <input type="radio" name="genero" value="masculino">Masculino
-                    <input type="radio" name="genero" value="outro">Outro
-                </div>                  
+                </div>  
+                      
             </fieldset>
-            <br>
+            
 
         <!--FORMULÁRIO DE HABILIDADES-->
             <fieldset class="grupo"> 
                 <div id="check">
-                    <label>Habilidades:</label><br>
+                    <label style="font-size: larger; font-weight: bold; color: #3e9aee;">Habilidades:</label><br>
                     <input type="checkbox" id="habilidade1" name="habilidade1" value="Cuidadoso">
-                    <label for="habilidade1">Cuidadoso</label>
+                    <label for="habilidade1">Cuidadoso⠀</label>
                     <input type="checkbox" id="habilidade2" name="habilidade2" value="Organizado">
-                    <label for="habilidade2">Organizado</label>
+                    <label for="habilidade2">Organizado⠀</label>
                     <input type="checkbox" id="habilidade3" name="habilidade3" value="Paciente">
-                    <label for="habilidade3">Paciente</label>
+                    <label for="habilidade3">Paciente⠀</label><br>
                     <input type="checkbox" id="habilidade4" name="habilidade4" value="Consistente">
-                    <label for="habilidade4">Consistente</label>
+                    <label for="habilidade4">Consistente⠀</label>
                     <input type="checkbox" id="habilidade5" name="habilidade5" value="Trabalho em Equipe">
                     <label for="habilidade5">Trabalho em Equipe</label>
 
                 </div>
             </fieldset>
-            <br></br>
+            <br>
             
             <!--FORMULÁRIO DE IDIOMAS-->
             <fieldset class="grupo"> 
                 <div id="check">
-                    <label>Idioma(s):</label><br>
+                    <label style="font-size: larger; font-weight: bold; color: #3e9aee;">Idioma(s):</label><br>
                     <input type="checkbox" id="idioma1" name="idioma1" value="Português" checked>
-                    <label for="idioma1">Português</label>
+                    <label for="idioma1">Português<br></label>
                     <input type="checkbox" id="idioma2" name="idioma2" value="Inglês">
-                    <label for="idioma2">Inglês</label>
+                    <label for="idioma2">Inglês<br></label>
                     <input type="checkbox" id="idioma3" name="idioma3" value="Espanhol">
-                    <label for="idioma3">Espanhol</label>
+                    <label for="idioma3">Espanhol<br></label>
                     <input type="checkbox" id="idioma4" name="idioma4" value="Francês">
-                    <label for="idioma4">Francês</label>
+                    <label for="idioma4">Francês<br></label>
                     <input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
-                    <label for="idioma5">Italiano</label>
+                    <label for="idioma5">Italiano<br></label>
                     <input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
-                    <label for="idioma6">Espanhol</label>
+                    <label for="idioma6">Espanhol<br></label>
                 </div>
             </fieldset>
-            <br></br>
+            <br>
             
             <div class="campo">
                 
                 <label>Sobre</label>
-                <textarea row="6" style="width: 26em;" id="sobre" name="sobre"></textarea>
+                <textarea row="6" style="width: 30em; height: 10em;" id="sobre" name="sobre"></textarea>
             </div>
-            <br>
+           
 
-            <div class="campo">
-                <!--PREENCHIMENTO DE GENERO-->
-                <label>Escolaridade:</label>
-                <input type="radio" name="ensino1" value="ensino1">Ensino Médio Incompleto
-                <input type="radio" name="ensino2" value="ensino2">Ensino Médio Completo
-                <input type="radio" name="ensino3" value="ensino3">Superior Incompleto
-                <input type="radio" name="ensino4" value="ensino4">Superior Completo
-            </div>                  
         </fieldset>
-
-            <br>
-
             <button class="botao" type="submit">⠀⠀Salvar Alterações⠀⠀</button>
-
-            <!--EDUCAÇÃO-->
-
-            
-
-            <!--CURRICULO-->
-
-
-
         </form>
-<br>
+
     </div>
+<br>
     
     <!--RODAPÉ-->
-    <footer class="text-center text-white bg-primary">
-        <div class="text-center py-4">
-            <nav>
-                <ul class="p-0 m-0">
-                    <li class="d-inline px-2">
-                        <a href="#!" class="text-white">Home</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="#!" class="text-white">Quem somos</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="#!" class="text-white">Termos de uso</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="#!" class="text-white">Privacidade</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <!-- Copyright -->
-        <div class="text-center p-3 bg-primary opacity-75">
-            <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
-        </div>
-        <!-- Copyright -->
+    <footer class="rodape">
+        <nav>
+            <ul class="rodape-2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termo de uso</a></li>
+            </ul>
+            <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+        </nav>
     </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
