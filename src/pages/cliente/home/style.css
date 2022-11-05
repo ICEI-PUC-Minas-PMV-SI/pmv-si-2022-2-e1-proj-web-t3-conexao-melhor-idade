@@ -252,10 +252,13 @@ header {
     background: #3e9aee;
 }
 
-@media screen and (min-width: 1200px) {
-    .menu-mobile {
-        display: none !important;
-    }
+@media screen and (max-width: 414px) {
+    .rodape{
+        height: 100px;
+        width: 100%;
+        position: relative;
+        bottom: -300px;
+        }
 }
 
 .menu-mobile ul {
@@ -266,7 +269,8 @@ header {
 
 .menu-mobile li {
     display: flex;
-    width: 100%;
+    width: 100%
+    
 }
 
 .menu-mobile li a {
@@ -317,18 +321,16 @@ header {
 }
 
 .rodape {
-    display: inline-block;
+    margin-top: 150px;
+    position: relative;
     width: 100%;
-    margin-top: 500px;
-    height: 100px;
+    height: 90px;
     background-color: #3e9aee;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1000px;
-    
+  }
 
-}
 
 .rodape-2 li {
     display: inline-block;

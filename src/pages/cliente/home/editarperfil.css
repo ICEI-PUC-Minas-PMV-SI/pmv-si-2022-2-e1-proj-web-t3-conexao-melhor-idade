@@ -93,16 +93,16 @@ input, select, textarea, button{
 
 #formulario{
     width: 500px;
-    height: 58em;
+    height: 60em;
     background: rgb(255, 255, 255);
     color: rgb(2, 2, 2);
     padding: 50px;
     border: 5px solid rgb(235, 235, 235);
-    position: absolute;
-    top: 15%;
-    left: 50%;
     transform: translate(-50%, 0%);
     text-align: justify;
+    position: relative;
+    top: 60%;
+    left: 50%;
 }
 
 #check{
