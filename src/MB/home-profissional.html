@@ -8,7 +8,7 @@
     <base href="/" target="_self" />
     <title>Conexão Melhor Idade</title>
     <!-- MDB icon 
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
+            <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
     <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
     <!-- Material Icons -->
@@ -20,90 +20,81 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="/src/styles/carousel.css" />
     <link rel="stylesheet" href="/src/styles/styles.css" />
-
 </head>
 
 <body>
     <header>
         <!-- Navbar -->
-        <div class="pb-5">
-            <nav class="navbar nav-bar fixed-top navbar-expand-lg navbar-dark bg-primary">
-                <!-- Container wrapper -->
-                <div class="container">
-                    <!-- Navbar brand -->
-                    <a class="navbar-brand me-2" href="#">
-                        <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
-                    </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand me-2" href="#">
+                    <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
+                </a>
 
-                    <!-- Toggle button -->
-                    <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="material-symbols-outlined text-white "> Menu </span>
-                    </button>
+                <!-- Toggle button -->
+                <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="material-symbols-outlined text-white"> Menu </span>
+                </button>
 
-                    <!-- Collapsible wrapper -->
-                    <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                        <!-- Left links -->
-                        <ul class="navbar-nav ms-auto me-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Quem Somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Emergências</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
-                            </li>
-                        </ul>
-                        <!-- Left links -->
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav ms-auto me-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Emergências</a>
+                        </li>
+                    </ul>
 
-                        <button type="button" class="btn btn-secondary btn-rounded ">
-                            Cadastre-se
-                        </button>
+                </div>
+
+                <button class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
+                    data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
+                    <span class="nav-link material-symbols-outlined">account_circle</span>
+                </button>
+
+                <div id="user-menu" class="d-none">
+                    <div>
+                        <a href="/#" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
+                        <a href="/#" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
                     </div>
                 </div>
-                <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
+            </div>
         </nav>
+
     </header>
-    <!-- Navbar --
+    <!-- Navbar -->
 
-        <img src="/src/img/idoso-2.jpg" alt="foto do contratante" class="avatar-sm img-thumbnail rounded-circle mb-3"
-            height="150" width="150">
-        <h4 class="text">Antonio</h4>
 
-    Top card-->
-
+    <!--Top card-->
     <main>
 
         <section>
-
-            <div class="container py-5">
-                <div class="page-header pb-3">
-                    <h3 class="mb-2">Olá Antonio!</h3>
+            <div class="container pt-5">
+                <div class="pb-4">
+                    <h3 class="ola-usuario">Olá Beatriz!</h3>
                 </div>
 
-                <div class="row">
-
+                <div class="row pb-5">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card align-items-center">
+                        <div class="card text-center justify-content-center h-100">
                             <div class="card-body">
                                 <div class="block">
                                     <h5 class="text-muted">Avaliações</h5>
-                                    <ul class="profile-card list-unstyled ">
-
-                                        <li>
-                                            <div class="d-flex flex-shrink-0 align-items-center mt-2 ">
-                                                <div class="rating material-symbols-outlined">star</div>
-                                                <p class=" ms-2 text-muted mb-0"><small>4.9 (13 Avaliações)</small></p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <div
+                                        class=" d-flex justify-content-center justify-content-sm-center align-items-center text muted">
+                                        <span class="rating me-2">★★★★★</span>
+                                    </div>
+                                    <small>4.9 (13 Avaliações)</small>
 
                                 </div>
                             </div>
@@ -111,17 +102,14 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card align-items-center ">
+                        <div class="card text-center justify-content-center h-100">
                             <div class="card-body">
-                                <div class="d-inline-block">
+                                <div class="block">
                                     <h5 class="text-muted">Mensagens</h5>
-                                    <div class="d-flex flex-shrink-0 align-items-center mt-2 ">
-                                        <div class="mail material-symbols-outlined">mail</div>
-                                        <p class=" ms-2 text-muted mb-0"><small>5 novas</small></p>
-                                    </div>
-                                </div>
-                                <div class="float-right icon-circle-medium  icon-box-lg  bg-primary-light mt-1">
-                                    <i class="fa fa-user fa-fw fa-sm text-primary"></i>
+
+                                    <div class="material-symbols-outlined text-muted">mail</div>
+                                    <a class="nav-link justify-content-sm-center align-items-center"
+                                        href="gn/chat/chat.html">3 novas</small></a>
                                 </div>
                             </div>
                         </div>
@@ -129,18 +117,17 @@
                 </div>
             </div>
 
+
         </section>
 
 
-
         <section>
-            <div class="container pb-5">
-                <div class="col col-md-12 ">
+            <div class="container">
+                <div class="col col-12 col-sm-12 col-md-12 pb-5">
                     <div class="card">
                         <div class="card-body">
-
                             <div class="row w-100">
-                                <!-- Tabs navs -->
+
                                 <ul class="nav nav-tabs nav-fill mb-3" id="ex1" role="tablist">
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link active" id="ex2-tab-1" data-mdb-toggle="tab"
@@ -157,21 +144,464 @@
                                             candidaturas</a>
                                     </li>
                                 </ul>
-                                <!-- Tabs navs -->
 
-                                <!-- Tabs content -->
                                 <div class="tab-content" id="ex2-content">
                                     <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel"
                                         aria-labelledby="ex2-tab-1">
-                                        Tab 1 content
+
+                                        <section class="mb-5">
+                                            <div class="container py-4">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="row">
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link">
+                                                                            <h5 class="align-text-left mb-1"
+                                                                                href="gn/chat/chat.html">Cuidador de
+                                                                                Idosos</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                            href="gn/chat/chat.html">
+                                                                            bookmark_border</div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted mb-1">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">place</span>
+                                                                        <div><small>Belo Horizonte, MG</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">monetization_on</span>
+                                                                        <div><small>À combinar</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="job-body text-justify mt-3">
+                                                                        <p>Cuidados e acompanhamento, inclusive em
+                                                                            consultas médicas e tratamentos dos
+                                                                            idosos, dar as medicações nos horários
+                                                                            previstos, dar a alimentação conforme
+                                                                            cronograma de horários, dar banho, troca de
+                                                                            roupas e ou fraldas, troca da
+                                                                            roupa de cama, manter organizado qualquer
+                                                                            espaço que for utilizado durante o
+                                                                            período.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="mb-5">
+                                                <div class="container pb-4">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="card">
+                                                                <div class="card-body">
+                                                                    <div class="row">
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link">
+                                                                                <h5 class="align-text-left mb-1"
+                                                                                    href="gn/chat/chat.html">Cuidador de
+                                                                                    Idosos</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                href="gn/chat/chat.html">
+                                                                                bookmark_border</div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted mb-1">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">place</span>
+                                                                            <div><small>Belo Horizonte, MG</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">monetization_on</span>
+                                                                            <div><small>À combinar</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="job-body text-justify mt-3">
+                                                                            <p>Cuidados e acompanhamento, inclusive em
+                                                                                consultas médicas e tratamentos dos
+                                                                                idosos, dar as medicações nos horários
+                                                                                previstos, dar a alimentação conforme
+                                                                                cronograma de horários, dar banho, troca
+                                                                                de roupas e ou fraldas, troca da
+                                                                                roupa de cama, manter organizado
+                                                                                qualquer espaço que for utilizado
+                                                                                durante o
+                                                                                período.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <section class="py-2">
+                                                    <div class="container pb-4">
+                                                        <div class="row ">
+                                                            <div class="col">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div class="row">
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link">
+                                                                                    <h5 class="align-text-left mb-1"
+                                                                                        href="gn/chat/chat.html">
+                                                                                        Cuidador de Idosos</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                    href="gn/chat/chat.html">
+                                                                                    bookmark_border</div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted mb-1">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">place</span>
+                                                                                <div><small>Belo Horizonte, MG</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">monetization_on</span>
+                                                                                <div><small>À combinar</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="job-body text-justify mt-3">
+                                                                                <p>Cuidados e acompanhamento, inclusive
+                                                                                    em
+                                                                                    consultas médicas e tratamentos dos
+                                                                                    idosos, dar as medicações nos
+                                                                                    horários previstos, dar a
+                                                                                    alimentação conforme
+                                                                                    cronograma de horários, dar banho,
+                                                                                    troca de roupas e ou fraldas, troca
+                                                                                    da
+                                                                                    roupa de cama, manter organizado
+                                                                                    qualquer espaço que for utilizado
+                                                                                    durante o
+                                                                                    período.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                     </div>
                                     <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel"
                                         aria-labelledby="ex2-tab-2">
-                                        Tab 2 content
+                                        <section class="mb-5">
+                                            <div class="container py-4">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="row">
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link">
+                                                                            <h5 class="align-text-left mb-1"
+                                                                                href="gn/chat/chat.html">Cuidador de
+                                                                                Idosos</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                            href="gn/chat/chat.html">
+                                                                            bookmark_border</div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted mb-1">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">place</span>
+                                                                        <div><small>Belo Horizonte, MG</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">monetization_on</span>
+                                                                        <div><small>À combinar</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="job-body text-justify mt-3">
+                                                                        <p>Cuidados e acompanhamento, inclusive em
+                                                                            consultas médicas e tratamentos dos
+                                                                            idosos, dar as medicações nos horários
+                                                                            previstos, dar a alimentação conforme
+                                                                            cronograma de horários, dar banho, troca de
+                                                                            roupas e ou fraldas, troca da
+                                                                            roupa de cama, manter organizado qualquer
+                                                                            espaço que for utilizado durante o
+                                                                            período.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="mb-5">
+                                                <div class="container pb-4">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="card">
+                                                                <div class="card-body">
+                                                                    <div class="row">
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link">
+                                                                                <h5 class="align-text-left mb-1"
+                                                                                    href="gn/chat/chat.html">Cuidador de
+                                                                                    Idosos</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                href="gn/chat/chat.html">
+                                                                                bookmark_border</div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted mb-1">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">place</span>
+                                                                            <div><small>Belo Horizonte, MG</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">monetization_on</span>
+                                                                            <div><small>À combinar</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="job-body text-justify mt-3">
+                                                                            <p>Cuidados e acompanhamento, inclusive em
+                                                                                consultas médicas e tratamentos dos
+                                                                                idosos, dar as medicações nos horários
+                                                                                previstos, dar a alimentação conforme
+                                                                                cronograma de horários, dar banho, troca
+                                                                                de roupas e ou fraldas, troca da
+                                                                                roupa de cama, manter organizado
+                                                                                qualquer espaço que for utilizado
+                                                                                durante o
+                                                                                período.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <section class="py-2">
+                                                    <div class="container pb-4">
+                                                        <div class="row ">
+                                                            <div class="col">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div class="row">
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link">
+                                                                                    <h5 class="align-text-left mb-1"
+                                                                                        href="gn/chat/chat.html">
+                                                                                        Cuidador de Idosos</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                    href="gn/chat/chat.html">
+                                                                                    bookmark_border</div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted mb-1">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">place</span>
+                                                                                <div><small>Belo Horizonte, MG</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">monetization_on</span>
+                                                                                <div><small>À combinar</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="job-body text-justify mt-3">
+                                                                                <p>Cuidados e acompanhamento, inclusive
+                                                                                    em
+                                                                                    consultas médicas e tratamentos dos
+                                                                                    idosos, dar as medicações nos
+                                                                                    horários previstos, dar a
+                                                                                    alimentação conforme
+                                                                                    cronograma de horários, dar banho,
+                                                                                    troca de roupas e ou fraldas, troca
+                                                                                    da
+                                                                                    roupa de cama, manter organizado
+                                                                                    qualquer espaço que for utilizado
+                                                                                    durante o
+                                                                                    período.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                     </div>
                                     <div class="tab-pane fade" id="ex2-tabs-3" role="tabpanel"
                                         aria-labelledby="ex2-tab-3">
-                                        Tab 3 content
+                                        <section class="mb-5">
+                                            <div class="container py-4">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <div class="row">
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link">
+                                                                            <h5 class="align-text-left mb-1"
+                                                                                href="gn/chat/chat.html">Cuidador de
+                                                                                Idosos</h5>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col col-6">
+                                                                        <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                            href="gn/chat/chat.html">
+                                                                            bookmark_border</div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted mb-1">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">place</span>
+                                                                        <div><small>Belo Horizonte, MG</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex text-muted">
+                                                                        <span
+                                                                            class="material-symbols-outlined me-2">monetization_on</span>
+                                                                        <div><small>À combinar</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="job-body text-justify mt-3">
+                                                                        <p>Cuidados e acompanhamento, inclusive em
+                                                                            consultas médicas e tratamentos dos
+                                                                            idosos, dar as medicações nos horários
+                                                                            previstos, dar a alimentação conforme
+                                                                            cronograma de horários, dar banho, troca de
+                                                                            roupas e ou fraldas, troca da
+                                                                            roupa de cama, manter organizado qualquer
+                                                                            espaço que for utilizado durante o
+                                                                            período.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="mb-5">
+                                                <div class="container pb-4">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="card">
+                                                                <div class="card-body">
+                                                                    <div class="row">
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link">
+                                                                                <h5 class="align-text-left mb-1"
+                                                                                    href="gn/chat/chat.html">Cuidador de
+                                                                                    Idosos</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col col-6">
+                                                                            <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                href="gn/chat/chat.html">
+                                                                                bookmark_border</div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted mb-1">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">place</span>
+                                                                            <div><small>Belo Horizonte, MG</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex text-muted">
+                                                                            <span
+                                                                                class="material-symbols-outlined me-2">monetization_on</span>
+                                                                            <div><small>À combinar</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="job-body text-justify mt-3">
+                                                                            <p>Cuidados e acompanhamento, inclusive em
+                                                                                consultas médicas e tratamentos dos
+                                                                                idosos, dar as medicações nos horários
+                                                                                previstos, dar a alimentação conforme
+                                                                                cronograma de horários, dar banho, troca
+                                                                                de roupas e ou fraldas, troca da
+                                                                                roupa de cama, manter organizado
+                                                                                qualquer espaço que for utilizado
+                                                                                durante o
+                                                                                período.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <section class="py-2">
+                                                    <div class="container pb-4">
+                                                        <div class="row ">
+                                                            <div class="col">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div class="row">
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link">
+                                                                                    <h5 class="align-text-left mb-1"
+                                                                                        href="gn/chat/chat.html">
+                                                                                        Cuidador de Idosos</h5>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col col-6">
+                                                                                <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                                                    href="gn/chat/chat.html">
+                                                                                    bookmark_border</div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted mb-1">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">place</span>
+                                                                                <div><small>Belo Horizonte, MG</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="d-flex text-muted">
+                                                                                <span
+                                                                                    class="material-symbols-outlined me-2">monetization_on</span>
+                                                                                <div><small>À combinar</small>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="job-body text-justify mt-3">
+                                                                                <p>Cuidados e acompanhamento, inclusive
+                                                                                    em
+                                                                                    consultas médicas e tratamentos dos
+                                                                                    idosos, dar as medicações nos
+                                                                                    horários previstos, dar a
+                                                                                    alimentação conforme
+                                                                                    cronograma de horários, dar banho,
+                                                                                    troca de roupas e ou fraldas, troca
+                                                                                    da
+                                                                                    roupa de cama, manter organizado
+                                                                                    qualquer espaço que for utilizado
+                                                                                    durante o
+                                                                                    período.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -183,54 +613,150 @@
 
         </section>
 
+        <section class="mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3">Meu perfil</h4>
+                                <div class="row">
+                                    <div
+                                        class="col-6 offset-3 offset-sm-0 col-sm-4 col-md-3 col-lg-2 px-md-3 mb-3 mb-sm-0">
+                                        <img class="rounded-circle img-fluid" src="/src/img/beatriz.jfif"
+                                            alt="foto do contratante" />
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-9 col-lg-10 pt-1 text-center text-sm-start">
+                                        <h5 class="mb-3">Beatriz</h5>
+                                        <div>
+                                            <div class="d-flex text-muted mb-1">
+                                                <span class="material-symbols-outlined me-2">place</span>
+                                                <div><small>Belo Horizonte, MG</small>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class=" d-flex justify-content-center justify-content-sm-start align-items-center mb-3">
+                                                <span class="rating me-2">★</span><small>4.9 (13 Avaliações)</small>
+                                            </div>
+                                            <button type="button" class="btn btn-rounded  btn-primary">
+                                                visualizar perfil
+                                            </button>
+                                            <div class="button">
+                                                <button type="button"
+                                                    class="btn btn-rounded btn-primary align-items-center">
+                                                    <span class="material-symbols-outlined">edit</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
-        <!--Habilidades end-->
+        <section>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <div class="card py-3 px-4">
+                            <div class="location">
+                                <h5>Localização</h5>
+                                <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDytfFrIJh8EM0KBoEB6-K4WyJliVIsyrs
+                                            &q=Vila+Paris,+Belo+Horizonte+-+MG,+Brasil&zoom=15">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
 
-        <!--Localização-->
+                    </iframe>
+                </div>
+        </section>
+        </div>
+        </div>
+        </div>
+        </section>
 
 
 
 
+    </main>
+    <!-- Footer -->
 
+    <footer class="text-center text-white bg-primary">
+        <div class="text-center py-4">
+            <nav>
+                <ul class="p-0 m-0">
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Home</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Quem somos</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Termos de uso</a>
+                    </li>
+                    <li class="d-inline px-2">
+                        <a href="#!" class="text-white">Privacidade</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-primary opacity-75">
+            <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="/src/scripts/scripts.js"></script>
+    <script type="text/javascript" src="/src/scripts/carousel.js"></script>
+</body>
 
+</html>
+</main>
+<!-- Footer -->
 
-        <!-- Footer -->
+<footer class="text-center text-white bg-primary fixed-bottom pt-4">
+    <div class="text-center">
+        <nav>
+            <ul class="p-0 m-0">
+                <li class="d-inline px-2">
+                    <a href="#!" class="text-white">Home</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="#!" class="text-white">Quem somos</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="#!" class="text-white">Termos de uso</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="#!" class="text-white">Privacidade</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-        <footer class="text-center text-white bg-primary pt-4 ">
-            <div class="text-center">
-                <nav>
-                    <ul class="p-0 m-0">
-                        <li class="d-inline px-2">
-                            <a href="#!" class="text-white">Home</a>
-                        </li>
-                        <li class="d-inline px-2">
-                            <a href="#!" class="text-white">Quem somos</a>
-                        </li>
-                        <li class="d-inline px-2">
-                            <a href="#!" class="text-white">Termos de uso</a>
-                        </li>
-                        <li class="d-inline px-2">
-                            <a href="#!" class="text-white">Privacidade</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-primary opacity-75">
+        <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+    </div>
+    <!-- Copyright -->
+</footer>
 
-            <!-- Copyright -->
-            <div class="text-center p-3 bg-primary opacity-75">
-                <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
-            </div>
-            <!-- Copyright -->
-        </footer>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript" src="/src/scripts/scripts.js"></script>
+<script type="text/javascript" src="/src/scripts/carousel.js"></script>
 
-        <!-- MDB -->
-        <script type="text/javascript"
-            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
-        <!-- Custom scripts -->
-        <script type="text/javascript" src="/src/scripts/scripts.js"></script>
-        <script type="text/javascript" src="/src/scripts/carousel.js"></script>
+</footer>
 </body>
 
 </html>
