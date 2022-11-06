@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    color: #000000;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: material Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 170%;
+    
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.botao{
+    font-family: "Material Icons Two Tone";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+}
+
+input, select {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga";
+  }
+
+.campo{
+    margin-bottom: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #000000;
+    display: block;
+    color: #080b0e;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.campo select option{
+    padding-right: 1em;
+    
+}
+
+
+#check{
+
+    display: inline-block;
+}
+
+#label .campo{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+
+.botao{
+
+    background-color: #3e9aee;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#formulario{
+    width: 500px;
+    height: 125em;
+    background: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    padding: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 2px #8b8b8b;
+    transform: translate(-50%, 0%);
+    text-align: justify;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+}
+
+#check{
+    line-height: 170%;
+    text-align: justify;
+}
+
+
+#fotoperfil{
+    width: 30%;
+    height: 10%;
+    position: relative;
+    left: -1%;
+    top: -2%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 2px #b6b6b6;
+}
+
+#editarperfil{
+
+    width: 10%;
+    height: 2%;
+    position: relative;
+    left: 42%;
+    top: -2%;
+}
+
+#fotodeperfil{
+    height: 4%;
+    position: relative;
+    left: -1%;
+    color: #3e9aee;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*celulares*/
+@media screen and (max-width: 740px) {
+    
+    
+}
