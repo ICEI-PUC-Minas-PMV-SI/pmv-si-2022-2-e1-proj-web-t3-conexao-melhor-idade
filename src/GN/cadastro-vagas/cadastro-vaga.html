@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -167,4 +168,175 @@
 
     </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de vaga</title>
+    <link rel="stylesheet" href="cadastro-vaga.css">
+</head>
+<body>
+    <div class="wrapper"></div>
+
+    <header class="header">
+        <a href="/src/GN/home-cliente/home-cliente.html" target="_self"><img class="logo" src="/img/logo-texto.png" alt="Logo"></a>
+
+        <nav class="nav">
+            <input type="checkbox" id="checkbox" class="checkbox">
+
+            <label for="checkbox" class="label-menu">
+                
+                <span class="hamburger"></span>
+
+            </label>
+
+            <ul class="menu">
+                <li><a href="/GN/home-cliente/home-cliente.html">Home</a></li>
+                <li><a href="/MB/quem-somos.html">Quem somos</a></li>
+                <li><a href="/GN/primeiros-socorros/primeiros-socorros.html">Emergência</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+        <main>
+        
+
+            <div class="conteiner">
+               
+               <div class="paragrafo-1">
+                    <h1>Cadastre uma vaga</h1>
+                    <p>Aqui você irá incluir as informações necessárias para cadastrar uma vaga. Especifique o tipo de prestador de serviço (profissional ou voluntário), os dias e horários que precisará dos serviços, descreva detalhadamente os serviços que deverão ser prestados e caso o precise de um prestador de serviço com experência com idosos que possuam necessidades especiais marque a opção correspondente.</p>
+                </div>
+
+                <form>
+
+                    <div class="tipo">
+                        <h2>Tipo de ajuda que busco</h2>
+                            <form>
+                                <input class="opcao" type="checkbox" name="acao" value="cp"><p>Cuidador profissional.</p><br>
+                                <input class="opcao" type="checkbox" name="acao" value="vo"><p>Voluntário.</p><br>
+                                <input class="opcao" type="checkbox" name="acao" value="n"><p>Apenas me conectar a pessoas com interesses similares.</p>
+                            </form>
+                    </div>
+
+                    <div class="quando">
+                        <h2>Quando preciso de ajuda</h2>
+                            <form class="geral">
+
+                                <table>
+                                    <thead>
+                                        <tr clas="turno">
+                                            <th>Turno</th>
+                                            <th>2°</th>
+                                            <th>3°</th>
+                                            <th>4°</th>
+                                            <th>5°</th>
+                                            <th>6°</th>
+                                            <th>Sáb</th>
+                                            <th>Dom</th>
+                                        </tr>
+                                    </thead>
+                            
+                                    <tbody>
+                                        <tr>
+                                            <td>Manhã</td>
+                                            <td><input type="checkbox" name="acao" value="2M"></td>
+                                            <td><input type="checkbox" name="acao" value="3M"></td>
+                                            <td><input type="checkbox" name="acao" value="4M"></td>
+                                            <td><input type="checkbox" name="acao" value="5M"></td>
+                                            <td><input type="checkbox" name="acao" value="6M"></td>
+                                            <td><input type="checkbox" name="acao" value="SM"></td>
+                                            <td><input type="checkbox" name="acao" value="DM"></td>
+                                        </tr>
+                            
+                                        <tr>
+                                            <td>Tarde</td>
+                                            <td><input type="checkbox" name="acao" value="2T"></td>
+                                            <td><input type="checkbox" name="acao" value="3T"></td>
+                                            <td><input type="checkbox" name="acao" value="4T"></td>
+                                            <td><input type="checkbox" name="acao" value="5T"></td>
+                                            <td><input type="checkbox" name="acao" value="6T"></td>
+                                            <td><input type="checkbox" name="acao" value="ST"></td>
+                                            <td><input type="checkbox" name="acao" value="DT"></td>
+                                        </tr>
+                            
+                                        <tr>
+                                            <td>Fim de tarde</td>
+                                            <td><input type="checkbox" name="acao" value="2F"></td>
+                                            <td><input type="checkbox" name="acao" value="3F"></td>
+                                            <td><input type="checkbox" name="acao" value="4F"></td>
+                                            <td><input type="checkbox" name="acao" value="5F"></td>
+                                            <td><input type="checkbox" name="acao" value="6F"></td>
+                                            <td><input type="checkbox" name="acao" value="SF"></td>
+                                            <td><input type="checkbox" name="acao" value="DF"></td>
+                                        </tr>
+                            
+                                        <tr>
+                                            <td>Noite</td>
+                                            <td><input type="checkbox" name="acao" value="2N"></td>
+                                            <td><input type="checkbox" name="acao" value="3N"></td>
+                                            <td><input type="checkbox" name="acao" value="4N"></td>
+                                            <td><input type="checkbox" name="acao" value="5N"></td>
+                                            <td><input type="checkbox" name="acao" value="6N"></td>
+                                            <td><input type="checkbox" name="acao" value="SN"></td>
+                                            <td><input type="checkbox" name="acao" value="DN"></td>
+                                        </tr>
+                            
+                            
+                                    </tbody>
+                            
+                                </table>
+                    </div>    
+
+                                
+                                <div class="necessidade">
+
+                                    <h2>Conte um pouco sobre sua necessidade</h2>
+
+                                    <form action="necessidade.html" method="post">
+                                        <textarea id="caixa-de-texto" name="texto" rows="10" cols="50"></textarea>
+                                    </form>
+
+                                </div>
+
+                            
+                                    <table class="especial">
+                                        <tbody>
+                                            <tr>
+                                                <td><input type="checkbox" name="acao" value="#"></td>
+                                                <td><p class="destaque">Procuro alguém que tenha experiência com idosos com necessidades especiais.</p><p>*Por exemplo: experiência com idosos com deficiência intelectual ou doeça crônica.</p></td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                
+
+                                <a href="/GN/home-cliente/home-cliente.html"><input id="postar-vaga" type="submit" value="Postar vaga"></a>
+
+                        </form>
+            </div>
+
+        
+        </main>
+
+        <footer>
+
+        
+            <ul>
+                <li><a href="/GN/home-cliente/home-cliente.html" target="_self">Home</a> </li>
+                <li><a href="/MB/quem-somos.html" target="_blank">Quem somos</a> </li>
+                <li><a href="/SB/privacidade/privacidade.html" target="_blank">Privacidade</a> </li>
+                <li><a href="/SB/termos-de-uso/termos-de-uso.html" target="_blank">Termos de uso</a> </li>
+            </ul>
+    
+            <p>Conexão Melhor Idade - Todos direitos reservados 2022.<p>
+        </footer>
+
+    </div>
+</body>
+>>>>>>> 0ab07e3560bac321637825265128d3de7b92bb9b
 </html>
