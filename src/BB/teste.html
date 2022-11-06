@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+<head>
+    <link rel="alternate" href="https://mangalivre.net/" hreflang="pt-br" />
+    <meta property="og:image" content="http://mangalivre.net/assets/images/icon-facebook.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords"
+        content="mangalivre, mangás, mangas, online, mangas online, naruto, one piece, leia, ler, leitor online, nanatsu no taizai, one punch man, fairy tail, mangá, manga" />
+    <meta name="description"
+        content="Leia online e organize suas leituras aqui. Leia antes em português (PT-BR) os mangás e webtoons mais lidas de ação, romance, fantasia, isekai e outros!" />
+    <meta property="fb:pages" content="456238451158977" />
+
+    <link rel="stylesheet" href="/assets/css/reset.min.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.min.css?id=d2f525584449357aa3c6" type="text/css">
+    <link rel="stylesheet" href="/assets/css/barra.min.css?id=6ec3f9fbcfa24425112c" type="text/css">
+    <link rel="stylesheet" href="/assets/css/gooeymenu.min.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/responsive.min.css?id=28c8dbcf015568d93d4d" type="text/css">
+
+    <script src="/assets/js/jquery.min.js?_v=1.23.1" type="text/javascript"></script>
+
+    <link href="/assets/images/favicon.png?favicon" rel="icon" type="image/png">
+    <link href="/assets/images/favicon.png?favicon" rel="shortcut icon" type="image/png">
+    <link href="/assets/images/icon-apple.png" rel="apple-touch-icon" type="image/png">
+    <link href="/assets/images/icon-apple.png" rel="apple-touch-icon-precomposed" type="image/png">
+    <link href="/manifest.json?_v=1.23.1" rel="manifest">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Mangas">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#202020">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#202020">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#202020">
+    <script>
+        var shouldHideTopnav = true;
+    </script>
+
+    <title>Manga Livre | Leitor Online e Host de Mangás PT-BR!</title>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4069487474431685"
+        crossorigin="anonymous"></script>
+    <meta name="purpleads-verification" content="190fa7d824c6ad6c9e80f77b" />
+</head>
+
+<body class="page-index logged-in">
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1691805651051135',
+                xfbml: true,
+                version: 'v2.5'
+            });
+
+            if (window.facebookLoginAsync)
+                facebookLoginAsync();
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div id="overlay"></div>
+
+    <nav id="mp-menu" class="mp-menu nano">
+        <div class="mp-level nano-content">
+            <div class="side-menu-container">
+                <div class="side-menu-header">
+                    <div class="avatar_container avatar-img"
+                        style="background-image:url(https://static3.mangalivre.net/avatares/EwBZekIkM182tC4BiDhKqQ/m1667514841/1656511/mangalivre_avatar.jpg);">
+                    </div>
+
+                    <div class="user-name">
+                        <a href="#" class="edit-profile edit-profile-container">
+                            <img src="/assets/images/icons/profile.svg" alt="Ícone profile"
+                                class="mp-icon profile-icon" />
+                            <span class="nickname" data-user="nickname">breno benfica</span>
+                            <span class="back"><img src="/assets/images/icons/arrow.svg"
+                                    class="mp-icon arrow-icon left" /> Voltar</span>
+                        </a>
+                    </div>
+
+                    <div class="close">
+                        <a href="#">
+                            <img src="/assets/images/icons/fechar.svg" alt="Ícone fechar" class="mp-icon fechar-icon" />
+                        </a>
+                    </div>
+
+                    <span class="edit">Editar <img src="/assets/images/icons/config.svg" alt="Ícone config"
+                            class="mp-icon config-icon" /></span>
+                </div>
+
+                <div class="side-menu-stats">
+                    <div class="ranking vip-user">
+                        <img src="/assets/images/icons/vip3.svg" alt="Ícone vip3" class="mp-icon vip3-icon" />
+                    </div>
+
+                    <div class="manga-points">
+                        <a href="/vip"><span class="reward">leitor VIP</span></a>
+                    </div>
+
+                    <div class="logout">
+                        <a href="/logout">
+                            <img src="/assets/images/icons/exit.svg" alt="Ícone exit" class="mp-icon exit-icon" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="user-profile-container">
+                    <form id="user-profile-form" action="/users/edit_profile.json" method="post"
+                        enctype="multipart/form-data">
+                        <div class="user-header">
+                            <div class="avatar-image">
+                                <a href="#" class="delete-avatar-image">
+                                    <img src="/assets/images/icons/fechar.svg" alt="Ícone fechar"
+                                        class="mp-icon fechar-icon" />
+                                </a>
+
+                                <label>
+                                    <a href="#" class="edit-avatar-image">
+                                        <img src="/assets/images/icons/pencil.svg" alt="Ícone pencil"
+                                            class="mp-icon pencil-icon" />
+                                    </a>
+                                    <input type="file" name="avatar_image" style="height:0; width:0; position:absolute;"
+                                        accept="image/jpeg,image/png" />
+                                    <div class="avatar_container avatar-img"
+                                        style="background-image:url(https://static3.mangalivre.net/avatares/EwBZekIkM182tC4BiDhKqQ/m1667514841/1656511/mangalivre_avatar.jpg);">
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="user-infos">
+                                <h3 data-user="name">breno benfica</h3>
+                                <span class="date">Cadastrado desde 10/04/2022</span>
+
+                                <div class="user-type">
+                                    <div class="user-vip">
+                                        <img src="/assets/images/icons/vip.svg" alt="Ícone vip"
+                                            class="mp-icon vip-icon" />
+                                        <span class="title">Leitor VIP!</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-social-options">
+                            <div class="binded-social">
+                                <img src="/assets/images/icons/google.svg" class="mp-icon google-svg-icon" />
+                                <div class="bind-infos">
+                                    <span class="email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                            data-cfemail="c2a0b0a7acada0a7aca4aba1a382a5afa3abaeeca1adaf">[email&#160;protected]</a></span>
+                                    <span class="thirdparty">Vinculado com Google</span>
+                                </div>
+                                <a href="/login/unbind_social_account" class="unbind-social-account">
+                                    <img src="/assets/images/icons/fechar.svg" alt="Ícone fechar"
+                                        class="mp-icon fechar-icon" />
+                                    Desvincular conta </a>
+                            </div>
+                        </div>
+
+                        <div class="user-profile-infos">
+                            <div class="form-group">
+                                <input name="name" type="text" value="breno" placeholder="nome"
+                                    class="modal-form-input" />
+                                <div class="help-inline">
+                                    <span>Nome (opcional)</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input name="surname" value="benfica" type="text" placeholder="sobrenome"
+                                    class="modal-form-input" />
+                                <div class="help-inline">
+                                    <span>Sobrenome (opcional)</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input name="nickname" value="breno benfica" type="text" placeholder="nome de usuário"
+                                    data-error="Por favor, preencha seu nome de usuário." class="modal-form-input"
+                                    required />
+                                <div class="help-inline">
+                                    <span>Nome de usuário</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input name="birth_date" type="text"
+                                    pattern="^([0-2][1-9]|3[0-1])\/(0[1-9]|1[0-2])\/(19|20)[0-9]{2}$"
+                                    placeholder="data de nascimento (opcional)"
+                                    data-error="A data deve conter o formato dd/mm/aaaa."
+                                    class="modal-form-input date-input" value="" />
+                                <div class="help-inline">
+                                    <span>Data de nascimento (opcional)</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input name="password" type="password" placeholder="nova senha" class="modal-form-input"
+                                    id="passwordInput" />
+                                <div class="help-inline">
+                                    <span>Para trocar de senha, preencha</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input name="confirm_password" type="password" placeholder="confirmar nova senha"
+                                    class="modal-form-input" data-match="#passwordInput"
+                                    data-error="A senha e sua confirmação devem ser iguais." />
+                                <div class="help-inline">
+                                    <span>Confirme a sua nova senha</span>
+                                </div>
+                                <div class="help-inline with-errors">
+                                    <img src="/assets/images/icons/alert.svg" alt="Ícone alert"
+                                        class="mp-icon alert-icon" />
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <center>
+                                <div id="side_menu_captcha" class="g-recaptcha" style="margin: 10px 0;
+                                        clear: both;
+                                        display: block;"></div>
+                            </center>
+
+                            <div class="alert-message success">
+                                <div class="message-container">
+                                    <img src="/assets/images/icons/lido.svg" alt="Ícone lido"
+                                        class="mp-icon lido-icon" />
+                                    <img src="/assets/images/icons/fechar.svg" alt="Ícone fechar"
+                                        class="mp-icon fechar-icon" />
+
+                                    <span class="text">
+                                        Suas alterações foram salvas com sucesso!
+                                    </span>
+                                </div>
+                            </div>
+
+                            <button class="modal-form-input" type="submit">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="notifications-container">
+                    <div class="notification-toggle">
+                        <img src="/assets/images/icons/arrow.svg" class="mp-icon arrow-icon down" /> Notificações
+                        <span class="notes-number">0</span>
+                    </div>
+
+                    <ul class="notifications-list">
+                    </ul>
+                </div>
+
+                <div class="statistics-container">
+                    <div class="stats-nav-container">
+                        <div class="stats-nav">
+                            <div class="favorite-count">
+                                <img src="/assets/images/icons/favoritei.svg" alt="Ícone favoritei"
+                                    class="mp-icon favoritei-icon" />
+                                <em>
+                                    3 </em>
+                                <span class="fav-text">
+                                    favoritos </span>
+                            </div>
+
+                            <div class="chapters-pending">
+                                <em>102 capítulos</em> pendentes <span class="fav-text">em <b>2 séries</b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tag-stats">
+                        <ul>
+                            <li class="reading" data-tag="4">
+                                <img src="/assets/images/icons/views.svg" class="mp-icon views-icon blue" />
+                                1
+                            </li>
+                            <li class="will-read" data-tag="1">
+                                <img src="/assets/images/icons/tag.svg" alt="Ícone tag" class="mp-icon tag-icon" />
+                                1
+                            </li>
+                            <li class="read" data-tag="3">
+                                <img src="/assets/images/icons/lido.svg" alt="Ícone lido" class="mp-icon lido-icon" />
+                                1
+                            </li>
+                            <li class="stopped" data-tag="2">
+                                <img src="/assets/images/icons/parei.svg" alt="Ícone parei"
+                                    class="mp-icon parei-icon" />
+                                0
+                            </li>
+                            <li class="starred" data-tag="5">
+                                <img src="/assets/images/icons/star.svg" alt="Ícone star" class="mp-icon star-icon" />
+                                0
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="favorite-list-container">
+                    <div class="favorite-list">
+                        <h2>Todos</h2>
+                        <span class="navigation-tip">
+                            <img src="/assets/images/icons/arrow.svg" class="mp-icon arrow-icon left" />
+                            <img src="/assets/images/icons/arrow.svg" alt="Ícone arrow"
+                                class="mp-icon arrow-icon right" />
+                        </span>
+
+                        <div class="favorite-series">
+                            <div class="fav-series-carousel">
+                                <ul class="favorite-series-list touchcarousel-container">
+
+                                </ul>
+                                <div class="loading-fav">
+                                    <img src="/assets/images/loading-image.gif" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mark-all">
+                            <img src="/assets/images/icons/lido.svg" alt="Ícone lido" class="mp-icon lido-icon" />
+                            <img src="/assets/images/icons/lido.svg" alt="Ícone lido" class="mp-icon lido-icon" />
+                            Marcar todas as séries pendentes como lidas
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actions-container">
+                    <h2 class="history-header">
+                        <span class="contract">
+                            <img src="/assets/images/icons/fechar.svg" alt="Ícone fechar" class="mp-icon fechar-icon" />
+                        </span>
+                        Histórico completo de ações
+                    </h2>
+                    <div class="actions-list-box">
+                        <div class="actions-list-container">
+                            <h2>LIDO</h2>
+                            <ul class="actions-list">
+                            </ul>
+
+                            <div class="loadmore">
+                                <a class="loadmore" href="#" style="display:none;"><img
+                                        src="/assets/images/layout/loadmore.png" alt="Load More" /></a>
+                                <a href="#" class="loading loadmore"><img src="/assets/images/loading.png"
+                                        alt="Carregando..." /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions-navigation">
+                    <div class="actions-footer-border">
+                        <div></div>
+                    </div>
+
+                    <ul class="actions-buttons">
+                        <li data-tag="4">
+                            <span>LENDO</span>
+                            <img src="/assets/images/icons/views.svg" class="mp-icon views-icon blue" />
+                            33
+                        </li>
+
+                        <li data-tag="1">
+                            <span>LEREI</span>
+                            <img src="/assets/images/icons/tag.svg" alt="Ícone tag" class="mp-icon tag-icon" />
+                            1
+                        </li>
+
+                        <li data-tag="3">
+                            <span>LIDO</span>
+                            <img src="/assets/images/icons/lido.svg" alt="Ícone lido" class="mp-icon lido-icon" />
+                            7
+                        </li>
+
+                        <li data-tag="2">
+                            <span>PAREI</span>
+                            <img src="/assets/images/icons/parei.svg" alt="Ícone parei" class="mp-icon parei-icon" />
+                            0
+                        </li>
+
+                        <li data-tag="5">
+                            <span>AVALIOU</span>
+                            <img src="/assets/images/icons/star.svg" alt="Ícone parei" class="mp-icon star-icon" />
+                            0
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TOPNAV -->
+
+    <div id="push-notification-hint">
+        <div class="hint-container">
+            <p>Para ativar as notificações, <strong>clique no cadeado</strong> ao lado do endereço do site e dê
+                permissão para que o seu navegador possa lhe enviar notificações de lançamento do nosso site!</p>
+            <a href="#" title="Fechar" class="close" onclick="$(this).parent().parent().hide(); $('#overlay').hide();">
+                <img src="/assets/images/icons/fechar.svg" alt="fechar" class="mp-icon fechar-icon" />
+            </a>
+        </div>
+    </div>
+
+
+    <div id="topnav">
+        <div class="main-menu-xs">
+            <a href="/" class="active" title="Ir para a Home do site!">
+                <h1>Home</h1>
+            </a>
+            <a href="/lista-de-mangas" title="Listagem de mangás, novels, hqs e manhuas online">
+                <h1>Mangás</h1>
+            </a>
+            <a href="/lista-de-categorias" title="Listagem de categorias de mangás">
+                <h1>Categorias</h1>
+            </a>
+            <a href="/grupos" title="Listagem de grupos de tradução de mangás">
+                <h1>Grupos</h1>
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="navbar-brand hidden-xs">
+                <a href="/" data-target="#menu-index" title="Ir para a Home do site"></a>
+            </div>
+
+            <div class="menu-trigger visible-xs">
+                <a href="#" title="Abrir menu">
+                    <img src="/assets/images/icons/menu.svg" alt="Menu" id="menu-trigger" class="mp-icon menu-icon" />
+                </a>
+            </div>
+
+            <div class="nav">
+                <ul class="main-menu hidden-xs">
+                    <li>
+                        <a href="/lista-de-mangas" data-target="#menu-titulos"
+                            title="Listagem de mangás, novels, hqs e manhuas online">
+                            <h1>Mangás</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-categorias" data-target="#menu-categorias"
+                            title="Listagem de categorias de mangás">
+                            <h1>Categorias</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/grupos" data-target="#menu-grupos" title="Listagem de grupos de tradução de mangás">
+                            <h1>Grupos</h1>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="navbar-brand-xs visible-xs">
+                    <a href="/" class="brand-expanded" title="MangaLivre"></a>
+                </div>
+
+                <!--Search-->
+                <div class="search ui-widget">
+                    <a href="/serie-aleatoria" title="Ler um mangá aleatório online" class="random-series">
+                        <span class="hidden-xs">Mangá sortido!</span>
+                        <img src="/assets/images/layout/sortida.png" alt="Mangá aleatório online">
+                    </a>
+                    <input type="text" class="form-control" id="searchInput">
+                    <button type="submit" class="btn-search"></button>
+                </div>
+
+                <div class="user-nav">
+                    <span class="user-menu" id="trigger-menu"
+                        style="background-image:url(https://static3.mangalivre.net/avatares/EwBZekIkM182tC4BiDhKqQ/m1667514841/1656511/mangalivre_avatar.jpg);">
+                    </span>
+                </div>
+                <div class="register-tip already-registered" style="display:none">
+                    <a href="#" title="Fechar" class="close"
+                        style="display:block; padding:10px; margin-right:-15px; margin-top:-15px;">
+                        <span style="pointer-events:none;">
+                            <img src="/assets/images/icons/fechar.svg" alt="fechar" class="mp-icon fechar-icon" />
+                        </span>
+                    </a>
+                    <h3>Bem-vindo! Esta é a sua área de usuário!</h3>
+                    <p>Aqui ficam seus mangás favoritos! Podendo acessar direto a <strong>próxima leitura</strong> de
+                        cada série! <br><br>Aqui você também pode alterar os <strong>dados de sua conta</strong>, e
+                        checar todo seu <strong>histórico de leituras</strong>!<br><br>
+                        <center><strong>Clique para acessá-la!</strong></center>
+                    </p>
+                </div>
+            </div>
+            <div class="login-navbar">
+                <ul class="social-login-options">
+                    <li class="fb">
+                        <a href="#">
+                            <span class="facebook-icon"></span>
+                        </a>
+                    </li>
+
+                    <li class="twitter">
+                        <a href="/login/twitter" title="Login via Twitter">
+                            <span class="twitter-icon"></span>
+                        </a>
+                    </li>
+
+                    <li class="google">
+                        <a href="/login/google" title="Login via Google">
+                            <span class="google-icon"></span>
+                        </a>
+                    </li>
+
+                    <li class="mp">
+                        <span class="mangasproject-icon"></span>
+                    </li>
+                </ul>
+
+                <i class="arrow-left"></i>
+
+                <span class="choose-text">
+                    <span class="hidden-xs">Escolha o sistema de login</span>
+                    <span class="visible-xs">Login</span>
+                </span>
+            </div>
+        </div>
+    </div> <!-- END TOPNAV -->
+    <!-- SUB TOPNAV -->
+    <div id="subtopnav">
+        <div class="container">
+            <div class="wrap">
+                <ul id="menu-index" class="navo native">
+                    <li><a href="#destaques" class="page-scroll" title="Mangás em destaque"><span>Destaques</span></a>
+                    </li>
+                    <li><a href="#populares-semana" class="page-scroll" title="Mangás mais lidos da semana"><span>Mais
+                                Lidos Da Semana</span></a></li>
+                    <li><a href="#top-series" class="page-scroll" title="Mangás mais lidos"><span>Mangás Mais
+                                Lidos</span></a></li>
+                    <li><a href="#lancamentos" class="page-scroll"
+                            title="Lançamentos recentes de mangás"><span>Lançamentos</span></a></li>
+                    <li><a href="#recem-adicionados" class="page-scroll"
+                            title="Novos mangás recém adicionados"><span>Recém Adicionados</span></a></li>
+                    <li><a href="#recem-finalizados" class="page-scroll" title="Mangás recém finalizados"><span>Recém
+                                Finalizados</span></a></li>
+                </ul>
+                <ul id="menu-serie">
+                    <li class="active">
+                        <a href="#" class="toggle-author" data-target="#series-data" title="Informações sobre o mangá ">
+                            <span>
+                                Informações do Mangá </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="menu-contato">
+                    <li class="active"><a href="#contato" class="page-scroll"
+                            title="Entre em contato conosco"><span>Entre em Contato</span></a></li>
+                    <li><a href="#dmca" class="page-scroll"><span>DMCA (English)</span></a></li>
+                    <li><a href="#terms" class="page-scroll" title="Termos de Uso"><span>Termos de Uso</span></a></li>
+                    <li><a href="#politica" class="page-scroll" title="Política de Privacidade"><span>Política de
+                                Privacidade</span></a></li>
+                </ul>
+                <ul id="menu-vip">
+                    <li><a href="#torne-se" class="page-scroll" title="Torne-se VIP!"><span>Torne-se VIP!</span></a>
+                    </li>
+                    <li><a href="#por-que-doar" class="page-scroll" title="Razões para ser VIP!"><span>Por que ser
+                                VIP?</span></a></li>
+                    <li><a href="#vantagens" class="page-scroll"
+                            title="Veja razões para se tornar VIP"><span>Vantagens</span></a></li>
+                </ul>
+                <ul id="menu-titulos">
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-nome/todos" data-method="alphabetically"
+                            title="Todos os mangás do site"><span>Todos (A-Z)</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-nota" data-method="score"
+                            title="Mangás com as melhores notas"><span>Melhores Notas</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-numero-de-leituras/todos/desde-o-comeco"
+                            data-method="views" title="Mangás mais lidos"><span>Mais Lidos</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-favoritos" data-method="favorites"
+                            title="Mangás mais favoritados"><span>Favoritos</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-atualizacoes" data-method="updated"
+                            title="Mangás mais atualizados"><span>Recém Atualizados</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-numero-de-capitulos" data-method="chapters"
+                            title="Mangás com mais capítulos"><span>Número de Capítulos</span></a>
+                    </li>
+                    <li>
+                        <a href="/lista-de-mangas/ordenar-por-finalizados" data-method="finished"
+                            title="Mangás finalizados"><span>Recém Finalizados</span></a>
+                    </li>
+                </ul>
+                <ul id="menu-categorias">
+                    <li><a href="/lista-de-categorias#alphabetically" data-method="alphabetically"
+                            title="Categorias por ordem alfabética"><span>Ordem Alfabética</span></a></li>
+                    <li><a href="/lista-de-categorias#titles" data-method="titles"
+                            title="Categorias com mais mangás"><span>Número de Mangás</span></a></li>
+                </ul>
+                <ul id="menu-grupos">
+                    <li><a href="/grupos#alphabetically" data-method="alphabetically"
+                            title="Grupos por ordem alfabética"><span>Ordem Alfabética</span></a></li>
+                    <li><a href="/grupos#rating" data-method="rating" title="Grupos mais bem avaliados"><span>Mais
+                                Curtidas</span></a></li>
+                    <li><a href="/grupos#titles" data-method="titles" title="Grupos que fazem mais mangás"><span>Número
+                                de Mangás</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div> <!-- SUB TOPNAV -->
+
+    <!-- DESTAQUES -->
+    <div id="destaques" style="max-height:280px;">
+        <ul class="bxslider">
+            <li data-featured-slider-item>
+                <a class="featured-manga-link"></a>
+                <div class="destaque-wrap">
+                    <div class="chapter-info">
+                        <div class="chapter-number-wrap">
+                            <div class="chapter-number">
+                                Capítulo <span></span>
+                            </div>
+                        </div>
+                        <span class="chapter-date">
+                        </span>
+                    </div>
+                    <div class="destaque-image">
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="featured-link">
+            <a href="/destaques" title="Todos os mangás em destaque">
+                <span>Ver Todos os Destaques</span>
+                <img src="/assets/images/icons/featured.svg" alt="Ícone featured" class="mp-icon featured-icon" />
+            </a>
+        </div>
+
+        <div class="destaque-tags">
+            <div class="wrap">
+                <ul id="bx-pager">
+                    <li data-featured-slider-pager-item>
+                        <a href="#" data-slide-index="">
+                            <span class="name"></span>
+                            <span class="number"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="wraper">
+        <div class="container">
+
+            <div id="type-switcher">
+                <ul class="types-list">
+                    <li class="type" data-type="manga">
+                        <a href="#">
+                            <span>Mangás</span>
+                        </a>
+                    </li>
+                    <li class="type" data-type="manhua">
+                        <a href="#">
+                            <span>Manhuas</span>
+                        </a>
+                    </li>
+                    <li class="type" data-type="webtoon">
+                        <a href="#">
+                            <span>Webtoons</span>
+                        </a>
+                    </li>
+                    <li class="type" data-type="novel">
+                        <a href="#">
+                            <span>Novels</span>
+                        </a>
+                    </li>
+                    <li class="type active" data-type="">
+                        <a href="#">
+                            <span>Todos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="populares-semana" class="container-box">
+                <div class="main-bg-image"></div>
+                <div class="pattern-x"></div>
+                <div class="content-wraper touchcarousel">
+                    <h2 class="most-read-title"> <i>Mais Lidos da Semana</i> <span
+                            class="arrow-container most-read-toggle" style="position:absolute;"><img
+                                src="/assets/images/icons/arrow.svg" class="mp-icon arrow-icon down" /></span> </h2>
+                    <div class="most-read-menu"> <span class="arrow-container most-read-toggle"
+                            style="position:absolute;"><img src="/assets/images/icons/arrow.svg"
+                                class="mp-icon arrow-icon up" /></span>
+                        <ul>
+                            <li data-period="day"><a href="#">Mais Lidos do Dia</a></li>
+                            <li class="current" data-period="week"><a href="#">Mais Lidos da Semana</a></li>
+                            <li data-period="month"><a href="#">Mais Lidos do Mês</a></li>
+                            <li data-period="year"><a href="#">Mais Lidos do Ano</a></li>
+                        </ul>
+                        <div class="adult-category"> Categoria Adulta? <div class="adult-choose">
+                                <input value="0" name="adult-content" type="radio" id="hide" checked />
+                                <label data-value="0" for="hide"> Ocultar </label>
+                                <input value="1" name="adult-content" type="radio" id="show" />
+                                <label data-value="1" for="show"> Incluir </label>
+                                <input value="2" name="adult-content" type="radio" id="only" />
+                                <label data-value="2" for="only"> Apenas </label>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="arrow" style="pointer-events:none"><img src="assets/images/layout/arrow.png"
+                            alt="arrow" class="arrow-h" /> <img src="assets/images/layout/arrow.png"
+                            alt="arrow" /></span>
+                    <div class="carousel">
+                        <div class="loading" style="display:none;"> <img src="/assets/images/loading-search.gif"
+                                alt="Carregando..." /> </div>
+                        <ul class="populares-semana touchcarousel-container">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div amazon-offers-list></div>
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <script type="text/javascript">
+                (window.amazonOffers = window.amazonOffers || []).push({});
+            </script>
+
+            <!-- LEFT SIDE -->
+            <div id="left-side">
+                <div id="latest-readings" class="container-box left-container">
+                    <div class="main-bg-image"></div>
+                    <div class="pattern-x"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper touchcarousel">
+                        <h2>Últimas Leituras</h2>
+                        <span class="content-description user-button">
+                            <span class="hidden-xs" style="float:left;">Leituras de </span><u data-user="nickname">breno
+                                benfica</u>
+                            <img src="/assets/images/icons/vip.svg" alt="Ícone vip" class="mp-icon vip-icon" />
+                        </span>
+                        <div class="list-container">
+                            <div class="latest-readings-list carousel">
+                                <ul class="touchcarousel-container">
+                                </ul>
+                            </div>
+                            <div class="loadmore"> <a href="#" class="loading loadmore"><img
+                                        src="/assets/images/loading.png" alt="Carregando..." /></a> </div>
+                        </div>
+                    </div>
+                    <!-- CONTENT WRAPER -->
+                </div>
+                <div id="recommended-readings" class="container-box left-container">
+                    <div class="main-bg-image"></div>
+                    <div class="pattern-x"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper touchcarousel">
+                        <h2>Recomendado para você</h2>
+                        <span class="arrow" style="pointer-events:none"><img src="assets/images/layout/arrow.png"
+                                alt="arrow" class="arrow-h" /> <img src="assets/images/layout/arrow.png"
+                                alt="arrow" /></span>
+                        <div class="list-container">
+                            <div class="carousel">
+                                <ul class="top-series touchcarousel-container">
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/akaboshi-ibun-suikoden/615"
+                                                title="Ler Akaboshi: Ibun Suikoden Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Akaboshi: Ibun Suikoden </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/akaboshi-ibun-suikoden/615"
+                                                title="Ler Akaboshi: Ibun Suikoden Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/Mya2Bm0xsGgP-brT4jQkyQ/615/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/6kNZ5m78RrgWnmXqBH01AA/615/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="615">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/ansatsu-kyoushitsu/862"
+                                                title="Ler Ansatsu Kyoushitsu Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Ansatsu Kyoushitsu </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/ansatsu-kyoushitsu/862"
+                                                title="Ler Ansatsu Kyoushitsu Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/Qa78SVdUI-q5NDvO1j25Zw/862/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/VQrJE9FfPuVTmH-IV44kCw/862/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="862">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/arakawa-under-the-bridge/248"
+                                                title="Ler Arakawa Under the Bridge Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Arakawa Under the Bridge </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/arakawa-under-the-bridge/248"
+                                                title="Ler Arakawa Under the Bridge Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/8cqmjpGKLzOAX-8-1x_vnA/248/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/clbMpRHgtprAcGv6V5pGBg/248/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="248">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/beelzebub/21" title="Ler Beelzebub Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Beelzebub </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/beelzebub/21" title="Ler Beelzebub Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/CHNJr1Yw2NnCk7ZNcKnHrg/21/thumb_beelzebub_3.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/sHIEMiXea4Qt2_FQCV89nQ/21/thumb_beelzebub_3.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="21">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/binbougami-ga/915" title="Ler Binbougami ga! Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Binbougami ga! </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/binbougami-ga/915" title="Ler Binbougami ga! Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/KFuujj-_1tg8Aj_aYNsB_A/915/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/iCBIh88Ts3vkDV5YFg93OQ/915/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="915">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/boku-to-majo-no-jikan/942"
+                                                title="Ler Boku to Majo no Jikan Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Boku to Majo no Jikan </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/boku-to-majo-no-jikan/942"
+                                                title="Ler Boku to Majo no Jikan Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/B6KrdWbN98DgLWARh5E_kQ/942/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/U4rmKiPmpeuVEwLtcSqSGA/942/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="942">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/city-hunter/4243" title="Ler City Hunter Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        City Hunter </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/city-hunter/4243" title="Ler City Hunter Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/7V0MLU3ojdfCV45OZYMnpw/4243/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/Z1eq2POCKICZPdm6GkQp0A/4243/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="4243">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/criminale/3597" title="Ler Criminale! Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Criminale! </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/criminale/3597" title="Ler Criminale! Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/Tpjf_MLNey49h2MvNWAPYg/3597/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/0EWAAXoU8QBFrOGqvsPB-Q/3597/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="3597">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/danshi-koukousei-no-nichijou/694"
+                                                title="Ler Danshi Koukousei no Nichijou Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Danshi Koukousei no Nichijou </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/danshi-koukousei-no-nichijou/694"
+                                                title="Ler Danshi Koukousei no Nichijou Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/P9XvQrlQZ2zIwxbxzfSukw/694/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/tvqjkcSRTes2Sve0P99nfg/694/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="694">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/dr-slump/304" title="Ler Dr. Slump Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Dr. Slump </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/dr-slump/304" title="Ler Dr. Slump Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/NzBQ89Esb7qXzJzR7R4wsA/304/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/dLLFTVu3MVqGrLiP0F1SPg/304/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="304">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/fairy-tail/6" title="Ler Fairy Tail Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Fairy Tail </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/fairy-tail/6" title="Ler Fairy Tail Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/Z8UCuWNnAtBk_CPk-GKaOg/6/thumb_5f5d37f8a601e_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/SI7uJRkZq5gvmw0Z7Hk3hA/6/thumb_5f5d37f8a601e_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="6">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/gamaran/23" title="Ler Gamaran Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Gamaran </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/gamaran/23" title="Ler Gamaran Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/gB0hQ_9yc2LUZ-qJPRxuIQ/23/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/3VdzuFADg8WK0dSeiMqhKg/23/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="23">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/grand-blue/3579" title="Ler Grand Blue Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Grand Blue </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/grand-blue/3579" title="Ler Grand Blue Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/LsCPXG5JLMGu0_dYN2rQIg/3579/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/jyc3PI8RJ882a87QRyDX6Q/3579/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="3579">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/gto-shonan-14-days/580"
+                                                title="Ler GTO: Shonan 14 Days Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        GTO: Shonan 14 Days </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/gto-shonan-14-days/580"
+                                                title="Ler GTO: Shonan 14 Days Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/DBvMVcmCS8o3XTX2nVI9sA/580/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/7pUS52Z2Jv_W_QyIcNsAgg/580/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="580">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/hayate-no-gotoku/634" title="Ler Hayate no Gotoku! Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Hayate no Gotoku! </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/hayate-no-gotoku/634" title="Ler Hayate no Gotoku! Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/DHM24S2I-FtAr4swXhtqeg/634/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/mTo_wx8QItck5L7nRlftXg/634/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="634">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/helck/3042" title="Ler Helck Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Helck </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/helck/3042" title="Ler Helck Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/DM3buAllM2qT1PQR5QLGkQ/3042/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/OK1UO2ddekjGO29LVdUHqA/3042/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="3042">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/hinamatsuri/3105" title="Ler Hinamatsuri Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Hinamatsuri </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/hinamatsuri/3105" title="Ler Hinamatsuri Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/Cg2PwaxA_HDj7NVXWHl2hw/3105/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/VNafeeYnpDmy11Ojl-r3lg/3105/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="3105">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/kenka-shoubai/6268" title="Ler Kenka Shoubai Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Kenka Shoubai </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/kenka-shoubai/6268" title="Ler Kenka Shoubai Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/7lHXio6glv8jiSAxelsjyQ/6268/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/e9IS5KT1ieCBN032K61niA/6268/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="6268">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/kongou-banchou/1187" title="Ler Kongou Banchou Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Kongou Banchou </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/kongou-banchou/1187" title="Ler Kongou Banchou Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/-oUNsZjouZ80bSwf7T-AVg/1187/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/oH82_RMRbLw5pqZwrVqvgg/1187/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="1187">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <div class="item">
+                                            <a href="/manga/kyou-kara-ore-wa/1651"
+                                                title="Ler Kyou kara Ore wa!! Online!">
+                                                <span class="series-title">
+                                                    <h1>
+                                                        Kyou kara Ore wa!! </h1>
+                                                </span>
+                                            </a>
+                                            <a href="/manga/kyou-kara-ore-wa/1651"
+                                                title="Ler Kyou kara Ore wa!! Online!">
+                                                <div class="cover-image">
+                                                    <picture>
+                                                        <source
+                                                            srcset="https://static3.mangalivre.net/capas/G2yIImC6nu2eYSBGOexQwg/1651/thumb_capa.jpg.avif"
+                                                            type="image/avif">
+                                                        <img src="https://static3.mangalivre.net/capas/EuBrrv_MMctI9Zi3wk94tQ/1651/thumb_capa.jpg"
+                                                            referrerpolicy="no-referrer">
+                                                    </picture>
+                                                    <div class="_user_favorite " data-id-serie="1651">
+                                                        <div class="favorite-container"> <img
+                                                                src="/assets/images/icons/favoritado.svg"
+                                                                class="mp-icon favoritado-icon favorite" /> <img
+                                                                src="/assets/images/icons/desfavoritar.svg"
+                                                                class="mp-icon desfavoritar-icon unfavorite" /> </div>
+                                                    </div>
+                                                    <div class="_user_tag"> </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LANÇAMENTOS -->
+                <div id="lancamentos" class="tag-container left-container">
+                    <div class="main-bg-image"></div>
+                    <div class="main-bg-pattern"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper"> <a href="/lista-de-mangas/ordenar-por-atualizacoes"
+                            title="Últimas atualizações de mangás">
+                            <h2> Lista de Lançamentos <img src="/assets/images/icons/arrow.svg" alt="Ícone arrow"
+                                    class="mp-icon arrow-icon right" /> </h2>
+                        </a>
+                        <!-- LANÇAMENTO HOJE -->
+                        <div id="recent_releases">
+                        </div>
+                        <div class="ad-container">
+                            <h4>Publicidade</h4>
+                            <div class="ad-content">
+                                <script async
+                                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mL - Home Rodape -->
+                                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4069487474431685"
+                                    data-ad-slot="4685852295" data-ad-format="auto"
+                                    data-full-width-responsive="true"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+                        <div class="loadmore"> <a class="loadmore" href="#" style="display:none;"><img
+                                    src="/assets/images/layout/loadmore.png" alt="Mais lançamentos" /></a> <a href="#"
+                                class="loading loadmore"><img src="/assets/images/loading.png"
+                                    alt="Carregando..." /></a> </div>
+                    </div>
+                    <!-- CONTENT WRAPER -->
+                </div>
+                <!-- END LANÇAMENTOS -->
+            </div>
+            <!-- RIGHT SIDE -->
+            <div id="right-side">
+
+                <!-- PUB TOPO -->
+
+
+
+                <!-- TOP SERIES -->
+                <div id="top-series" class="container-box">
+                    <div class="main-bg-image"></div>
+                    <div class="pattern-x"></div>
+                    <div class="content-wraper touchcarousel">
+                        <h2>Títulos Mais Lidos</h2>
+                        <a href="/lista-de-mangas/ordenar-por-numero-de-leituras/todos/desde-o-comeco" class="arrow"
+                            title="Mangás Mais Lidos"><img src="assets/images/layout/arrow.png" alt="arrow" /></a>
+                        <div class="rank-list rankcarousel" style="clear:both;">
+                            <ul class="top-series touchcarousel-container rank-list-container" style="clear:both">
+
+                            </ul>
+                        </div>
+                        <div class="loadmore"> <a class="loadmore" href="#" style="display:none;"><img
+                                    src="/assets/images/layout/loadmore.png" alt="Mais lançamentos" /></a> <a href="#"
+                                class="loading loadmore"><img src="/assets/images/loading.png"
+                                    alt="Carregando..." /></a> </div>
+                    </div>
+                </div>
+                <!-- TOP SERIES -->
+                <div class="container-box box-calhaw ad-box" style="margin-top:-15px; padding-top:1px;">
+                    <div class="main-bg-image" style="background-size: unset;"></div>
+                    <div class="pattern-stripes-right"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper">
+                        <div class="ad-container">
+                            <h4>Publicidade</h4>
+                            <div class="ad-content"
+                                style="max-width: 336px; max-height:280px; margin: 20px auto 10px auto;">
+                                <script async
+                                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- mL - Home Square -->
+                                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4069487474431685"
+                                    data-ad-slot="9802447604" data-ad-format="auto"
+                                    data-full-width-responsive="true"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                        </div>
+
+                        <!-- END RESPONSIVE BANNER -->
+                        <ins class="zlx-calhaw" data-height=280 data-width=336></ins>
+                    </div>
+                    <!-- END CONTENT WRAPER -->
+                </div>
+
+                <div class="container-box box-calhaw home-forum-box">
+                    <div class="main-bg-image"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper">
+                        <a href="/forum">
+                            <img src="/assets/images/icons/comments.svg" class="mp-icon report-icon" />
+                            <span class="forum-box-title">Fórum das séries em destaque!</span>
+                            <span class="arrow" title="Fórum das séries em destaque!"><img
+                                    src="assets/images/layout/arrow.png" alt="arrow" /></span>
+                        </a>
+                    </div>
+                    <!-- END CONTENT WRAPER -->
+                </div>
+
+                <div class="discord-widget"
+                    style="border-radius: 10px 12px 0 0; background: #1e2124; margin:-15px 0 0; top:0; filter: grayscale(80%); -webkit-filter: grayscale(80%); z-index:5; padding-bottom:15px; position:relative;">
+                    <iframe src="https://discordapp.com/widget?id=472974014088740885&theme=dark" width="100%"
+                        height="100%" allowtransparency="true" frameborder="0"></iframe>
+                </div>
+
+                <div class="container-box default">
+                    <div class="main-bg-image" style="background-size: unset;"></div>
+                    <div class="pattern-stripes-right"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="partner-groups-wrapper content-wraper touchcarousel">
+                        <h2><img src="/assets/images/icons/group.svg" alt="Ícone group" class="mp-icon group-icon"
+                                alt="Grupos de Tradução de mangás" /> Grupos em Destaque</h2>
+                        <div class="partner-groups-list">
+                            <div class="partner-groups-container carousel clear-fix">
+                                <ul class="partner-groups touchcarousel-container">
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/gekkou-scans/129" title="Gekkou Scans">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/VDSdhv5bhqVqQqiCTKZihg/129/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/gekkou-scans/129" title="Gekkou Scans">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        204 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/gekkou-scans/129" title="Gekkou Scans">
+                                                <span class="scan-name">
+                                                    Gekkou Scans </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/pages/Gekkou-Scans/180672848732139"
+                                                        target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://gekkouscans.com.br/" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://discord.gg/WfYn3zU" target="_blank">
+                                                        <img src="/assets/images/icons/discord.svg" alt="Ícone discord"
+                                                            class="mp-icon discord-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/kedaruge-scans/941" title="Kedaruge Scans">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/cE8h3loGt3t8y6MCSks1KQ/941/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/kedaruge-scans/941" title="Kedaruge Scans">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        38 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/kedaruge-scans/941" title="Kedaruge Scans">
+                                                <span class="scan-name">
+                                                    Kedaruge Scans </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/Kedaruge.scan" target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://kedaruge-scan.tumblr.com" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://discord.gg/N5TC3gG" target="_blank">
+                                                        <img src="/assets/images/icons/discord.svg" alt="Ícone discord"
+                                                            class="mp-icon discord-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/otksscanlator/429" title="OTksScanlator">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/iZ3xqzWgxUCK-NaDOCRGfw/429/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/otksscanlator/429" title="OTksScanlator">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        77 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/otksscanlator/429" title="OTksScanlator">
+                                                <span class="scan-name">
+                                                    OTksScanlator </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="http://" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://discord.gg/edY3Cr9" target="_blank">
+                                                        <img src="/assets/images/icons/discord.svg" alt="Ícone discord"
+                                                            class="mp-icon discord-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/sumire-scan/1643" title="Sumire Scan">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/JFUgm12ilbXfJ2n01xSHmw/1643/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/sumire-scan/1643" title="Sumire Scan">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        21 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/sumire-scan/1643" title="Sumire Scan">
+                                                <span class="scan-name">
+                                                    Sumire Scan </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="http://" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/comic-space/361" title="Comic Space">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/MeO2DaY7Y7I1KV4WNP2iOw/361/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/comic-space/361" title="Comic Space">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        103 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/comic-space/361" title="Comic Space">
+                                                <span class="scan-name">
+                                                    Comic Space </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/comicspacebr" target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://www.comicspace.com.br/" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/yaoi-home/29" title="Yaoi Home">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/IZu5_wB-RJUdiya09AXXbg/29/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/yaoi-home/29" title="Yaoi Home">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        116 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/yaoi-home/29" title="Yaoi Home">
+                                                <span class="scan-name">
+                                                    Yaoi Home </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/YaoiHome" target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://yaoitoshokan.com/" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/nagareboshi-scan/966" title="Nagareboshi Scan">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/bsAZIZuLardVEJtrYsBRtw/966/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/nagareboshi-scan/966" title="Nagareboshi Scan">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        15 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/nagareboshi-scan/966" title="Nagareboshi Scan">
+                                                <span class="scan-name">
+                                                    Nagareboshi Scan </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/nagareboshiscan/" target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://nagareboshiscan.blogspot.com/" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/aquaria-scanlator/330" title="Aquaria Scanlator">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/VNytmwufBiRQbmswoYOwMg/330/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/aquaria-scanlator/330" title="Aquaria Scanlator">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        28 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/aquaria-scanlator/330" title="Aquaria Scanlator">
+                                                <span class="scan-name">
+                                                    Aquaria Scanlator </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/pages/Aquaria-Scanlator/334649539944377"
+                                                        target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://aquariascanlator.wordpress.com/" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/rondo-rondo-rondo-scanlations/2098"
+                                            title="Rondo Rondo Rondo Scanlations">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/0T_fKRBWEqbY0UAWDBug7A/2098/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/rondo-rondo-rondo-scanlations/2098"
+                                            title="Rondo Rondo Rondo Scanlations">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        1 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/rondo-rondo-rondo-scanlations/2098"
+                                                title="Rondo Rondo Rondo Scanlations">
+                                                <span class="scan-name">
+                                                    Rondo Rondo Rondo Scanlations </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="http://" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="touchcarousel-item">
+                                        <a href="/scanlator/hachimitsu-scanlator/1623" title="Hachimitsu Scanlator">
+                                            <div class="cover-image"
+                                                style="background-image: url('https://static3.mangalivre.net/grupos/h-yHyYBPhlNANOzmMQbrEw/1623/picture.jpg?_=1667515349');">
+                                            </div>
+                                        </a>
+                                        <a href="/scanlator/hachimitsu-scanlator/1623" title="Hachimitsu Scanlator">
+                                            <div class="titles-number">
+                                                <span class="titles">
+                                                    <img src="/assets/images/icons/series.svg" alt="Ícone series"
+                                                        class="mp-icon series-icon" />
+                                                    <i>
+                                                        10 </i>
+                                                    mangás </span>
+                                            </div>
+                                        </a>
+                                        <div class="scan-description">
+                                            <a href="/scanlator/hachimitsu-scanlator/1623" title="Hachimitsu Scanlator">
+                                                <span class="scan-name">
+                                                    Hachimitsu Scanlator </span>
+                                            </a>
+                                            <ul class="scan-links">
+                                                <li>
+                                                    <a href="https://www.facebook.com/Nanami-Scanlator-106526601112094/?ref=page_internal"
+                                                        target="_blank">
+                                                        <img src="/assets/images/icons/facebook.svg"
+                                                            alt="Ícone facebook" class="mp-icon facebook-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://" target="_blank">
+                                                        <img src="/assets/images/icons/link.svg" alt="Ícone link"
+                                                            class="mp-icon link-icon" />
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://discord.gg/exZJrVb" target="_blank">
+                                                        <img src="/assets/images/icons/discord.svg" alt="Ícone discord"
+                                                            class="mp-icon discord-icon" />
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT WRAPER -->
+                </div>
+                <!-- END PUB INFERIOR -->
+
+                <!-- RECÉM ADICIONADOS -->
+                <div id="recem-adicionados" class="container-box default">
+                    <div class="main-bg-image"></div>
+                    <div class="pattern-stripes-left"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper">
+                        <h2>Recém Adicionados</h2>
+                        <ul class="seriesList">
+                        </ul>
+                        <div class="loading-container">
+                            <div class="loading" style="display:none;"> <img src="/assets/images/loading-search.gif"
+                                    alt="Carregando..." /> </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT WRAPER -->
+                </div>
+                <!-- END RECÉM ADICIONADOS -->
+                <!-- RECÉM FIANLIZADOS -->
+                <div id="recem-finalizados" class="container-box default">
+                    <div class="main-bg-image"></div>
+                    <div class="pattern-stripes-right"></div>
+                    <!-- CONTENT WRAPER -->
+                    <div class="content-wraper">
+                        <h2>Recém Finalizados</h2>
+                        <a href="/lista-de-mangas/ordenar-por-finalizados" class="arrow"
+                            title="Mangás finalizados recentemente"><img src="assets/images/layout/arrow.png"
+                                alt="arrow" /></a>
+                        <ul class="seriesList">
+                        </ul>
+                        <div class="loading-container">
+                            <div class="loading" style="display:none;"> <img src="/assets/images/loading-search.gif"
+                                    alt="Carregando..." /> </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT WRAPER -->
+                </div>
+                <!-- END RECÉM FINALIZADOS -->
+
+            </div>
+            <script
+                src="https://cdn.purpleads.io/video-agent.js?publisherId=a9d2ad85e5ac46b23779bb1d8318611e:2624c33cb39953e037021e7664c44fcb361d52354570ecb24176927bf7290a462bab3ff34505b326313526c7223f51f135cd091ddaf88400efb495986ee01784"
+                async></script>
+
+
+            <div id="social-media">
+                <ul>
+                    <li>
+                        <a href="https://discord.gg/2pCqdv5" target="_blank" class="facebook" title="Discord"
+                            style="background: #7289da;">
+                            <img src="/mangazord_lib/img/discord.png" alt="Discord" />
+                        </a>
+                    </li>
+                    <li><a href="/contato" class="mail" title="Contact"><img
+                                src="/assets/images/layout/social-icons/mail.png" alt="Contact!" /></a></li>
+                </ul>
+                <a href="#" class="back-top" title="TOPO">TOPO <img src="/assets/images/layout/arrow-top.png"
+                        alt="topo" /></a>
+                <hr>
+                <p>MangaLivre &copy; 2022</p>
+                <div class="recaptcha-footer-container">
+                    <p class="recaptcha-footer">
+                        This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy"
+                            target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms"
+                            target="_blank">Terms of Service</a> apply.
+                    </p>
+                </div>
+            </div>
+            <script>
+                var MOBILE_DEVICE = screen.width > screen.height ? screen.height <= 770 : screen.width <= 770;
+            </script>
+
+        </div> <!-- CONTAINER -->
+    </div>
+
+    <div id="push-subscribe-container" class="hidden-s">
+        <div class="push-notification-button ">
+            <span class="icon-container active">
+                <img src="/assets/images/icons/bell.svg" class="mp-icon bell-icon" />
+            </span>
+
+            <span class="icon-container inactive">
+                <img src="/assets/images/icons/bell-inactive.svg" class="mp-icon bell-inactive-icon" />
+            </span>
+
+            <span class="push-notification-text">
+                <span>Desativada</span>
+                <img src="/assets/images/loading.png" />
+            </span>
+        </div>
+
+        <div class="push-notification-description">
+            <span class="description-text">
+                Receba Notificações de Lançamento, direto em seu navegador, de suas <em>séries favoritas.</em> <img
+                    src="/assets/images/icons/favoritado.svg" class="mp-icon favoritado-icon" />
+            </span>
+        </div>
+    </div>
+
+    <a href="javascript:void();" class="cookie-notification">
+        <div class="cookie-notification-content">
+
+            <span class="cookie-notification-icon">
+                <svg id="Capa_1" enable-background="new 0 0 512.026 512.026" height="23" viewBox="0 0 512.026 512.026"
+                    width="23" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path
+                            d="m511.525 241.705c-1.21-22.482-6.909-49.971-17.666-77.748-3.766-9.725-16.048-12.699-23.855-5.881-5.564 4.859-15.309 3.478-18.563-2.599-3.886-7.256-12.89-10.023-20.179-6.209-17.818 9.326-40.237.637-46.641-19.032-2.388-7.335-9.952-11.665-17.487-10.006-20.777 4.568-40.134-11.324-40.134-32.217 0-8.143 2.995-15.965 8.433-22.025 8.406-9.367 2.187-24.346-10.388-24.997-7.513-.391-12.884-6.94-9.429-12.76 5.277-8.89.174-20.366-9.994-22.373-15.381-3.036-32.039-5.845-49.622-5.845-140.303 0-256 106.637-256 248 0 140.366 114.711 264 256 264 148.992 0 264.611-127.454 255.525-270.308zm-43.83 93.429c-16.703-5.236-28.695-20.835-28.695-39.121 0-23.222 19.421-42.061 42.99-40.947.148 27.26-4.678 54.421-14.295 80.068zm-386.695-127.121c0 26.156-28.999 41.656-50.664 27.883 1.147-21.147 5.289-41.403 12.025-60.399 20.312-3.49 38.639 12.198 38.639 32.516zm175 274c-115.793 0-214.585-95.744-225.064-213.349 40.47 11.345 80.064-19.283 80.064-60.651 0-32.132-24.186-58.704-55.305-62.513 37.448-69.237 112.24-115.487 200.305-115.487 9.639 0 19.241 1.046 28.557 2.521.179 12.837 6.935 24.244 17.288 31.24-17.505 41.973 14.071 88.048 59.285 87.229 14.429 25.643 44.523 37.606 72.45 29.503 10.287 9.14 24.546 12.389 37.663 9.473 3.752 11.781 6.52 23.482 8.312 35.046-38.944.241-70.555 31.988-70.555 70.988 0 30.389 19.136 56.487 46.252 66.559-38.139 71.029-113.144 119.441-199.252 119.441z" />
+                        <path
+                            d="m304 305.013c-39.149 0-71 31.851-71 71s31.851 71 71 71 71-31.851 71-71-31.851-71-71-71zm0 112c-22.607 0-41-18.393-41-41s18.393-41 41-41 41 18.393 41 41-18.393 41-41 41z" />
+                        <path
+                            d="m279 188.013c0-28.121-22.878-51-51-51s-51 22.879-51 51 22.878 51 51 51 51-22.879 51-51zm-51 21c-11.58 0-21-9.421-21-21s9.42-21 21-21 21 9.421 21 21-9.42 21-21 21z" />
+                        <path
+                            d="m148 273.013c-28.122 0-51 22.879-51 51s22.878 51 51 51 51-22.879 51-51-22.878-51-51-51zm0 72c-11.58 0-21-9.421-21-21s9.42-21 21-21 21 9.421 21 21-9.42 21-21 21z" />
+                    </g>
+                </svg>
+            </span>
+
+            <span class="cookie-notification-text">
+                <p>Eeei! Esse site usa cookies!</p>
+                <p>E dependemos deles para funcionar T.T</p>
+            </span>
+
+            <span class="cookie-notification-button">
+                <span class="cookie-notification-button-text">
+                    Certo! </span>
+            </span>
+        </div>
+    </a>
+
+    <div class="add-to-homescreen-wrapper">
+        <div class="add-to-homescreen-container">
+            <div class="website-icon">
+                <img src="/assets/images/logo-144.png" class="website-icon-image" />
+            </div>
+
+            <h2>
+                Adicione o widget MangaLivre à sua tela inicial </h2>
+
+            <div class="prompt-container">
+                <ul class="prompt-options">
+                    <li>
+                        <a href="#" class="close">
+                            Não T_T
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="install">
+                            Adicionar! *_*
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/bootstrap-tour.min.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/touchcarousel.min.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/jquery-ui.min.css?_v=1.23.1" type="text/css">
+    <link rel="stylesheet" href="/assets/css/users_sprites.min.css?id=d0cabefabb8d57bf7c72" type="text/css">
+    <link rel="stylesheet" href="/assets/css/modals.min.css?id=f0c7bf9382c1b69f2fc3" type="text/css">
+    <link rel="stylesheet" href="/assets/css/modals.min.css?id=f0c7bf9382c1b69f2fc3" type="text/css">
+
+    <link rel="stylesheet" href="/mangazord_lib/css/amazon_ads/amazon_ads.min.css?id=4c3656866eed053ed0d6"
+        type="text/css">
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js" type="text/javascript"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyAJoLnviXZJ7d1l5xju75jIy3sI_okWwrM",
+            authDomain: "mangas-push-notifications.firebaseapp.com",
+            databaseURL: "https://mangas-push-notifications.firebaseio.com",
+            storageBucket: "mangas-push-notifications.appspot.com",
+            messagingSenderId: "827357191816"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+
+    <script src="/assets/js/jquery.sticky.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/jquery.bxslider.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/touchcarousel.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/jquery-ui.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/jquery.mask.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/bootstrap.min.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/bootstrap-tour.min.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/validator.js?_v=1.23.1" type="text/javascript"></script>
+    <script src="/assets/js/custom.js?id=9dfb202db01a059687c4" type="text/javascript"></script>
+    <script src="/assets/js/lib/home/home.min.js?id=ece0daf17a03315fcf86" type="text/javascript"></script>
+    <script src="/mangazord_lib/js/amazon_ads.min.js?id=b61d3894d2cee5eeb5ae" type="text/javascript"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld4hdkZAAAAAAhFRMIIcSMGLrM3lX8VbbguGwNv"></script>
+    <script src="/assets/js/push-notifications.min.js?_v=1.23.1" type="text/javascript"></script>
+    <script>
+        window.showUserTour = false;
+    </script>
+
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "MangaLivre",
+          "url": "https://mangalivre.net"
+        }
+        </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
+        integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
+        data-cf-beacon='{"rayId":"7648c49519551181","token":"ee8e11e741df4b578a2736735e0abc78","version":"2022.11.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
