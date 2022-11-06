@@ -25,7 +25,7 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar nav-bar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
@@ -37,7 +37,7 @@
                 <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="material-symbols-outlined text-white "> Menu </span>
+                    <span class="material-symbols-outlined text-white"> Menu </span>
                 </button>
 
                 <!-- Collapsible wrapper -->
@@ -53,68 +53,81 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Emergências</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
                     </ul>
-                    <!-- Left links -->
 
-                    <button type="button" class="btn btn-secondary btn-rounded ">
-                        Cadastre-se
-                    </button>
                 </div>
-                <!-- Collapsible wrapper -->
+
+                <button class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
+                    data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
+                    <span class="nav-link material-symbols-outlined">account_circle</span>
+                </button>
+
+                <div id="user-menu" class="d-none">
+                    <div>
+                        <a href="/#" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
+                        <a href="/#" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
+                    </div>
+                </div>
             </div>
-            <!-- Container wrapper -->
         </nav>
+
     </header>
     <!-- Navbar -->
 
 
     <!--Top card-->
-    <main>
-        <section>
-            <div class="position-absolute top-5 w-100 bg-light" style="height:210px"> </div>
-
-            <div class="container content-overlay mt-0 mb-md-4 py-5">
+    <main class="py-5">
+        <section class="mb-5">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col">
                         <div class="card">
-                            <div class="d-flex card-body">
-                                <img class="rounded-circle" src="/src/img/idoso-2.jpg" alt="foto do contratante"
-                                    height="100" width="100">
-
-                                <div class="card-body pt-1">
-                                    <h4 class="text">Antonio</h4>
-                                    <span class="text-muted material-symbols-outlined me-2">place</span>
-                                    <small>Belo Horizonte, MG</small>
-                                    <div class="text-muted ">
-                                        <span class="rating me-2">★</span><small>4.9 (13 Avaliações)</small>
-                                        <div class="text-muted "></div>
-                                        <span class="text-muted me-2"><span class="material-symbols-outlined">
-                                                date_range
-                                            </span></span>
-
-                                        <small>Membro desde: Agosto/2022<br></br></small>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div
+                                        class="col-6 offset-3 offset-sm-0 col-sm-4 col-md-3 col-lg-2 px-md-3 mb-3 mb-sm-0">
+                                        <img class="rounded-circle img-fluid" src="/src/img/idoso-2.jpg"
+                                            alt="foto do contratante" />
                                     </div>
 
-                                    <button type="button" class="btn btn-rounded  btn-primary">
-                                        ENTRAR EM CONTATO COM ANA
-                                    </button>
+                                    <div class="col-12 col-sm-8 col-md-9 col-lg-10 pt-1 text-center text-sm-start">
+
+                                        <h4 class="mb-3">Antonio</h4>
+
+                                        <div
+                                            class="d-flex justify-content-center justify-content-sm-start text-muted mb-1">
+                                            <span class="material-symbols-outlined me-2">place</span>
+                                            <small>Belo Horizonte, MG</small>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center justify-content-sm-start  mb-1">
+                                            <span class="material-symbols-outlined me-2">date_range</span>
+                                            <small>Membro desde: Agosto/2022</small>
+                                        </div>
+
+                                        <div
+                                            class=" d-flex justify-content-center justify-content-sm-start align-items-center mb-3">
+                                            <span class="rating me-2">★</span><small>4.9 (13 Avaliações)</small>
+                                        </div>
+
+
+
+                                        <button type="button" class="btn btn-rounded  btn-primary">
+                                            ENTRAR EM CONTATO
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            </div>
         </section>
 
-        <section>
+        <section class="mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col col-md-12 mb-4">
+                    <div class="col col-md-12">
                         <div class="card card-body text-justify ">
                             <h5 class="mb-3">Sobre</h5>
                             <p>Olá! Sou muito independente, mas preciso de uma ajudinha pra me lembrar de tomar seus
@@ -128,81 +141,76 @@
             </div>
         </section>
         <!---Tipo de ajuda-->
-        <section>
-            <div class="container">
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        <div class="d-flex center card card-body align-items-left">
-                            <h4 class="text">O que busco</h4>
-                            <div class="text-muted "></div>
-                            <span class="text-muted material-symbols-outlined me-2">info</span>
-                            <small>Ajuda/serviço para outra pessoa</small>
-                            <div class="text-muted "></div>
-                            <span class="text-muted material-symbols-outlined me-2">volunteer_activism</span>
-                            <small>Cuidador profissional</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!---Bio-->
-
-
-        <!--Habilidades-->
-        <section>
+        <section class="mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col col-md-12 mb-4">
-                        <div class="card card-body text-justify">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <div class="card card-body h-100">
+                            <h5 class="text mb-3">O que busco</h5>
+
+                            <div class="d-flex text-muted mb-2">
+                                <span class="material-symbols-outlined me-2"><span class="material-symbols-outlined">
+                                        loyalty
+                                    </span></span>
+                                <span>Ajuda/serviço para outra pessoa</span>
+                            </div>
+                            <div class="d-flex text-muted mb-2">
+                                <span class="material-symbols-outlined me-2">medical_services</span>
+                                <span>Cuidador profissional</span>
+                            </div>
+                            <div class="d-flex text-muted mb-1">
+                                <span class="material-symbols-outlined me-2">volunteer_activism</span>
+                                <span>Voluntário</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="card card-body h-100">
                             <h5 class="mb-3">Habilidades e hobbies</h5>
                             <ul>
                                 <li>Jogar baralho</li>
                                 <li>Tocar violão</li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
 
-        <!--Habilidades end-->
+
+
+
+
+
 
         <!--Localização-->
-        <section>
+        <section class="mb-5">
             <div class="container">
-                <div class="row mb-4">
-                    <div class="col-md-12">
+                <div class="row">
+                    <div class="col">
                         <div class="card">
-                            <h5 class="text px-3 py-3">Responsável pelo anúncio</h5>
-                            <div class="d-flex card-body align-items-left">
-
-                                <img class="rounded-circle" src="/src/img/ana.png" alt="foto do contratante"
-                                    height="100" width="100">
-
-                                <h6 class="text ps-3">Ana R.</h6>
-                                <div class="text-muted ">
-                                    <span class="rating me-2">★★★★★</span><small>4.9 (13 Avaliações)</small>
-                                    <div class="text-muted "></div>
-                                    <span class="text-muted me-2"><span class="material-symbols-outlined">
-                                            date_range
-                                        </span></span>
-                                    <small>Membro desde: Agosto/2022<br></br></small>
-                                    <div>
+                            <div class="card-body">
+                                <h5 class="mb-3">Responsável pelo anúncio</h5>
+                                <div class="row">
+                                    <div
+                                        class="col-6 offset-3 offset-sm-0 col-sm-4 col-md-3 col-lg-2 px-md-3 mb-3 mb-sm-0">
+                                        <img class="rounded-circle img-fluid" src="/src/img/ana.png"
+                                            alt="foto do contratante" />
                                     </div>
-
-
-                                    <button type="button" class="btn btn-rounded  btn-primary">
-                                        ENTRAR EM CONTATO COM ANA
-                                    </button>
+                                    <div class="col-12 col-sm-8 col-md-9 col-lg-10 pt-1 text-center text-sm-start">
+                                        <h4 class="mb-3">Ana</h4>
+                                        <div
+                                            class=" d-flex justify-content-center justify-content-sm-start align-items-center mb-3">
+                                            <span class="rating me-2">★</span><small>4.9 (13 Avaliações)</small>
+                                        </div>
+                                        <button type="button" class="btn btn-rounded  btn-primary">
+                                            ENTRAR EM CONTATO
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -216,9 +224,10 @@
                         <div class="card py-3 px-4">
                             <div class="location">
                                 <h5>Localização</h5>
-                                <iframe width="100%" height="300" id="map"
-                                    src="https://maps.google.com/maps?q=sao%20bento,%20belo%20horizonte&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                    marginheight="0" marginwidth="0"><br>
+                                <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDytfFrIJh8EM0KBoEB6-K4WyJliVIsyrs
+                                    &q=Vila+Paris,+Belo+Horizonte+-+MG,+Brasil&zoom=15">
+                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -268,7 +277,7 @@
     </footer>
 
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript" src="/src/scripts/scripts.js"></script>
     <script type="text/javascript" src="/src/scripts/carousel.js"></script>
