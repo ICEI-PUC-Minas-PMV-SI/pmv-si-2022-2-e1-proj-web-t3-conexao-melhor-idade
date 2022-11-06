@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Números de Emergências</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="numeros.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img class="logo-texto" src="imagens/logo-texto.png" alt="logo texto" />
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="numeros.html">Emergências</a></li>
+
+                    <div class="login-cadastro">
+                        <li><a href="#">Entrar</a></li>
+                        <li><a href="#">Cadastre-se</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="numeros.html">Emergências</a></li>
+
+                <div class="login-cadastro">
+                    <li><a href="#">Entrar</a></li>
+                    <li><a href="#">Cadastre-se</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="desc">
+            <h1 class="titulo-principal"> Números de Emergência </h1>
+            <p class="texto-principal"> Aqui se encontrar uma lista de números para emergências em geral.</p>
+        </div>
+        <div class="base">
+            <div class="container">
+                <div class="caixa">
+                    <img src="imagens/190.png">
+                    <div class="edit">
+                        <h2>Ocorrências Policias</h2>
+                        <p>Ocorrências Policias, mediações de conflito, etc.</p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <img src="imagens/193.png">
+                    <div class="edit">
+                        <h2>SOS</h2>
+                        <p>Primeiros socorros.</p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <img src="imagens/199.png">
+                    <div class="edit">
+                        <h2>Defesa civil</h2>
+                        <p>Ocorrências de defesa civil: deslizamentos, alagamentos, etc.</p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <img src="imagens/911.png">
+                    <div class="edit">
+                        <h2>Emergência</h2>
+                        <p>Ligações de emergência de estrangeiros dos Estados Unidos no DF.</p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <img src="imagens/112.png">
+                    <div class="edit">
+                        <h2>Emergência - UE/DF</h2>
+                        <p>Ligações de emergência de estrangeiros da Europa no DF.</p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <img src="imagens/100.png">
+                    <div class="edit">
+                        <h2>Direitos humanos</h2>
+                        <p>Violência, abuso sexual, agressões físicas e/ou psicológicas cometidas contra crianças e
+                            adolescentes,denúncias de pessoas em situação de rua, discriminação de pessoas com
+                            deficiência e idosos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <nav>
+            <ul class="rodape-2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termo de uso</a></li>
+            </ul>
+            <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+        </nav>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script rel="stylesheet" src="script.js"></script>
+</body>
