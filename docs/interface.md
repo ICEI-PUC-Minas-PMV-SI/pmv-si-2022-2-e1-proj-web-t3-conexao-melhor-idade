@@ -58,11 +58,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ### Cliente
 
-<img src="/src/cliente.png" alt="Userflow Cliente"/>
+<img src="img/cliente.png" alt="Userflow Cliente"/>
 
 ### Prestador de Serviço 
 
-<img src="/src/profissional.png" alt="Userflow Prestador de Serviço"/>
+<img src="img/profissional.png" alt="Userflow Prestador de Serviço"/>
 
 ## Wireframes
 
@@ -70,11 +70,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 Através desta página o usuário poderá poderá acessar páginas emergenciais, como primeiros socorros(RF-008), números de emergência(RF-009), localização de postos de saúde nas proximidades(RF-010) e informações do funcionamento da aplicação.
 
-<img src="/src/home.png" alt="Página Home"/>
+<img src="img/home.png" alt="Página Home"/>
 
 ### Página de Login
 
-<img src="/src/login.png" alt="Página de Login"/>
+<img src="img/login.png" alt="Página de Login"/>
 
 ### Home do cliente
 
