@@ -30,19 +30,20 @@
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand me-2" href="#">
-          <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" loading="lazy" style="margin-top: -1px" />
+          <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
         </a>
 
         <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="material-symbols-outlined"> menu </span>
+        <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="material-symbols-outlined text-white"> Menu </span>
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <div class="collapse navbar-collapse " id="navbarButtonsExample">
           <!-- Left links -->
-          <ul class="navbar-nav ms-auto me-3">
+          <ul class="navbar-nav ms-auto me-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -50,22 +51,22 @@
               <a class="nav-link" href="#">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="#">Emergências</a>
+              <a class="nav-link" href="#">Emergências</a>
             </li>
           </ul>
-          <!-- Left links -->
-
-          <button type="button" class="btn btn-secondary btn-rounded me-3">
-            Cadastre-se
-          </button>
         </div>
-        <!-- Collapsible wrapper -->
-      </div>
-      <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
-  </header>
 
+        <div class="d-flex nav-link align-items-center px-3" href="/login.html" data-mdb-container="body"
+          data-mdb-toggle="popover" data-mdb-placement="bottom"
+          data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+          <span class="material-symbols-outlined me-2">account_circle</span>
+          <span class="text"></span>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- Navbar -->
   <!-- Background image -->
   <section class="cmi-hero">
     <div class="text-white d-flex flex-column align-items-center text-center">
@@ -92,7 +93,7 @@
   <main>
 
 
-
+    <!-- EM CONSTRUCAO 
     <div class="row">
       <div class="col-md-7">
         <h2 class="featurette-heading fw-normal lh-1 "><span class="text-muted">Crie seu perfil.</span></h2>
@@ -126,180 +127,238 @@
         </p>
       </div>
 
+      -->
+    <!--Timeline-->
 
+    <!--end of Timeline-->
 
-
-      <section class="text-center">
-        <div class="container">
-          <h4 class="mb-5"><strong>Conecte-se a profissionais na sua região</strong></h4>
-          <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
-              <div class="carousel-inner" role="listbox">
-
-                <div class="carousel-item active">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
-                      <div class="p-3">
-                        <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                          <img src="src/img/beatriz.jfif" class="img-fluid" />
-                        </div>
-                      </div>
-                      <div class="card-body py-2">
-                        <h5 class="card-title">Beatriz</h5>
-                        <p class="card-text mb-0">Nutricionista</p>
-                        <small class="d-block text-muted">Belo Horizonte, MG</small>
-                        <span class="rating">★★★★★</span>
-                      </div>
+    <section class="ag-section">
+      <div class="ag-format-container">
+        <div class="js-timeline ag-timeline">
+          <div class="js-timeline_line ag-timeline_line">
+            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+          </div>
+          <div class="ag-timeline_list">
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">1</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 13</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 13</div>
+                    <div class="ag-timeline-card_desc">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                      eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu.
                     </div>
                   </div>
                 </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
 
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 12</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 12</div>
+                    <div class="ag-timeline-card_desc">
+                      Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
 
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">3</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 11</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
 
-                <div class="carousel-item">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!---->
+
+    <section class="text-center">
+      <div class="container mb-5">
+        <h4 class="mb-5"><strong>Conecte-se a profissionais na sua região</strong></h4>
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="src/img/carlos.jpg" class="img-fluid" />
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Carlos</h5>
-                        <p class="card-text">
-                          <br> Estudante de Enfermagem<br>Belo Horizonte, MG</br>
-                        </p>
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
                       </div>
                     </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="col-md-3 px-2">
-                    <div class="card">
-                      <div class="bg-image rounded-circle hover-overlay ">
-                        <img src="src/img/maria.jfif" class="img-fluid" />
-
-                        <a href="#!">
-                          <div class="mask" style="background-color: rgb(251, 251, 251);"></div>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Maria</h5>
-                        <p class="card-text">
-                          <br> Enfermeira<br>Belo Horizonte, MG</br>
-                        </p>
-
-
-                        <span style="font-size:200%;color:rgb(255, 230, 0);">★★★★★</span>
-
-                      </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
-                data-mdb-slide="prev">
-                <span class="material-symbols-outlined fs-1">
-                  arrow_back_ios
-                </span>
 
-              </a>
-              <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
-                data-mdb-slide="next">
-                <span class="material-symbols-outlined  fs-1">
-                  arrow_forward_ios
-                </span>
-              </a>
+
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
+            <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+              data-mdb-slide="prev">
+              <span class="material-symbols-outlined fs-1">
+                arrow_back_ios
+              </span>
+
+            </a>
+            <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+              data-mdb-slide="next">
+              <span class="material-symbols-outlined  fs-1">
+                arrow_forward_ios
+              </span>
+            </a>
           </div>
         </div>
-      </section>
-      <!--Section: Content-->
-      <div class="col-md-5">
-
-
-
-
-
-        <!-- /END THE FEATURETTES -->
-
-
+      </div>
+    </section>
 
   </main>
 
@@ -311,23 +370,23 @@
       <nav>
         <ul class="p-0 m-0">
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Home</a>
+            <a href="#!" class="footer-link ">Home</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Quem somos</a>
+            <a href="#!" class="footer-link">Quem somos</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Termos de uso</a>
+            <a href="#!" class="footer-link">Termos de uso</a>
           </li>
           <li class="d-inline px-2">
-            <a href="#!" class="text-white">Privacidade</a>
+            <a href="#!" class="footer-link">Privacidade</a>
           </li>
         </ul>
       </nav>
     </div>
 
     <!-- Copyright -->
-    <div class="text-center p-3 bg-primary opacity-75">
+    <div class="text-center pb-3 bg-primary opacity-75">
       <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
     </div>
     <!-- Copyright -->
@@ -338,6 +397,7 @@
   <!-- Custom scripts -->
   <script type="text/javascript" src="/src/scripts/scripts.js"></script>
   <script type="text/javascript" src="/src/scripts/carousel.js"></script>
+
 </body>
 
 </html>

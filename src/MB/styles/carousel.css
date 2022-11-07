@@ -1,3 +1,11 @@
+.carousel-control-prev {
+  left: -25px;
+}
+
+.carousel-control-next {
+  right: -35px;
+}
+
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;
@@ -10,7 +18,9 @@
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
   display: flex;
-} /* medium and up screens */
+}
+
+/* medium and up screens */
 @media (min-width: 768px) {
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
