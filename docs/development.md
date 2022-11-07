@@ -4,13 +4,13 @@
 |------|-----------------------------------------|----|-------|
 |RF-001| A aplicação ter uma página de apresentação e captação de clientes(home). |  |
 |RF-002| A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço. |  |
-|RF-003| A aplicação deve permitir que o usuário faça o login. |  |
+|RF-003| A aplicação deve permitir que o usuário faça o login. | login.html | Jose  |
 |RF-004| A aplicação fornecer informações sobre primeiros socorros. | primeiros-socorros.html |Gustavo|
-|RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. |  |
+|RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. | hosp.html  | Jose |
 |RF-006| A aplicação fornecer informações sobre números de emergências. |numeros.html| Breno |
 |RF-007| A aplicação fornecer informações o projeto. |  |
-|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários. |  |
-|RF-009| A aplicação fornecer informações sobre os termos de uso. |  |
+|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários.  | politica.html | | bruno |
+|RF-009| A aplicação fornecer informações sobre os termos de uso. | politica.html | | bruno |
 |RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. | home-cliente.html |Gustavo|
 |RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. | cadastro-vaga.html |Gustavo|
 |RF-012| A aplicação deve permitir a busca por prestadores deserviço.| pesquisa.pessoas.html | Breno |
@@ -20,6 +20,9 @@
 |RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.| pesquisa-vagas.html | Breno |
 |RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. |  |
 |RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. |  |
+|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domesticos. | prev.html  | Jose |
+|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | Jose |
+|RF-020| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | editarperfil.html | Bruno | 
 
 
 # Estrutura de dados
