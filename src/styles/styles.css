@@ -1,8 +1,9 @@
 html,
 body {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400 !important;
   background-color: #fafafa;
+  height: 20px;
 }
 
 h1,
@@ -134,7 +135,6 @@ main .container > div {
 *Carousel
 *************************************************************/
 .rating {
-  font-size: 200%;
-  line-height: 100%;
+  font-size: 1.5rem;
   color: rgb(255, 230, 0);
 }
