@@ -1,0 +1,362 @@
+#fundo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #3e9aee;
+    padding: 16px;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-imagem {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 35px;
+  }
+  
+  .logo-texto {
+    width: 160px;
+    margin-left: 20px;
+  }
+  
+  .menu-desktop {
+    display: none;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .menu-desktop {
+      display: flex;
+      
+    }
+  }
+  
+  .menu-mobile {
+    display: none;
+    width: 100%;
+    padding: 16px 0;
+    background: #3e9aee;
+  }
+  
+  .menu-mobile ul ul {
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    width: 98.4%;
+  }
+  .menu-mobile ul li:hover ul {
+    display: block;
+    background: rgb(62, 154, 238);
+  
+  }
+  .menu-mobile ul ul li a{
+    display: block;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .menu-mobile {
+      display: none !important;
+    }
+   
+  
+  }
+  
+  .menu-mobile ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .menu-mobile li {
+    display: flex;
+    width: 100%;
+  }
+  
+  .menu-mobile li a {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+  }
+  
+  .menu-mobile li a:hover {
+    color: #3ee7c7;
+  }
+  
+  #icone-mobile {
+    display: flex;
+    background: transparent;
+    color: white;
+    border: none;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    #icone-mobile {
+      display: none;
+  
+    }
+    .menu-mobile li a:hover {
+      color: #3ee7c7;
+  
+  }
+  }
+  @media screen and (max-width: 455px) {
+      .copyright{
+          font-size: 3.5vw;
+      }
+      .rodape-2 a {
+          font-size: 3.5vw;
+      }
+      .menu-mobile li a {
+          font-size: 3.5vw;
+      }
+  }
+  .menu-desktop li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .menu-desktop li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+  }
+  
+  .menu-desktop li a:hover {
+    color: #3ee7c7;
+  
+  }
+  
+  .login-cadastro {
+    display: inline-block;
+  }
+  .rodape {
+    width: 100%;
+    height: 90px;
+    background-color: #3e9aee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .rodape-2 li {
+    display: inline-block;
+    margin: 20px 10px;
+  }
+  
+  .rodape-2 li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .copyright {
+    display: inline-block;
+    margin: 15px 10px 0px 70px;
+    text-align: center;
+    color: white;
+  }
+  
+  .show {
+    display: flex;
+  }
+  .menu-desktop ul ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    
+    }
+    .header-container button img {
+      
+        width: 50%;
+    }
+    .header-container button{
+      background: transparent;
+     border: none;
+    }
+    .menu-desktop ul {
+      margin-left: 450px;
+    
+    }
+    .menu-desktop ul li:hover ul{
+      display: block;
+      margin: 10px;
+      width: 15%;
+      margin-left: -20px;
+      background:  rgb(62, 154, 238);
+    }
+    
+    .menu-desktop ul ul li a{
+      color: white;
+      display: block;
+    
+    
+    }
+    
+/* ----------------------miolo----------------------- */
+
+
+
+
+
+.text-1{
+    padding: 3em;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ecf0f4 ;
+}
+.text-1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #3e9aee;
+
+}
+
+.miolo{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 236px;
+    height: 100%;
+
+}
+.prev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.text-2 {
+    width: 100%;
+    display: flex;;
+}
+.text-2 > h1{
+    color: #3e9aee;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ecf0f4;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.prev > p {
+    display: flex;
+    color: #4f4f4f;
+    margin: 10px 30px;
+letter-spacing: 0.5px;
+
+
+}
+.prev > h2{
+    width: 100%;
+    font-size: 1.2em;
+    color: #4f4f4f;
+    margin-left: 25px;
+    font-weight: bold;
+    align-items: flex-start;
+
+}
+.prev  img {
+    height: 50px;
+
+}
+
+.prev >ul {
+    margin: 30px;
+
+}
+.prev > ul li {
+color: #4f4f4f;
+margin: 5px;
+letter-spacing: 0.5px;
+margin-top: 15px;
+text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-1 h1{
+        font-size: 40px;
+    }
+
+
+    .miolo{
+        margin: 30px 150px;
+
+    }
+  
+}
+
+@media screen and (max-width: 950px) {
+    .text-1 h1{
+        font-size: 32px;
+    }
+
+
+    .miolo{
+        margin: 30px 100px;
+
+    }
+  
+}
+
+@media screen and (max-width: 700px) {
+    .miolo{
+        margin: 30px 50px;
+
+    }
+  
+}
+@media screen and (max-width: 550px) {
+    .text-1 h1{
+        font-size: 28px;
+    }
+
+
+    .miolo{
+        margin: 30px 30px;
+
+    }
+  
+}
+@media screen and (max-width: 400px) {
+    .text-1 h1{
+        font-size: 24px;
+    }
+
+
+    .miolo{
+        margin: 30px 0px;
+
+    }
+  
+}
+
+    
