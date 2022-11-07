@@ -7,17 +7,17 @@
 |RF-003| A aplicação deve permitir que o usuário faça o login. |  |
 |RF-004| A aplicação fornecer informações sobre primeiros socorros. | primeiros-socorros.html |Gustavo|
 |RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. |  |
-|RF-006| A aplicação fornecer informações sobre números de emergências. |  |
+|RF-006| A aplicação fornecer informações sobre números de emergências. |numeros.html| Breno |
 |RF-007| A aplicação fornecer informações o projeto. |  |
 |RF-008| A aplicação fornecer informações sobre a privacidade dos usuários. |  |
 |RF-009| A aplicação fornecer informações sobre os termos de uso. |  |
 |RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. | home-cliente.html |Gustavo|
 |RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. | cadastro-vaga.html |Gustavo|
-|RF-012| A aplicação deve permitir a busca por prestadores deserviço. |  |
-|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços. |  |
+|RF-012| A aplicação deve permitir a busca por prestadores deserviço.| pesquisa.pessoas.html | Breno |
+|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços.| perfil-voluntario.html | Breno |
 |RF-014| A aplicação deve permitir a troca de mensagens entre os usuários. | chat.html |Gustavo|
 |RF-015| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. |  |
-|RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa. |  |
+|RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.| pesquisa-vagas.html | Breno |
 |RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. |  |
 |RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. |  |
 
