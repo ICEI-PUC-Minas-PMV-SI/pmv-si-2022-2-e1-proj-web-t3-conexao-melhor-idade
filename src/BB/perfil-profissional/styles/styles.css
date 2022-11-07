@@ -1,9 +1,8 @@
 html,
 body {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
   font-weight: 400 !important;
   background-color: #fafafa;
-  height: 20px;
 }
 
 h1,
@@ -36,11 +35,6 @@ h6 {
     font-size: 1rem;
   }
 }
-
-.btn {
-  letter-spacing: 0.05rem !important;
-}
-
 /*************************************************************
 * UTILITITES
 *************************************************************/
@@ -49,30 +43,11 @@ h6 {
 }
 
 .border-light {
-  border-color: #ffffff1a !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .text-justify {
   text-align: justify;
-}
-
-.nav-link-bright {
-  color: rgba(255, 255, 255, 1) !important;
-}
-
-.nav-link-bright:hover,
-.nav-link-bright:focus {
-  color: var(--mdb-secondary) !important;
-}
-
-.text-bright {
-  color: rgba(255, 255, 255, 1) !important;
-}
-
-.navbar-transparent {
-  background: transparent;
-  background-image: none;
-  border-color: transparent;
 }
 
 /*************************************************************
@@ -160,16 +135,5 @@ main .container > div {
 *************************************************************/
 .rating {
   font-size: 200%;
-  line-height: 80%;
   color: rgb(255, 230, 0);
-}
-
-/**********************************************************
-*Vagas
-***********************************************************/
-.footer-link {
-  color: #ffffff;
-}
-.footer-link:hover {
-  color: #3ee7c7;
 }
