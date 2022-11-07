@@ -22,19 +22,36 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <a href="src/SB/img/logo-texto.png"><img class="logo-texto" src="src/SB/img/logo-texto.png" alt="logo texto" /></a>
+                <img class="logo-texto" src="/src/BB/imagens/logo-texto.png" alt="logo texto" />
             </div>
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+                    <li><a href="/src/GV/home-cliente/home-cliente.html">Home</a></li>
                     <li><a href="/src/MB/quem-somos.html">Quem somos</a></li>
-                    <li><a href="/src/GN/primeiros-socorros/primeiros-socorros.html">Emergências</a></li>
+                    <li><a href="/src/BB/numeros-emergencia/numeros.html">Emergências</a></li>
+
+                    <div class="login-cadastro">
+                        <li><a href="/src/JD/login/login.html">Entrar</a></li>
+                        <li><a href="/src/MB/cadastro.html">Cadastre-se</a></li>
+                    </div>
                 </ul>
             </nav>
             <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
                 <i data-feather="menu"></i>
             </button>
         </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="/src/GV/home-cliente/home-cliente.html">Home</a></li>
+                <li><a href="/src/MB/quem-somos.html">Quem somos</a></li>
+                <li><a href="/src/BB/numeros-emergencia/numeros.html">Emergências</a></li>
+
+                <div class="login-cadastro">
+                    <li><a href="/src/JD/login/login.html">Entrar</a></li>
+                    <li><a href="/src/MB/cadastro.html">Cadastre-se</a></li>
+                </div>
+            </ul>
+        </nav>
     </header>
 
 <!--FORMULÁRIO DE PERFIL-->
@@ -140,14 +157,7 @@
                     <label for="idioma2">Inglês</label>
                     <input type="checkbox" id="idioma3" name="idioma3" value="Espanhol">
                     <label for="idioma3">Espanhol</label>
-                    <input type="checkbox" id="idioma4" name="idioma4" value="Francês">
-                    <label for="idioma4">Francês</label>
-                    <input type="checkbox" id="idioma5" name="idioma5" value="Italiano">
-                    <label for="idioma5">Italiano</label>
-                    <input type="checkbox" id="idioma6" name="idioma6" value="Espanhol">
-                    <label for="idioma6">Espanhol<br><br></label>
                     <label>Outros:<br></label>
-                    <input id="outros" type="text" name="outro" id="outro">
                 </div>
             </fieldset>
             <br>
