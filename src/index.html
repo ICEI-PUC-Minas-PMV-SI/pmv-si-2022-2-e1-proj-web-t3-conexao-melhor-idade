@@ -2,178 +2,401 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deashbord | Conexão Melhor Idade</title>
-    <link rel="icon" type="image/x-icon" href="veio.png">
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <base href="/" target="_self" />
+  <title>Conexão Melhor Idade</title>
+  <!-- MDB icon 
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
+  <!-- MDB -->
+  <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!-- Google Fonts Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/carousel.css" />
+  <link rel="stylesheet" href="/src/styles/styles.css" />
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img class="logo-imagem" src="imagens/logo.png" alt="Logo Conexão Melhor Idade" />
-                <img class="logo-texto" src="imagens/logo-texto.png" alt="logo texto" />
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Emergências</a></li>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2" href="#">
+          <img src="./src/img/text-logo.svg" height="40" alt="CMI Logo" />
+        </a>
 
-                    <div class="login-cadastro">
-                        <li><a href="#">Entrar</a></li>
-                        <li><a href="#">Cadastre-se</a></li>
-                    </div>
-                </ul>
-            </nav>
-            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
-                <i data-feather="menu"></i>
-            </button>
-        </div>
-        <nav class="menu-mobile">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Emergências</a></li>
+        <!-- Toggle button -->
+        <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="material-symbols-outlined text-white"> Menu </span>
+        </button>
 
-                <div class="login-cadastro">
-                    <li><a href="#">Entrar</a></li>
-                    <li><a href="#">Cadastre-se</a></li>
-                </div>
-            </ul>
-        </nav>
-    </header>
-
-    <main id="fundo">
-        <div class="perfil">
-            <img class="pesquisa" src="imagens/ana.png" alt="Ana Clara" />
-
-            <h3>Ana Clara</h3>
-
-            <a href="#">Cadastrar vagas</a>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse " id="navbarButtonsExample">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto me-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Emergências</a>
+            </li>
+          </ul>
         </div>
 
-        <div class="container">
-            <div>
-                <img class="pesquisa" src="imagens/4-idosos.jpg" alt="Idosos" />
-            </div>
-            <div class="filtro">
-                <input type="text" placeholder="Pesquisar" />
-                <button>Filtrar</button>
-            </div>
+        <div class="d-flex nav-link align-items-center px-3" href="/login.html" data-mdb-container="body"
+          data-mdb-toggle="popover" data-mdb-placement="bottom"
+          data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+          <span class="material-symbols-outlined me-2">account_circle</span>
+          <span class="text"></span>
         </div>
-        </div>
-        </div>
+      </div>
+    </nav>
 
-        <h3 class="recomendacao">Perfis recomendados</h3>
+  </header>
+  <!-- Navbar -->
+  <!-- Background image -->
+  <section class="cmi-hero">
+    <div class="text-white d-flex flex-column align-items-center text-center">
+      <h1 class="mb-3 fs-1">Cuide daqueles que sempre <br /> cuidaram de você!</h1>
+      <p class="mb-5 fs-5">Conectamos profissionais e voluntários à familias e <br /> idosos que precisam de cuidado
 
-        <div class="all">
-            <div class="coluna">
-                <div class="titulos"><a href="#">Profissionais</a></div>
-                <div class="caixa">
-                    <img class="carlos" src="imagens/carlos.jpg" alt="carlos" />
-                    <div class="edit">
-                        <p>Carlos Miranda</p>
-                        <pre>Enfermeiro</pre>
-                        <pre>Centro, Contagem, MG.</pre>
-                    </div>
+      <div class="cmi-hero-search">
+        <ul class="p-0 ms-0">
+          <li class="d-inline p-2 active"><a href="#" class="text-white">Profissional</a></li>
+          <li class="d-inline p-2"><a href="#" class="text-white">Voluntário</a></li>
+          <li class="d-inline p-2"><a href="#" class="text-white">Vagas abertas</a></li>
+        </ul>
+        <div>
+          <input type="Busca" class="form-control rounded" placeholder="Encontre profissionais e voluntários "
+            aria-label="Search" aria-describedby="search-addon" />
+          <button class="btn btn-secondary btn-floating">
+            <i class="material-symbols-outlined">search</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+
+    <!-- EM CONSTRUCAO 
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 "><span class="text-muted">Crie seu perfil.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore magna
+          aliqua.
+        </p>
+      </div>
+
+      <div class="col-md-5">
+
+        <img class="bd-placeholder-img bd-placeholder-img-lg form-icon img-fluid mx-auto" width="100" height="100" img
+          src="src/img/form-icon.png" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+        </svg>
+      </div>
+    </div>
+
+
+
+    <div class="row Crie seu perfil">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1 "><span class="text-muted">Crie seu perfil.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore
+          et dolore magna
+          aliqua.
+        </p>
+      </div>
+
+      -->
+    <!--Timeline-->
+
+    <!--end of Timeline-->
+
+    <section class="ag-section">
+      <div class="ag-format-container">
+        <div class="js-timeline ag-timeline">
+          <div class="js-timeline_line ag-timeline_line">
+            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+          </div>
+          <div class="ag-timeline_list">
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">1</div>
                 </div>
-                <div class="caixa">
-                    <img src="imagens/sandra.jfif" alt="sandra" />
-                    <div class="edit">
-                        <p>Sandra Lima</p>
-                        <pre>Cuidadora de idosos</pre>
-                        <pre>Savassi, Belo Horizonte, MG.</pre>
-                    </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 13</div>
                 </div>
-                <div class="caixa">
-                    <img class="maria" src="imagens/maria.jfif" alt="maria" />
-                    <div class="edit">
-                        <p>Maria Texeira</p>
-                        <pre> Enfermeira</pre>
-                        <pre> Novo Horizonte, Betim, MG.</pre>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 13</div>
+                    <div class="ag-timeline-card_desc">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                      eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu.
                     </div>
+                  </div>
                 </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
             </div>
 
-            <div class="coluna">
-                <div class="titulos"><a href="#">Voluntários</a></div>
-                <div class="caixa">
-                    <img class="carlos" src="imagens/Luiz.jfif" alt="Luiz Fernando" />
-                    <div class="edit">
-                        <p>Luiz Fernando</p>
-                        <pre>Voluntário</pre>
-                        <pre>Santos, São Paulo, SP.</pre>
-                    </div>
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 12</div>
                 </div>
-                <div class="caixa">
-                    <img src="imagens/Liandra.jfif" alt="Liandra Lopes" />
-                    <div class="edit">
-                        <p>Liandra Lopes</p>
-                        <pre>Cuidadora de idosos</pre>
-                        <pre>Inga, Betim, MG.</pre>
-                    </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2</div>
                 </div>
-                <div class="caixa">
-                    <img class="maria" src="imagens/roberta.jfif" alt="maria" />
-                    <div class="edit">
-                        <p>Roberta Dias</p>
-                        <pre> Enfermeira</pre>
-                        <pre> Novo Horizonte, Betim, MG.</pre>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 12</div>
+                    <div class="ag-timeline-card_desc">
+                      Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                     </div>
+                  </div>
                 </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
             </div>
 
-            <div class="vgs">
-                <div class="titulos"><a href="#">Vagas em aberto</a></div>
-                <div class="vaga">
-                    <h4>Cuidador para idoso</h4>
-                    <pre>Centro, Contagem, MG</pre>
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">3</div>
                 </div>
-                <div class="vaga">
-                    <h4>Acompanhante diurno</h4>
-                    <pre>Capital, São Paulo, SP</pre>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 11</div>
                 </div>
-                <div class="vaga">
-                    <h4>Plantão enfermagem</h4>
-                    <pre>Bangu, Rio de Janeiro , RJ</pre>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="/src/img/form-icon.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+
                 </div>
-                <div class="vaga">
-                    <h4>Corrida da saúde</h4>
-                    <pre>Bezerro Manso, Teresina, PI</pre>
-                </div>
-                <div class="vaga">
-                    <h4>Conferir medicamentos</h4>
-                    <pre>Cristo, Patos de Minas, MG</pre>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </section>
+    </div>
 
-    </main>
+    <!---->
 
-    <footer class="rodape">
-        <nav>
-            <ul class="rodape-2">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Privacidade</a></li>
-                <li><a href="#">Termo de uso</a></li>
-            </ul>
-            <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
-        </nav>
-    </footer>
+    <section class="text-center">
+      <div class="container mb-5">
+        <h4 class="mb-5"><strong>Conecte-se a profissionais na sua região</strong></h4>
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-        feather.replace();
-    </script>
-    <script src="script.js"></script>
+
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="/src/img/beatriz.jfif" title="foto do profissional" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body py-2">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+              data-mdb-slide="prev">
+              <span class="material-symbols-outlined fs-1">
+                arrow_back_ios
+              </span>
+
+            </a>
+            <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
+              data-mdb-slide="next">
+              <span class="material-symbols-outlined  fs-1">
+                arrow_forward_ios
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-primary">
+    <div class="text-center py-4">
+      <nav>
+        <ul class="p-0 m-0">
+          <li class="d-inline px-2">
+            <a href="#!" class="footer-link ">Home</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="footer-link">Quem somos</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="footer-link">Termos de uso</a>
+          </li>
+          <li class="d-inline px-2">
+            <a href="#!" class="footer-link">Privacidade</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center pb-3 bg-primary opacity-75">
+      <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="/src/scripts/scripts.js"></script>
+  <script type="text/javascript" src="/src/scripts/carousel.js"></script>
 
 </body>
 
