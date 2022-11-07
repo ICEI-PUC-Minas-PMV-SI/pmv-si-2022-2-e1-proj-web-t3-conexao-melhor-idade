@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa de pessoas</title>
+    <link rel="icon" type="image/x-icon" href="/src/BB/imagens/icon.png" />
+    <link rel="stylesheet" href="/src/BB/reset.css" />
+    <link rel="stylesheet" href="pesquisa-vagas.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Pesquisa">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img class="logo-texto" src="/src/BB/imagens/logo-texto.png" alt="logo texto" />
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="/src/GV/home-cliente/home-cliente.html">Home</a></li>
+                    <li><a href="/src/MB/quem-somos.html">Quem somos</a></li>
+                    <li><a href="/src/BB/numeros-emergencia/numeros.html">Emergências</a></li>
+
+                    <div class="login-cadastro">
+                        <li><a href="/src/JD/login/login.html">Entrar</a></li>
+                        <li><a href="/src/MB/cadastro.html">Cadastre-se</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="/src/GV/home-cliente/home-cliente.html">Home</a></li>
+                <li><a href="/src/MB/quem-somos.html">Quem somos</a></li>
+                <li><a href="/src/BB/numeros-emergencia/numeros.html">Emergências</a></li>
+
+                <div class="login-cadastro">
+                    <li><a href="/src/JD/login/login.html">Entrar</a></li>
+                    <li><a href="/src/MB/cadastro.html">Cadastre-se</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="caixa-pesquisa">
+                <div class="pesquisa-container">
+                    <form>
+                        <input type="text" class="pesquisa" placeholder="Pesquisar">
+                        <a class="search-bnt" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <div class="container-vagas">
+                <h1>Vagas</h1>
+                <nav class="acessar">
+                    <div class="caixa-vagas">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Cuidador para idoso</h2>
+                            </a>
+                            <p>Dar banhos, rémedios e alimentar idoso.</p>
+                            <p>Centro, Contagem, MG</p>
+
+                        </div>
+                    </div>
+                    <div class="caixa-vagas">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Acompanhante diurno</h2>
+                            </a>
+                            <p>Acompanhar idoso em caminhadas.</p>
+                            <p>Capital, São Paulo, SP.</p>
+                        </div>
+                    </div>
+                    <div class="caixa-vagas">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Plantão Enfermagem</h2>
+                            </a>
+                            <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                            <p>Bangu, Rio de Janeiro , RJ.</p>
+                        </div>
+                    </div>
+                    <div class="caixa-vagas">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Conferir Medicamentos</h2>
+                            </a>
+                            <p>Controlar medicação de uma idosa no período de 12 horas em 12 horas.</p>
+                            <p>Cristo, Patos de Minas, MG.</p>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <nav>
+            <ul class="rodape-2">
+                <li><a href="/src/GV/home-cliente/home-cliente.html">Home</a></li>
+                <li><a href="/src/MB/quem-somos.html">Sobre</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termo de uso</a></li>
+            </ul>
+            <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+        </nav>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script rel="stylesheet" src="/src/BB/busca-vagas/script.js"></script>
+</body>
+
+</html>
