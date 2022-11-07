@@ -507,7 +507,8 @@ img {
 *Carousel
 *************************************************************/
 .rating {
-  font-size: 1.5rem;
+  font-size: 200%;
+  line-height: 80%;
   color: rgb(255, 230, 0);
 }
 
