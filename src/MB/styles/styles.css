@@ -80,7 +80,7 @@ h6 {
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("/src/img/banner-main.jpg");
+  background-image: url("src/img/banner-main.jpg");
   background-size: cover;
   background-position: -20%;
 }
