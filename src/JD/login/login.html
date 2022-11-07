@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Números de Emergências</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
+    <link rel="stylesheet" href="/login.css" />
+    <link rel="stylesheet" href="/reset.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img
+            class="logo-texto"
+            src="/src/JD/img/logo-texto.png"
+            alt="logo texto"
+          />
+        </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+            <li><a href="/src/MB/scripts/quem-somos.html">Quem somos</a></li>
+            <li>
+              <a href="#">Emergências</a>
+              <ul>
+                <li>
+                  <a href="/src/BB/numeros-emergencia/numeros.html"
+                    >Numero de Emergências</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/GN/primeiros-socorros/primeiros-socorros.html"
+                    >Primeiro Socorros</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/JD/dicas-acidentes/prev.html"
+                    >Prevenção de Acidentes</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/JD/hospital/hosp.html"
+                    >Hospitais e Postos de Saudes Próximos</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <div class="login-cadastro"></div>
+          </ul>
+        </nav>
+        <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+          <i data-feather="menu"></i>
+        </button>
+
+        <button id="img">
+          <img src="/src/JD/img/outline_account_circle_white_24dp.png" alt="" />
+        </button>
+      </div>
+    <main>
+      <!-- inicio -->
+      <div class="main-login">
+        <div class="left-login">
+          <h1>
+            Se Conecte<br />
+            Faça o bem a quem precisa
+          </h1>
+        </div>
+        <div class="right-login">
+          <div class="card-login">
+            <h1>Login</h1>
+            <form>
+              <div class="textfield">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Email</label>
+              </div>
+              <div class="textfield">
+                <input type="password" name="password" required minlength="8" />
+                <label for="senha">Senha</label>
+              </div>
+              <div class="middle">
+                <label class="check">
+                  <input type="checkbox" checked="checked" />
+                  <span class="checkmark">Manter-se Conectado</span>
+                </label>
+                <div class="esqueceu">
+                  <pre><a href="#">Esqueceu a senha?</a></pre>
+                </div>
+              </div>
+              <div class="main-btn">
+                <button class="btn-login" type="submit">Entrar</button>
+                <button class="btn-google">
+                  <img src="/src/JD/img/icons8-google-logo-48.png" /> Entre com o
+                  Google
+                </button>
+              </div>
+            </form>
+            <div class="n-conta">
+              <h3>Ainda não possui uma conta?<a href="#">Cadastre-se</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- final -->
+    </main>
+
+    <footer class="rodape">
+      <nav>
+        <ul class="rodape-2">
+          <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+          <li><a href="/src/MB/scripts/quem-somos.html">Quem somos</a></li>
+
+          <li>
+            <a href="/src/SB/politica-de-privacidade/politica.html"
+              >Privacidade</a
+            >
+          </li>
+          <li>
+            <a href="src/SB/preencher-perfil/editar-perfil.html"
+              >Termo de uso</a
+            >
+          </li>
+        </ul>
+        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+      </nav>
+    </footer>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="/script.js"></script>
+  
+  </body>
+</html>

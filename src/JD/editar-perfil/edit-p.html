@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Números de Emergências</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
+    <link href="/src/styles/mdb/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/editarperfil.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img
+            class="logo-texto"
+            src="/src/JD/img/logo-texto.png"
+            alt="logo texto"
+          />
+        </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+            <li><a href="/src/MB/scripts/quem-somos.html">Quem somos</a></li>
+            <li>
+              <a href="#">Emergências</a>
+              <ul>
+                <li>
+                  <a href="/src/BB/numeros-emergencia/numeros.html"
+                    >Numero de Emergências</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/GN/primeiros-socorros/primeiros-socorros.html"
+                    >Primeiro Socorros</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/JD/dicas-acidentes/prev.html"
+                    >Prevenção de Acidentes</a
+                  >
+                </li>
+                <li>
+                  <a href="/src/JD/hospital/hosp.html"
+                    >Hospitais e Postos de Saudes Próximos</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <div class="login-cadastro"></div>
+          </ul>
+        </nav>
+        <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+          <i data-feather="menu"></i>
+        </button>
+
+        <button id="img">
+          <img src="/src/JD/img/outline_account_circle_white_24dp.png" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <nav class="menu-mobile">
+      <ul>
+        <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+        <li><a href="/src/MB/scripts/quem-somos.html">Quem somos</a></li>
+        <li>
+          <a href="#">Emergências</a>
+          <ul>
+            <li>
+              <a href="/src/BB/numeros-emergencia/numeros.html"
+                >Numero de Emergências</a
+              >
+            </li>
+            <li>
+              <a href="/src/GN/primeiros-socorros/primeiros-socorros.html"
+                >Primeiro Socorros</a
+              >
+            </li>
+            <li>
+              <a href="/src/JD/dicas-acidentes/prev.html"
+                >Prevenção de Acidentes</a
+              >
+            </li>
+            <li>
+              <a href="/src/JD/hospital/hosp.html"
+                >Hospitais e Postos de Saudes Próximos</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <div class="login-cadastro"></div>
+      </ul>
+    </nav>
+    <main>
+      <div class="form">
+        <div class="perfil">
+          <img src="/src/JD/img/Ana3_1.png" alt="Perfil" />
+          <div class="id-1">
+            <h1>Olá, Ana Maria</h1>
+            <h2>Preencha seu perfil!</h2>
+          </div>
+        </div>
+        <div class="form-edit">
+          <img
+            src="/src/JD/img/location_on_FILL0_wght400_GRAD0_opsz48.png"
+            alt="location"
+          />
+          <div class="text-edit">
+            <h3>Localização</h3>
+            Não se preocupe, não será mostrado sua lozalização exata.
+          </div>
+        </div>
+        <!-- edit1 -->
+        <form>
+          <div class="form-edit">
+            <div class="titi">
+              <textarea required name="" id=""></textarea>
+              <label for="Sobre você">Sobre você</label>
+            </div>
+          </div>
+
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id="cep"
+                name="cep"
+                minlength="9"
+                maxlength="9"
+                required
+              />
+              <label for="endereco">Cep</label>
+            </div>
+          </div>
+          <!-- edit 2 -->
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id="lozation"
+                name="lozation"
+                size="50"
+                maxlength="50"
+                required
+              />
+              <label for="endereco">Endereço</label>
+            </div>
+          </div>
+          <!-- edit 3 -->
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id="lozation"
+                name="lozation"
+                maxlength="30"
+                required
+              />
+              <label for="endereco">Cidade</label>
+            </div>
+          </div>
+          <!-- edit 4 -->
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                minlength="15"
+                maxlength="15"
+                required
+              />
+              <label for="phone">Telefone</label>
+            </div>
+          </div>
+          <!-- edit 5 -->
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id="cpf"
+                name="lozation"
+                minlength="14"
+                maxlength="14"
+                required
+              />
+
+              <label for="endereco">CPF</label>
+            </div>
+          </div>
+
+          <!--                  -->
+
+          <div class="form-edit">
+            <div class="text-edit">
+              <select name="genero" class="sec">
+                <option value=""></option>
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+                <option value="o">Outro</option>
+                <option value="n">Prefiro não informar</option>
+              </select>
+              <label for="endereco">Gênero</label>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="form-edit">
+            <div class="multiselect">
+              <div class="selectBox" onclick="showCheckboxes()">
+                <select></select>
+                <option>O que você busca</option>
+
+                <div class="overSelect"></div>
+              </div>
+              <div id="checkboxes">
+                <label for="one">
+                  <input type="checkbox" id="one" />Cuidador profissional</label
+                >
+                <label for="two">
+                  <input type="checkbox" id="two" />Voluntário</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="form-edit">
+            <div class="text-edit">
+              <input
+                type="text"
+                id=""
+                name="lozation"
+                maxlength="14"
+                required
+              />
+
+              <label for="endereco">Hobbies</label>
+            </div>
+          </div>
+
+          <div class="add-hob">
+            <button>
+              <img
+                src="/src/JD/img/add_circle_FILL0_wght400_GRAD0_opsz48.png"
+                alt=""
+              />
+            </button>
+          </div>
+
+          <div class="save">
+            <button type="submit">Salvar</button> <button>Cancelar</button>
+          </div>
+        </form>
+      </div>
+      <!-- ---------------------------------------------- -->
+    </main>
+
+    <footer class="rodape">
+      <nav>
+        <ul class="rodape-2">
+          <li><a href="/src/GN/home-cliente/home-cliente.html">Home</a></li>
+          <li><a href="/src/MB/scripts/quem-somos.html">Quem somos</a></li>
+
+          <li>
+            <a href="/src/SB/politica-de-privacidade/politica.html"
+              >Privacidade</a
+            >
+          </li>
+          <li>
+            <a href="src/SB/preencher-perfil/editar-perfil.html"
+              >Termo de uso</a
+            >
+          </li>
+        </ul>
+        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+      </nav>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="/script.js"></script>
+  </body>
+</html>
