@@ -30,29 +30,29 @@
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito |Responsável|
-|------|-----------------------------------------|-------|
-|RF-001| A aplicação ter uma página de apresentação e captação de clientes(home). |  |
-|RF-002| A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço. |  |
-|RF-003| A aplicação deve permitir que o usuário faça o login. | Jose  |
-|RF-004| A aplicação fornecer informações sobre primeiros socorros. |Gustavo|
-|RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. | Jose |
-|RF-006| A aplicação fornecer informações sobre números de emergências.| Breno |
-|RF-007| A aplicação fornecer informações o projeto. |  |
-|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários. | bruno |
-|RF-009| A aplicação fornecer informações sobre os termos de uso. | bruno |
-|RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. |Gustavo|
-|RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. |Gustavo|
-|RF-012| A aplicação deve permitir a busca por prestadores deserviço. | Breno |
-|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços. | Breno |
-|RF-014| A aplicação deve permitir a troca de mensagens entre os usuários. |Gustavo|
-|RF-015| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. |  |
-|RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa. | Breno |
-|RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. |  |
-|RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. |  |
-|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domesticos. | Jose |
-|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | Jose |
-|RF-020| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | Bruno | 
+|ID    | Descrição do Requisito |Responsável|Prioridade|
+|------|-----------------------------------------|-------|-------|
+|RF-001| A aplicação ter uma página de apresentação e captação de clientes(home). |  | Alta|
+|RF-002| A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço. |  |Alta|
+|RF-003| A aplicação deve permitir que o usuário faça o login. | Jose  |Alta|
+|RF-004| A aplicação fornecer informações sobre primeiros socorros. |Gustavo|Alta|
+|RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. | Jose |Alta|
+|RF-006| A aplicação fornecer informações sobre números de emergências.| Breno | Alta |
+|RF-007| A aplicação fornecer informações o projeto. |  |Alta|
+|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários. | bruno |Alta|
+|RF-009| A aplicação fornecer informações sobre os termos de uso. | bruno | Alta |
+|RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. |Gustavo| Alta |
+|RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. |Gustavo| Alta |
+|RF-012| A aplicação deve permitir a busca por prestadores deserviço. | Breno | Alta |
+|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços. | Breno | Alta |
+|RF-014| A aplicação deve permitir a troca de mensagens entre os usuários. |Gustavo| Alta |
+|RF-015| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. |  | Alta |
+|RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa. | Breno | Alta |
+|RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. |  | Alta |
+|RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. |  | Alta |
+|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domesticos. | Jose | Alta |
+|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | Jose | Alta |
+|RF-020| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | Bruno | Alta |
 
 ### Requisitos não Funcionais
 
