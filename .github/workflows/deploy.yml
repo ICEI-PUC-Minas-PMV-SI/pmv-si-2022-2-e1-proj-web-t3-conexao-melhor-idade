@@ -30,8 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Modify Base Url
-        uses: mingjun97/file-regex-replace
+      - name: Replace base URL
+        uses: mingjun97/file-regex-replace@v1
         with:
           regex: '<base href="\/"'
           replacement: '<base href="${{ steps.deployment.outputs.page_url }}"'
