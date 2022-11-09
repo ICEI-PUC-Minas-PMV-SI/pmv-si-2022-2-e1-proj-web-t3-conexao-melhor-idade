@@ -36,7 +36,6 @@ jobs:
           regex: '<base href="\/"'
           replacement: '<base href="${{ steps.deployment.outputs.page_url }}"'
           flags: "g" # Optional, defaults to "g"
-          include: "*.html" # Optional, defaults to ".*"
           encoding: "utf8" # Optional, defaults to 'utf8'
           path: "src"
       - name: Setup Pages
