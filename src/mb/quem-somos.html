@@ -5,12 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <base href="/src/" target="_self">
-    <title>Conexão Melhor Idade</title>
+
     <!-- MDB icon 
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
-    <link href="mb/styles/mdb/mdb.min.css" rel="stylesheet" />
+    <link href="styles/mdb/mdb.min.css" rel="stylesheet" />
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Google Fonts Roboto -->
@@ -18,8 +17,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="mb/styles/carousel.css" />
-    <link rel="stylesheet" href="mb/styles/styles.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <base href="/src/" target="_self">
+    <title>Conexão Melhor Idade</title>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
             <div class="container">
                 <!-- Navbar brand -->
                 <a class="navbar-brand me-2" href="#">
-                    <img src="img/text-logo.png" height="40" alt="CMI Logo" />
+                    <img src="img/logo-texto.png" height="40" alt="CMI Logo" />
                 </a>
 
                 <!-- Toggle button -->
@@ -45,7 +46,7 @@
                     <!-- Left links -->
                     <ul class="navbar-nav ms-auto me-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="mb/index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -59,22 +60,22 @@
 
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="gn/primeiros-socorros/primeiros-socorros.html">
+                                    <a class="dropdown-item" href="gn/primeiros-socorros/index.html">
                                         Primeiros socorros
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="bb/numeros-emergencia/numeros-emergencia.html">
+                                    <a class="dropdown-item" href="bb/numeros-emergencia/index.html">
                                         Números de emergência
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="jd/dicas-acidentes/dicas-acidentes.html">
+                                    <a class="dropdown-item" href="jd/dicas-acidentes/index.html">
                                         Prevenção de acidentes
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="jd/hospitais-e-postos/hospitais-e-postos.html">
+                                    <a class="dropdown-item" href="jd/hospitais/index.html">
                                         Hospitais e postos de saúde mais próximos
                                     </a>
                                 </li>
@@ -111,7 +112,7 @@
             </div>
         </section>
         <section class="cmi-sobre-body py-5">
-            <div id="quem-somos">
+            <div id="p">
                 <div class="container text-justify">
 
                     <p> Por mais que a gente queira, nem sempre é possível estar presente sempre que nossos entes
@@ -166,26 +167,23 @@
     <!-- Footer -->
     <footer class="text-center text-white bg-primary">
         <div class="text-center py-4">
-            <nav>
-                <ul class="p-0 m-0">
-                    <li class="d-inline px-2">
-                        <a href="mb/cadastro.html" class="text-white">Home</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="mb/quem-somos.html" class="text-white">Quem somos</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="sb/politica-de-privacidade\index.html" class="text-white">Termos de uso</a>
-                    </li>
-                    <li class="d-inline px-2">
-                        <a href="sb/politica-de-privacidade\index.html" class="text-white">Privacidade</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class=" p-0 m-0">
+                <li class="d-inline px-2">
+                    <a href="index.html" class="footer-link text-white">Home</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="mb/quem-somos.html" class="footer-link text-white">Quem somos</a>
+                </li>
+                <li class="d-inline px-2">
+                    <a href="sb/politica-de-privacidade/index.html" class="footer-link text-white">Termos de uso e
+                        Privacidade</a>
+                </li>
+            </ul>
         </div>
 
+
         <!-- Copyright -->
-        <div class="text-center p-3 bg-primary opacity-75">
+        <div class="text-center pb-4 bg-primary opacity-75">
             <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
         </div>
         <!-- Copyright -->
@@ -194,8 +192,8 @@
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript" src="mb/scripts/scripts.js"></script>
-    <script type="text/javascript" src="mb/scripts/carousel.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <script type="text/javascript" src="scripts/carousel.js"></script>
 </body>
 
 </html>

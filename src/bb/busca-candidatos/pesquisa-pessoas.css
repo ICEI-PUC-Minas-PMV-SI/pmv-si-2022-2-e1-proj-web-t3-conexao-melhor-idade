@@ -211,7 +211,7 @@ header {
   height: 90px;
   background-color: #3e9aee;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -231,6 +231,7 @@ header {
 }
 
 .copyright {
+  display: inline-block;
   margin-top: 20px;
   font-size: small;
   text-align: center;
