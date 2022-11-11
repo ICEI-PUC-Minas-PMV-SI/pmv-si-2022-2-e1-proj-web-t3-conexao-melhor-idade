@@ -10994,7 +10994,7 @@ button:focus {
   }
 }
 .bg-primary {
-  background-color: rgba(84, 99, 255, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(62, 154, 238, var(--mdb-bg-opacity)) !important;
 }
 .bg-secondary {
   background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
@@ -11003,7 +11003,7 @@ button:focus {
   background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) !important;
 }
 .bg-danger {
-  background-color: rgba(255, 24, 24 var(--mdb-bg-opacity)) !important;
+  background-color: rgba(220, 76, 100, var(--mdb-bg-opacity)) !important;
 }
 .bg-warning {
   background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) !important;
