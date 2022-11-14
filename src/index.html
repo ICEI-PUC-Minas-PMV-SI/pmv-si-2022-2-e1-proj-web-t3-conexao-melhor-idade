@@ -41,65 +41,88 @@
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-          <!-- Left links -->
-          <ul class="navbar-nav ms-auto me-0">
-            <li class="nav-item">
-              <a class="nav-link" href="mb/index.html">Home</a>
-            </li>
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <!-- Left links -->
+            <ul class="navbar-nav ms-auto me-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/">Quem Somos</a>
-            </li>
+              <li class="nav-item pe-2">
+                <a class="nav-link" href="/">Quem Somos</a>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="mb/quem-somos.html" data-mdb-toggle="dropdown">
-                Emergências
-              </a>
+              <div class="dropdown">
+                <button type="button" class="d-flex align-items-center btn btn-danger btn-rounded dropdown-toggle px-2"
+                  data-mdb-toggle="dropdown" aria-expanded="false"><span
+                    class="material-symbols-outlined text-white justify-content-sm-start pe-1">emergency</span>
+                  Emergências</button>
 
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="gn/primeiros-socorros/index.html">
-                    Primeiros socorros
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="bb/numeros-emergencia/numeros-emergencia.html">
-                    Números de emergência
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="jd/dicas-acidentes/dicas-acidentes.html">
-                    Prevenção de acidentes
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="jd/hospitais-e-postos/hospitais-e-postos.html">
-                    Hospitais e postos de saúde mais próximos
-                  </a>
-                </li>
-              </ul>
-            </li>
-            </li>
-          </ul>
-        </div>
+                <ul class="dropdown-menu">
 
-        <button type="button" class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
-          data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
-          <span class="nav-link material-symbols-outlined">account_circle</span>
-        </button>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">medical_services</span>
+                      <div>Primeiros socorros</div>
+                    </a>
+                  </li>
 
-        <div id="user-menu" class="d-none">
-          <div>
-            <a href="jd/login/login.html" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
-            <a href="mb/cadastro.html" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">call</span>
+                      <div>Números de emergência</div>
+                    </a>
+
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">info</span>
+                      <div>Prevenção de acidentes</div>
+                    </a>
+
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
+                      <div>Hospitais e postos de saúde</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <li>
+                <div class="dropdown">
+
+                  <button class="btn btn-link align-items-center bg-transparent dropdown-toggle mx-auto "
+                    data-mdb-toggle="dropdown" aria-expanded="false"><i
+                      class="material-symbols-outlined text-white justify-content-sm-start">account_circle</i>
+                  </button>
+
+                  <ul class="dropdown-menu p-2">
+
+                    <li>
+
+                      <a href="jd/login/index.html" type="button" class="btn btn-secondary btn-block mb-2">Entrar</a>
+                    </li>
+
+                    <li>
+                      <a href="mb/cadastro.html" type="button" class="btn btn-primary btn-block">Cadastrar</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+
     </nav>
 
-  </header>
 
+
+  </header>
   <!-- Background image -->
   <section class="cmi-hero">
     <div class="text-white d-flex flex-column align-items-center text-center">
@@ -143,7 +166,7 @@
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-2 order-md-0">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Crie seu perfil</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -164,14 +187,14 @@
             <span>&nbsp;</span>
           </div>
           <div class="text-center order-0 order-md-2">
-            <img class="img-fluid" alt="icon" src="img/form-icon.png" />
+            <img class="img-fluid" alt="icon" src="img/form-icon-gradiente.png" />
             </svg>
           </div>
         </div>
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-0 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Busque profissionais, voluntários ou vagas na sua região</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -192,14 +215,14 @@
             <span>&nbsp;</span>
           </div>
           <div class="text-center order-2 order-md-0">
-            <img class="img-fluid" alt="icon" src="img/search-icin-gradiente.png" />
+            <img class="img-fluid" alt="icon" src="img/search-icon-gradiente.png" />
             </svg>
           </div>
         </div>
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-2 order-md-0">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Conecte-se a pessoas que precisam da sua ajuda</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -238,7 +261,7 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
@@ -256,12 +279,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/carlos.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Carlos</h5>
+                      <p class="card-text mb-0">Enfermeiro</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -274,12 +297,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/luiz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Luiz</h5>
+                      <p class="card-text mb-0">Cuidador de idosos</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -292,12 +315,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/Maria.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Maria</h5>
+                      <p class="card-text mb-0">Enfermeira</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -310,12 +333,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/Liandra.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Liandra</h5>
+                      <p class="card-text mb-0">Enfermeira</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -328,12 +351,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/sandra.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Sandra</h5>
+                      <p class="card-text mb-0">Cuiadora de idosos</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
