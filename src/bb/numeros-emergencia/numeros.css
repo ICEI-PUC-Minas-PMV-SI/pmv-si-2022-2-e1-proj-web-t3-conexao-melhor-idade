@@ -1,7 +1,7 @@
 /* Conteudo principal: */
 .titulo-principal{
-    font-size: 34px;
-    color: #3E9AEE;
+    font-size: 3.1rem;
+    color: white;
     text-align: center;
     margin-top: 60px;
 }
@@ -12,30 +12,43 @@
     display: inline-block;
     width: 100%;
     text-align: center;
-    background: #ecf0f4;
-    height: 165px;
+    background: -webkit-linear-gradient( 180deg, rgba(62, 154, 238, 0.95), rgba(67, 253, 208, 0.9) 60% );
+    background: linear-gradient( 180deg, rgba(62, 154, 238, 0.95), rgba(67, 253, 208, 0.9) 60% );
+    height: 190px;
 }
 
 .base {
     display: flex;
-    justify-content: center;
+    margin: auto;
 }
 .base h2 {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
 }
-
+.container{
+    margin: auto;
+    margin-top: 25px;
+}
 .container img {
     max-width: 80px;
     margin: 10px 15px;
+}
+.centro{
+    background: rgb(243, 242, 242);
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    padding: 5% 7%;
 }
 .caixa{
     display: flex;   
     align-items: center; 
     margin-bottom: 20px;
-    margin-top: 20px ;
-    border-bottom: 2px solid #EFEFEF;
+    border-bottom: 1px solid #a59a9a;
 }
 
 /* Cabeçalho */
@@ -49,10 +62,9 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: #3e9aee;
+    background-color: rgba(84, 99, 255);
     padding: 16px;
 }
-
 .header-container {
     display: flex;
     flex-direction: row;
@@ -162,31 +174,55 @@ header {
 /* Rodapé */
 
 .rodape {
+    margin-top: 150px;
+    padding: auto;
+    position: relative;
     width: 100%;
     height: 90px;
     background-color: #3e9aee;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.rodape-2 li {
+  }
+  
+  .rodape-2 li {
     display: inline-block;
-    margin: 20px 10px;
-}
-
-.rodape-2 li a {
+    margin-top: 10px;
+  }
+  .rodape-2 li a:hover {
+    text-decoration: none;
+    color: #3ee7c7;
+  }
+  
+  .rodape-2 li a {
     text-decoration: none;
     color: white;
-}
-
-.copyright {
+    margin-left: 30px;
+  }
+  
+  .copyright {
     display: inline-block;
-    margin: 15px 10px 0px 70px;
+    margin-top: 20px;
+    font-size: small;
     text-align: center;
-    color: white;
-}
-
-.show {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .show {
     display: flex;
-}
+  }
+  @media screen and (max-width: 455px) {
+    .copyright {
+      font-size: 3.5vw;
+    }
+    .rodape-2 a {
+      font-size: 3.5vw;
+    }
+    .menu-mobile li a {
+      font-size: 3.5vw;
+    }
+    .centro {
+        width: 90%;
+        height: auto;
+    }
+  }
