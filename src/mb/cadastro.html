@@ -16,7 +16,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles/carousel.css" />
     <link rel="stylesheet" href="styles/styles.css" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
@@ -49,7 +48,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
+                            <a class="nav-link" href="quem-somos.html">Quem Somos</a>
                         </li>
 
                         <li class="nav-item dropdown-item">
@@ -86,7 +85,7 @@
                                 </li>
                             </ul>
                         </li>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="button">
@@ -99,123 +98,118 @@
                         <div>
                             <a href="jd/login/index.html" type="button"
                                 class="btn btn-secondary btn-block mb-3">Entrar</a>
-                            <a href="mb/cadastro.html" type="button"
+                            <a href="cadastro.html" type="button"
                                 class="btn btn-primary btn-block mt-3">Cadastrar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-
     </header>
-
     <!-- Navbar -->
-
-    <main class="py-5">
+    <main>
         <div class="container py-5 ">
             <div class="row">
                 <div class="col col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
                     <div class="card px-5 py-5">
-                        <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
-                        <form>
+                        <form id="myform" class="form-detail needs-validation" action="#" method="post" novalidate>
+                            <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
+                            <div class="form-group">
                             <div class="account-choice text-center">
                                 <p class="mb-1">Escolha o tipo de conta</p>
-
                                 <div class="cmi-sign-up-type btn-group mb-3">
-                                    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
-                                        checked />
-                                    <label class="cmi-sign-up-client btn btn-secondary" for="option1">Cliente</label>
-                                    <input type="radio" class="btn-check" name="options" id="option2"
-                                        autocomplete="off" />
-                                    <label class="cmi-sign-up-pro btn btn-light" for="option2">Profissional ou
-                                        voluntário</label>
+                                    <input type="radio" class="btn-check" name="options" id="option1" value="cliente" checked />
+                                    <label class="cmi-sign-up-client btn" for="option1">Cliente</label>
+                                    <input type="radio" class="btn-check" name="options" id="option2" value="profissional"  />
+                                    <label class="cmi-sign-up-pro btn" for="option2">Profissional ou voluntário</label>
                                 </div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input name="nome" aria-label="nome completo" type="text"
-                                    class="form-control form-control-lg bg-white shadow-3" />
-                                <label class="form-label">Nome completo</label>
+                                <input id="name" name="name" type="text" class="form-control form-control-lg bg-white shadow-3" required minlength="5" maxlength="100" />
+                                <label class="form-label" for="name">Nome completo</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input aria-label="data de nascimento" type="text"
+                                <input id="dataNascimento" name="dataNascimento" type="date"
                                     class="form-control form-control-lg bg-white shadow-3 focus" required
-                                    data="form-field_bithdate" mask="99/99/9999" maxlength="10"
-                                    placeholder="__/__/____" />
-                                <label class="form-label">Data de nascimento</label>
+                                    data="form-field-bithdate" maxlength="10" />
+                                <label class="form-label" for="dataNascimento">Data de nascimento</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input aria-label="CPF" type="text"
-                                    class="form-control form-control-lg bg-white shadow-3" data="form-field_CPF"
-                                    required mask="999.999.999-99" maxlength="14" placeholder="___.___.___-__" />
-                                <label class="form-label">CPF</label>
+                                <input id="typeNumber" type="text" name="cpf" class="form-control form-control-lg bg-white shadow-3" required />
+                                <label class="form-label" for="typeNumber">CPF</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input aria-label="telefone" type="text" id="tel"
-                                    class="form-control form-control-lg bg-white shadow-3" mask="(99) 99999-9999"
-                                    maxlength="14" placeholder="(__) _____-____" />
-                                <label class="form-label" for="typephone">Telefone</label>
+                                <input id="typePhone" type="text" name="telefone" class="form-control form-control-lg bg-white shadow-3" required />
+                                <label class="form-label" for="typePhone">Telefone</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input aria-label="email" type="email" id="email"
-                                    class="form-control form-control-lg bg-white shadow-3" />
-                                <label class="form-label" for="email">E-mail</label>
+                                <input id="typeEmail" type="email" name="email" placeholder="nome@dominio.com"
+                                    class="form-control form-control-lg bg-white shadow-3" required />
+                                <label class="form-label" for="typeEmail">E-mail</label>
+                                <div class="invalid-feedback">Favor informar um e-mail válido</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input aria-label="senha" type="text" id="password"
+                                <input id="typePassword" type="password" name="password"
                                     class="form-control form-control-lg bg-white shadow-3" minlength="6" maxlength="20"
-                                    data="form-field_password" />
-                                <label class="form-label" for="typepassword">Senha</label>
+                                    data="form-field_password" required />
+                                <label class="form-label" for="typePassword">Senha</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-5">
-                                <input aria-label="repetir senha" type="text" id="typePassword"
+                                <input id="reTypePassword" type="password" name="passwordConfirm"
                                     class="form-control form-control-lg bg-white shadow-3" minlength="6" maxlength="20"
-                                    data="form-field_password" />
-                                <label class="form-label" for="retypePassword">Digite sua senha novamente</label>
+                                    data="form-field_password" required />
+                                <label class="form-label" for="reTypePassword">Digite sua senha novamente</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
-                            <div class="form-check mb-4">
-                                <input aria-label="checkbox" type="checkbox" class="form-check-input shadow-3"
-                                    value="li-e-concordo" id="checkbox-termos" />
-                                <label class="form-check-label" for="checkbox-termos">
+                            <div class="form-check mb-3">
+                                <input aria-label="checkbox" type="checkbox" name="termosCondicoes" class="form-check-input shadow-3"
+                                    value="li-e-concordo" id="checkbox" required />
+                                <label class="form-check-label" for="checkbox">
                                     Li e concordo com os <a href="sb/politica-de-privacidade/index.html"
+<<<<<<< Updated upstream
                                         class="footer-link text-white">Termos de uso e
                                         Privacidade</a>
+=======
+                                        class="text-primary"><u>Termos de Uso e Política de Privacidade</u></a>
+>>>>>>> Stashed changes
                                 </label>
                             </div>
 
-                            <div class="d-flex justify-content-center mb-5">
-                                <a href="jd/editar-perfil/index.html" type="button"
-                                    class="btn btn-rounded btn-secondary btn-block mb-3">Cadastrar</a>
+                            <div class="d-flex justify-content-center mb-2">
+                                <button type="submit" class="btn btn-rounded btn-secondary btn-block mb-3">Cadastrar</button>
                             </div>
 
-                            <p class="text-center text-muted">Já tem uma conta? <a href="#!"
+                            <p class="text-center text-muted">Já tem uma conta? <a href="jd/login/index.html"
                                     class="fw-bold text-primary"><u>Entre</u></a></p>
-
+                            </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </main>
-
     <!-- Footer -->
-    <footer class="text-center text-white bg-primary">
+    <footer class="text-center text-white bg-primary needs-validation">
         <div class="text-center py-4">
             <ul class=" p-0 m-0">
                 <li class="d-inline px-2">
                     <a href="index.html" class="footer-link text-white">Home</a>
                 </li>
                 <li class="d-inline px-2">
-                    <a href="mb/quem-somos.html" class="footer-link text-white">Quem somos</a>
+                    <a href="quem-somos.html" class="footer-link text-white">Quem somos</a>
                 </li>
                 <li class="d-inline px-2">
                     <a href="sb/politica-de-privacidade/index.html" class="footer-link text-white">Termos de uso e
@@ -223,8 +217,6 @@
                 </li>
             </ul>
         </div>
-
-
         <!-- Copyright -->
         <div class="text-center pb-4 bg-primary opacity-75">
             <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
@@ -232,10 +224,12 @@
         <!-- Copyright -->
     </footer>
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Jquery Plugins -->
+    <script src="mb/scripts/vendors/jquery.inputmask.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript" src="scripts/scripts.js"></script>
-    <script type="text/javascript" src="scripts/carousel.js"></script>
+    <script src="mb/scripts/scripts.js"></script>
 </body>
 
 </html>
