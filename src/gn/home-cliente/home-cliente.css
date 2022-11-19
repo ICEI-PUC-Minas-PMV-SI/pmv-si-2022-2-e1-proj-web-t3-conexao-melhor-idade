@@ -131,11 +131,11 @@ main .tabelas{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 50px;
 }
 
 .voluntarios{
-    padding: 0% 5%;
+    padding: 50px;
 }
 
 .vagas{
@@ -149,26 +149,41 @@ main .tabelas{
     border: 0px transparent;
     border-radius: 20px;
     box-shadow: 2px 5px 20px 5px rgb(240, 240, 240);
-    padding: 0% 5%;
-    width: 20%;
-    height: auto;
+    padding: 0px 70px 0px 70px;
+    width: 300px;
     margin: 30px;
 }
 
 main .carlos, .sandra, .maria, .luiz, .liandra, .beatriz, .vagas-abertas{
     display: flex;
-    justify-content: space-between;
-    border: 0px transparent;
-    border-radius: 20px;
-    box-shadow: 2px 2px 20px 5px rgb(240, 240, 240);
-    padding: 15px 20px;
+    justify-content: center;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 10px 30px;
     width: 80%;
     align-items: center;
     margin-top: 40px;
 }
 
 main .info{
-    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    color: black;
+}
+
+main .info-img{
+    display: flex;
+    align-items: center;
+}
+
+main .prestador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 main p{
@@ -189,14 +204,35 @@ main .ver-todos{
 
 @media (max-width: 1200px){
 
+    header{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
     .tabelas{
         display: flex;
         flex-direction: column;
+
     }
 
     .profissionais, .voluntarios, .vagas{
-        width: 300px;
+        width: 200px;
     }
+
+    main .carlos, .sandra, .maria, .luiz, .liandra, .beatriz, .vagas-abertas{
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 10px;
+        padding: 10px 30px;
+        width: 230px;
+        align-items: center;
+        margin-top: 40px;
+    }
+
 
     .conteudo{
         display: flex;
@@ -208,12 +244,6 @@ main .ver-todos{
         flex-direction: column;
         align-items: center;
     }
-
-    .cadastrar-vaga{
-        
-
-    }
-
 }
 
 /*rodapé*/
@@ -223,6 +253,7 @@ main .ver-todos{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .rodape ul{
