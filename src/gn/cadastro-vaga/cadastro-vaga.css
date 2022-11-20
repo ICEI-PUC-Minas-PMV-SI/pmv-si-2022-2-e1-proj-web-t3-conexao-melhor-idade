@@ -53,8 +53,9 @@ a {
 
 h1, h2{
   text-align: center;
-  padding: 20px;
   color: #3e9aee;
+  padding-bottom: 20px;
+
 }
 
 .paragrafo-1{
@@ -71,5 +72,20 @@ h1, h2{
     width: 60%;
 }
 
+main .opcao p{
+  padding: 5px;
+}
 
+main .tipo{
+  border: 1px solid rgb(216, 215, 215);
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+}
 
+main .quando{
+  border: 1px solid rgb(216, 215, 215);
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+}
