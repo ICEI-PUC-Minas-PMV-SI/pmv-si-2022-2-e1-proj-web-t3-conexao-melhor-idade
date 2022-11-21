@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d19f3c4-d8cd-4d72-9832-980d14cb3bfe" name="Changes" comment="" />
+    <list default="true" id="1d19f3c4-d8cd-4d72-9832-980d14cb3bfe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/cadastro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/perfil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/sobre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/vagas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/vagas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +25,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2HmBE0CCL2H1kyHyd3lv9uFZDjg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,16 +39,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vitor/Documents/GitHub/cmi/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade",
+    "last_opened_file_path": "C:/Users/vitor/Documents/GitHub/cmi/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/src",
     "nodejs.cucumber.cucumber_node_package_dir": "",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "web.server",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true">
-      <method v="2" />
-    </configuration>
     <configuration name="Unnamed" type="cucumber.js" factoryName="Cucumber.js" nameIsGenerated="true">
       <option name="myFilePath" value="" />
       <option name="myNameFilter" value="" />
@@ -40,10 +55,6 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Cucumber.js.Unnamed" />
-      <item itemvalue="JavaScript Debug.Unnamed" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,6 +65,13 @@
       <option name="presentableId" value="Default" />
       <updated>1668880262257</updated>
       <workItem from="1668880265729" duration="4343000" />
+      <workItem from="1668966072355" duration="87000" />
+      <workItem from="1668966175441" duration="361000" />
+      <workItem from="1668966823141" duration="212000" />
+      <workItem from="1668967059263" duration="187000" />
+      <workItem from="1668967259486" duration="186000" />
+      <workItem from="1668967456547" duration="487000" />
+      <workItem from="1668967963307" duration="2627000" />
     </task>
     <servers />
   </component>
