@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
     <meta content="ie=edge" http-equiv="x-ua-compatible"/>
-    <!-- MDB icon 
+    <!-- MDB icon
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
     <link href="styles/mdb/mdb.min.css" rel="stylesheet"/>
@@ -43,75 +43,80 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="navbarButton">
                 <!-- Left links -->
-                <ul class="navbar-nav ms-auto me-0">
-                    <li class="nav-item me-2">
-                    <div class="btn-group">
-                        <button type="button" class=" d-flex align-items-center btn btn-danger dropdown-toggle"
-                                data-mdb-toggle="dropdown" aria-expanded="false"><span
-                                class="material-symbols-outlined text-white justify-content-sm-start">emergency</span>
-                            Emergências</button>
+                <ul class="navbar-nav ms-auto me-0 d-flex align-items-center">
 
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
-                                    <span class="material-symbols-outlined text-danger me-2">medical_services</span>
-                                    <div>Primeiros socorros</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
-                                    <span class="material-symbols-outlined text-danger me-2">call</span>
-                                    <div>Números de emergência</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
-                                    <span class="material-symbols-outlined text-danger me-2">info</span>
-                                    <div>Prevenção de acidentes</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
-                                    <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
-                                    <div>Hospitais e postos de saúde</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
                     </li>
+
+                    <li class="nav-item ms-2">
+                        <div class="btn-group">
+                            <button type="button" class=" d-flex align-items-center btn btn-danger dropdown-toggle"
+                                    data-mdb-toggle="dropdown" aria-expanded="false"><span
+                                    class="material-symbols-outlined text-white justify-content-sm-start">emergency
+                                    </span> Emergências</button>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">medical_services</span>
+                                        <div>Primeiros socorros</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">call</span>
+                                        <div>Números de emergência</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">info</span>
+                                        <div>Prevenção de acidentes</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
+                                        <div>Hospitais e postos de saúde</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="nav-item dropdown d-block"  >
+                            <a class="nav-link"
+                               id="navbarDropdown"
+                               data-mdb-toggle="dropdown"
+                               aria-expanded="false">
+                                <span class="nav-link material-symbols-outlined">account_circle</span>
+                            </a>
+                            <ul class="dropdown-menu align-items-center p-2" >
+                                <li>
+                                    <a class="btn btn-secondary " href="jd/login/index.html">Entrar</a>
+                                </li>
+                                <li><hr class="divider-horizontal" /></li>
+                                <li>
+                                    <a class=" btn btn-primary" href="mb/cadastro.html">Cadastrar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
-                    <div class="nav-item dropdown  ">
-                        <a class="nav-link"
-                            id="navbarDropdown"
-                           data-mdb-toggle="dropdown"
-                           aria-expanded="false">
-                            <span class="nav-link material-symbols-outlined">account_circle</span>
-                        </a>
-                        <ul class="dropdown-menu justify-content-evenly p-3" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a class="btn btn-secondary " href="jd/login/index.html">Entrar</a>
-                            </li>
-                            <li><hr class="divider-horizontal" /></li>
-                            <li>
-                                <a class=" btn btn-primary" href="mb/cadastro.html">Cadastrar</a>
-                            </li>
+        </div>
+    </nav>
+</header>
 
-
-                        </ul>
-                    </div>
-
-            </div>
-
-
-        </nav>
-  </header>
 <!-- Navbar -->
+
 <main>
     <div class="container py-5 ">
         <div class="row">
@@ -120,15 +125,16 @@
                     <form id="cmi-cadastro" action="#" class="form-detail needs-validation" method="post" novalidate>
                         <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
                         <div class="form-group">
-                            <div class="account-choice text-center">
-                                <p class="mb-1">Escolha o tipo de conta</p>
-                                <div class="cmi-sign-up-type btn-group mb-3">
-                                    <input checked class="btn-check" id="option1" name="options"
+
+                            <div class="account-choice text-start">
+                                <h6 class="mb-1">Tipo de conta:</h6>
+                                <div class="radio ">
+                                    <input checked class="form-radio mb-1" id="option1" name="options"
                                            type="radio" value="cliente"/>
-                                    <label id="cmi-sign-up-client" class="btn" for="option1">Cliente</label>
-                                    <input class="btn-check" id="option2" name="options" type="radio"
+                                    <label id="cmi-sign-up-client" class="radio" for="option1">Cliente</label><p></p>
+                                    <input class="form-radio mb-3" id="option2" name="options" type="radio"
                                            value="profissional"/>
-                                    <label id="cmi-sign-up-pro" class="btn" for="option2">Profissional ou
+                                    <label id="cmi-sign-up-pro" class="radio" for="option2">Profissional ou
                                         voluntário</label>
                                 </div>
                             </div>

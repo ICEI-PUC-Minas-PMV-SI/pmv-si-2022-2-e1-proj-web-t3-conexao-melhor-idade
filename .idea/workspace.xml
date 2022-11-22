@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d19f3c4-d8cd-4d72-9832-980d14cb3bfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mb/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/perfil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/scripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/sobre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/vagas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/vagas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vitor/Documents/GitHub/cmi/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/src",
-    "nodejs.cucumber.cucumber_node_package_dir": "",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "web.server",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vitor/Documents/GitHub/cmi/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/src&quot;,
+    &quot;nodejs.cucumber.cucumber_node_package_dir&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web.server&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="cucumber.js" factoryName="Cucumber.js" nameIsGenerated="true">
       <option name="myFilePath" value="" />
@@ -71,7 +66,7 @@
       <workItem from="1668967059263" duration="187000" />
       <workItem from="1668967259486" duration="186000" />
       <workItem from="1668967456547" duration="487000" />
-      <workItem from="1668967963307" duration="2627000" />
+      <workItem from="1668967963307" duration="7948000" />
     </task>
     <servers />
   </component>
