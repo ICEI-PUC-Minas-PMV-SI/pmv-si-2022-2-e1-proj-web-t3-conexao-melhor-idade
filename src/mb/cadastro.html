@@ -33,8 +33,8 @@
             </a>
 
             <!-- Toggle button -->
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" data-bs-target="#navbarNav"
+                    data-bs-toggle="collapse" type="button">
                 <span class="toggler-icon top-bar"></span>
                 <span class="toggler-icon middle-bar"></span>
                 <span class="toggler-icon bottom-bar"></span>
@@ -55,12 +55,13 @@
 
                     <li class="nav-item ms-2">
                         <div class="btn-group">
-                            <button type="button" class=" d-flex align-items-center btn btn-danger dropdown-toggle"
-                                    data-mdb-toggle="dropdown" aria-expanded="false"><span
+                            <button aria-expanded="false" class=" d-flex align-items-center btn btn-danger dropdown-toggle"
+                                    data-mdb-toggle="dropdown" type="button"><span
                                     class="material-symbols-outlined text-white justify-content-sm-start">emergency
-                                    </span> Emergências</button>
+                                    </span> Emergências
+                            </button>
 
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
                                     <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
                                         <span class="material-symbols-outlined text-danger me-2">medical_services</span>
@@ -89,21 +90,23 @@
                         </div>
                     </li>
 
-                    <li>
-                        <div class="nav-item dropdown d-block"  >
-                            <a class="nav-link"
-                               id="navbarDropdown"
-                               data-mdb-toggle="dropdown"
-                               aria-expanded="false">
-                                <span class="nav-link material-symbols-outlined">account_circle</span>
+                    <li class="ms-2">
+                        <div class="nav-item dropdown">
+                            <a href="#"
+                               aria-expanded="false"
+                               class="nav-link p-1"
+                               data-mdb-toggle="dropdown">
+                                <span class="nav-link material-symbols-outlined p-0 align-middle fs-2">account_circle</span>
                             </a>
-                            <ul class="dropdown-menu align-items-center p-2" >
+                            <ul class="dropdown-menu dropdown-menu-end p-2">
                                 <li>
-                                    <a class="btn btn-secondary " href="jd/login/index.html">Entrar</a>
+                                    <a class="btn btn-secondary d-block" href="jd/login/index.html">Entrar</a>
                                 </li>
-                                <li><hr class="divider-horizontal" /></li>
                                 <li>
-                                    <a class=" btn btn-primary" href="mb/cadastro.html">Cadastrar</a>
+                                    <hr class="divider-horizontal my-2"/>
+                                </li>
+                                <li>
+                                    <a class=" btn btn-primary d-block" href="mb/cadastro.html">Cadastrar</a>
                                 </li>
                             </ul>
                         </div>
@@ -122,31 +125,38 @@
         <div class="row">
             <div class="col col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
                 <div class="card px-5 py-5">
-                    <form id="cmi-cadastro" action="#" class="form-detail needs-validation" method="post" novalidate>
+                    <form action="#" class="form-detail needs-validation" id="cmi-cadastro" method="post" novalidate>
                         <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
                         <div class="form-group">
 
                             <div class="account-choice text-start">
-                                <h6 class="mb-1">Tipo de conta:</h6>
-                                <div class="radio ">
-                                    <input checked class="form-radio mb-1" id="option1" name="options"
-                                           type="radio" value="cliente"/>
-                                    <label id="cmi-sign-up-client" class="radio" for="option1">Cliente</label><p></p>
-                                    <input class="form-radio mb-3" id="option2" name="options" type="radio"
-                                           value="profissional"/>
-                                    <label id="cmi-sign-up-pro" class="radio" for="option2">Profissional ou
-                                        voluntário</label>
+                                <h6 class="mb-3">Tipo de conta:</h6>
+                                <div class="radio mb-3">
+                                    <div>
+                                        <input checked class="form-radio mb-1" id="option1" name="options"
+                                               type="radio" value="cliente"/>
+                                        <label class="radio" for="option1" id="cmi-sign-up-client">Cliente</label>
+                                    </div>
+                                    <div>
+                                        <input class="form-radio mb-3" id="option2" name="options" type="radio"
+                                               value="profissional"/>
+                                        <label class="radio" for="option2" id="cmi-sign-up-pro">Profissional ou
+                                            voluntário</label>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input id="name" name="name" type="text" class="form-control form-control-lg bg-white shadow-3" maxlength="100" minlength="5" required/>
+                                <input class="form-control form-control-lg bg-white shadow-3" id="name" maxlength="100"
+                                       minlength="5" name="name"
+                                       required type="text"/>
                                 <label class="form-label" for="name">Nome completo</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3 focus" data="form-field-bithdate" id="dataNascimento"
+                                <input class="form-control form-control-lg bg-white shadow-3 focus"
+                                       data="form-field-bithdate" id="dataNascimento"
                                        maxlength="10" name="dataNascimento"
                                        required type="date"/>
                                 <label class="form-label" for="dataNascimento">Data de nascimento</label>
@@ -161,21 +171,24 @@
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" id="typePhone" name="telefone"
+                                <input class="form-control form-control-lg bg-white shadow-3" id="typePhone"
+                                       name="telefone"
                                        required type="text"/>
                                 <label class="form-label" for="typePhone">Telefone</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3 validate-email" id="typeEmail" name="email" placeholder="nome@dominio.com"
-                                       type="email" required/>
+                                <input class="form-control form-control-lg bg-white shadow-3 validate-email"
+                                       id="typeEmail" name="email" placeholder="nome@dominio.com"
+                                       required type="email"/>
                                 <label class="form-label" for="typeEmail">E-mail</label>
                                 <div class="invalid-feedback">Favor informar um e-mail válido</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password" id="typePassword"
+                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password"
+                                       id="typePassword"
                                        maxlength="20" minlength="6"
                                        name="password" required type="password"/>
                                 <label class="form-label" for="typePassword">Senha</label>
@@ -183,7 +196,8 @@
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password" id="reTypePassword"
+                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password"
+                                       id="reTypePassword"
                                        maxlength="20" minlength="6"
                                        name="passwordConfirm" required type="password"/>
                                 <label class="form-label" for="reTypePassword">Digite sua senha novamente</label>
@@ -196,7 +210,8 @@
                                        value="li-e-concordo"/>
                                 <label class="form-check-label" for="checkbox">
                                     Li e concordo com os <a class="fw-bold text-primary"
-                                                            href="sb/politica-de-privacidade/index.html">Termos de Uso e Política de
+                                                            href="sb/politica-de-privacidade/index.html">Termos de Uso e
+                                    Política de
                                     Privacidade</a>
                                 </label>
                             </div>
@@ -241,10 +256,8 @@
 </footer>
 <!-- MDB -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Custom scripts -->
-<script src="scripts/scripts.js"></script>
-<script src="scripts/cadastro.js"></script>
+<script src="mb/scripts/scripts.js"></script>
+<script src="mb/scripts/cadastro.js"></script>
 </body>
-
 </html>

@@ -74,7 +74,6 @@ h6 {
   border-color: transparent;
 }
 
-}
 .dropdown-toggle:after {
   display: none;
 }
@@ -82,7 +81,7 @@ h6 {
 .dropdown-menu:before {
   position: absolute;
   top: -7px;
-  left: 13%;
+  right: 9%;
   display: inline-flex;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
@@ -94,7 +93,7 @@ h6 {
 .dropdown-menu:after {
   position: absolute;
   top: -6px;
-  left: 13%;
+  right: 9%;
   display: inline-flex;
   border-right: 6px solid transparent;
   border-bottom: 6px solid #ffffff;
@@ -108,7 +107,7 @@ h6 {
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("src/img/banner-main.jpg");
+  background-image: url("src/img");
   background-size: cover;
   background-position: -20%;
 }

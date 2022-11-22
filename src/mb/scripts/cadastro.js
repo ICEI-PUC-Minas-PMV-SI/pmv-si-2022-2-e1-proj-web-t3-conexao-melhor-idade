@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     form.addEventListener("keyup", checkIsValid);
     form.addEventListener("change", checkIsValid);
 
-
     // start - SignUp Buttons
     function toggleSignUpType(elem1, elem2) {
         elem1.addEventListener("click", function (e) {
