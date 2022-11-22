@@ -11,11 +11,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       link.classList.add("active");
     });
   });
-});
-// Rating Initialization
-$(document).ready(function () {
-  $("#rateMe1").mdbRate();
-});
+
 // start - PopOver Buttons
 const popOverTriggers = $("[user-menu]");
 
@@ -44,9 +40,8 @@ const opt2 = $(".cmi-sign-up-pro");
 toggleSignUpType(opt1, opt2);
 toggleSignUpType(opt2, opt1);
 // end - SignUp Buttons
-});
-
-// hamburger menu
 
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
+}
+});
