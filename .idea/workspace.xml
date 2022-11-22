@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d19f3c4-d8cd-4d72-9832-980d14cb3bfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mb/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mb/scripts/cadastro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mb/scripts/cadastro.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vitor\Documents\GitHub\cmi\pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade\src\mb\styles\mdb" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="cucumber.js" factoryName="Cucumber.js" nameIsGenerated="true">
       <option name="myFilePath" value="" />
@@ -67,6 +70,7 @@
       <workItem from="1668967259486" duration="186000" />
       <workItem from="1668967456547" duration="487000" />
       <workItem from="1668967963307" duration="7948000" />
+      <workItem from="1669083392707" duration="751000" />
     </task>
     <servers />
   </component>
