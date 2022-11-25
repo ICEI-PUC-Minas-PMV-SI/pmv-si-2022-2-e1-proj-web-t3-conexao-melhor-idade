@@ -32,18 +32,19 @@
                 <img alt="CMI Logo" height="40" src="img/logo-texto.png"/>
             </a>
 
-            <!-- Toggle button -->
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" data-bs-target="#navbarNav"
-                    data-bs-toggle="collapse" type="button">
-                <span class="toggler-icon top-bar"></span>
-                <span class="toggler-icon middle-bar"></span>
-                <span class="toggler-icon bottom-bar"></span>
+            <!-- Collapsible wrapper -->
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
 
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarButton">
                 <!-- Left links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto me-0 d-flex align-items-center">
+                    <!-- Toggle button -->
 
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -90,7 +91,7 @@
                         </div>
                     </li>
 
-                    <li class="ms-2">
+                    <li class="nav-item ms-2">
                         <div class="nav-item dropdown">
                             <a href="#"
                                aria-expanded="false"
@@ -112,9 +113,8 @@
                         </div>
                     </li>
                 </ul>
-
+              </div>
             </div>
-        </div>
     </nav>
 </header>
 
@@ -257,7 +257,7 @@
 <!-- MDB -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
 <!-- Custom scripts -->
-<script src="mb/scripts/scripts.js"></script>
+
 <script src="mb/scripts/cadastro.js"></script>
 </body>
 </html>
