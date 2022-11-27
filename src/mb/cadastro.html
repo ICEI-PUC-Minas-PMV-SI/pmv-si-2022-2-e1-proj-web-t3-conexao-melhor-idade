@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
@@ -16,7 +15,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
           rel="stylesheet"/>
-    <link href="styles/styles.css" rel="stylesheet"/>
+    <link href="mb/styles/styles.css" rel="stylesheet"/>
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -24,18 +23,17 @@
 <body>
 <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-2">
         <!-- Container wrapper -->
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="#">
-                <img alt="CMI Logo" height="40" src="img/logo-texto.png"/>
+                <img alt="CMI Logo" height="45" src="img/logo-texto.png"/>
             </a>
 
             <!-- Collapsible wrapper -->
-
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" href="#">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" href="#">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -61,7 +59,6 @@
                                     class="material-symbols-outlined text-white justify-content-sm-start">emergency
                                     </span> Emergências
                             </button>
-
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
                                     <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorross/index.html">
@@ -90,7 +87,6 @@
                             </ul>
                         </div>
                     </li>
-
                     <li class="nav-item ms-2">
                         <div class="nav-item dropdown">
                             <a href="#"
@@ -117,7 +113,6 @@
             </div>
     </nav>
 </header>
-
 <!-- Navbar -->
 
 <main>
@@ -129,78 +124,78 @@
                         <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
                         <div class="form-group">
 
-                            <div class="account-choice text-start">
+                            <div class="account-choice text-start" id="accountChoice">
                                 <h6 class="mb-3">Tipo de conta:</h6>
                                 <div class="radio mb-3">
-                                    <div>
-                                        <input checked class="form-radio mb-1" id="option1" name="options"
-                                               type="radio" value="cliente"/>
-                                        <label class="radio" for="option1" id="cmi-sign-up-client">Cliente</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input mb-1" id="accountChoice1" name="accountChoice"
+                                               type="radio" value="cliente" required/>
+                                        <label class="form-check-label" for="accountChoice1">Cliente</label>
                                     </div>
-                                    <div>
-                                        <input class="form-radio mb-3" id="option2" name="options" type="radio"
-                                               value="profissional"/>
-                                        <label class="radio" for="option2" id="cmi-sign-up-pro">Profissional ou
+                                    <div class="form-check">
+                                        <input class="form-check-input mb-3" id="accountChoice2" name="accountChoice" type="radio"
+                                               value="profissional" required/>
+                                        <label class="form-check-label" for="accountChoice2">Profissional ou
                                             voluntário</label>
+                                        <div class="invalid-feedback">Favor selecionar uma opção de conta.</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" id="name" maxlength="100"
-                                       minlength="5" name="name"
+                                <input class="form-control form-control-lg bg-white shadow-3 validate-email"
+                                       id="email" name="email" placeholder="nome@dominio.com"
+                                       required type="email"/>
+                                <label class="form-label" for="email">E-mail</label>
+                                <div class="invalid-feedback">Favor informar um e-mail válido</div>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input class="form-control form-control-lg bg-white shadow-3" id="firstName" maxlength="20"
+                                       minlength="4" name="firstName"
                                        required type="text"/>
-                                <label class="form-label" for="name">Nome completo</label>
+                                <label class="form-label" for="firstName">Nome</label>
+                                <div class="invalid-feedback">Campo obrigatório</div>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input class="form-control form-control-lg bg-white shadow-3" id="lastName" maxlength="100"
+                                       minlength="5" name="lastName"
+                                       required type="text"/>
+                                <label class="form-label" for="lastName">Sobrenome</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
                                 <input class="form-control form-control-lg bg-white shadow-3 focus"
-                                       data="form-field-bithdate" id="dataNascimento"
-                                       maxlength="10" name="dataNascimento"
+                                       data="form-field-bithdate" id="dob"
+                                       maxlength="10" name="dob"
                                        required type="date"/>
-                                <label class="form-label" for="dataNascimento">Data de nascimento</label>
+                                <label class="form-label" for="dob">Data de nascimento</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" id="typeNumber" name="cpf"
+                                <input class="form-control form-control-lg bg-white shadow-3" id="cpf" name="cpf"
                                        required type="text"/>
-                                <label class="form-label" for="typeNumber">CPF</label>
+                                <label class="form-label" for="cpf">CPF</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" id="typePhone"
-                                       name="telefone"
+                                <input class="form-control form-control-lg bg-white shadow-3" id="phone"
+                                       name="phone"
                                        required type="text"/>
-                                <label class="form-label" for="typePhone">Telefone</label>
+                                <label class="form-label" for="phone">Telefone</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
                             <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3 validate-email"
-                                       id="typeEmail" name="email" placeholder="nome@dominio.com"
-                                       required type="email"/>
-                                <label class="form-label" for="typeEmail">E-mail</label>
-                                <div class="invalid-feedback">Favor informar um e-mail válido</div>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password"
-                                       id="typePassword"
+                                <input class="form-control form-control-lg bg-white shadow-3"
+                                       id="password"
                                        maxlength="20" minlength="6"
                                        name="password" required type="password"/>
-                                <label class="form-label" for="typePassword">Senha</label>
-                                <div class="invalid-feedback">Campo obrigatório</div>
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <input class="form-control form-control-lg bg-white shadow-3" data="form-field_password"
-                                       id="reTypePassword"
-                                       maxlength="20" minlength="6"
-                                       name="passwordConfirm" required type="password"/>
-                                <label class="form-label" for="reTypePassword">Digite sua senha novamente</label>
+                                <label class="form-label" for="password">Senha</label>
                                 <div class="invalid-feedback">Campo obrigatório</div>
                             </div>
 
@@ -217,7 +212,7 @@
                             </div>
 
                             <div class="d-flex justify-content-center mb-2">
-                                <button class="btn btn-rounded btn-secondary btn-block mb-3"
+                                <button id="btn-cadastro" class="btn btn-rounded btn-secondary btn-block mb-3"
                                         type="submit">Cadastrar
                                 </button>
                             </div>
@@ -235,15 +230,15 @@
 <!-- Footer -->
 <footer class="text-center text-white bg-primary ">
     <div class="text-center py-4">
-        <ul class=" p-0 m-0">
+        <ul class="footer p-0 m-0">
             <li class="d-inline px-2">
-                <a class="footer-link text-white" href="index.html">Home</a>
+                <a class="footer-link" href="index.html">Home</a>
             </li>
             <li class="d-inline px-2">
-                <a class="footer-link text-white" href="quem-somos.html">Quem somos</a>
+                <a class="footer-link" href="mb/quem-somos.html">Quem somos</a>
             </li>
             <li class="d-inline px-2">
-                <a class="footer-link text-white" href="/sb/politica-de-privacidade/index.html">Termos de uso e
+                <a class="footer-link" href="sb/politica-de-privacidade/index.html">Termos de uso e
                     Privacidade</a>
             </li>
         </ul>
@@ -257,7 +252,9 @@
 <!-- MDB -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
 <!-- Custom scripts -->
-
+<script src="mb/scripts/scripts.js"></script>
+<script src="mb/scripts/db_cmi.js"></script>
 <script src="mb/scripts/cadastro.js"></script>
+
 </body>
 </html>

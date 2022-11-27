@@ -237,11 +237,11 @@ main .container > div {
 }
 
 /**********************************************************
-*Vagas
+*footer
 ***********************************************************/
 .footer-link {
-  color: #ffffff;
+  color: #ffffff; !important;
 }
 .footer-link:hover {
-  color: #3ee7c7;
+  color: #3ee7c7; !important;
 }
