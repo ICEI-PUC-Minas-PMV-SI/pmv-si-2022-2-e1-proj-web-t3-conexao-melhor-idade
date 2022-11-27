@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   });
 });
+
+
 // Rating Initialization
 $(document).ready(function () {
   $("#rateMe1").mdbRate();
