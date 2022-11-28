@@ -36,10 +36,67 @@ h6 {
   }
 }
 
+.bg-primary {
+  background-color: #4b5dff !important;
+}
+.bg-secondary {
+  background-color: #37f0 !important;
+}
+.bg-success {
+  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) !important;
+}
+.bg-danger {
+  background-color: #ff2900 !important;
+}
+.bg-warning {
+  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) !important;
+}
+.bg-info {
+  background-color: rgba(84, 180, 211, var(--mdb-bg-opacity)) !important;
+}
+.bg-light {
+  background-color: rgba(251, 251, 251, var(--mdb-bg-opacity)) !important;
+}
+.bg-dark {
+  background-color: rgba(51, 45, 45, var(--mdb-bg-opacity)) !important;
+}
+
 .btn {
   letter-spacing: 0.05rem !important;
 }
 
+.btn-primary {
+  background-color: #536dfe !important;
+}
+.btn-secondary {
+  background-color: #00bfa5 !important;
+}
+.btn-success {
+  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) !important;
+}
+.btn-danger {
+  background-color: #d50000 !important;
+}
+.btn-warning {
+  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) !important;
+}
+.btn-info {
+  background-color: rgba(84, 180, 211, var(--mdb-bg-opacity)) !important;
+}
+.btn-light {
+  background-color: rgba(251, 251, 251, var(--mdb-bg-opacity)) !important;
+}
+.btn-dark {
+  background-color: rgba(51, 45, 45, var(--mdb-bg-opacity)) !important;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus {
+  background-color: #d50000de;
+  color: #fff;
+  box-shadow: none;
+}
 /*************************************************************
 * UTILITITES
 *************************************************************/
