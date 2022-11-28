@@ -35,25 +35,229 @@ h6 {
     font-size: 1rem;
   }
 }
-
-.btn {
-  letter-spacing: 0.05rem !important;
+color-profile {
+  --mdb-primary: #4284ff !important;
+  --mdb-secondary: #35e899 !important;
+  --mdb-success: #14a44d !important;
+  --mdb-danger: #fb4646 !important;
+  --mdb-warning: #e4a11b !important;
+  --mdb-info: #54b4d3 !important;
+  --mdb-light: #fbfbfb !important;
+  --mdb-dark: #332d2d !important;
 }
 
-/*************************************************************
-* UTILITITES
-*************************************************************/
-.bg-light {
-  background-color: #ecf0f4 !important;
+.text-bright {
+  color: rgba(255, 255, 255, 1) !important;
 }
 
-.border-light {
-  border-color: #ffffff1a !important;
+.text-primary {
+  --mdb-text-opacity: 1;
+  color: 4284ff !important;
+}
+.text-secondary {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-secondary-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-success {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-success-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-danger {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-danger-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-warning {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-warning-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-info {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-info-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-light {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-light-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-dark {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-dark-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-black {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-black-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-white {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-white-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-body {
+  --mdb-text-opacity: 1;
+  color: rgba(var(--mdb-body-color-rgb), var(--mdb-text-opacity)) !important;
+}
+.text-muted {
+  --mdb-text-opacity: 1;
+  color: #757575 !important;
 }
 
 .text-justify {
   text-align: justify;
 }
+
+.bg-primary {
+  background-color: #4284ff !important;
+}
+.bg-secondary {
+  background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
+}
+.bg-light {
+  background-color: #ecf0f4 !important;
+}
+
+.border-light {
+  border-color: #ffffff !important;
+}
+
+.btn {
+  letter-spacing: 0.05rem !important;
+}
+.btn-danger {
+  background-color: #f21a07 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 9px -4px #fa0202 !important;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus {
+  background-color: #d40000 !important;
+  color: #fff !important;
+  box-shadow: 0 8px 9px -4px rgba(220, 76, 100, 0.3) 0 4px 18px 0 rgba(220, 76, 100, 0.2) !important;
+}
+.btn-secondary {
+  background-color: #55eb9c !important;
+  color: #fff !important;
+  box-shadow: 0 4px 9px -4px #55eb9c !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus {
+  background-color: #27e4c0;
+  color: #fff;
+  box-shadow: 0 8px 9px -4px rgba(62, 231, 199, 0.3),
+    0 4px 18px 0 rgba(62, 231, 199, 0.2);
+}
+/***** Top menu *****/
+
+.navbar {
+  background: #4284ff;
+  transition: all 0.6s;
+  backface-visibility: hidden;
+  box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.5);
+}
+
+.navbar-dark .navbar-nav {
+  font-size: 16px;
+  color: #fff;
+  text-transform: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  color: rgba(255, 255, 255);
+  border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-dark .navbar-toggler:focus {
+  background: none;
+  outline: 0;
+}
+
+.navbar-dark .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 6px auto;
+  background: #fff;
+  transition: all 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.navbar-dark .navbar-toggler:hover span,
+.navbar-dark .navbar-toggler:focus span {
+  background: #ccc;
+}
+
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+  opacity: 0;
+}
+
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+  transform: none;
+  opacity: 1;
+}
+
+.navbar-brand {
+  width: 162px;
+  height: 44px;
+  background: url(../img/logo-texto.png) left center no-repeat;
+  border: 0;
+  text-indent: -99999px;
+}
+
+.navbar-dark .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 6px auto;
+  background: #fff;
+  transition: all 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+  opacity: 0;
+}
+
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+  transform: none;
+  opacity: 1;
+}
+/*************************************************************
+* UTILITITES
+*************************************************************/
 
 .nav-link-bright {
   color: rgba(255, 255, 255, 1) !important;
@@ -64,41 +268,35 @@ h6 {
   color: var(--mdb-secondary) !important;
 }
 
-.text-bright {
-  color: rgba(255, 255, 255, 1) !important;
-}
-
-.navbar-transparent {
-  background: transparent;
-  background-image: none;
-  border-color: transparent;
-}
+/***************************************************
+navbar drop down menu-emergencias
+****************************************************/
 
 .dropdown-toggle:after {
-  display: none;
+  display: none !important;
 }
 
 .dropdown-menu:before {
-  position: absolute;
-  top: -7px;
-  right: 9%;
-  display: inline-flex;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid #ccc;
-  border-left: 7px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  content: "";
+  position: absolute !important;
+  top: -7px !important;
+  left: 13% !important;
+  display: inline-flex !important;
+  border-right: 7px solid transparent !important;
+  border-bottom: 7px solid #ccc !important;
+  border-left: 7px solid transparent !important;
+  border-bottom-color: rgba(0, 0, 0, 0.2) !important;
+  content: "" !important;
 }
 
 .dropdown-menu:after {
-  position: absolute;
-  top: -6px;
-  right: 9%;
-  display: inline-flex;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid #ffffff;
-  border-left: 6px solid transparent;
-  content: "";
+  position: absolute !important;
+  top: -6px !important;
+  left: 13% !important;
+  display: inline-flex !important;
+  border-right: 6px solid transparent !important;
+  border-bottom: 6px solid #ffffff !important;
+  border-left: 6px solid transparent !important;
+  content: "" !important;
 }
 
 /*************************************************************
@@ -107,7 +305,7 @@ h6 {
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("src/img");
+  background-image: url("/img/banner-main.jpg");
   background-size: cover;
   background-position: -20%;
 }
@@ -170,7 +368,7 @@ h6 {
 }
 
 /*************************************************************
-*Como funciona 
+*Como funciona
 *************************************************************/
 
 main .container {
@@ -237,11 +435,11 @@ main .container > div {
 }
 
 /**********************************************************
-*footer
+*Vagas
 ***********************************************************/
 .footer-link {
-  color: #ffffff; !important;
+  color: #ffffff !important;
 }
 .footer-link:hover {
-  color: #3ee7c7; !important;
+  color: #3ee7c7 !important;
 }

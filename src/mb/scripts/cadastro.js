@@ -25,7 +25,7 @@ function markInputValidityOnFocusOut(event) {
     }
 }
 
-function markFormValidityOnSubmit(event) {
+function markFormValidity(event) {
     if (!event.target.checkValidity(event)) {
         event.target.classList.add('was-validated');
         return false;
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         event.preventDefault();
         event.stopPropagation();
 
-        if (!markFormValidityOnSubmit(event)) {
+        if (!markFormValidity(event)) {
             alert("**Campos obrigatórios")
             return;
         }
