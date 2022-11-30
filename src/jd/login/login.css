@@ -395,8 +395,7 @@ box-shadow: 0px 2px 4px #00000056;
   background-color: #2196f3;
 }
 
-.middle input {
-}
+
 
 .checkmark {
   font-size: 12px;
@@ -474,4 +473,13 @@ box-shadow: 0px 2px 4px #00000056;
 .n-conta   a{
     text-decoration: none;
     color: #3E9AEE;
+}
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+
 }
