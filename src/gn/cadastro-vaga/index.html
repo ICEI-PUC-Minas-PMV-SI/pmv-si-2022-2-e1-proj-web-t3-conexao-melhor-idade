@@ -48,123 +48,127 @@
 
             <form>
 
-                <div class="tipo">
-                    <h2>Tipo de ajuda que busco</h2>
-                    
-                    <div class="opcao">
-                        <form>
-                            <p><input  type="checkbox" name="acao" value="cp"> Cuidador profissional.</p>
-            
-                            <p><input  type="checkbox" name="acao" value="vo"> Voluntário.</p>
-                            
-                            <p><input  type="checkbox" name="acao" value="n"> Apenas me conectar a pessoas com interesses similares.</p>
-                            
-                        </form>
+                <div class="atributos">
+                    <div class="tipo">
+                        <h2>Tipo de ajuda que busco</h2>
+                        
+                        <div class="opcao">
+                            <form>
+                                <p><input  type="checkbox" name="acao" value="cp"> Cuidador profissional.</p>
+                
+                                <p><input  type="checkbox" name="acao" value="vo"> Voluntário.</p>
+                                
+                                <p><input  type="checkbox" name="acao" value="n"> Apenas me conectar a pessoas com interesses similares.</p>
+                                
+                            </form>
+                        </div>
                     </div>
+
+                    <div class="quando">
+                        <h2>Quando preciso de ajuda</h2>
+                        <form class="geral">
+
+                            <table>
+                                <thead>
+                                    <tr clas="turno">
+                                        <th>Turno</th>
+                                        <th>2°</th>
+                                        <th>3°</th>
+                                        <th>4°</th>
+                                        <th>5°</th>
+                                        <th>6°</th>
+                                        <th>Sáb</th>
+                                        <th>Dom</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Manhã</td>
+                                        <td><input type="checkbox" name="acao" value="2M"></td>
+                                        <td><input type="checkbox" name="acao" value="3M"></td>
+                                        <td><input type="checkbox" name="acao" value="4M"></td>
+                                        <td><input type="checkbox" name="acao" value="5M"></td>
+                                        <td><input type="checkbox" name="acao" value="6M"></td>
+                                        <td><input type="checkbox" name="acao" value="SM"></td>
+                                        <td><input type="checkbox" name="acao" value="DM"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tarde</td>
+                                        <td><input type="checkbox" name="acao" value="2T"></td>
+                                        <td><input type="checkbox" name="acao" value="3T"></td>
+                                        <td><input type="checkbox" name="acao" value="4T"></td>
+                                        <td><input type="checkbox" name="acao" value="5T"></td>
+                                        <td><input type="checkbox" name="acao" value="6T"></td>
+                                        <td><input type="checkbox" name="acao" value="ST"></td>
+                                        <td><input type="checkbox" name="acao" value="DT"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fim de tarde</td>
+                                        <td><input type="checkbox" name="acao" value="2F"></td>
+                                        <td><input type="checkbox" name="acao" value="3F"></td>
+                                        <td><input type="checkbox" name="acao" value="4F"></td>
+                                        <td><input type="checkbox" name="acao" value="5F"></td>
+                                        <td><input type="checkbox" name="acao" value="6F"></td>
+                                        <td><input type="checkbox" name="acao" value="SF"></td>
+                                        <td><input type="checkbox" name="acao" value="DF"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Noite</td>
+                                        <td><input type="checkbox" name="acao" value="2N"></td>
+                                        <td><input type="checkbox" name="acao" value="3N"></td>
+                                        <td><input type="checkbox" name="acao" value="4N"></td>
+                                        <td><input type="checkbox" name="acao" value="5N"></td>
+                                        <td><input type="checkbox" name="acao" value="6N"></td>
+                                        <td><input type="checkbox" name="acao" value="SN"></td>
+                                        <td><input type="checkbox" name="acao" value="DN"></td>
+                                    </tr>
+
+
+                                </tbody>
+
+                            </table>
+                        </form>    
+                    </div>
+
+
+                    <div class="necessidade">
+
+                        <h2>Conte um pouco sobre sua necessidade</h2>
+
+                        <form action="necessidade.html" method="post">
+                            <textarea id="caixa-de-texto" name="texto" rows="10" cols="50"></textarea>
+                        </form>
+
+                    </div>
+
+
+                    <table class="especial">
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" name="acao" value="#" id="op-especial"></td>
+                                <td>
+                                    <p class="destaque">Procuro alguém que tenha experiência com idosos com necessidades
+                                        especiais.</p>
+                                    <p>*Por exemplo: experiência com idosos com deficiência intelectual ou doeça crônica.
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+                    <a href="gn/home-cliente/index.html"><input id="postar-vaga" type="submit" value="Postar vaga"></a>
+
                 </div>
-
-                <div class="quando">
-                    <h2>Quando preciso de ajuda</h2>
-                    <form class="geral">
-
-                        <table>
-                            <thead>
-                                <tr clas="turno">
-                                    <th>Turno</th>
-                                    <th>2°</th>
-                                    <th>3°</th>
-                                    <th>4°</th>
-                                    <th>5°</th>
-                                    <th>6°</th>
-                                    <th>Sáb</th>
-                                    <th>Dom</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>Manhã</td>
-                                    <td><input type="checkbox" name="acao" value="2M"></td>
-                                    <td><input type="checkbox" name="acao" value="3M"></td>
-                                    <td><input type="checkbox" name="acao" value="4M"></td>
-                                    <td><input type="checkbox" name="acao" value="5M"></td>
-                                    <td><input type="checkbox" name="acao" value="6M"></td>
-                                    <td><input type="checkbox" name="acao" value="SM"></td>
-                                    <td><input type="checkbox" name="acao" value="DM"></td>
-                                </tr>
-
-                                <tr>
-                                    <td>Tarde</td>
-                                    <td><input type="checkbox" name="acao" value="2T"></td>
-                                    <td><input type="checkbox" name="acao" value="3T"></td>
-                                    <td><input type="checkbox" name="acao" value="4T"></td>
-                                    <td><input type="checkbox" name="acao" value="5T"></td>
-                                    <td><input type="checkbox" name="acao" value="6T"></td>
-                                    <td><input type="checkbox" name="acao" value="ST"></td>
-                                    <td><input type="checkbox" name="acao" value="DT"></td>
-                                </tr>
-
-                                <tr>
-                                    <td>Fim de tarde</td>
-                                    <td><input type="checkbox" name="acao" value="2F"></td>
-                                    <td><input type="checkbox" name="acao" value="3F"></td>
-                                    <td><input type="checkbox" name="acao" value="4F"></td>
-                                    <td><input type="checkbox" name="acao" value="5F"></td>
-                                    <td><input type="checkbox" name="acao" value="6F"></td>
-                                    <td><input type="checkbox" name="acao" value="SF"></td>
-                                    <td><input type="checkbox" name="acao" value="DF"></td>
-                                </tr>
-
-                                <tr>
-                                    <td>Noite</td>
-                                    <td><input type="checkbox" name="acao" value="2N"></td>
-                                    <td><input type="checkbox" name="acao" value="3N"></td>
-                                    <td><input type="checkbox" name="acao" value="4N"></td>
-                                    <td><input type="checkbox" name="acao" value="5N"></td>
-                                    <td><input type="checkbox" name="acao" value="6N"></td>
-                                    <td><input type="checkbox" name="acao" value="SN"></td>
-                                    <td><input type="checkbox" name="acao" value="DN"></td>
-                                </tr>
-
-
-                            </tbody>
-
-                        </table>
-                    </form>    
-                </div>
-
-
-                <div class="necessidade">
-
-                    <h2>Conte um pouco sobre sua necessidade</h2>
-
-                    <form action="necessidade.html" method="post">
-                        <textarea id="caixa-de-texto" name="texto" rows="10" cols="50"></textarea>
-                    </form>
-
-                </div>
-
-
-                <table class="especial">
-                    <tbody>
-                        <tr>
-                            <td><input type="checkbox" name="acao" value="#"></td>
-                            <td>
-                                <p class="destaque">Procuro alguém que tenha experiência com idosos com necessidades
-                                    especiais.</p>
-                                <p>*Por exemplo: experiência com idosos com deficiência intelectual ou doeça crônica.
-                                </p>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-
-                <a href="gn/home-cliente/index.html"><input id="postar-vaga" type="submit" value="Postar vaga"></a>
-
-            </form>
+                </form>
+                
         </div>
+         
 
 
     </main>
