@@ -56,7 +56,7 @@
 
                         <li class="nav-item m-2">
                             <div class="btn-group">
-                                <button aria-expanded="false" class=" d-flex align-items-center btn btn-sm btn-danger "
+                                <button aria-expanded="false" class=" d-flex align-items-center btn btns btn-danger "
                                     data-mdb-toggle="dropdown" type="button"><span
                                         class="material-symbols-outlined text-white justify-content-sm-start">emergency
                                     </span> Emergências
@@ -118,110 +118,104 @@
     </header>
     <!-- Navbar -->
 
+    <!--Top card-->
     <main>
-        <div class="container py-5 ">
-            <div class="row">
-                <div class="col col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
-                    <div class="card px-5 py-5">
-                        <form action="#" class="form-detail needs-validation" id="cmi-cadastro" method="post"
-                            novalidate>
-                            <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
-                            <div class="form-group">
+        <section>
+            <div class="container py-5">
+                <div class="col col-12 col-sm-12 col-md-12 pb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row w-100">
+                                <div class="col-3">
+                                    <!-- Tab navs -->
+                                    <div class="nav flex-column nav-tabs text-center" id="v-tabs-tab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <a class="nav-link active" id="v-tabs-home-tab" data-mdb-toggle="tab"
+                                            href="#v-tabs-home" role="tab" aria-controls="v-tabs-home"
+                                            aria-selected="true">Vagas recomendadas</a>
+                                        <a class="nav-link" id="v-tabs-profile-tab" data-mdb-toggle="tab"
+                                            href="#v-tabs-profile" role="tab" aria-controls="v-tabs-profile"
+                                            aria-selected="false">Salvas</a>
+                                        <a class="nav-link" id="v-tabs-messages-tab" data-mdb-toggle="tab"
+                                            href="#v-tabs-messages" role="tab" aria-controls="v-tabs-messages"
+                                            aria-selected="false">Avaliações recebidas</a>
+                                    </div>
+                                    <!-- Tab navs -->
+                                </div>
 
-                                <div class="account-choice text-start" id="accountChoice">
-                                    <h6 class="mb-3">Tipo de conta:</h6>
-                                    <div class="radio mb-3">
-                                        <div class="form-check">
-                                            <input class="form-check-input mb-1" id="accountChoice1"
-                                                name="accountChoice" type="radio" value="cliente" required />
-                                            <label class="form-check-label" for="accountChoice1">Cliente</label>
+                                <div class="col-9">
+                                    <!-- Tab content -->
+                                    <div class="tab-content" id="v-tabs-tabContent">
+                                        <div class="tab-pane fade show active" id="v-tabs-home" role="tabpanel"
+                                            aria-labelledby="v-tabs-home-tab">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col col-6">
+                                                        <div class="nav-link">
+                                                            <h5 class="align-text-left mb-1" href="gn/chat/index.html">
+                                                                Cuidador de Idosos</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-6">
+                                                        <div class="nav-link justify-content-right material-symbols-outlined text-muted"
+                                                            href="gn/chat/index.html">
+                                                            bookmark_border</div>
+                                                    </div>
+                                                    <div class="d-flex text-muted mb-1">
+                                                        <span class="material-symbols-outlined me-2">place</span>
+                                                        <div><small>Belo Horizonte, MG</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex text-muted">
+                                                        <span
+                                                            class="material-symbols-outlined me-2">monetization_on</span>
+                                                        <div><small>À combinar</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="job-body text-justify mt-3">
+                                                        <p>Cuidados e acompanhamento, inclusive
+                                                            em
+                                                            consultas médicas e tratamentos dos
+                                                            idosos, dar as medicações nos
+                                                            horários previstos, dar a
+                                                            alimentação conforme
+                                                            cronograma de horários, dar banho,
+                                                            troca de roupas e ou fraldas, troca
+                                                            da
+                                                            roupa de cama, manter organizado
+                                                            qualquer espaço que for utilizado
+                                                            durante o
+                                                            período.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input mb-3" id="accountChoice2"
-                                                name="accountChoice" type="radio" value="profissional" required />
-                                            <label class="form-check-label" for="accountChoice2">Profissional ou
-                                                voluntário</label>
-                                            <div class="invalid-feedback">Favor selecionar uma opção de conta.</div>
+                                        <div class="tab-pane fade" id="v-tabs-profile" role="tabpanel"
+                                            aria-labelledby="v-tabs-profile-tab">
+                                            <h5 class="align-text-left mb-1" href="gn/chat/index.html">
+                                                Cuidador
+                                                de
+                                                Idosos</h5>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-tabs-messages" role="tabpanel"
+                                            aria-labelledby="v-tabs-messages-tab">
+                                            <h5 class="text-muted">Avaliações</h5>
+                                            <div
+                                                class=" d-flex justify-content-center justify-content-sm-center align-items-center text muted">
+                                                <span class="rating me-2">★★★★★</span>
+                                            </div>
+                                            <small>4.9 (13 Avaliações)</small>
                                         </div>
                                     </div>
+                                    <!-- Tab content -->
                                 </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3 validate-email"
-                                        id="email" name="email" placeholder="nome@dominio.com" required type="email" />
-                                    <label class="form-label" for="email">E-mail</label>
-                                    <div class="invalid-feedback">Favor informar um e-mail válido</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="firstName"
-                                        maxlength="20" minlength="4" name="firstName" required type="text" />
-                                    <label class="form-label" for="firstName">Nome</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="lastName"
-                                        maxlength="100" minlength="5" name="lastName" required type="text" />
-                                    <label class="form-label" for="lastName">Sobrenome</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3 focus"
-                                        data="form-field-bithdate" id="dob" maxlength="10" name="dob" required
-                                        type="date" />
-                                    <label class="form-label" for="dob">Data de nascimento</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="cpf" name="cpf"
-                                        required type="text" />
-                                    <label class="form-label" for="cpf">CPF</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="phone"
-                                        name="phone" required type="text" />
-                                    <label class="form-label" for="phone">Telefone</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="password"
-                                        maxlength="20" minlength="6" name="password" required type="password" />
-                                    <label class="form-label" for="password">Senha</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
-                                </div>
-
-                                <div class="form-check mb-3">
-                                    <input aria-label="checkbox" class="form-check-input shadow-3" id="checkbox"
-                                        name="termosCondicoes" required type="checkbox" value="li-e-concordo" />
-                                    <label class="form-check-label" for="checkbox">
-                                        Li e concordo com os <a class="fw-bold text-primary"
-                                            href="sb/politica-de-privacidade/index.html">Termos de Uso e
-                                            Política de
-                                            Privacidade</a>
-                                    </label>
-                                </div>
-
-                                <div class="d-flex justify-content-center mb-2">
-                                    <button id="btn-cadastro" class="btn btn-rounded btn-secondary btn-block mb-3"
-                                        type="submit">Cadastrar
-                                    </button>
-                                </div>
-
-                                <p class="text-center text-muted">Já tem uma conta? <a class="fw-bold text-primary"
-                                        href="jd/login/index.html"><u>Entre</u></a>
-                                </p>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     </main>
     <!-- Footer -->
     <footer class="text-center text-white bg-black">

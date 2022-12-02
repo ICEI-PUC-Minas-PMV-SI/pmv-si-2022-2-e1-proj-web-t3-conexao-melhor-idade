@@ -11,6 +11,7 @@ function markAsValidOnInputChange(event) {
     event.target.classList.add("is-valid");
   }
 }
+
 function markInputValidityOnFocusOut(event) {
   if (event.target.checkValidity(event)) {
     event.target.classList.remove("is-invalid");
@@ -22,11 +23,13 @@ function markInputValidityOnFocusOut(event) {
     return false;
   }
 }
+
 function markFormValidityOnSubmit(event) {
   if (!event.target.checkValidity(event)) {
     event.target.classList.add("was-validated");
     return false;
   }
+
   return true;
 }
 
@@ -60,7 +63,7 @@ function signUp(event) {
       dob,
       cpf,
       phone,
-      password
+      password,
     });
 
     console.log(allUsers);
@@ -81,7 +84,7 @@ function signUp(event) {
 document.addEventListener("DOMContentLoaded", function (event) {
   let data = localStorage.getItem("users");
   if (!data) {
-    localStorage.setItem("users", JSON.stringify(users));
+    localStorage.setItem("usersDb", JSON.stringify(usersDb));
   }
 
   const form = document.getElementById("cmi-cadastro");
