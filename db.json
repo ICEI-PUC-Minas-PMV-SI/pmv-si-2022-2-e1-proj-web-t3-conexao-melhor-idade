@@ -1,5 +1,5 @@
 {
-  "data": [
+  "users": [
     {
       "user_type": "cliente",
       "avatar": "src/img/joao.jpg",
