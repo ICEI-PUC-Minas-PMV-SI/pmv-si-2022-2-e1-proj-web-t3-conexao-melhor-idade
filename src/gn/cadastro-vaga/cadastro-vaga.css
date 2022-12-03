@@ -121,3 +121,13 @@ main .quando{
   font-weight:600;
   font-size: 15px;
 }
+
+#postar-vaga:hover{
+  background-color: #2c7fcc;
+  cursor: pointer;
+}
+
+td, tr{
+  padding: 5px;
+
+}
