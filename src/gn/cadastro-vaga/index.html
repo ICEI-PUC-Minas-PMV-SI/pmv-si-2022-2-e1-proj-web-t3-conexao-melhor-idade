@@ -61,11 +61,11 @@
                         
                         <div class="opcao">
                             <form>
-                                <p><input  type="checkbox" name="acao" value="cp"> Cuidador profissional.</p>
+                                <p><input  type="checkbox" id="inputTipo" value="cp"> Cuidador profissional.</p>
                 
-                                <p><input  type="checkbox" name="acao" value="vo"> Voluntário.</p>
+                                <p><input  type="checkbox" id="inputTipo" value="vo"> Voluntário.</p>
                                 
-                                <p><input  type="checkbox" name="acao" value="n"> Apenas me conectar a pessoas com interesses similares.</p>
+                                <p><input  type="checkbox" id="inputTipo" value="n"> Apenas me conectar a pessoas com interesses similares.</p>
                                 
                             </form>
                         </div>
@@ -90,48 +90,48 @@
                                 </thead>
 
                                 <tbody>
-                                    <tr>
+                                    <tr>    
                                         <td>Manhã</td>
-                                        <td><input type="checkbox" name="acao" value="2M"></td>
-                                        <td><input type="checkbox" name="acao" value="3M"></td>
-                                        <td><input type="checkbox" name="acao" value="4M"></td>
-                                        <td><input type="checkbox" name="acao" value="5M"></td>
-                                        <td><input type="checkbox" name="acao" value="6M"></td>
-                                        <td><input type="checkbox" name="acao" value="SM"></td>
-                                        <td><input type="checkbox" name="acao" value="DM"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="2M"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="3M"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="4M"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="5M"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="6M"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="SM"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="DM"></td>
                                     </tr>
 
                                     <tr>
                                         <td>Tarde</td>
-                                        <td><input type="checkbox" name="acao" value="2T"></td>
-                                        <td><input type="checkbox" name="acao" value="3T"></td>
-                                        <td><input type="checkbox" name="acao" value="4T"></td>
-                                        <td><input type="checkbox" name="acao" value="5T"></td>
-                                        <td><input type="checkbox" name="acao" value="6T"></td>
-                                        <td><input type="checkbox" name="acao" value="ST"></td>
-                                        <td><input type="checkbox" name="acao" value="DT"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="2T"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="3T"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="4T"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="5T"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="6T"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="ST"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="DT"></td>
                                     </tr>
 
                                     <tr>
                                         <td>Fim de tarde</td>
-                                        <td><input type="checkbox" name="acao" value="2F"></td>
-                                        <td><input type="checkbox" name="acao" value="3F"></td>
-                                        <td><input type="checkbox" name="acao" value="4F"></td>
-                                        <td><input type="checkbox" name="acao" value="5F"></td>
-                                        <td><input type="checkbox" name="acao" value="6F"></td>
-                                        <td><input type="checkbox" name="acao" value="SF"></td>
-                                        <td><input type="checkbox" name="acao" value="DF"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="2F"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="3F"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="4F"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="5F"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="6F"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="SF"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="DF"></td>
                                     </tr>
 
                                     <tr>
                                         <td>Noite</td>
-                                        <td><input type="checkbox" name="acao" value="2N"></td>
-                                        <td><input type="checkbox" name="acao" value="3N"></td>
-                                        <td><input type="checkbox" name="acao" value="4N"></td>
-                                        <td><input type="checkbox" name="acao" value="5N"></td>
-                                        <td><input type="checkbox" name="acao" value="6N"></td>
-                                        <td><input type="checkbox" name="acao" value="SN"></td>
-                                        <td><input type="checkbox" name="acao" value="DN"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="2N"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="3N"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="4N"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="5N"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="6N"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="SN"></td>
+                                        <td><input type="checkbox" id="inputQuando" value="DN"></td>
                                     </tr>
 
 
@@ -146,7 +146,7 @@
 
                         <h2>Conte um pouco sobre sua necessidade</h2>
 
-                        <form action="necessidade.html" method="post">
+                        <form action="necessidade.html" method="post" id="inputDesc">
                             <textarea id="caixa-de-texto" name="texto" rows="10" cols="50"></textarea>
                         </form>
 
@@ -156,12 +156,10 @@
                     <table class="especial">
                         <tbody>
                             <tr>
-                                <td><input type="checkbox" name="acao" value="#" id="op-especial"></td>
+                                <td><input type="checkbox" id="inputNecessidade" value="Sim"></td>
                                 <td>
-                                    <p class="destaque">Procuro alguém que tenha experiência com idosos com necessidades
-                                        especiais.</p>
-                                    <p>*Por exemplo: experiência com idosos com deficiência intelectual ou doeça crônica.
-                                    </p>
+                                    <p class="destaque">Procuro alguém que tenha experiência com idosos com necessidades especiais.</p>
+                                    <p>*Por exemplo: experiência com idosos com deficiência intelectual ou doeça crônica.</p>
                                 </td>
                             </tr>
 
@@ -173,6 +171,8 @@
 
                 </div>
                 </form>  
+
+                <h1 id="tabela-vagas"></h1>
         </div>
          
     </main>
@@ -191,7 +191,46 @@
         <div class="copyright">© 2022 Conexão Melhor Idade -Todos os direitos reservados</div>
     </footer>
 
-    </div>
+    <script>
+
+        function exibeVagas() {
+                    // Remove todas as linhas do corpo da tabela
+                    $("#tabela-vagas").html("");
+
+                    // Popula a tabela com os registros do banco de dados
+                    for (i = 0; i < db.data.length; i++) {
+                        let contato = db.data[i];    
+                        $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                        <td>${vaga.tipo}</td>
+                                                        <td>${vaga.quando}</td>
+                                                        <td>${vaga.desc}</td>
+                                                        <td>${vaga.necessidade}</td>
+                                                    </tr>`);
+                    }
+                }
+
+                function init (){
+                    $("#postar-vaga").click(function () {
+
+                let campoTipo = $("#inputTipo").val();
+                let campoQuando = $("#inputQuando").val();
+                let campoDesc = $('#inputDesc').val();
+                let campoNecessidade = $("#inputNecessidade").val();
+                let vaga = { tipo: campoTipo, 
+                    quando: campoQuando, 
+                    desc: campoDesc, 
+                    necessidade: campoNecessidade 
+                };
+
+                inserevaga(vaga);
+
+                // Reexibe os contatos
+                exibeVagas();
+                    });
+
+                }
+    </script>
+
 </body>
 
 </html>
