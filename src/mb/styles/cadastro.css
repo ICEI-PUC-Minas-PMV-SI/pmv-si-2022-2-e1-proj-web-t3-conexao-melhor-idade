@@ -36,7 +36,7 @@ h6 {
   }
 }
 color-profile {
-  --mdb-primary: #4284ff !important;
+  --mdb-primary: #6970fb !important;
   --mdb-secondary: #35e899 !important;
   --mdb-success: #14a44d !important;
   --mdb-danger: #fb4646 !important;
@@ -149,7 +149,7 @@ color-profile {
 /***** Top menu *****/
 
 .navbar {
-  background: #4284ff;
+  background: #0e32eb;
   transition: all 0.6s;
   backface-visibility: hidden;
   box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.5);
@@ -271,16 +271,20 @@ color-profile {
 /***************************************************
 navbar drop down menu-emergencias
 ****************************************************/
-
+.dropdown-menu {
+  right: auto !important;
+  left: auto !important;
+  padding-right: 5px;
+}
 .dropdown-toggle:after {
-  display: none !important;
+  display: inline-flex;
 }
 
 .dropdown-menu:before {
   position: absolute !important;
   top: -7px !important;
   left: 13% !important;
-  display: inline-flex !important;
+  display: inline-block !important;
   border-right: 7px solid transparent !important;
   border-bottom: 7px solid #ccc !important;
   border-left: 7px solid transparent !important;

@@ -5,182 +5,194 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/">
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="home-cliente.css">
     <base href="/src/" target="_self">
-    <title>Conexão Melhor Idade</title>
+    <title>Deashbord | Conexão Melhor Idade</title>
+    
 </head>
 
 <body>
+
     <header>
-        <div class="header-container">
-            <div class="logo">
-                <a href="index.html"><img class="logo-texto" src="img/logo-texto.png" alt="logo texto" /></a>
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="mb/quem-somos.html">Quem somos</a></li>
-                    <li><a href="gn/primeiros-socorros/index.html">Emergências</a></li>
-                </ul>
-            </nav>
-            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
-                <i data-feather="menu"></i>
-            </button>
+
+        <a href="#" target="_self"><img src="img/logo-texto.png"></a>
+
+        <div class="menu">
+            <ul>
+                
+                <li><a href="#" target="_self">Home</a></li>
+                <li><a href="#" target="_self">Quem somos</a></li>
+                <li><a href="#" target="_self">Emergências</a></li>
+                <li><a href="#" target="_self">IMG</a></li>
+            </ul>
         </div>
+
     </header>
 
-    <main id="fundo">
-        <div class="perfil">
-            <img class="pesquisa" src="img/ana.jpg" alt="Ana Clara" />
+    <main>
 
-            <h3>Ana Clara</h3>
+        <div class="conteudo">
 
-            <a href="gn/cadastro-vagas/index.html">Cadastrar vagas</a>
+            <div class="perfil">
+                <img src="img/ana.jpg" alt="foto de perfil">
+                <p>Ana Clara</p>
+            
+            <a class="cadastrar-vaga" href="gn/cadastro-vaga/index.html" target="_self">Cadastrar vaga</a>
         </div>
 
-        <div class="container">
-            <div>
-                <img class="pesquisa" src="img/4-idosos.jpg" alt="Idosos" />
-            </div>
-            <div class="filtro">
-                <input type="text" placeholder="Pesquisar" />
-                <button>Filtrar</button>
-            </div>
-        </div>
-        </div>
-        </div>
+            <div class="busca">
+                <img src="img/4-idosos.jpg" alt="desenho idosos">
 
-        <h3 class="recomendacao">Perfis recomendados</h3>
-
-        <div class="all">
-            <div class="coluna">
-                <div class="titulos">Profissionais</div>
-
-
-                <div class="caixa">
-                    <img class="carlos" src="img/carlos.jpg" alt="carlos" />
-                    <a href="#" target="_blank">
-                        <div class="edit">
-                            <p>Carlos Miranda</p>
-                            <pre>Enfermeiro</pre>
-                            <pre>Centro, Contagem, MG.</pre>
-                        </div>
-                    </a>
+                <div class="campo">
+                    <input class="caixa-texto" type="text" name="busca" value="">
+                    <input class="botao" type="submit" name="acao" value="Buscar">
                 </div>
-
-
-
-                <div class="caixa">
-                    <img src="img/sandra.jpg" alt="sandra" />
-                    <a href="#" target="_blank">
-                        <div class="edit">
-                            <p>Sandra Lima</p>
-                            <pre>Cuidadora de idosos</pre>
-                            <pre>Savassi, Belo Horizonte, MG.</pre>
-                        </div>
-                    </a>
-                </div>
-
-
-
-
-                <div class="caixa">
-                    <img class="maria" src="img/maria.jpg" alt="maria" />
-                    <a href="#" target="_blank">
-                        <div class="edit">
-                            <p>Maria Texeira</p>
-                            <pre> Enfermeira</pre>
-                            <pre> Novo Horizonte, Betim, MG.</pre>
-                        </div>
-                    </a>
-                </div>
-
-                <p><a href="" target="_blank">Ver todos</a></p>
-
-
             </div>
 
+            <h1>Perfis recomendados</h1>
 
-            <div class="teste">
-                <div class="titulos">Voluntários</div>
+            <div class="tabelas">
 
+                <div class="profissionais">
 
-                <div class="caixa">
-                    <img class="carlos" src="img/luiz.jpg" alt="Luiz Fernando" />
-                    <a href="#" target="_blank">
-                        <div class="edit">
-                            <p>Luiz Fernando</p>
-                            <pre>Voluntário</pre>
-                            <pre>Santos, São Paulo, SP.</pre>
+                    <h2>Profissionais</h2>
+
+                    
+                        <div class="carlos">
+                            <a class="prestador" href="#" target="_self">
+                                <div class="info-img">
+                                    <img src="img/carlos.jpg" alt="Foto de perfil">
+
+                                    <div class="info">
+                                        <h3>Carlos Miranda</h3>
+                                        <p>Enfermeiro</p>
+                                        <p>Centro, Contagem, MG.</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    
+                        <div class="sandra">
+                            <a class="prestador" href="#" target="_self">
+                                <div class="info-img">
+                                    <img src="img/sandra.jpg" alt="Foto de perfil">
+
+                                    <div class="info">
+                                        <h3>Sandra Lima</h3>
+                                        <p>Cuidadora de idosos</p>
+                                        <p>Savassi, Belo Horizonte, MG.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="maria">
+                            <a class="prestador" href="#" target="_self">
+                                <div class="info-img">
+                                    <img src="img/maria.jpg" alt="Foto de perfil">
+
+                                    <div class="info">
+                                        <h3>Maria Teixeira</h3>
+                                        <p>Enfermeira</p>
+                                        <p>Novo Horizonte, Betim, MG.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <a class="ver-todos" href="#" target="_self">Ver todos</a> 
+                </div>     
+
+                <div class="voluntarios">
+
+                    <h2>Voluntários</h2>
+
+                        <div class="luiz">
+                            <a class="prestador" href="#" target="_self">
+                                <div class="info-img">
+                                    <img src="img/Luiz.jpg" alt="foto de perfil">
+
+                                    <div class="info">
+                                        <h3>Luiz Fernando</h3>
+                                        <p>Voluntário</p>
+                                        <p>Santos, São Paulo, SP.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    
+
+                    
+                        <div class="liandra">
+                            <a class="prestador" href="#" target="_self">
+                                <div class="info-img">
+                                    <img src="img/Liandra.jpg" alt="foto de perfil">
+                                    <div class="info">
+                                        <h3>Liandra Lopes</h3>
+                                        <p>Cuidadora de idosos</p>
+                                        <p>Inga, Betim, MG.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    
+
+                        <div class="beatriz">
+                            <a class="prestador" href="bb/perfil-profissional/index.html" target="_self">
+                                <div class="info-img">
+                                    <img src="img/beatriz.jpg" alt="foto de perfil">
+
+                                    <div class="info">
+                                        <h3>Beatriz Dias</h3>
+                                        <p>Enfermeira</p>
+                                        <p>Novo Horizonte, Betim, MG.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    <a class="ver-todos" href="#" target="_self">Ver todos</a>
+
                 </div>
 
-                <div class="caixa">
-                    <img src="img/liandra.jpg" alt="Liandra Lopes" />
+                <div class="vagas">
 
-                    <a href="#" target="_blank">
-                        <div class="edit">
-                            <p>Liandra Lopes</p>
-                            <pre>Cuidadora de idosos</pre>
-                            <pre>Inga, Betim, MG.</pre>
-                        </div>
-                    </a>
-                </div>
+                    <h2>Vagas em aberto</h2>
 
-
-                <div class="caixa">
-                    <img class="maria" src="img/roberta.jpg" alt="maria" />
-                    <a href="bb/perfil-profissional/index.html" target="_blank">
-                        <div class="edit">
-                            <p>Beatriz Dias</p>
-                            <pre> Enfermeira</pre>
-                            <pre> Novo Horizonte, Betim, MG.</pre>
-                        </div>
-                    </a>
-                </div>
-
-
-                <p><a href="#" target="_blank">Ver todos</a></p>
-
-            </div>
-            <div class="vgs">
-                <div class="titulos">Vagas em aberto</div>
-                <a href="#" target="_blank">
-                    <div class="vaga">
-                        <h4>Cuidador para idoso</h4>
-                        <pre>Centro, Contagem, MG</pre>
+                    <div class="vagas-abertas">
+                        <a class="prestador" href="#" target="_self">
+                            <div class="info">
+                                <h3>Cuidador para idoso</h3>
+                                <p>Centro, Contagem, MG.</p>
+                            </div>
+                        </a>
                     </div>
-                </a>
 
-                <p><a href="#" target="_blank">Ver todos</a></p>
-
-            </div>
+                    <a class="ver-todos" href="#" target="_self">Ver todos</a>
+                </div>
+            </div>    
+            
         </div>
 
     </main>
 
-    <footer class="rodape">
-        <nav>
-            <ul class="rodape-2">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mb/quem-somos.html">Quem somos</a></li>
-                <li><a href="sb/politica-de-privacidade/index.html">Termos de uso e Privacidade</a></li>
+    <footer>
 
-            </ul>
-            <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
-        </nav>
+        <div class="rodape">
+            
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                </ul>
+
+            <p class="copyright">Coneção Melhor Idade - 2022</p>
+
+        </div>
+
     </footer>
 
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-        feather.replace();
-    </script>
-    <script src="script.js"></script>
-
 </body>
-
 </html>

@@ -333,8 +333,8 @@ caption {
 }
 
 th {
-  text-align: inherit;
   text-align: -webkit-match-parent;
+  text-align: inherit;
 }
 
 thead,
@@ -8210,7 +8210,7 @@ hr:not([size]).vr {
   background-color: rgba(
     var(--mdb-primary-rgb),
     var(--mdb-bg-opacity)
-  ) !important;
+  ) ;
 }
 
 .bg-secondary {
@@ -11881,35 +11881,35 @@ button:focus {
 }
 
 .bg-primary {
-  background-color: rgba(62, 154, 238, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(62, 154, 238, var(--mdb-bg-opacity)) ;
 }
 
 .bg-secondary {
-  background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) ;
 }
 
 .bg-success {
-  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) ;
 }
 
 .bg-danger {
-  background-color: rgba(220, 76, 100, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(220, 76, 100, var(--mdb-bg-opacity)) ;
 }
 
 .bg-warning {
-  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) ;
 }
 
 .bg-info {
-  background-color: rgba(84, 180, 211, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(84, 180, 211, var(--mdb-bg-opacity)) ;
 }
 
 .bg-light {
-  background-color: rgba(251, 251, 251, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(251, 251, 251, var(--mdb-bg-opacity)) ;
 }
 
 .bg-dark {
-  background-color: rgba(51, 45, 45, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(51, 45, 45, var(--mdb-bg-opacity)) ;
 }
 
 /*!
@@ -11954,12 +11954,12 @@ i.flag:not(.icon) {
 }
 
 /* Sprite */
-i.flag {
-  /* Flag Sprite Based On http://www.famfamfam.com/lab/icons/flags/ */
-  /*******************************
+
+/* Flag Sprite Based On http://www.famfamfam.com/lab/icons/flags/ */
+/*******************************
            Theme Overrides
   *******************************/
-}
+
 i.flag::before {
   display: inline-block;
   width: 16px;

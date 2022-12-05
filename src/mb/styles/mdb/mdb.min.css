@@ -4168,7 +4168,7 @@ fieldset:disabled .btn {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255,);
+  color: rgba(255, 255, 255);
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
@@ -7339,51 +7339,51 @@ hr:not([size]).vr {
 } /*!rtl:end:remove*/
 .text-primary {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-primary-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-primary-rgb), var(--mdb-text-opacity));
 }
 .text-secondary {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-secondary-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-secondary-rgb), var(--mdb-text-opacity));
 }
 .text-success {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-success-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-success-rgb), var(--mdb-text-opacity));
 }
 .text-danger {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-danger-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-danger-rgb), var(--mdb-text-opacity));
 }
 .text-warning {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-warning-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-warning-rgb), var(--mdb-text-opacity));
 }
 .text-info {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-info-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-info-rgb), var(--mdb-text-opacity));
 }
 .text-light {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-light-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-light-rgb), var(--mdb-text-opacity));
 }
 .text-dark {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-dark-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-dark-rgb), var(--mdb-text-opacity));
 }
 .text-black {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-black-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-black-rgb), var(--mdb-text-opacity));
 }
 .text-white {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-white-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-white-rgb), var(--mdb-text-opacity));
 }
 .text-body {
   --mdb-text-opacity: 1;
-  color: rgba(var(--mdb-body-color-rgb), var(--mdb-text-opacity)) !important;
+  color: rgba(var(--mdb-body-color-rgb), var(--mdb-text-opacity));
 }
 .text-muted {
   --mdb-text-opacity: 1;
-  color: #757575 !important;
+  color: #757575;
 }
 .text-black-50 {
   --mdb-text-opacity: 1;
@@ -7411,17 +7411,11 @@ hr:not([size]).vr {
 }
 .bg-primary {
   --mdb-bg-opacity: 1;
-  background-color: rgba(
-    var(--mdb-primary-rgb),
-    var(--mdb-bg-opacity)
-  ) !important;
+  background-color: rgba(var(--mdb-primary-rgb), var(--mdb-bg-opacity));
 }
 .bg-secondary {
   --mdb-bg-opacity: 1;
-  background-color: rgba(
-    var(--mdb-secondary-rgb),
-    var(--mdb-bg-opacity)
-  ) !important;
+  background-color: rgba(var(--mdb-secondary-rgb), var(--mdb-bg-opacity));
 }
 .bg-success {
   --mdb-bg-opacity: 1;
@@ -10994,19 +10988,19 @@ button:focus {
   }
 }
 .bg-primary {
-  background-color: rgba(84, 99, 255, var(--mdb-bg-opacity)) !important;
+  background-color: ffffff, var(--mdb-bg-opacity);
 }
 .bg-secondary {
-  background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(62, 231, 199, var(--mdb-bg-opacity));
 }
 .bg-success {
-  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(20, 164, 77, var(--mdb-bg-opacity));
 }
 .bg-danger {
-  background-color: rgba(255, 24, 24 var(--mdb-bg-opacity)) !important;
+  background-color: rgba(255, 24, 24 var(--mdb-bg-opacity));
 }
 .bg-warning {
-  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity)) !important;
+  background-color: rgba(228, 161, 27, var(--mdb-bg-opacity));
 }
 .bg-info {
   background-color: rgba(84, 180, 211, var(--mdb-bg-opacity)) !important;
@@ -15209,7 +15203,7 @@ fieldset:disabled .btn-group-vertical {
   box-shadow: none;
 }
 .accordion-flush .accordion-button:not(.collapsed) {
-  box-shadow: inset 0 -2px 0 #f5f5f5;s
+  box-shadow: inset 0 -2px 0 #f5f5f5;
 }
 .accordion-flush .accordion-item {
   border-bottom: 2px solid #f5f5f5;
