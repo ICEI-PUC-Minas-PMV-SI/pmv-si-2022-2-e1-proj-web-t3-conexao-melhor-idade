@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/src/" target="_self">
+    <title>Conexão Melhor Idade</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <link rel="stylesheet" href="bb/reset.css" />
+    <link rel="stylesheet" href="bb/pesquisar/pesquisa.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Pesquisa">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img class="logo-texto" src="img/logo-texto.png" alt="logo texto" /></a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mb/quem-somos.html">Quem somos</a></li>
+                    <li><a href="bb/numeros-emergencia/index.html">Emergências</a></li>
+
+                    <div class="login-cadastro">
+                        <li><a href="jd/login/index.html">Entrar</a></li>
+                        <li><a href="mb/cadastro.html">Cadastre-se</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="gn/home-cliente/index.html">Home</a></li>
+                <li><a href="mb/quem-somos.html">Quem somos</a></li>
+                <li><a href="bb/numeros-emergencia/index.html">Emergências</a></li>
+
+                <div class="login-cadastro">
+                    <li><a href="jd/login/index.html">Entrar</a></li>
+                    <li><a href="mb/cadastro.html">Cadastre-se</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="caixa-pesquisa">
+                <div class="pesquisa-container">
+                    <form>
+                        <input type="search" class="pesquisa" placeholder="Pesquisar">
+                        <a class="search-bnt" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <div class="container-pesquisa">
+                <div class="titulo-pesquisa">
+                    <h1>Pessoas</h1>
+                </div>
+                <div class="pesquisa-pessoas" id="identifica_pessoa" data-lista>
+                    <div class="caixa-pessoa">
+                        <img src="img/luiz.jpg" alt="Luiz">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Luiz Fernando</h2>
+                            </a>
+                            <p>Santos, São Paulo.</p>
+                            <p> Enfermeiro(a).</p>
+                        </div>
+                    </div>
+                    <!-- <div class="caixa-pessoa">
+                        <img src="img/liandra.jpg" alt="Liandra">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Liandra Lopes</h2>
+                            </a>
+                            <p>Betim, Minas Gerais.</p>
+                            <p>Enfermeiro(a).</p>
+                        </div>
+                    </div>
+                    <div class="caixa-pessoa">
+                        <img src="img/carlos.jpg" alt="Carlos">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Carlos Miranda</h2>
+                            </a>
+                            <p>Belo Horizonte, Minas Gerais.</p>
+                            <p> Enfermeiro(a).</p>
+                        </div>
+                     </div> 
+                    <div class="caixa-pessoa">
+                        <img src="img/sandra.jpg" alt="Sandra">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Sandra Lima</h2>
+                            </a>
+                            <p>Belo Horizonte, Minas Gerais.</p>
+                            <p> Enfermeiro(a).</p>
+                        </div>
+                    </div>
+                    <div class="caixa-pessoa">
+                        <img src="img/beatriz.jpg" alt="Beatriz">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Beatriz Dias</h2>
+                            </a>
+                            <p>Betim, Minas Gerais.</p>
+                            <p> Enfermeiro(a).</p>
+                        </div>
+                    </div>
+                    <div class="caixa-pessoa">
+                        <img src="img/maria.jpg" alt="Maria">
+                        <div class="edit">
+                            <a href="#">
+                                <h2>Maria Texeira</h2>
+                            </a>
+                            <p>Betim, Minas Gerais.</p>
+                            <p> Enfermeiro(a).</p>
+                        </div> -->
+                </div>
+                <div class="ver-pessoas">
+                    <a href="bb/busca-candidatos/index.html">
+                        <p>Ver todos resultados para pessoas</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-vagas" id="identifica_vagas" data-lista>
+            <div class="titulo-pesquisa">
+                <h1>Vagas</h1>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisa-vaga">
+                <div class="caixa-vagas">
+                    <div class="edit">
+                        <a href="#">
+                            <h2>Plantão Enfermagem</h2>
+                        </a>
+                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
+                        <p>Bangu, Rio de Janeiro , RJ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ver-vagas">
+                <a href="bb/busca-vagas/index.html">
+                    <p>Ver todos resultados para vagas</p>
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <nav>
+            <ul class="rodape-2">
+                <li>
+                    <div>
+                        <a href="index.html">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="mb/quem-somos.html">Quem somos</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="sb/politica-de-privacidade/index.html">Termos de uso e privacidade</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="copyright">© 2022 Conexão Melhor Idade</div>
+        </nav>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script rel="stylesheet" src="bb/pesquisar/script.js" type="module"></script>
+</body>
+</body>
+
+</html>
