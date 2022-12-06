@@ -72,26 +72,47 @@
         <div class="right-login">
           <div class="card-login">
             <h1>Login</h1>
-            <form>
+            <div id="msgError"></div>
+            <form onsubmit="entrar()" id="cmi-login-form">
               <div class="textfield">
-                <input type="email" id="email" name="email" required />
-                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required />
+                <label id="emaiLabel" for="email">Email</label>
               </div>
+
               <div class="textfield">
-                <input type="password" name="password" required minlength="8" />
-                <label for="senha">Senha</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  required
+                  minlength="8"
+                />
+                <label id="passLabel" for="password">Senha</label>
+                <span
+                  id="strength-disp"
+                  class="strength-disp badge displayBadge"
+                ></span>
               </div>
+
               <div class="middle">
-                <label class="check">
-                  <input type="checkbox" checked="checked" />
+                <label for="keep-alive" class="check">
+                  <input
+                    id="keep-alive"
+                    name="keep-alive"
+                    type="checkbox"
+                    checked="checked"
+                  />
                   <span class="checkmark">Manter-se Conectado</span>
                 </label>
                 <div class="esqueceu">
                   <pre><a href="#">Esqueceu a senha?</a></pre>
                 </div>
               </div>
+
               <div class="main-btn">
-                <button class="btn-login" type="submit">Entrar</button>
+                <button id="cmi-login" class="btn-login" type="submit">
+                  Entrar
+                </button>
                 <button class="btn-google">
                   <img src="img/icons8-google-logo-48.png" /> Entre com o Google
                 </button>
@@ -126,7 +147,7 @@
     <script>
       feather.replace();
     </script>
-    <script src="public/load-db.js"></script>
-    <script src="script.js"></script>
+    <script src="/src/public/load-db.js"></script>
+    <script src="jd/login/script.js"></script>
   </body>
 </html>

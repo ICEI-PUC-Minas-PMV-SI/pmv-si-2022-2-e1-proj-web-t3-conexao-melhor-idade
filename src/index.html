@@ -3,10 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <base href="/src/" target="_self">
-  <title>Conexão Melhor Idade</title>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+  <meta content="ie=edge" http-equiv="x-ua-compatible" />
   <!-- MDB icon 
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
   <!-- MDB -->
@@ -14,92 +12,112 @@
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <!-- Google Fonts Roboto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="mb/styles/carousel.css" />
-  <link rel="stylesheet" href="mb/styles/styles.css" />
+  <link href="mb/styles/styles.css" rel="stylesheet" />
+  <link href="mb/styles/carousel.css" rel="stylesheet" />
+  <base href="/src/" target="_self">
+  <title>Conexão Melhor Idade</title>
 </head>
 
 <body>
   <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-around py-3">
       <!-- Container wrapper -->
       <div class="container">
         <!-- Navbar brand -->
-        <a class="navbar-brand me-2" href="#">
-          <img src="img/logo-texto.png" height="40" alt="CMI Logo" />
+        <a class="navbar-brand " href="#">
+          <img alt="CMI Logo" height="42" src="img/logo-texto.png" loading="lazy" />
         </a>
 
-        <!-- Toggle button -->
-        <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="material-symbols-outlined text-white"> Menu </span>
+        <!-- Collapsible wrapper -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-mdb-target="#navbarNav"
+          data-mdb-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          href="#">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
 
-        <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-          <!-- Left links -->
-          <ul class="navbar-nav ms-auto me-0">
-            <li class="nav-item">
-              <a class="nav-link" href="mb/index.html">Home</a>
-            </li>
+        <!-- Left links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-0 d-flex align-items-center">
+            <!-- Toggle button -->
 
             <li class="nav-item">
-              <a class="nav-link" href="/">Quem Somos</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="mb/quem-somos.html" data-mdb-toggle="dropdown">
-                Emergências
-              </a>
-
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="gn/primeiros-socorros/index.html">
-                    Primeiros socorros
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="bb/numeros-emergencia/numeros-emergencia.html">
-                    Números de emergência
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="jd/dicas-acidentes/dicas-acidentes.html">
-                    Prevenção de acidentes
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="jd/hospitais-e-postos/hospitais-e-postos.html">
-                    Hospitais e postos de saúde mais próximos
-                  </a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
             </li>
+
+            <li class="nav-item m-2">
+              <div class="btn-group">
+                <button aria-expanded="false" class=" d-flex align-items-center btn btn-sm btn-danger "
+                  data-mdb-toggle="dropdown" type="button"><span
+                    class="material-symbols-outlined text-white justify-content-sm-start">emergency
+                  </span> Emergências
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorros/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">medical_services</span>
+                      <div>Primeiros socorros</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="bb/numeros-emergencia/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">call</span>
+                      <div>Números de emergência</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="jd/dicas-acidentes/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">info</span>
+                      <div>Prevenção de acidentes</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex mt-2" href="jd/hospitais/index.html">
+                      <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
+                      <div>Hospitais e postos de saúde</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item ms-2">
+              <div class="nav-item dropdown">
+                <a href="#" aria-expanded="false" class="nav-link p-1" data-mdb-toggle="dropdown"
+                  data-bs-display="static" aria-expanded="false">
+                  <span class="nav-link material-symbols-outlined p-0 align-middle fs-2">account_circle</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end align-auto p-2">
+                  <li>
+                    <a class="btn btn-secondary d-block" href="jd/login/index.html">Entrar</a>
+                  </li>
+                  <li>
+                    <hr class="divider-horizontal my-2" />
+                  </li>
+                  <li>
+                    <a class=" btn btn-primary d-block" href="mb/cadastro.html">Cadastrar</a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
-
-        <button type="button" class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
-          data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
-          <span class="nav-link material-symbols-outlined">account_circle</span>
-        </button>
-
-        <div id="user-menu" class="d-none">
-          <div>
-            <a href="jd/login/login.html" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
-            <a href="mb/cadastro.html" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
-          </div>
-        </div>
       </div>
+
     </nav>
 
   </header>
-
+  <!-- Navbar -->
   <!-- Background image -->
   <section class="cmi-hero">
     <div class="text-white d-flex flex-column align-items-center text-center">
@@ -143,7 +161,7 @@
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-2 order-md-0">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Crie seu perfil</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -164,14 +182,14 @@
             <span>&nbsp;</span>
           </div>
           <div class="text-center order-0 order-md-2">
-            <img class="img-fluid" alt="icon" src="img/form-icon.png" />
+            <img class="img-fluid" alt="icon" src="img/form-icon-gradiente.png" />
             </svg>
           </div>
         </div>
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-0 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Busque profissionais, voluntários ou vagas na sua região</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -192,14 +210,14 @@
             <span>&nbsp;</span>
           </div>
           <div class="text-center order-2 order-md-0">
-            <img class="img-fluid" alt="icon" src="img/search-icin-gradiente.png" />
+            <img class="img-fluid" alt="icon" src="img/search-icon-gradiente.png" />
             </svg>
           </div>
         </div>
         <div class="cmi-how-it-works d-flex flex-column flex-md-row mb-5">
           <div class="order-2 order-md-0">
             <h2 class="featurette-heading fw-normal lh-1 ">
-              <span class="text-muted">Crie seu perfil.</span>
+              <span class="text-muted">Conecte-se a pessoas que precisam da sua ajuda</span>
             </h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore
@@ -238,7 +256,57 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Beatriz</h5>
+                      <p class="card-text mb-0">Nutricionista</p>
+                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
+                      <span class="rating">★★★★★</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+
+
+                      <div id="profile-reviews"></div>
+
+
+
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="img/maria.jpg" alt="" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <div id="profile-first"></div>
+                      </h5>
+                      <p class="card-text mb-0">
+                      <div id="profile-profession"></div>
+                      </p>
+                      <small class="d-block text-muted mb-3">
+                        <div id="profile-city"></div>, <div id="profile-state"></div>
+                      </small>
+                      <span class="rating">
+                        <div id="profile-reviews"></div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3 px-2">
+                  <div class="card">
+                    <div class="p-3">
+                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
@@ -256,12 +324,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Carlos</h5>
+                      <p class="card-text mb-0">Enfermeiro</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -274,12 +342,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Luiz</h5>
+                      <p class="card-text mb-0">Cuidador de idosos</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -292,48 +360,12 @@
                   <div class="card">
                     <div class="p-3">
                       <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
+                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jfif" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
+                      <h5 class="card-title">Sandra</h5>
+                      <p class="card-text mb-0">Cuiadora de idosos</p>
                       <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
                       <span class="rating">★★★★★</span>
                     </div>
@@ -362,10 +394,10 @@
 
     <section class="cmi-home-banner banner-bottom py-5">
       <div class="container text-center py-5">
-        <h2 class="mb-4">Nossos proffisionais e voluntários estão a sua espera</h2>
+        <h2 class="mb-4">Nossos profisionais e voluntários estão a sua espera</h2>
         <p class="mb-5">Encontre o cuidado que sua familia precisa, nossa plataforma é 100% gratuíta e sem compromissio.
         </p>
-        <a href="" class="btn btn-primary btn-large fs-6 py-3 px-5">Crie sua conta gratuita</a>
+        <a href="mb/cadastro.html" class="btn btn-primary btn-large fs-6 py-3 px-5">Quero me cadastrar</a>
       </div>
     </section>
   </main>

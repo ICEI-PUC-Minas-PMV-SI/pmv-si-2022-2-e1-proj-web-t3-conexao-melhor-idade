@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*cabeçalho*/
+
+header{
+    background-color: #3E9AEE;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a{
+    color: white
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    padding: 20px;
+    list-style: none;
+}
+
+header img{
+    width:150px;
+    height:40px;
+}
+
+/*Perfil logado (Ana clara)*/
+
+main .perfil img{
+    width: 60px;
+    height:60px;
+    border-radius: 100%;;
+}
+
+main .perfil p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+main .perfil{
+    margin: 40px 0px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+main .cadastrar-vaga{
+    border: 1px transparent;
+    border-radius: 5px;
+    margin: 5px 0px 0px 0px;
+    background-color: #3E9AEE;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100px;
+}
+
+main .cadastrar-vaga:hover{
+    background-color: #5eaaf1;
+}
+
+/*Campo de busca*/
+
+main .busca img{
+    width: 200px;
+    height:150px;
+    padding: 10px;
+}
+
+main .busca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .botao{
+    background-color: #3E9AEE;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+main .botao:hover{
+    background-color: #5eaaf1;
+}
+
+
+main .caixa-texto{
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*títulos*/
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+    color: #3E9AEE
+}
+
+h2, h3{
+    color: #3E9AEE
+}
+
+h2{
+    margin-top: 30px;
+}
+
+/*Tabelas*/
+
+main .tabelas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.voluntarios{
+    padding: 50px;
+}
+
+.vagas{
+    padding: 0% 5%;
+}
+
+.profissionais, .voluntarios, .vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px transparent;
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px 5px rgb(240, 240, 240);
+    padding: 0px 70px 0px 70px;
+    width: 300px;
+    margin: 30px;
+}
+
+main .carlos, .sandra, .maria, .luiz, .liandra, .beatriz, .vagas-abertas{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 80%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+main .info{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    color: black;
+}
+
+main .info-img{
+    display: flex;
+    align-items: center;
+}
+
+main .prestador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main p{
+    font-size: 12px;
+}
+
+.tabelas img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+main .ver-todos{
+    margin-top: auto;
+    padding: 30px;
+}
+
+@media (max-width: 1200px){
+
+    header{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .tabelas{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .profissionais, .voluntarios, .vagas{
+        width: 200px;
+    }
+
+    main .carlos, .sandra, .maria, .luiz, .liandra, .beatriz, .vagas-abertas{
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 10px;
+        padding: 10px 30px;
+        width: 230px;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*rodapé*/
+
+.rodape{
+    background-color: #3E9AEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.rodape ul{
+    display: flex;
+    
+}
+
+.rodape ul li{
+    list-style: none;
+    padding: 20px 20px 20px 20px;
+}
+
+.rodape ul li a, .rodape p{
+
+    color: white;
+    font-size: 12px;
+}
+
+
+.rodape p{
+    margin-bottom: 20px;
+}
+
+
+
+
