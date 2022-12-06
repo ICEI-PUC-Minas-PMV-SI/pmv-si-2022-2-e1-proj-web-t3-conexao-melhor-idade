@@ -309,7 +309,14 @@ navbar drop down menu-emergencias
   background-size: cover;
   background-position: -20%;
 }
-
+.cmi-hero-2 {
+  position: relative;
+  padding: 120px 0 !important;
+  background-image: url("/img/banner-main.jpg");
+  background-size: cover;
+  background-position: -20%;
+  background-color: floralwhite;
+}
 .cmi-hero:before {
   content: " ";
   position: absolute;

@@ -155,10 +155,22 @@
                                             </div>
                                         </div>
 
-                                        <div
-                                            class=" d-flex justify-content-center justify-content-sm-start align-items-center mb-3">
-                                            <span class="rating me-2">★</span><small
-                                                id="profile-reviews">user-rating</small>
+                                        <div class="rating-box">
+                                            <fieldset class="star-rating js-star-rating">
+                                                <legend class="rating-label">Rate this page:</legend>
+                                                <div class="js-rating-container">
+                                                    <input id="rating1-1" name="rating" type="radio" value="1">
+                                                    <label for="rating1-1" class=""><span>1</span></label>
+                                                    <input id="rating2-1" name="rating" type="radio" value="2">
+                                                    <label for="rating2-1" class=""><span>2</span></label>
+                                                    <input id="rating3-1" name="rating" type="radio" value="3">
+                                                    <label for="rating3-1" class=""><span>3</span></label>
+                                                    <input id="rating4-1" name="rating" type="radio" value="4">
+                                                    <label for="rating4-1" class=""><span>4</span></label>
+                                                    <input id="rating5-1" name="rating" type="radio" value="5">
+                                                    <label for="rating5-1" class=""><span>5</span></label>
+                                                </div>
+                                            </fieldset>
                                         </div>
 
 
@@ -269,8 +281,8 @@
     <!-- Footer -->
 
     <footer class="text-center text-white bg-primary">
-        <div class="text-center py-4">
-            <ul class=" p-0 m-0">
+        <div class="text-center mt-3">
+            <ul class=" footer-link">
                 <li class="d-inline px-2">
                     <a href="index.html" class="footer-link text-white">Home</a>
                 </li>
@@ -297,6 +309,7 @@
     <!-- Custom scripts -->
 
     <!--<script type="text/javascript" src="public/scripts/protected.js"></script>-->
+    <script type="text/javascript" src="rating.js"></script>
     <script src="public/load-db.js"></script>
     <script src="mb/scripts/perfil.js"></script>
 
