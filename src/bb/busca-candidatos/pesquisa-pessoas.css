@@ -1,4 +1,3 @@
-/* Cabeçalho */
 * {
   box-sizing: border-box;
 }
@@ -9,10 +8,9 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #3e9aee;
+  background-color: rgba(84, 99, 255);
   padding: 16px;
 }
-
 .header-container {
   display: flex;
   flex-direction: row;
@@ -45,7 +43,7 @@ header {
 
 @media screen and (min-width: 1200px) {
   .menu-desktop {
-    display: flex;
+      display: flex;
   }
 }
 
@@ -53,12 +51,12 @@ header {
   display: none;
   width: 100%;
   padding: 16px 0;
-  background: #3e9aee;
+  background: rgba(84, 99, 255);
 }
 
 @media screen and (min-width: 1200px) {
   .menu-mobile {
-    display: none !important;
+      display: none !important;
   }
 }
 
@@ -95,7 +93,7 @@ header {
 
 @media screen and (min-width: 1200px) {
   #icone-mobile {
-    display: none;
+      display: none;
   }
 }
 
@@ -119,7 +117,6 @@ header {
 .login-cadastro {
   display: inline-block;
 }
-
 /* Conteudo principal */
 
 .container {
@@ -204,12 +201,12 @@ header {
 /* Rodapé */
 
 .rodape {
-  margin-top: 350px;
+  margin-top: 150px;
   padding: auto;
   position: relative;
   width: 100%;
   height: 90px;
-  background-color: #3e9aee;
+  background-color: rgba(84, 99, 255);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -250,5 +247,9 @@ header {
   }
   .menu-mobile li a {
     font-size: 3.5vw;
+  }
+  .centro {
+      width: 90%;
+      height: auto;
   }
 }
