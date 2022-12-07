@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const user = usersDb.find(function (user) {
     return userId === user.id;
   });
+  console.log(usersDb);
 
   //if user is not found got to the following page
 

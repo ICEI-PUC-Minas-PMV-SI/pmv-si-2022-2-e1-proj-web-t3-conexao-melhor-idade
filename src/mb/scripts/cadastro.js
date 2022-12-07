@@ -29,6 +29,7 @@ function markFormValidityOnSubmit(event) {
   }
   return true;
 }
+console.log(markFormValidityOnSubmit);
 
 /*
 sending form data to edit-profile page
