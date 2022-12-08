@@ -2,7 +2,7 @@
 // -->  <script type="text/javascript" src="public/protected.js"></script> <--
 
 document.addEventListener("DOMContentLoaded", function () {
-  const loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
+  const loggedUser = JSON.parse(localStorage.getItem("loggedUser"));
   console.log(loggedUser);
   if (!loggedUser) {
     location.href = "jd/login/index.html";

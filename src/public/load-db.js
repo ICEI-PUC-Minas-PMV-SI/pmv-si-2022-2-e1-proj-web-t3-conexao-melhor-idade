@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
      * Adiciona aqui qualquer o nome de arquivo de dados novo
      * para que seja carregado no loca storage.
      */
-    ["data"].forEach((type) => {
+    ["users"].forEach((type) => {
         loadData(type)
     })
 })
