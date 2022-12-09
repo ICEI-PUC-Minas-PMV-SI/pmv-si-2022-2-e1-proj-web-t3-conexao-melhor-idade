@@ -222,7 +222,7 @@ color-profile {
 .navbar-brand {
   width: 162px;
   height: 44px;
-  background: url(../img/logo-texto.png) left center no-repeat;
+  background: left center no-repeat;
   border: 0;
   text-indent: -99999px;
 }

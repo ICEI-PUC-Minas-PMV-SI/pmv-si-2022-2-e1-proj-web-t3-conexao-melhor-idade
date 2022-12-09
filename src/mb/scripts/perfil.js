@@ -4,9 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(userId, "name", url);
 
   const usersDb = JSON.parse(localStorage.getItem("users"));
-  const user = usersDb.find(function (user) {
+  const user = usersDb.find(function (users) {
     return userId === user.id;
   });
+
+  if (!user) {
+    window.confirm(
+      "Você precisa estar logado para visualizar esta página, faça seu login ou cadastre-se."
+    );
+    location.href = "jd/login/index.html";
+  }
   {
     console.log(user);
     document.getElementById("profile-first").innerHTML = user.first;
@@ -51,12 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBDVBCs7vNWXu2-kwp4gQmuSdxbvlVBTv4&q=${user.area},+${user.city}+-+${user.state},+${user.country}&zoom=16`;
       document.getElementById("profile-map").src = mapUrl;
     }
-  }
-  if (!user) {
-    window.confirm(
-      "Você precisa estar logado para visualizar esta página, faça seu login ou cadastre-se."
-    );
-    location.href = "jd/login/index.html";
   }
 });
 

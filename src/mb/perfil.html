@@ -154,14 +154,18 @@
                                                 <small id="profile-state"></small>
                                             </div>
                                         </div>
-
-                                        <div class='rating mb-2'>
-                                            <span class='star' id="1" onclick="saveStar(this.id)"></span>
-                                            <span class='star' id="2" onclick="saveStar(this.id)"></span>
-                                            <span class='star' id="3" onclick="saveStar(this.id)"></span>
-                                            <span class='star' id="4" onclick="saveStar(this.id)"></span>
-                                            <span class='star' id="5" onclick="saveStar(this.id)"></span>
-                                        </div>
+                                    </div>
+                                    <div class="rating-box" id="profile-rating">
+                                        <fieldset class="star-rating js-star-rating">
+                                            <legend class="rating-label">Rate this page:</legend>
+                                            <div class='rating'>
+                                                <span class='star' id="star-1" onclick="saveStar(this.id)"></span>
+                                                <span class='star' id="star-2" onclick="saveStar(this.id)"></span>
+                                                <span class='star' id="star-3" onclick="saveStar(this.id)"></span>
+                                                <span class='star' id="star-4" onclick="saveStar(this.id)"></span>
+                                                <span class='star' id="star-5" onclick="saveStar(this.id)"></span>
+                                            </div>
+                                        </fieldset>
 
 
                                         <button type="button" class="btn btn-rounded  btn-primary">
