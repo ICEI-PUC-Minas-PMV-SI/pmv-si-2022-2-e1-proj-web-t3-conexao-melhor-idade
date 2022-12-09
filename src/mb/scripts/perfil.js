@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(userId, "name", url);
 
   const usersDb = JSON.parse(localStorage.getItem("users"));
-  const user = usersDb.find(function (users) {
+  const user = usersDb.find(function (user) {
     return userId === user.id;
   });
 
