@@ -222,7 +222,7 @@ color-profile {
 .navbar-brand {
   width: 162px;
   height: 44px;
-  background: url(../img/logo-texto.png) left center no-repeat;
+  background: left center no-repeat;
   border: 0;
   text-indent: -99999px;
 }
@@ -436,11 +436,26 @@ main .container > div {
 *Carousel
 *************************************************************/
 .rating {
-  font-size: 200%;
-  line-height: 80%;
-  color: rgb(255, 230, 0);
+  font-size: 0;
 }
 
+.rating span {
+  font-size: 40px;
+}
+
+.rating span::before {
+  content: "☆";
+  color: rgba(0, 0, 0, 0.329);
+}
+
+.rating span.active::before {
+  content: "★";
+  color: rgb(255, 217, 0);
+}
+
+.rating span:hover {
+  cursor: pointer;
+}
 /**********************************************************
 *Vagas
 ***********************************************************/

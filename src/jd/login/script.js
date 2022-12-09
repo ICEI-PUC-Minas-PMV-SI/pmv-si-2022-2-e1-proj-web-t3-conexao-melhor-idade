@@ -44,9 +44,9 @@ form.addEventListener('submit', function entrar(event) {
 
   const msgError = document.getElementById("msgError");
 
-  const users = JSON.parse(localStorage.getItem('data'))
+  const users = JSON.parse(localStorage.getItem('users'))
 
-   const loggedUser = users.data.find((item) => {
+   const loggedUser = users.find((item) => {
   return email.value === item.email && password.value === item.password
       
     
