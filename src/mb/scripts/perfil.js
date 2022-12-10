@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const user = users.find(function (user) {
     return userId === user.id;
   });
-  console.log("userId", user, "profile-id");
+  console.log("userId", user);
 
   if (!user) {
     window.confirm(
@@ -17,17 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
     location.href = "jd/login/index.html";
   }
   {
-    document.getElementById("profile-id").innerHTML = user.id;
+    console.log(user);
+
     document.getElementById("profile-first").innerHTML = user.first;
     document.getElementById("profile-area").innerHTML = user.area;
     document.getElementById("profile-city").innerHTML = user.city;
     document.getElementById("profile-state").innerHTML = user.state;
-    document.getElementById("profile-country").innerHTML = user.country;
     document.getElementById("profile-avatar").src = user.avatar;
     document.getElementById("profile-bio").innerHTML = user.bio;
     document.getElementById("profile-hobbie1").innerHTML = user.hobbie1;
     document.getElementById("profile-hobbie2").innerHTML = user.hobbie2;
-    console.log("profile-id");
+
     console.log(user.companhia);
 
     if (user.companhia) {
@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 `;
     }
-
     if (user.cuidador) {
       document.getElementById("profile-cuidador").innerHTML = `
     <div class="d-flex text-muted mb-2">
