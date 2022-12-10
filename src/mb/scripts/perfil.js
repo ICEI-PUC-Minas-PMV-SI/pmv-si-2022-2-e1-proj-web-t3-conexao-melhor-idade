@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   const url = new URL(location.href);
   const userId = url.searchParams.get("id");
-  console.log(userId, "name", url);
+  console.log(userId, "first", url);
 
-  const usersDb = JSON.parse(localStorage.getItem("users"));
-  const user = usersDb.find(function (user) {
+  const users = JSON.parse(localStorage.getItem("users"));
+  console.log(users);
+  const user = users.find(function (user) {
     return userId === user.id;
   });
+  console.log("userId", user, "profile-id");
 
   if (!user) {
     window.confirm(
@@ -15,15 +17,17 @@ document.addEventListener("DOMContentLoaded", function () {
     location.href = "jd/login/index.html";
   }
   {
-    console.log(user);
+    document.getElementById("profile-id").innerHTML = user.id;
     document.getElementById("profile-first").innerHTML = user.first;
     document.getElementById("profile-area").innerHTML = user.area;
     document.getElementById("profile-city").innerHTML = user.city;
     document.getElementById("profile-state").innerHTML = user.state;
+    document.getElementById("profile-country").innerHTML = user.country;
     document.getElementById("profile-avatar").src = user.avatar;
     document.getElementById("profile-bio").innerHTML = user.bio;
     document.getElementById("profile-hobbie1").innerHTML = user.hobbie1;
     document.getElementById("profile-hobbie2").innerHTML = user.hobbie2;
+    console.log("profile-id");
     console.log(user.companhia);
 
     if (user.companhia) {
@@ -35,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 `;
     }
+
     if (user.cuidador) {
       document.getElementById("profile-cuidador").innerHTML = `
     <div class="d-flex text-muted mb-2">
@@ -60,5 +65,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
-
-//if user is not found got to the following page

@@ -9,10 +9,10 @@ function loadData(type) {
         // converte a resposta do requerimento para Objeto Json
         return response.json();
       })
-      .then((users) => {
+      .then((data) => {
         // Salva o Objeto Json carregado no localStorage
-        localStorage.setItem(type, JSON.stringify(users));
-        return users;
+        localStorage.setItem(type, JSON.stringify(data));
+        return data;
       });
   }
 
