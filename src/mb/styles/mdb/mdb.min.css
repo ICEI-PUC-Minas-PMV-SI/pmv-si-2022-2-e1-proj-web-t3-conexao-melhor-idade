@@ -2369,7 +2369,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -3745,7 +3747,7 @@ fieldset:disabled .btn {
 .navbar-brand {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  margin-right: 1rem;
+
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
@@ -3880,7 +3882,7 @@ fieldset:disabled .btn {
     overflow: visible;
   }
   .navbar-expand-md .navbar-collapse {
-    display: flex !important;
+    display: flex;
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
@@ -3933,7 +3935,7 @@ fieldset:disabled .btn {
     overflow: visible;
   }
   .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
+    display: flex;
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
@@ -3947,7 +3949,7 @@ fieldset:disabled .btn {
     bottom: 0;
     z-index: 1000;
     flex-grow: 1;
-    visibility: visible !important;
+    visibility: visible;
     background-color: rgba(0, 0, 0, 0);
     border-right: 0;
     border-left: 0;
@@ -4091,7 +4093,7 @@ fieldset:disabled .btn {
   overflow: visible;
 }
 .navbar-expand .navbar-collapse {
-  display: flex !important;
+  display: flex;
   flex-basis: auto;
 }
 .navbar-expand .navbar-toggler {
@@ -4105,7 +4107,7 @@ fieldset:disabled .btn {
   bottom: 0;
   z-index: 1000;
   flex-grow: 1;
-  visibility: visible !important;
+  visibility: visible;
   background-color: rgba(0, 0, 0, 0);
   border-right: 0;
   border-left: 0;
