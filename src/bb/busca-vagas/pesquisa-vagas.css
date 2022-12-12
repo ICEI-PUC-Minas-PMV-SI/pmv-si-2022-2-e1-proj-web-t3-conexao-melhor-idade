@@ -160,17 +160,20 @@
 
   }
   .container-vagas{
-      max-height: 100%;
-      width: 25%;
-      border: 1px solid black;
-      margin-left: 20%;
-      overflow: auto;
+    background: rgb(243, 242, 242);
+    border: 1px solid rgb(243, 242, 242);
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 5px;
+    max-height: 100%;
+    overflow: auto;
+    width: 25%;
+    margin-left: 20%;
   }
   .caixa-vagas{
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   margin: auto;
-  border: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
   display: flex;
   flex-direction: column;
 }
@@ -180,14 +183,14 @@
   }
 
   .caixa-vagas h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 6px;
     font-weight: bold;
     text-decoration: none;
     color: black;
   }
   .cidade {
-    font-size: 16px;
+    font-size: 15px;
     color: black;
     margin-bottom: 10px;
   }
@@ -203,6 +206,12 @@
     .pesquisa {
       width: 90%;
     }
+    .secao-candidatar button{
+      display: flex;
+      width: 45%;
+      margin-bottom: 10px;
+      flex-direction: column;
+    }
   }
   @media screen and (max-width: 414px) {
     .pesquisa {
@@ -213,19 +222,26 @@
   display: flex;
   width: 35%;
   background: rgb(243, 242, 242);
+  margin-left: 1px;
 
   }
   .vagas-desc{
     display: flex;
     width: 100%;
     height: 100%;
-    margin-left: 15px;
     background: rgb(243, 242, 242);
     border: 1px solid rgb(243, 242, 242);
-    border-radius: 5px;
     box-shadow: 0px 10px 40px #00000056;
+    border-radius: 5px;
     flex-direction: column;
     text-align: justify;
+    max-height: 100%;
+    overflow: auto;
+  }
+  .container-vagas button{
+    border-left: none;
+    border-top: none;
+    border-right: none;
   }
   .caixa-desc h2{
     font-size: 20px;
@@ -386,16 +402,35 @@
     .menu-mobile li a {
       font-size: 3.5vw;
     }
-    .centro {
+    .containeir{
+      display: flex;
+      flex-direction: column;
+      max-height: 100%;
+    }
+    .container-vagas-desc {
         width: 90%;
-        height: auto;
+        margin: auto;
+    }
+    .container-vagas{
+      width: 90%;
+      padding-bottom: 300px;
+      margin: auto;
+      margin-bottom: 15px;
     }
   }
   @media screen and (max-width: 414px) {
     .rodape{
-        height: 100px;
         width: 100%;
-        position: relative;
-        bottom: -300px;
+        
         }
+    footer{
+      padding-top: 500px ;
+    }
+
+    .secao-candidatar button{
+      display: flex;
+      width: 45%;
+      margin-bottom: 10px;
+      flex-direction: column;
+    }
 }
