@@ -396,7 +396,7 @@
     "country": "Brasil",
     "phone": "(81) 3684-2312",
     "cell_phone": "(81) 98985-9326",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl.",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
@@ -477,13 +477,14 @@
     "country": "Brasil",
     "phone": "(91) 2816-4376",
     "cell_phone": "(91) 99220-7875",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0019",
@@ -504,13 +505,14 @@
     "country": "Brasil",
     "phone": "(81) 2675-1231",
     "cell_phone": "(81) 99250-0761",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl.",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0020",
@@ -531,13 +533,14 @@
     "country": "Brasil",
     "phone": "(68) 3822-8508",
     "cell_phone": "(68) 99166-1801",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0021",
@@ -558,13 +561,14 @@
     "country": "Brasil",
     "phone": "(68) 3907-5913",
     "cell_phone": "(68) 98631-8748",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl.",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0022",
@@ -585,13 +589,14 @@
     "country": "Brasil",
     "phone": "(93) 2905-0130",
     "cell_phone": "(93) 98135-7574",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0023",
@@ -612,13 +617,14 @@
     "country": "Brasil",
     "phone": "(65) 2912-2005",
     "cell_phone": "(65) 98460-7492",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
-    "companhia": "Companhia",
+    "companhia": "",
     "cuidador": "",
-    "voluntario": "Voluntário(a)",
+    "voluntario": "",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0024",
@@ -639,13 +645,14 @@
     "country": "Brasil",
     "phone": "(61) 3568-7833",
     "cell_phone": "(61) 98715-4127",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeira"
   },
   {
     "id": "0025",
@@ -667,13 +674,14 @@
     "country": "Brasil",
     "phone": "(82) 2888-4757",
     "cell_phone": "(82) 98610-0986",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Cuidador de idosos"
   },
   {
     "id": "0026",
@@ -681,9 +689,9 @@
     "avatar": "img/ana.jpg",
     "first": "Vinicius",
     "last": "Gomes",
-    "age": 75,
+    "age": 45,
     "cpf": "588.956.250-99",
-    "dob": "05/03/1947",
+    "dob": "05/03/1977",
     "email": "vinicius-gomes92@rafaelmarin.net",
     "password": "UOMNHD7Tqn",
     "cep": "78720-088",
@@ -694,13 +702,14 @@
     "country": "Brasil",
     "phone": "(66) 2870-5571",
     "cell_phone": "(66) 99222-5627",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Enfermeiro"
   },
   {
     "id": "0027",
@@ -721,13 +730,14 @@
     "country": "Brasil",
     "phone": "(65) 2567-1534",
     "cell_phone": "(65) 99110-8821",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl.",
     "reviews": "4.5",
-    "companhia": "Companhia",
+    "companhia": "",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
-    "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie1": "Natação",
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Psicóloga"
   },
   {
     "id": "0028",
@@ -748,13 +758,14 @@
     "country": "Brasil",
     "phone": "(91) 3684-1477",
     "cell_phone": "(91) 98219-0981",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl.",
     "reviews": "4.5",
-    "companhia": "Companhia",
-    "cuidador": "",
-    "voluntario": "Voluntário(a)",
-    "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "companhia": "",
+    "cuidador": "Cuidador profissional",
+    "voluntario": "",
+    "hobbie1": "Ler livros de ficção científica",
+    "hobbie2": "Jogar xadrez",
+    "profession": "Enfermeiro"
   },
   {
     "id": "0029",
@@ -775,20 +786,49 @@
     "country": "Brasil",
     "phone": "(69) 3946-7139",
     "cell_phone": "(69) 99558-6691",
-    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "bio": "Praesent ut metus vel magna ultricies aliquam. Sed diam nunc, pellentesque vitae aliquam eu, tincidunt eu nisl. ",
     "reviews": "4.5",
     "companhia": "Companhia",
     "cuidador": "",
     "voluntario": "Voluntário(a)",
-    "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie1": "Andar de bicicleta",
+    "hobbie2": "Dançar",
+    "profession": "Cuidadora de idosos"
   },
   {
     "id": "0030",
     "user_type": "profissional",
     "avatar": "img/ana.jpg",
     "first": "Rita",
-    "last": "Marli Gonçalves",
+    "last": "Campos",
+    "age": 52,
+    "cpf": "524.003.854-23",
+    "dob": "23/03/1970",
+    "email": "ritamarligoncalves@centrovias.com.br",
+    "password": "aLctDHq50B",
+    "cep": "60811-810",
+    "address": "Vila Felipe Dendê, 474",
+    "area": "Edson Queiroz",
+    "city": "Fortaleza",
+    "state": "CE",
+    "country": "Brasil",
+    "phone": "(85) 2764-9633",
+    "cell_phone": "(85) 99481-2343",
+    "bio": "Sou um jogador de xadrez amador e adoro assitir partidas de futebol. Eu também gosto de conhecer novas pessoas e fazer amigos. Se você gostaria de saber mais sobre mim, sinta-se à vontade para me enviar uma mensagem.",
+    "reviews": "4.5",
+    "companhia": "Companhia",
+    "cuidador": "",
+    "voluntario": "Voluntário(a)",
+    "hobbie1": "Cozinhar",
+    "hobbie2": "Caminhar",
+    "profession": "Enfermeira"
+  }
+  {
+    "id": "0030",
+    "user_type": "profissional",
+    "avatar": "img/ana.jpg",
+    "first": "Marli",
+    "last": "Gonçalves",
     "age": 42,
     "cpf": "974.167.245-46",
     "dob": "05/02/1980",
@@ -808,6 +848,7 @@
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Jogar xadrez",
-    "hobbie2": "Assistir jogos de futebol"
+    "hobbie2": "Assistir jogos de futebol",
+    "profession": "Dona de casa"
   }
 ]
