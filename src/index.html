@@ -16,7 +16,7 @@
   <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
     rel="stylesheet" />
-  <link href="mb/styles/styles.css" rel="stylesheet" />
+  <link href="mb/styles/cadastro.css" rel="stylesheet" />
   <link href="mb/styles/carousel.css" rel="stylesheet" />
   <base href="/src/" target="_self">
   <title>Conexão Melhor Idade</title>
@@ -246,149 +246,23 @@
     </section>
 
     <section class="text-center py-5 bg-light">
-      <div class="container py-5">
+      <div class="container container-carousel py-5 position-relative">
         <h2 class="mb-5">Conecte-se a profissionais na sua região</h2>
-        <div class="row mx-auto my-auto justify-content-center">
-          <div id="recipeCarousel" class="cmi-profile-carousel carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-
-
-                      <div id="profile-reviews"></div>
-
-
-
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/maria.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <div id="profile-first"></div>
-                      </h5>
-                      <p class="card-text mb-0">
-                      <div id="profile-profession"></div>
-                      </p>
-                      <small class="d-block text-muted mb-3">
-                        <div id="profile-city"></div>, <div id="profile-state"></div>
-                      </small>
-                      <span class="rating">
-                        <div id="profile-reviews"></div>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Beatriz</h5>
-                      <p class="card-text mb-0">Nutricionista</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Carlos</h5>
-                      <p class="card-text mb-0">Enfermeiro</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Luiz</h5>
-                      <p class="card-text mb-0">Cuidador de idosos</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="col-md-3 px-2">
-                  <div class="card">
-                    <div class="p-3">
-                      <div class="bg-image rounded-circle" data-mdb-ripple-color="light">
-                        <img src="img/beatriz.jpg" alt="" class="img-fluid" />
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Sandra</h5>
-                      <p class="card-text mb-0">Cuiadora de idosos</p>
-                      <small class="d-block text-muted mb-3">Belo Horizonte, MG</small>
-                      <span class="rating">★★★★★</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
-              data-mdb-slide="prev">
-              <span class="material-symbols-outlined fs-1">
-                arrow_back_ios
-              </span>
-            </a>
-
-            <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#recipeCarousel" role="button"
-              data-mdb-slide="next">
-              <span class="material-symbols-outlined  fs-1">
-                arrow_forward_ios
-              </span>
-            </a>
-          </div>
+        <a class="carousel-control-prev bg-transparent w-auto text-secondary" href="#professionalsSlider" role="button"
+          data-mdb-slide="prev">
+          <span class="material-symbols-outlined fs-1">
+            arrow_back_ios
+          </span>
+        </a>
+        <div class="justify-content-center overflow-hidden">
+          <div id="professionalsSlider" class="cmi-profile-carousel carousel slide"></div>
         </div>
+        <a class="carousel-control-next bg-transparent w-auto text-secondary" href="#professionalsSlider" role="button"
+          data-mdb-slide="next">
+          <span class="material-symbols-outlined  fs-1">
+            arrow_forward_ios
+          </span>
+        </a>
       </div>
     </section>
 
@@ -433,8 +307,8 @@
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
   <!-- Custom scripts -->
-  <script type="text/javascript" src="mb/scripts/scripts.js"></script>
-  <script type="text/javascript" src="mb/scripts/carousel.js"></script>
+  <script type="text/javascript" src="/src/mb/scripts/scripts.js"></script>
+  <script type="text/javascript" src="/src/mb/scripts/carousel.js"></script>
 </body>
 
 </html>

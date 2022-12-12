@@ -107,7 +107,7 @@ color-profile {
   height: 800px;
 }
 .bg-primary {
-  background-color: rgb(73, 115, 242, 0.95) !important;
+  background-color: rgb(73, 115, 242, 1) !important;
 }
 .bg-secondary {
   background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
@@ -334,7 +334,7 @@ navbar drop down menu-emergencias
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("/src/img/volunteers.jpg");
+  background-image: url("/src/img/banner-main.jpg");
   background-size: cover;
   background-position: -20%;
 }
@@ -356,14 +356,14 @@ navbar drop down menu-emergencias
   background: -webkit-linear-gradient(
     180deg,
     rgb(73, 115, 242, 0.95),
-    rgb(20, 204, 142, 0.75)
+    rgb(20, 204, 142, 0.6) 60%
   );
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(
     180deg,
     rgb(73, 115, 242, 0.95),
-    rgb(20, 204, 142, 0.75) 60%
+    rgb(20, 204, 142, 0.6) 60%
   );
 }
 
@@ -409,6 +409,12 @@ main .container {
 
 main .container > div {
   flex: 1 1 100% !important;
+}
+
+main .container-carousel {
+  max-width: 1180px !important;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .cmi-home-banner.banner-top {
@@ -461,7 +467,8 @@ main .container > div {
 *Carousel
 *************************************************************/
 .rating {
-  font-size: 0;
+  font-size: 30px;
+  color: rgb(255, 217, 0);
 }
 
 .rating span {
