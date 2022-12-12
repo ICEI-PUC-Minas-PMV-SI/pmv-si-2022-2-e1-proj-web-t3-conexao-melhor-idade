@@ -63,12 +63,21 @@ function buscarListaDeHospitaisPelaLocalizacao({ lat, lng }) {
     service.nearbySearch(
       {
         location,
-        radius: '10000',
+        radius: '5000',
         type: ['hospital'],
       },
       (resultados, status) => {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
           const hospitais = resultados.map(formatarRespostaDeHospital);
+          resultados.forEach(hospital=>{
+            const marker = new google.maps.Marker({
+              position:  location,
+              title: hospital.name
+       
+
+          });
+          marker.setMap(map);
+          })
           resolve(hospitais);
         }
       }
@@ -91,7 +100,7 @@ function criaBlocoDeHospital({ nome, endereco }) {
   elementoText.classList.add('text');
   const elementoH1 = document.createElement('h1');
   elementoH1.textContent = nome;
-  const elementoPre = document.createElement('pre');
+  const elementoPre = document.createElement('h3');
   elementoPre.textContent = endereco;
   elementoText.append(elementoH1);
   elementoText.append(elementoPre);
@@ -123,7 +132,8 @@ form.addEventListener('submit', async (event) => {
 
   const localizacao = await buscarLocalizacaoPeloEndereco(endereco);
   const hospitais = await buscarListaDeHospitaisPelaLocalizacao(localizacao);
-
+  map.setCenter(new google.maps.LatLng(localizacao.lat,localizacao.lng));
+  map.setZoom(10)
   const container = document.querySelector('#card');
   container.innerHTML = '';
 
@@ -134,19 +144,4 @@ form.addEventListener('submit', async (event) => {
 });
 
 window.initMap = initMap;
-// gcloud services enable \
-//     --project "PROJECT" \
-//     "directions-backend.googleapis.com" \
-//     "distance-matrix-backend.googleapis.com" \
-//     "elevation-backend.googleapis.com" \
-//     "geocoding-backend.googleapis.com" \
-//     "geolocation.googleapis.com" \
-//     "maps-android-backend.googleapis.com" \
-//     "maps-backend.googleapis.com" \
-//     "maps-embed-backend.googleapis.com" \
-//     "maps-ios-backend.googleapis.com" \
-//     "places-backend.googleapis.com" \
-//     "roads.googleapis.com" \
-//     "static-maps-backend.googleapis.com" \
-//     "street-view-image-backend.googleapis.com" \
-//     "timezone-backend.googleapis.com"
+
