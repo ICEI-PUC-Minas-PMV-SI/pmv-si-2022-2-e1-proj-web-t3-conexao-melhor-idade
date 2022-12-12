@@ -21,7 +21,7 @@
 |RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. | pesquisa-vagas.html |Marilia/Breno |
 |RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. | Marilia |
 |RF-019| A aplicação fornecer informações sobre como se prevenir de acidentes domesticos. | prev.html  | Jose |
-|RF-020| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | Jose |
+|RF-020| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | editar-perfil.html | Jose |
 |RF-021| A aplicação deve permitir a visualização do perfil dos clientes. | editarperfil.html | Marilia |
 |RF-022| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | editarperfil.html | Bruno | 
 |RF-023| A aplicação deve permitir a visualização do perfil dos profissionais. | editarperfil.html | Marilia |
