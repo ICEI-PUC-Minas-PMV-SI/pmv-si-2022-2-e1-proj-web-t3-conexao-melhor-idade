@@ -14,11 +14,11 @@
 |RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. | home-cliente.html | Gustavo |
 |RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. | cadastro-vaga.html |Gustavo|
 |RF-012| A aplicação deve permitir a busca por prestadores deserviço.| pesquisa.pessoas.html | Breno |
-|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços.| perfil-voluntario.html | Breno |
+|RF-013| A aplicação deve permitir a vizualização de perfis dos prestadores de serviços.| perfil-voluntario.html | Marilia |
 |RF-014| A aplicação deve permitir a troca de mensagens entre os usuários. | chat.html | Gustavo |
 |RF-015| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. | Marilia |
 |RF-016| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.| pesquisa-vagas.html | Breno |
-|RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. | Marilia/Breno |
+|RF-017| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. | pesquisa-vagas.html |Marilia/Breno |
 |RF-018| A aplicação deve permitir a vizualização dos perfis dos clientes. | Marilia |
 |RF-019| A aplicação fornecer informações sobre como se prevenir de acidentes domesticos. | prev.html  | Jose |
 |RF-020| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | Jose |
