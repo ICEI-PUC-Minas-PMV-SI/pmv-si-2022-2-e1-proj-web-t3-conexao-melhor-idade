@@ -9,7 +9,6 @@
 
 ## Integrantes
 * Breno Benfica de Souza Freitas
-* Gustavo da Silva Novaes
 * Jose Francisco Lopes Dalseco
 * Marilia Maciel Bruzzi Felipe
 
