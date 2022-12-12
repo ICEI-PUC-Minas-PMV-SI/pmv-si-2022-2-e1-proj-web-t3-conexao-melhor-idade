@@ -57,11 +57,12 @@
         <div class="container">
             <div class="caixa-pesquisa">
                 <div class="pesquisa-container">
-                    <form>
-                        <input type="search" class="pesquisa" placeholder="Pesquisar">
-                        <a class="search-bnt" href="#">
+                    <form id="filtro-pesquisa" method="get">
+
+                        <input type="text" name="q" class="pesquisa" placeholder="Pesquisar" id="busca-query">
+                        <button class="search-bnt" type="submit">
                             <i class="fas fa-search"></i>
-                        </a>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -69,66 +70,8 @@
                 <div class="titulo-pesquisa">
                     <h1>Pessoas</h1>
                 </div>
-                <div class="pesquisa-pessoas" id="identifica_pessoa" data-lista>
-                    <div class="caixa-pessoa">
-                        <img src="img/luiz.jpg" alt="Luiz">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Luiz Fernando</h2>
-                            </a>
-                            <p>Santos, São Paulo.</p>
-                            <p> Enfermeiro(a).</p>
-                        </div>
-                    </div>
-                    <!-- <div class="caixa-pessoa">
-                        <img src="img/liandra.jpg" alt="Liandra">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Liandra Lopes</h2>
-                            </a>
-                            <p>Betim, Minas Gerais.</p>
-                            <p>Enfermeiro(a).</p>
-                        </div>
-                    </div>
-                    <div class="caixa-pessoa">
-                        <img src="img/carlos.jpg" alt="Carlos">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Carlos Miranda</h2>
-                            </a>
-                            <p>Belo Horizonte, Minas Gerais.</p>
-                            <p> Enfermeiro(a).</p>
-                        </div>
-                     </div> 
-                    <div class="caixa-pessoa">
-                        <img src="img/sandra.jpg" alt="Sandra">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Sandra Lima</h2>
-                            </a>
-                            <p>Belo Horizonte, Minas Gerais.</p>
-                            <p> Enfermeiro(a).</p>
-                        </div>
-                    </div>
-                    <div class="caixa-pessoa">
-                        <img src="img/beatriz.jpg" alt="Beatriz">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Beatriz Dias</h2>
-                            </a>
-                            <p>Betim, Minas Gerais.</p>
-                            <p> Enfermeiro(a).</p>
-                        </div>
-                    </div>
-                    <div class="caixa-pessoa">
-                        <img src="img/maria.jpg" alt="Maria">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Maria Texeira</h2>
-                            </a>
-                            <p>Betim, Minas Gerais.</p>
-                            <p> Enfermeiro(a).</p>
-                        </div> -->
+                <div class="pesquisa-pessoas" id="identifica_pessoa">
+
                 </div>
                 <div class="ver-pessoas">
                     <a href="bb/busca-candidatos/index.html">
@@ -137,75 +80,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-vagas" id="identifica_vagas" data-lista>
+        <div class="container-vagas">
             <div class="titulo-pesquisa">
                 <h1>Vagas</h1>
             </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="pesquisa-vaga">
-                <div class="caixa-vagas">
-                    <div class="edit">
-                        <a href="#">
-                            <h2>Plantão Enfermagem</h2>
-                        </a>
-                        <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                        <p>Bangu, Rio de Janeiro , RJ.</p>
-                    </div>
-                </div>
+            <div class="pesquisa-vaga" id="identifica_vagas">
+
             </div>
             <div class="ver-vagas">
                 <a href="bb/busca-vagas/index.html">
@@ -218,26 +98,28 @@
     </main>
 
 
-    <footer class="rodape">
-        <nav>
-            <ul class="rodape-2">
-                <li>
-                    <div>
-                        <a href="index.html">Home</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="mb/quem-somos.html">Quem somos</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="sb/politica-de-privacidade/index.html">Termos de uso e privacidade</a>
-                    </div>
-                </li>
-            </ul>
-            <div class="copyright">© 2022 Conexão Melhor Idade</div>
+    <footer>
+        <div class="rodape">
+            <nav>
+                <ul class="rodape-2">
+                    <li>
+                        <div>
+                            <a href="index.html">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="mb/quem-somos.html">Quem somos</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="sb/politica-de-privacidade/index.html">Termos de uso </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="copyright">© 2022 Conexão Melhor Idade -Todos os direitos reservados</div>
+        </div>
         </nav>
     </footer>
 
