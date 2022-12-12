@@ -16,7 +16,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link href="/src/mb/styles/cadastro.css" rel="stylesheet" />
+    <link href="styles/cadastro.css" rel="stylesheet" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -141,7 +141,8 @@
                                                 name="accountChoice" type="radio" value="profissional" required />
                                             <label class="form-check-label" for="accountChoice2">Profissional ou
                                                 voluntário</label>
-                                            <div class="invalid-feedback">Favor selecionar uma opção de conta.</div>
+                                            <div class="invalid-feedback"><small>Favor selecionar uma opção de
+                                                    conta</small></div>
                                         </div>
                                     </div>
                                 </div>
@@ -150,50 +151,61 @@
                                     <input class="form-control form-control-lg bg-white shadow-3 validate-email"
                                         id="email" name="email" placeholder="nome@dominio.com" required type="email" />
                                     <label class="form-label" for="email">E-mail</label>
-                                    <div class="invalid-feedback">Favor informar um e-mail válido</div>
+                                    <div class="invalid-feedback"><small>Favor informar um e-mail válido</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="firstName"
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="first"
                                         maxlength="20" minlength="4" name="firstName" required type="text" />
                                     <label class="form-label" for="firstName">Nome</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                    <div class="invalid-feedback"><small>Campo obrigatório</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="lastName"
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="last"
                                         maxlength="100" minlength="5" name="lastName" required type="text" />
                                     <label class="form-label" for="lastName">Sobrenome</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                    <div class="invalid-feedback"><small>Campo obrigatório</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3 focus"
-                                        data="form-field-bithdate" id="dob" maxlength="10" name="dob" required
-                                        type="date" />
+                                        data="form-field-bithdate" placeholder="MM/DD/AAAA" id="dob" maxlength="4"
+                                        minlength="4" name="dob" type="date" required />
                                     <label class="form-label" for="dob">Data de nascimento</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                    <div class="invalid-feedback"><small>Data inválida. Verifique
+                                            novamente por favor</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3" id="cpf" name="cpf"
-                                        required type="text" />
+                                        maxlength="11" minlength="11" required type="text" />
                                     <label class="form-label" for="cpf">CPF</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                    <div class="invalid-feedback"><small>O CPF inválido. Verifique novamente por
+                                            favor</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3" id="phone"
-                                        name="phone" required type="text" />
-                                    <label class="form-label" for="phone">Telefone</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                        maxlength="9" minlength="10" name="phone" type="text" required />
+                                    <label class=" form-label" for="phone">Telefone</label>
+                                    <div class="invalid-feedback"><small>O telefone inválido. Verifique
+                                            novamente por favor</small></div>
                                 </div>
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3" id="password"
                                         maxlength="20" minlength="6" name="password" required type="password" />
                                     <label class="form-label" for="password">Senha</label>
-                                    <div class="invalid-feedback">Campo obrigatório</div>
+                                    <div class="invalid-feedback"><small>A senha deve ter no mínimo 6 dígitos.</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="passwordConfirm"
+                                        maxlength="20" minlength="6" name="password" required type="passwordConfirm" />
+                                    <label class="form-label" for="passwordConfirm">Confirmar senha</label>
+                                    <div class="invalid-feedback"><small>Senhas não conferem</small></div>
                                 </div>
 
                                 <div class="form-check mb-3">
@@ -249,8 +261,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <!-- Custom scripts -->
 
-    <script src="/src/public/load-db.js"></script>
-    <script src="/src/mb/scripts/cadastro.js"></script>
+    <script src="public/load-db.js"></script>
+    <script src="mb/scripts/cadastro.js"></script>
 
 </body>
 
