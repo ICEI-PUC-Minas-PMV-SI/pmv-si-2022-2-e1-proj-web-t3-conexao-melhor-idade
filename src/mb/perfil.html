@@ -8,7 +8,7 @@
     <!-- MDB icon 
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
-    <link href="mb/styles/mdb/mdb.min.css" rel="stylesheet" />
+    <link href="/src/mb/styles/mdb/mdb.min.css" rel="stylesheet" />
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Google Fonts Roboto -->
@@ -16,7 +16,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link href="mb/styles/cadastro.css" rel="stylesheet" />
+    <link href="/src/mb/styles/cadastro.css" rel="stylesheet" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -159,9 +159,9 @@
                                             </div>
                                         </div>
 
-                                        <div class="row p-0" id="profile-review">
+                                        <div class="row " id="profileReview">
                                             <div class="star-rating js-star-rating">
-                                                <div class="rating">
+                                                <div class="reviews">
                                                     <span class='star' id="star-1" onclick="saveStar(this.id)"></span>
                                                     <span class='star' id="star-2" onclick="saveStar(this.id)"></span>
                                                     <span class='star' id="star-3" onclick="saveStar(this.id)"></span>
@@ -170,7 +170,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="button" class="btn btn-rounded btn-primary mb-5">
+
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-sm btn-rounded btn-primary mt-3 mb-5">
                                             ENTRAR EM CONTATO
                                         </button>
                                     </div>
@@ -299,9 +302,9 @@
 
     <!--<script type="text/javascript" src="public/scripts/protected.js"></script>-->
 
-    <script src="public/load-db.js"></script>
-    <script src="public/rating.js"></script>
-    <script src="mb/scripts/perfil.js"></script>
+    <script src="/src/public/load-db.js"></script>
+    <script src="/src/public/rating.js"></script>
+    <script src="/src/mb/scripts/perfil.js"></script>
 
 
 </body>
