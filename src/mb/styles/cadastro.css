@@ -165,12 +165,11 @@ color-profile {
 hamburger menu
 ****************************************************/
 .navbar-dark .navbar-brand {
-  color: #ffffff !important;
+  color: #4973f2 !important;
 }
 .navbar {
-  background: rgb(73, 115, 242, 0.95) #4973f2;
+  background: rgb(73, 115, 242, 0.95);
   transition: all 0.6s;
-  backface-visibility: hidden;
 }
 .navbar-collapse {
   flex-basis: 100%;
@@ -466,26 +465,26 @@ main .container-carousel {
 /*************************************************************
 *Carousel
 *************************************************************/
-.rating {
+.profileReview {
   font-size: 30px;
   color: rgb(255, 217, 0);
 }
 
-.rating span {
+.profileReview span {
   font-size: 40px;
 }
 
-.rating span::before {
+.profileReview span::before {
   content: "☆";
   color: rgba(0, 0, 0, 0.329);
 }
 
-.rating span.active::before {
+.profileReview span.active::before {
   content: "★";
   color: rgb(255, 217, 0);
 }
 
-.rating span:hover {
+.profileReview span:hover {
   cursor: pointer;
 }
 /**********************************************************
