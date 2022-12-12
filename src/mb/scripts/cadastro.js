@@ -75,8 +75,11 @@ function signUp(event) {
     document.getElementById("email").focus();
 
     alert(
-      "Cadastro efetuado com sucesso! Clique no link abaixo para efetuar seu login."
+      'Cadastro efetuado com sucesso! Ao clicar em "OK", você será redirecionado para a página de login.'
     );
+    {
+      window.location.href = "/src/jd/login/index.html";
+    }
   } else {
     alert("Este endereço de e-mail já está cadastrado.");
   }
@@ -99,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
       alert("**Campos obrigatórios");
       return;
     }
-
     signUp(event);
   });
 
