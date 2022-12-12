@@ -3,9 +3,9 @@ var testWithOutLS = {};
 
 function saveStar(id) {
   if (!exampleWithoutLS) {
-    localStorage.setItem("profileReview", id);
+    localStorage.setItem("reviews", id);
   } else {
-    testWithOutLS.rating = id;
+    testWithOutLS.reviews = id;
   }
 
   // Refresh our rating on screen
@@ -14,18 +14,18 @@ function saveStar(id) {
 
 function loadData() {
   // Get stored rating on load
-  var rating;
+  var reviews;
   if (!exampleWithoutLS) {
-    profileReview = localStorage.getItem("profileReview");
+    reviews = localStorage.getItem("reviews");
   } else {
-    profileReview = testWithOutLS.profileReview;
+    reviews = testWithOutLS.reviews;
   }
 
-  if (!profileReview) {
+  if (!reviews) {
     return;
   }
 
-  var s = parseInt(profileReview);
+  var s = parseInt(reviews);
   // Get all of our stars..
   var stars = document.getElementsByClassName("star");
   // Loop through, and based on rating int, apply style
