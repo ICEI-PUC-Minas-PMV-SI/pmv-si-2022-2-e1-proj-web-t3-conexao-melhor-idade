@@ -25,81 +25,111 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <nav class="navbar navbar-dark navbar-expand-lg">
+
             <!-- Container wrapper -->
             <div class="container">
+
                 <!-- Navbar brand -->
-                <a class="navbar-brand me-2" href="#">
-                    <img src="img/text-logo.png" height="40" alt="CMI Logo" />
+                <div class="flex-fill"></div>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="CMI Logo" height="42" src="img/logo-texto.png" loading="lazy" />
                 </a>
-
+                <!-- Navbar brand -->
+                <div class="flex-fill"></div>
+                <div class="flex-fill"></div>
+                <div class="flex-fill"></div>
                 <!-- Toggle button -->
-                <button class="custom-toggler navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="material-symbols-outlined text-white"> Menu </span>
-                </button>
-
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                    <!-- Left links -->
-                    <ul class="navbar-nav ms-auto me-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" data-mdb-toggle="dropdown">
-                                Emergências
-                            </a>
-
-                            <ul class="dropdown-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <button aria-expanded="false"
+                                class="d-flex align-items-center btn btn-sm btn-danger ms-auto dropdown-toggle"
+                                data-mdb-toggle="dropdown" type="button"><span
+                                    class="material-symbols-outlined text-white ">emergency
+                                </span> Emergências
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <a class="dropdown-item" href="gn/primeiros-socorros/index.html">
-                                        Primeiros socorros
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorros/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">medical_services</span>
+                                        <div>Primeiros socorros</div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="bb/numeros-emergencia/index.html">
-                                        Números de emergência
+                                    <a class="dropdown-item d-flex mt-2" href="bb/numeros-emergencia/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">call</span>
+                                        <div>Números de emergência</div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="jd/dicas-acidentes/index.html">
-                                        Prevenção de acidentes
+                                    <a class="dropdown-item d-flex mt-2" href="jd/dicas-acidentes/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">info</span>
+                                        <div>Prevenção de acidentes</div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="jd/hospitais/index.html">
-                                        Hospitais e postos de saúde mais próximos
+                                    <a class="dropdown-item d-flex mt-2" href="jd/hospitais/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
+                                        <div>Hospitais e postos de saúde</div>
                                     </a>
                                 </li>
                             </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class=" nav-item ">
+                        <div class="nav-item ms-3">
+                            <div class="dropdown">
+                                <a href="#" aria-expanded="false" class="nav-link" data-mdb-toggle="dropdown"
+                                    data-bs-display="static" aria-expanded="false">
+                                    <span
+                                        class="nav-link material-symbols-outlined p-0 align-middle">account_circle</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-lg-end p-2">
+                                    <li>
+                                        <a class="btn btn-secondary d-block" href="jd/login/index.html">Entrar</a>
+                                    </li>
+                                    <li>
+                                        <hr class="divider-horizontal my-2" />
+                                    </li>
+                                    <li>
+                                        <a class=" btn btn-primary d-block" href="mb/cadastro.html">Cadastrar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Collapsible wrapper -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-mdb-target="#navbarNav"
+                    data-mdb-toggle="collapse" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- Collapsible wrapper -->
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item d-flex flex-row-reverse">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
+
+                        <li class="nav-item d-flex flex-row-reverse">
+                            <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
                         </li>
                     </ul>
                 </div>
 
-                <button type="button" class="btn btn-link p-0" data-bs-toggle="popover" data-bs-placement="bottom"
-                    data-bs-trigger="hover" data-bs-content-id="user-menu" data-mdb-ripple-duration="0ms">
-                    <span class="nav-link material-symbols-outlined">account_circle</span>
-                </button>
-
-                <div id="user-menu" class="d-none">
-                    <div>
-                        <a href="jd/login/index.html" type="button" class="btn btn-secondary btn-block mb-3">Entrar</a>
-                        <a href="mb/cadastro.html" type="button" class="btn btn-primary btn-block mt-3">Cadastrar</a>
-                    </div>
-                </div>
             </div>
+
         </nav>
 
     </header>
-
     <!-- Navbar -->
 
 
@@ -220,28 +250,27 @@
 
     <!-- Footer -->
 
-    <footer class="text-center text-white bg-primary">
-        <div class="text-center py-4">
-            <ul class=" p-0 m-0">
-                <li class="d-inline px-2">
-                    <a href="index.html" class="footer-link text-white">Home</a>
+    <footer class="text-center text-white bg-primary pt-3">
+        <div class="mt-3">
+            <ul class="p-0 m-0 footer-link pb-4">
+                <li class="d-inline pe-3">
+                    <a href="/src/index.html" class="footer-link text-white">Home</a>
                 </li>
-                <li class="d-inline px-2">
-                    <a href="mb/quem-somos.html" class="footer-link text-white">Quem somos</a>
+                <li class="d-inline pe-3">
+                    <a href="/src/mb/quem-somos.html" class="footer-link text-white">Quem somos</a>
                 </li>
-                <li class="d-inline px-2">
+                <li class="d-inline ">
                     <a href="sb/politica-de-privacidade/index.html" class="footer-link text-white">Termos de uso e
                         Privacidade</a>
                 </li>
             </ul>
-        </div>
 
-
-        <!-- Copyright -->
-        <div class="text-center pb-4 bg-primary opacity-75">
-            <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+            <!-- Copyright -->
+            <div class="pb-4 bg-primary opacity-75">
+                <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+            </div>
+            <!-- Copyright -->
         </div>
-        <!-- Copyright -->
     </footer>
 
     <!-- MDB -->
