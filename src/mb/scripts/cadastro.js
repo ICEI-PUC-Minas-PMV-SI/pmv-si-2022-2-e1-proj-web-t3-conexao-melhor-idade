@@ -39,6 +39,7 @@ function signUp(event) {
   let accountChoice = document.querySelector(
     "[name=accountChoice]:checked"
   ).value;
+
   let email = document.getElementById("email").value;
   let firstName = document.getElementById("first").value;
   let lastName = document.getElementById("last").value;
@@ -46,6 +47,7 @@ function signUp(event) {
   let cpf = document.getElementById("cpf").value;
   let phone = document.getElementById("phone").value;
   let password = document.getElementById("password").value;
+  let passwordConfirm = document.getElementById("passwordConfirm").value;
 
   let data = localStorage.getItem("users");
   let allUsers = JSON.parse(data || "[]");
@@ -61,7 +63,8 @@ function signUp(event) {
       dob,
       cpf,
       phone,
-      password
+      password,
+      passwordConfirm
     });
 
     console.log(allUsers);

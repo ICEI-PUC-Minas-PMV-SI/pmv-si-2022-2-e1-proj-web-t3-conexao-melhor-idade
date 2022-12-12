@@ -497,3 +497,18 @@ main .container-carousel {
 .footer-link:hover {
   color: #14cc8e !important;
 }
+/*********************************************************
+*forms
+**********************************************************/
+.form-outline .form-control.form-control-lg {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  margin-bottom: 0.35rem;
+  background-image: none;
+  border-color: #dc4c64;
+}
