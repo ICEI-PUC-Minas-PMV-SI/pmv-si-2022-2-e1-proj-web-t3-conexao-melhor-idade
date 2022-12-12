@@ -103,8 +103,11 @@ color-profile {
   text-align: justify;
 }
 
+.bg-image {
+  height: 800px;
+}
 .bg-primary {
-  background-color: #4973f2 !important;
+  background-color: rgb(73, 115, 242, 0.95) !important;
 }
 .bg-secondary {
   background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
@@ -141,14 +144,14 @@ color-profile {
   color: #fff !important;
   color: rgba(255, 255, 255, 1);
   border: 0;
-  box-shadow: 0 4px 9px -4px #527af3 !important;
+  box-shadow: 0 4px 9px -4px #14cc8f79 !important;
 }
 .btn-secondary {
   background-color: #14cc8e !important;
   color: #fff !important;
   color: rgba(255, 255, 255, 1);
   border: 0;
-  box-shadow: 0 4px 9px -4px #39d6a2 !important;
+  box-shadow: 0 4px 9px -4px #14cc8f79 !important;
 }
 
 .btn-secondary:hover,
@@ -165,7 +168,7 @@ hamburger menu
   color: #ffffff !important;
 }
 .navbar {
-  background: #4973f2;
+  background: rgb(73, 115, 242, 0.95) #4973f2;
   transition: all 0.6s;
   backface-visibility: hidden;
 }
@@ -176,10 +179,14 @@ hamburger menu
   margin: none;
 }
 .navbar-dark .navbar-nav {
-  color: #fff;
+  color: #ffffff;
   color: rgba(255, 255, 255, 1);
   border: 0;
   text-transform: none;
+}
+
+.nav-link {
+  align-items: center !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -193,7 +200,7 @@ hamburger menu
 }
 
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: #14cc8e;
+  color: #ffffff;
   outline: 0;
 }
 
@@ -217,7 +224,7 @@ hamburger menu
 
 .navbar-dark .navbar-toggler:hover span,
 .navbar-dark .navbar-toggler:focus span {
-  background: #14cc8e;
+  background: #ffffff;
 }
 
 /* rotate first span */
@@ -327,18 +334,15 @@ navbar drop down menu-emergencias
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("/img/banner-main.jpg");
+  background-image: url("/src/img/volunteers.jpg");
   background-size: cover;
   background-position: -20%;
 }
-.cmi-hero-2 {
-  position: relative;
-  padding: 120px 0 !important;
-  background-image: url("/img/banner-main.jpg");
-  background-size: cover;
-  background-position: -20%;
-  background-color: floralwhite;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
+
 .cmi-hero:before {
   content: " ";
   position: absolute;
@@ -349,17 +353,24 @@ navbar drop down menu-emergencias
   z-index: 0;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(180deg, #4973f2, #14cc8e 60%);
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(73, 115, 242, 0.95),
+    rgb(20, 204, 142, 0.75)
+  );
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(180deg, #4973f2, #14cc8e 60%);
+  background: linear-gradient(
+    180deg,
+    rgb(73, 115, 242, 0.95),
+    rgb(20, 204, 142, 0.75) 60%
+  );
 }
 
 .cmi-hero > div {
   position: relative;
   z-index: 10;
 }
-
 /*************************************************************
 * HERO
 *************************************************************/

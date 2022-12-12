@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const user = users.find(function (user) {
     return userId === user.id;
   });
-  console.log("userId", user);
+  console.log(userId, "user.first");
 
   if (!user) {
     window.confirm(
