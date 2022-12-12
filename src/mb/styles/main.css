@@ -466,26 +466,26 @@ main .container-carousel {
 /*************************************************************
 *Carousel
 *************************************************************/
-.profileReview {
+.reviews {
   font-size: 30px;
   color: rgb(255, 217, 0);
 }
 
-.profileReview span {
-  font-size: 40px;
+.reviews span {
+  font-size: 30px;
 }
 
-.profileReview span::before {
+.reviews span::before {
   content: "☆";
   color: rgba(0, 0, 0, 0.329);
 }
 
-.profileReview span.active::before {
+.reviews span.active::before {
   content: "★";
   color: rgb(255, 217, 0);
 }
 
-.profileReview span:hover {
+.reviews span:hover {
   cursor: pointer;
 }
 /**********************************************************
