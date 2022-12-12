@@ -344,6 +344,7 @@ navbar drop down menu-emergencias
 
 .cmi-hero:before {
   content: " ";
+  background-image: url("/src/img/banner-main.jpg");
   position: absolute;
   top: 0;
   bottom: 0;
