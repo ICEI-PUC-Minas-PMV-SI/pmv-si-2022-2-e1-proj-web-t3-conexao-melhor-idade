@@ -3,31 +3,51 @@ function mostraMenu() {
     botao.classList.toggle("show");
   
   }
-import { conectaApi } from "./conexao-json.js";
-  const lista = document.querySelector("[data-lista]");
+  const url = new URL(location.href);
+  const query = url.searchParams.get("q");
+  document.getElementById("busca-query").value = query;
+  
+  
+  const users = JSON.parse(localStorage.getItem("users"))
+  console.log(users)
+  
+  const maxSize = 7
+  const usersFiltrados = users
+  .filter(user => !query || user.first.toLowerCase().includes(query.toLowerCase()))
+  .slice(0,7)
+  
+  const containerPessoas = document.getElementById("identifica_pessoa") 
+  usersFiltrados.forEach((user, index) => {
+      console.log(index,user)  
+      const userHtml = `
+      <a href="bb/perfil-profissional/index.html">
+      <div class="caixa-pessoa">
+            <img src="${user.avatar}" alt="${user.first} ${user.last}">
+                <div class="edit">
+                    <h2>${user.first} ${user.last}</h2>
+                    <p>${user.city}, ${user.area}.</p>
+                </div>
+        </div>
+`
+          containerPessoas.innerHTML += userHtml 
+      });
 
-  function constroiCard(avatar, first, last, city, bio, area){
-    const pessoa = document.createElement("id");
-    pessoa.className = "identifica_pessoa";
-    pessoa.innerHTM += `
-                        <div class="caixa-pessoa">
-                          <img src="${avatar}" alt="${first},${last}">
-                          <div class="edit">
-                              <a href="#">
-                                  <h2>${first}, ${last}</h2>
-                              </a>
-                              <p>${area}, ${city}.</p>
-                              <p> ${bio}.</p>
-                          </div>
-                        </div>
-`;
-    return pessoa;
-  }
-
-  async function listaPessoas(){
-    const listaApi = await conectaApi.listaPessoas();
-    listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.avatar, elemento.first, elemento.last, elemento.bio, elemento.area, elemento.city )))
-  }
-
-  console.log (conectaApi)
-  console.log (listaPessoas)
+const vagas = JSON.parse(localStorage.getItem("vagas"))
+console.log(vagas)
+const maximoVagas = 10
+const vagasFiltradas = vagas
+.filter(vaga => !query || vaga.titulo_vaga.toLowerCase().includes(query.toLowerCase()))
+.slice(0,10)
+const vagasContainer = document.getElementById("identifica_vagas") 
+vagasFiltradas.forEach((vaga, index) => {
+console.log(index,vaga)  
+const vagaHtml = `
+    <div class="caixa-vagas">
+        <a href="bb/busca-vagas/index.html?q=${query || ""}&id=${vaga.id}">
+            <h2>${vaga.titulo_vaga}</h2>
+            <p class="cidade">${vaga.area}, ${vaga.city}</p>
+        </a>
+    </div>
+`
+      vagasContainer.innerHTML += vagaHtml 
+      });

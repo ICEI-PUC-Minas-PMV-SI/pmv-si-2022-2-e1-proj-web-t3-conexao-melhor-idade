@@ -29,11 +29,6 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="mb/quem-somos.html">Quem somos</a></li>
                     <li><a href="bb/numeros-emergencia/index.html">Emergências</a></li>
-
-                    <div class="login-cadastro">
-                        <li><a href="jd/login/index.html">Entrar</a></li>
-                        <li><a href="mb/cadastro.html">Cadastre-se</a></li>
-                    </div>
                 </ul>
             </nav>
             <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
@@ -46,90 +41,111 @@
                 <li><a href="mb/quem-somos.html">Quem somos</a></li>
                 <li><a href="bb/numeros-emergencia/index.html">Emergências</a></li>
 
-                <div class="login-cadastro">
-                    <li><a href="jd/login/index.html">Entrar</a></li>
-                    <li><a href="mb/cadastro.html">Cadastre-se</a></li>
-                </div>
             </ul>
         </nav>
+
     </header>
     <main>
-        <div class="container">
-            <div class="caixa-pesquisa">
-                <div class="pesquisa-container">
-                    <form>
-                        <input type="text" class="pesquisa" placeholder="Pesquisar">
-                        <a class="search-bnt" href="#">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </form>
-                </div>
-            </div>
-            <div class="container-vagas">
-                <h1>Vagas</h1>
-                <nav class="acessar">
-                    <div class="caixa-vagas">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Cuidador para idoso</h2>
-                            </a>
-                            <p>Dar banhos, rémedios e alimentar idoso.</p>
-                            <p>Centro, Contagem, MG</p>
+        <div class="caixa-pesquisa">
+            <div class="pesquisa-container">
+                <form id="filtro-pesquisa" method="get">
 
-                        </div>
-                    </div>
-                    <div class="caixa-vagas">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Acompanhante diurno</h2>
-                            </a>
-                            <p>Acompanhar idoso em caminhadas.</p>
-                            <p>Capital, São Paulo, SP.</p>
-                        </div>
-                    </div>
-                    <div class="caixa-vagas">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Plantão Enfermagem</h2>
-                            </a>
-                            <p>Plantão em um asilo para cuidar de idosos com alzheimer.</p>
-                            <p>Bangu, Rio de Janeiro , RJ.</p>
-                        </div>
-                    </div>
-                    <div class="caixa-vagas">
-                        <div class="edit">
-                            <a href="#">
-                                <h2>Conferir Medicamentos</h2>
-                            </a>
-                            <p>Controlar medicação de uma idosa no período de 12 horas em 12 horas.</p>
-                            <p>Cristo, Patos de Minas, MG.</p>
-                        </div>
-                    </div>
-
-                </nav>
+                    <input type="text" name="q" class="pesquisa" placeholder="Pesquisar" id="busca-query">
+                    <button class="search-bnt" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
             </div>
         </div>
+        <div class="containeir">
+            <div class="container-vagas" id="vagas">
+
+            </div>
+
+            <div class="container-vagas-desc">
+                <div class="vagas-desc" id="vaga-desc">
+                    <!-- <div class="caixa-desc">
+                        <h2>
+                            Titulo vaga
+                        </h2>
+                        <div class="first-section">
+                            <div class="contratante">
+                                <pre>Conheça o contrante</pre>
+                                <a href="#">
+                                    <img src="img/luiz.jpg" alt="Luiz">
+                                    <div class="contrante-desc">
+                                        <h3>Luiz Fernando</h2>
+                                            <p>Santos, São Paulo.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="informacoes-vaga">
+                        <h4 id="jornada">
+                            Jornada
+                        </h4>
+                        <p>
+                            Meio período
+                        </p>
+                    </div>
+                    <div class="secao-candidatar">
+                        <button type="button" class="candidatar"><a href="#">Candidatar-se</a></button>
+                        <button type="button" class="salvar-vaga"><a href="#">Salvar</a></button>
+                    </div>
+                    <div class="segunda-secao">
+                        <h3 id="desc-vaga">Descrição da vaga</h3>
+                        <p>
+                            Cuidados e acompanhamento, inclusive em consultas médicas e tratamentos dos idosos, dar as
+                            medicações nos horários previstos, dar a alimentação conforme cronograma de horários, dar
+                            banho,troca de roupas e ou/fraldas, troca da roupa de cama, manter organizado qualquer
+                            espaço que for utilizado durante o período. Todo serviço é supervisionado pela
+                            Coordenadora de Assistência.Ser formado ou estar cursando auxiliar de enfermagem, mesmo que
+                            já tenha o curso de cuidador.
+                        </p>
+                    </div>
+                    <div class="terceira-secao">
+                        <h3 id="atividade-vaga">Atividades</h3>
+                        <div id="atividades">
+                            <p>
+                                Cuidado 1
+                            </p>
+                            <p>
+                                cuidado 2
+                            </p>
+                            <p>
+                                cuidado 3
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+        </div>
     </main>
-    <footer class="rodape">
-        <nav>
-            <ul class="rodape-2">
-                <li>
-                    <div>
-                        <a href="index.html">Home</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="mb/quem-somos.html">Quem somos</a>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a href="sb/politica-de-privacidade/index.html">Termos de uso e Privacidade</a>
-                    </div>
-                </li>
-            </ul>
-            <div class="copyright">© 2022 Conexão Melhor Idade -Todos os direitos reservados</div>
+    <footer>
+        <div class="rodape">
+            <nav>
+                <ul class="rodape-2">
+                    <li>
+                        <div>
+                            <a href="index.html">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="mb/quem-somos.html">Quem somos</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="sb/politica-de-privacidade/index.html">Termos de uso </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="copyright">© 2022 Conexão Melhor Idade -Todos os direitos reservados</div>
+        </div>
         </nav>
     </footer>
 
@@ -137,7 +153,12 @@
     <script>
         feather.replace();
     </script>
-    <script rel="stylesheet" src="bb/busca-vagas/script.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="public/load-db.js"></script>
+    <script src="bb/busca-vagas/script.js"></script>
 </body>
 
 </html>

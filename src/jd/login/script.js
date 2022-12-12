@@ -1,9 +1,4 @@
-function mostraMenu() {
-  const botao = document.querySelector(".menu-mobile");
-  botao.classList.toggle("show");
-}
 
-// function logIn(){
 //  const email = document.getElementById('email')
 //  const password = document.getElementById('password')
 
