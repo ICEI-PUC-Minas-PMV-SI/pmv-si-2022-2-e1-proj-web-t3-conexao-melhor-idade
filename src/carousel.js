@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
               <small class="d-block text-muted mb-3">
                 ${user.city}, ${user.state}
               </small>
-              <span class="rating">
+              <span class="reviews">
                 ${reviews}
               </span>
             </div>
