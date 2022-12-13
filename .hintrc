@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "text-align: -webkit-match-parent",
+          "user-select",
+          "mask-image",
+          "mask-size",
+          "mask-position",
+          "backface-visibility",
+          "backface-visibility",
+          "scroll-behavior",
+          "scroll-behavior",
+          "scroll-behavior",
+          "scroll-behavior",
+          "scroll-behavior",
+          "-webkit-tap-highlight-color"
+        ]
+      }
+    ]
+  }
+}
