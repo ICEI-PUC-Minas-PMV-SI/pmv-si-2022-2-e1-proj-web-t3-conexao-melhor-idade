@@ -1,35 +1,13 @@
-<div align="center">
-<h1>Conexão Melhor Idade</h1>
-<p>Projeto - Aplicações Web - 1º semestre</p>
-<p>Sistemas de Informação</p>
-<p>Pontifícia Universidade Católica de Minas Gerais</p>
+# Instruções de utilização
 
- </div>
+## Instalação do Site
+
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+
+## Histórico de versões
+
+### [0.1.0] - DD/MM/AAAA![página logada](https://user-images.githubusercontent.com/109998601/194771291-64455404-eafc-4a70-8097-d7982358dfd3.png)
 
 
-## Integrantes
-* Breno Benfica de Souza Freitas
-* Jose Francisco Lopes Dalseco
-* Marilia Maciel Bruzzi Felipe
+https://user-images.githubusercontent.com/109998601/194771262-9270e8ef-afbe-4950-8292-dd8e4288228c.mp4
 
-## Orientador
-
-* Luciana de Nardin
-
-# Planejamento
-
-| Etapa         | Atividades |
-|  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/context.md) <br> [Especificação do Projeto](docs/especification.md) |
-| ETAPA 2         |[Projeto de Interface](docs/interface.md) <br> [Template Padrão](docs/template.md) |
-| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
-| ETAPA 4         |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
-| ETAPA 5         | [Apresentação](presentation/README.md) |
-
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
