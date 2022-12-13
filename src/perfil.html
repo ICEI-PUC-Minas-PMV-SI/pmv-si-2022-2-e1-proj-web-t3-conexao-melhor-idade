@@ -8,7 +8,7 @@
     <!-- MDB icon 
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
-    <link href="styles/mdb/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="mdb/mdb.min.css" />
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Google Fonts Roboto -->
@@ -16,7 +16,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link href="/src/mb/styles/main.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -25,23 +25,24 @@
     <header>
         <!-- Navbar -->
 
-        <nav class="navbar navbar-dark navbar-expand-lg py-3">
-
+        <nav class="navbar navbar-dark navbar-expand-lg">
             <!-- Container wrapper -->
-            <div class="container-lg me-0">
-
+            <div class="container">
                 <!-- Navbar brand -->
+                <div class="flex-fill"></div>
                 <a class="navbar-brand" href="index.html">
                     <img alt="CMI Logo" height="42" src="img/logo-texto.png" loading="lazy" />
                 </a>
                 <!-- Navbar brand -->
+                <div class="flex-fill"></div>
+                <div class="flex-fill"></div>
                 <div class="flex-fill"></div>
                 <!-- Toggle button -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="btn-group">
                             <button aria-expanded="false"
-                                class="d-flex align-items-center btn btn-sm btn-danger dropdown-toggle"
+                                class="d-flex align-items-center btn btn-sm btn-danger ms-auto dropdown-toggle"
                                 data-mdb-toggle="dropdown" type="button"><span
                                     class="material-symbols-outlined text-white ">emergency
                                 </span> Emergências
@@ -92,7 +93,7 @@
                                         <hr class="divider-horizontal my-2" />
                                     </li>
                                     <li>
-                                        <a class=" btn btn-primary d-block" href="mb/cadastro.html">Cadastrar</a>
+                                        <a class=" btn btn-primary d-block" href="cadastro.html">Cadastrar</a>
                                     </li>
                                 </ul>
                             </div>
@@ -116,12 +117,11 @@
                         </li>
 
                         <li class="nav-item d-flex flex-row-reverse">
-                            <a class="nav-link" href="mb/quem-somos.html">Quem Somos</a>
+                            <a class="nav-link" href="quem-somos.html">Quem Somos</a>
                         </li>
                     </ul>
                 </div>
 
-            </div>
             </div>
         </nav>
 
@@ -281,10 +281,10 @@
                     <a href="index.html" class="footer-link text-white">Home</a>
                 </li>
                 <li class="d-inline pe-3">
-                    <a href="mb/quem-somos.html" class="footer-link text-white">Quem somos</a>
+                    <a href="quem-somos.html" class="footer-link text-white">Quem somos</a>
                 </li>
                 <li class="d-inline ">
-                    <a href="sb/politica-de-privacidade/index.html" class="footer-link text-white">Termos de uso e
+                    <a href="politica-de-privacidade/index.html" class="footer-link text-white">Termos de uso e
                         Privacidade</a>
                 </li>
             </ul>
@@ -302,9 +302,9 @@
 
     <!--<script type="text/javascript" src="public/scripts/protected.js"></script>-->
 
-    <script src="/src/public/load-db.js"></script>
-    <script src="/src//public/rating.js"></script>
-    <script src="/src/mb/scripts/perfil.js"></script>
+    <script src="public/load-db.js"></script>
+    <script src="public/rating.js"></script>
+    <script src="perfil.js"></script>
 
 
 </body>
