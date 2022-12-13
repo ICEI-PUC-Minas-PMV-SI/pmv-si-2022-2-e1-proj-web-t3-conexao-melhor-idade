@@ -37,7 +37,7 @@ jobs:
           replacement: '<base href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/"'
           flags: "g" # Optional, defaults to "g"
           encoding: "utf8" # Optional, defaults to 'utf8'
-          path: "src"
+          path: "src/"
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
