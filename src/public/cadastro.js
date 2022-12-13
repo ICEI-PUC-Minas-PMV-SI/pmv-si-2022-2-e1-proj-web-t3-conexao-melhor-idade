@@ -5,6 +5,7 @@
  * @param {KeyboardEvent|FocusEvent} e
  * @return void
  */
+
 function markAsValidOnInputChange(event) {
   if (event.target && event.target.checkValidity()) {
     event.target.classList.remove("is-invalid");
@@ -34,6 +35,7 @@ console.log(markFormValidityOnSubmit);
 /*
 sending form data to edit-profile page
 */
+
 function signUp(event) {
   event.preventDefault();
   let accountChoice = document.querySelector(
@@ -88,7 +90,7 @@ function signUp(event) {
 document.addEventListener("DOMContentLoaded", function (event) {
   let data = localStorage.getItem("users");
   if (!data) {
-    localStorage.setItem("users", JSON.stringify(users));
+    localStorage.setItem("users", JSON.stringify(allUsers));
   }
 
   const form = document.getElementById("cmi-cadastro");

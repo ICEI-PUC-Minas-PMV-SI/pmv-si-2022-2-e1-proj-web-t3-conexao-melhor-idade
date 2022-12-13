@@ -8,7 +8,7 @@
     <!-- MDB icon
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
     <!-- MDB -->
-    <link rel="stylesheet" type="text/css" href="mdb/mdb.min.css" />
+    <link rel="stylesheet" type="text/css" href="./mdb/mdb.min.css" />
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Google Fonts Roboto -->
@@ -16,7 +16,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -182,9 +182,9 @@
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3 focus"
-                                        data="form-field-bithdate" placeholder="MM/DD/AAAA" id="dob" maxlength="4"
-                                        minlength="4" name="dob" type="date" required />
-                                    <label class="form-label" for="dob">Data de nascimento</label>
+                                        data="form-field-bithdate" id="dob" maxlength="8" minlength="4" name="dob"
+                                        required type="date" />
+                                    <label class=" form-label" for="dob">Data de nascimento</label>
                                     <div class="invalid-feedback"><small>Data inválida. Verifique
                                             novamente por favor</small></div>
                                 </div>
@@ -198,8 +198,8 @@
                                 </div>
 
                                 <div class="form-outline mb-4">
-                                    <input class="form-control form-control-lg bg-white shadow-3" id="phone"
-                                        maxlength="9" minlength="10" name="phone" type="text" required />
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="phone" size="20"
+                                        minlength="9" maxlength="11" name="phone" required type="text" />
                                     <label class=" form-label" for="phone">Telefone</label>
                                     <div class="invalid-feedback"><small>O telefone inválido. Verifique
                                             novamente por favor</small></div>
@@ -215,7 +215,7 @@
 
                                 <div class="form-outline mb-4">
                                     <input class="form-control form-control-lg bg-white shadow-3" id="passwordConfirm"
-                                        maxlength="20" minlength="6" name="password" required type="passwordConfirm" />
+                                        maxlength="20" minlength="6" name="password" required type="password" />
                                     <label class="form-label" for="passwordConfirm">Confirmar senha</label>
                                     <div class="invalid-feedback"><small>Senhas não conferem</small></div>
                                 </div>
@@ -271,12 +271,15 @@
         </div>
     </footer>
     <!-- MDB -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <!-- Custom scripts -->
 
-    <script type="text/javascript" src="public/load-db.js"></script>
-    <script type="text/javascript" src="public/users.json"></script>
-    <script type="text/javascript" src="cadastro.js"></script>
+    <script type="text/javascript" src="./public/load-db.js"></script>
+    <script type="text/javascript" src="./public/users.json"></script>
+    <script type="text/javascript" src="./public/cadastro.js"></script>
 
 </body>
 

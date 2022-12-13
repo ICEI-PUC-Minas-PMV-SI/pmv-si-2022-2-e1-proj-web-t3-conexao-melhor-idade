@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             </div>
             <div class="card-body">
               <h5 class="card-title">${user.first}</h5>
-              <p class="card-text mb-0">${user.prefession}</p>
+              <p class="card-text mb-0">${user.profession}</p>
               <small class="d-block text-muted mb-3">
                 ${user.city}, ${user.state}
               </small>
