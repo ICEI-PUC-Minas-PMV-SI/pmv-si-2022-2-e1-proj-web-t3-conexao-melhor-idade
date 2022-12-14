@@ -2,9 +2,7 @@ function loadData(type) {
   const db = localStorage.getItem(type);
 
   if (!db) {
-    return fetch(
-      `/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/main/src/public/${type}.json`
-    )
+    return fetch(`public/${type}.json`)
       .then(function (response) {
         return response.json();
       })
