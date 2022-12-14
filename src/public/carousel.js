@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   const users = JSON.parse(localStorage.getItem("users"));
-  const professionals = users.filter((user) => {
+  const professionals = users.filter(function (user) {
     return user.user_type === "profissional";
   });
 
