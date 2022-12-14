@@ -16,7 +16,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <base href="/src/" target="_self">
     <title>Conexão Melhor Idade</title>
 </head>
@@ -159,58 +159,57 @@
                                             </div>
                                         </div>
 
-                                        <div class="row " id="profileReview">
-                                            <div class="star-rating js-star-rating">
-                                                <div class="reviews">
-                                                    <span class='star' id="star-1" onclick="saveStar(this.id)"></span>
-                                                    <span class='star' id="star-2" onclick="saveStar(this.id)"></span>
-                                                    <span class='star' id="star-3" onclick="saveStar(this.id)"></span>
-                                                    <span class='star' id="star-4" onclick="saveStar(this.id)"></span>
-                                                    <span class='star' id="star-5" onclick="saveStar(this.id)"></span>
-                                                </div>
-                                            </div>
+                                        <div class="rating " id="rating">
+                                            <span class='star' id="star-1" onclick="saveStar(this.id)"></span>
+                                            <span class='star' id="star-2" onclick="saveStar(this.id)"></span>
+                                            <span class='star' id="star-3" onclick="saveStar(this.id)"></span>
+                                            <span class='star' id="star-4" onclick="saveStar(this.id)"></span>
+                                            <span class='star' id="star-5" onclick="saveStar(this.id)"></span>
                                         </div>
 
                                     </div>
-                                    <div>
-                                        <button type="button" class="btn btn-sm btn-rounded btn-primary mt-3 mb-5">
-                                            ENTRAR EM CONTATO
-                                        </button>
-                                    </div>
+
                                 </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col col-md-12">
-                                            <div class="text-justify ">
-                                                <h5 class="mb-3">Sobre</h5>
-                                                <p id="profile-bio">
-                                                </p>
-                                                <div class="row mt-4">
-                                                    <div class="col-md-6 mb-5 mb-md-0">
 
-                                                        <div class=" h-100">
-                                                            <h5 class="text mb-3">O que busco</h5>
 
-                                                            <div id="profile-companhia"></div>
+                                <div>
+                                    <button type="button" class="btn btn-sm btn-rounded btn-primary mt-3 mb-5">
+                                        ENTRAR EM CONTATO
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col col-md-12">
+                                        <div class="text-justify ">
+                                            <h5 class="mb-3">Sobre</h5>
+                                            <p id="profile-bio">
+                                            </p>
+                                            <div class="row mt-4">
+                                                <div class="col-md-6 mb-5 mb-md-0">
 
-                                                            <div id="profile-cuidador"></div>
+                                                    <div class=" h-100">
+                                                        <h5 class="text mb-3">O que busco</h5>
 
-                                                            <div id="profile-voluntario"></div>
-                                                        </div>
+                                                        <div id="profile-companhia"></div>
+
+                                                        <div id="profile-cuidador"></div>
+
+                                                        <div id="profile-voluntario"></div>
                                                     </div>
+                                                </div>
 
-                                                    <div class="col col-md-6">
-                                                        <div class=" h-100">
-                                                            <h5 class="mb-3">Hobbies</h5>
-                                                            <ul>
-                                                                <li>
-                                                                    <p id="profile-hobbie1"></p>
-                                                                </li>
-                                                                <li>
-                                                                    <span id="profile-hobbie2"></span>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
+                                                <div class="col col-md-6">
+                                                    <div class=" h-100">
+                                                        <h5 class="mb-3">Hobbies</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p id="profile-hobbie1"></p>
+                                                            </li>
+                                                            <li>
+                                                                <span id="profile-hobbie2"></span>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
@@ -221,6 +220,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -297,14 +297,14 @@
         </div>
     </footer>
     <!-- MDB -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
     <!-- Custom scripts -->
 
     <!--<script type="text/javascript" src="public/scripts/protected.js"></script>-->
 
-    <script src="public/load-db.js"></script>
-    <script src="public/rating.js"></script>
-    <script src="perfil.js"></script>
+    <script type="text/javascript" src="public/load-db.js"></script>
+    <script type="text/javascript" src="public/rating.js"></script>
+    <script type="text/javascript" src="public/perfil.js"></script>
 
 
 </body>

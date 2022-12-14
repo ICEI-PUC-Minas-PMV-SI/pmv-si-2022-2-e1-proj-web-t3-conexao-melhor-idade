@@ -3,11 +3,11 @@ var testWithOutLS = {};
 
 function saveStar(id) {
   if (!exampleWithoutLS) {
-    localStorage.setItem("reviews", id);
+    localStorage.setItem("rating", "id");
   } else {
-    testWithOutLS.reviews = id;
+    testWithOutLS.rating = id;
   }
-
+  console.log("id");
   // Refresh our rating on screen
   loadData();
 }
@@ -16,9 +16,9 @@ function loadData() {
   // Get stored rating on load
   var rating;
   if (!exampleWithoutLS) {
-    rating = localStorage.getItem("reviews");
+    rating = localStorage.getItem("rating");
   } else {
-    rating = testWithOutLS.reviews;
+    rating = testWithOutLS.rating;
   }
 
   if (!rating) {
