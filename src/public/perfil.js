@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.confirm(
       "Você precisa estar logado para visualizar esta página, faça seu login ou cadastre-se."
     );
-    location.href = "jd/login/index.html";
+    location.href = "login/index.html";
   }
   {
     console.log(user);
