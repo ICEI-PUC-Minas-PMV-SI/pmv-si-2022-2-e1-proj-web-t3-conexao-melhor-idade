@@ -4,7 +4,7 @@ function loadData(type) {
 
   if (!db) {
     // caso não exista no localStorage faz o requerimento para a pasta "public"
-    return fetch(`/src/public/${type}.json`)
+    return fetch(getUrl, `/src/public/${type}.json`)
       .then(function (response) {
         // converte a resposta do requerimento para Objeto Json
         return response.json();
