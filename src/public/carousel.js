@@ -1,9 +1,17 @@
 document.addEventListener("DOMContentLoaded", function (event) {
-  const user = JSON.parse(localStorage.getItem("users"));
-  const professionals = user.filter(
-    (user) => user.user_type === "profissional"
-  );
+  const user = JSON.parse(localStorage.getItem("users")) || [];
 
+  const users = user.filter((user) => user.user_type === "profissional");
+
+  if (Array.isArray(users)) {
+    const professionals =
+      user.filter((pro) => {
+        return pro.user_type === "profissional";
+      }) || [];
+  }
+  const professionals = user.filter(function (user) {
+    return user.user_type === "profissional";
+  });
   const groups = [];
 
   while (professionals.length > 0) {
