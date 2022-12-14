@@ -3,7 +3,7 @@ function loadData(type) {
 
   if (!db) {
     return fetch(
-      `/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/src/public/${type}.json`
+      `/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/public/${type}.json`
     )
       .then(function (response) {
         return response.json();
