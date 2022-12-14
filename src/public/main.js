@@ -80,7 +80,7 @@ function signUp(event) {
       'Cadastro efetuado com sucesso! Ao clicar em "OK", você será redirecionado para a página de login.'
     );
     {
-      window.location.href = "/src/jd/login/index.html";
+      window.location.href = "jd/login/index.html";
     }
   } else {
     alert("Este endereço de e-mail já está cadastrado.");
