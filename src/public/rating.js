@@ -14,18 +14,18 @@ function saveStar(id) {
 
 function loadData() {
   // Get stored rating on load
-  var reviews;
+  var rating;
   if (!exampleWithoutLS) {
-    reviews = localStorage.getItem("reviews");
+    rating = localStorage.getItem("reviews");
   } else {
-    reviews = testWithOutLS.reviews;
+    rating = testWithOutLS.reviews;
   }
 
-  if (!reviews) {
+  if (!rating) {
     return;
   }
 
-  var s = parseInt(reviews);
+  var s = parseInt(rating);
   // Get all of our stars..
   var stars = document.getElementsByClassName("star");
   // Loop through, and based on rating int, apply style
