@@ -34,12 +34,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     row.classList.add("row");
 
     group.forEach((user) => {
-      const reviews = Array.from(
-        Array.from(Math.floor(parseInt(user.reviews, 10))).keys()
+      const rating = Array.from(
+        Array.from(Math.floor(parseInt(user.rating, 10))).keys()
       )
         .map(() => "★")
         .join("");
-      console.log(reviews);
+      console.log("rating");
       row.innerHTML += `
         <div class="col-md-3 px-2">
           <div class="card">
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 ${user.city}, ${user.state}
               </small>
               <span class="reviews">
-                ${reviews}
+                ${user.rating}
               </span>
             </div>
           </div>
