@@ -1,4 +1,3 @@
-
 //  const email = document.getElementById('email')
 //  const password = document.getElementById('password')
 
@@ -27,10 +26,10 @@
 //       .getElementById("cmi-login")
 //       .addEventListener("click", logIn);
 // })
-const form = document.querySelector('#cmi-login-form')
-form.addEventListener('submit', function entrar(event) {
-  console.log('event', event)
-  event.preventDefault()
+const form = document.querySelector("#cmi-login-form");
+form.addEventListener("submit", function entrar(event) {
+  console.log("event", event);
+  event.preventDefault();
   const email = document.getElementById("email");
   const password = document.getElementById("password");
 
@@ -39,21 +38,17 @@ form.addEventListener('submit', function entrar(event) {
 
   const msgError = document.getElementById("msgError");
 
-  const users = JSON.parse(localStorage.getItem('users'))
+  const users = JSON.parse(localStorage.getItem("users"));
 
-   const loggedUser = users.find((item) => {
-  return email.value === item.email && password.value === item.password
-      
-    
+  const loggedUser = users.find((item) => {
+    return email.value === item.email && password.value === item.password;
   });
-  if(loggedUser){
-    localStorage.setItem('loggedUser',JSON.stringify(loggedUser))
-    
-    window.location.assign('index.html')
+  if (loggedUser) {
+    localStorage.setItem("loggedUser", JSON.stringify(loggedUser));
+
+    window.location.assign("gn/home-cliente/index.html");
   }
-
-
-  })
+});
 // function entrar(event) {
 //   console.log('event', event)
 //   event.preventDefault()
@@ -69,18 +64,15 @@ form.addEventListener('submit', function entrar(event) {
 
 //    const loggedUser = users.data.find((item) => {
 //   return email.value === item.email && password.value === item.password
-      
-    
+
 //   });
 //   if(loggedUser){
 //     localStorage.setItem('loggedUser',JSON.stringify(loggedUser))
-    
+
 //     window.location.assign('index.html')
 //   }
 
-
 //   }
-
 
 //   const foundUser = users.find(function(user) {
 //     return user.email === email.value;
@@ -97,4 +89,3 @@ form.addEventListener('submit', function entrar(event) {
 //   // Redireciona para a home
 //   return window.location.replace("src/index.html");
 // }
-
