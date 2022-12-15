@@ -1,103 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="img/icon.png" />
-    <link rel="stylesheet" href="login.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="/src/header/cabecalho.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <base href="/src/" target="_self" />
-    <title>Conexão Melhor Idade</title>
-  </head>
 
-  <body>
-    <header id="cabecalho">
-      <nav id="nav">
-        <a href="#">
-          <img
-            href="index.html"
-            class="logo"
-            src="/src/img/logo-texto.png"
-            alt="logo"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/src/" target="_self" />
+  <title>Conexão Melhor Idade</title>
+  <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  <link rel="stylesheet" href="header/cabecalho.css" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="jd/login/login.css" />
+  <link rel="stylesheet" href="jd/login/reset.css" />
+
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav id="nav">
+      <a href="#">
+        <img href="index.html" class="logo" src="img/logo-texto.png" alt="logo" />
+      </a>
+      <ul class="uli">
+        <button onclick="emer()" class="bnt-nav">
+          <li>
+            <a id="a" href="#">
+              <span class="material-symbols-outlined out"> emergency </span><span id="emg">Emergências</span></a>
+            <ul class="drop-0">
+              <li>
+                <a href="gn/primeiros-socorros/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 ps">medical_services</span>
+                  Primeiros Socorros
+                </a>
+              </li>
+              <li>
+                <a href="bb/numeros-emergencia/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 nde">call</span>
+                  Números de Emergência</a>
+              </li>
+              <li>
+                <a href="jd/dicas-acidentes/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 pca">info</span>
+                  Prevenção de Acidentes</a>
+              </li>
+              <li>
+                <a class="ç" href="jd/hospitais/index.html">
+                  <span class="material-symbols-outlined text-danger me-2 hp">local_hospital</span>
+                  Hospitais Próximos</a>
+              </li>
+            </ul>
+          </li>
+        </button>
+        <div class="problem">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quem-somos.html">Quem Somos</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <button onclick="dropd()" class="btn-nav-1">
+      <img class="img-1" src="img/perfil.png" alt="perfil" />
+      <ul class="drop">
+        <a href="jd/login/index.html" id="yo">
+          <li id="li">Entrar</li>
         </a>
-        <ul class="uli">
-          <button onclick="emer()" class="bnt-nav">
-            <li>
-              <a id="a" href="#">
-                <span class="material-symbols-outlined out"> emergency </span
-                ><span id="emg">Emergências</span></a
-              >
-              <ul class="drop-0">
-                <li>
-                  <a href="/src/gn/primeiros-socorros/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 ps"
-                      >medical_services</span
-                    >
-                    Primeiros Socorros
-                  </a>
-                </li>
-                <li>
-                  <a href="bb/numeros-emergencia/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 nde"
-                      >call</span
-                    >
-                    Números de Emergência</a
-                  >
-                </li>
-                <li>
-                  <a href="jd/dicas-acidentes/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 pca"
-                      >info</span
-                    >
-                    Prevenção de Acidentes</a
-                  >
-                </li>
-                <li>
-                  <a class="ç" href="jd/hospitais/index.html">
-                    <span class="material-symbols-outlined text-danger me-2 hp"
-                      >local_hospital</span
-                    >
-                    Hospitais Próximos</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </button>
-          <div class="problem">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mb/quem-somos.html">Quem Somos</a></li>
-          </div>
-        </ul>
-      </nav>
+        <a href="cadastro.html" id="yo">
+          <li>Cadastrar</li>
+        </a>
+      </ul>
+    </button>
 
-      <button onclick="dropd()" class="btn-nav-1">
-        <img class="img-1" src="/src/img/perfil.png" alt="perfil" />
-        <ul class="drop">
-          <a href="/src/jd/login/index.html" id="yo">
-            <li id="li">Entrar</li></a
-          >
-          <a href="/src/mb/cadastro.html" id="yo"> <li>Cadastrar</li></a>
-        </ul>
-      </button>
-
-      <!--  -->
-      <button onclick="mostraMenu()" class="btn-nav-2">
-        <span class="material-symbols-outlined men"> menu </span>
-      </button>
-      <div class="div-mobile">
-        <nav class="menu-mobile">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mb/quem-somos.html">Quem somos</a></li>
-            <!-- <button onclick="dropda()" id="btn-nav" class="btn-nav-a">
+    <!--  -->
+    <button onclick="mostraMenu()" class="btn-nav-2">
+      <span class="material-symbols-outlined men"> menu </span>
+    </button>
+    <div class="div-mobile">
+      <nav class="menu-mobile">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <!-- <button onclick="dropda()" id="btn-nav" class="btn-nav-a">
               <img class="img-1" src="/src/img/perfil.png" alt="perfil" />
               <ul class="drop-a">
                 <a href="/src/jd/login/index.html" id="yo">
@@ -106,104 +90,87 @@
                 <a href="/src/mb/cadastro.html" id="yo"><li>Cadastrar</li></a>
               </ul>
             </button> -->
-          </ul>
-        </nav>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- inicio -->
+    <div class="main-login">
+      <div class="left-login">
+        <h1>
+          Se Conecte<br />
+          Faça o bem a quem precisa
+        </h1>
       </div>
-    </header>
-    <main>
-      <!-- inicio -->
-      <div class="main-login">
-        <div class="left-login">
-          <h1>
-            Se Conecte<br />
-            Faça o bem a quem precisa
-          </h1>
-        </div>
-        <div class="right-login">
-          <div class="card-login">
-            <h1>Login</h1>
-            <div id="msgError"></div>
-            <form onsubmit="entrar()" id="cmi-login-form">
-              <div class="textfield">
-                <input id="email" type="email" name="email" required />
-                <label id="emaiLabel" for="email">Email</label>
-              </div>
-
-              <div class="textfield">
-                <input
-                  id="password"
-                  type="password"
-                  name="password"
-                  required
-                  minlength="8"
-                />
-                <label id="passLabel" for="password">Senha</label>
-                <span
-                  id="strength-disp"
-                  class="strength-disp badge displayBadge"
-                ></span>
-              </div>
-
-              <div class="middle">
-                <label for="keep-alive" class="check">
-                  <input
-                    id="keep-alive"
-                    name="keep-alive"
-                    type="checkbox"
-                    checked="checked"
-                  />
-                  <span class="checkmark">Manter-se Conectado</span>
-                </label>
-                <div class="esqueceu">
-                  <pre><a href="#">Esqueceu a senha?</a></pre>
-                </div>
-              </div>
-
-              <div class="main-btn">
-                <button id="cmi-login" class="btn-login" type="submit">
-                  Entrar
-                </button>
-                <button class="btn-google">
-                  <img src="img/icons8-google-logo-48.png" /> Entre com o Google
-                </button>
-              </div>
-            </form>
-            <div class="n-conta">
-              <h3>
-                Ainda não possui uma conta?<a href="/src/mb/cadastro.html"
-                  >Cadastre-se</a
-                >
-              </h3>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>Login</h1>
+          <div id="msgError"></div>
+          <form onsubmit="entrar()" id="cmi-login-form">
+            <div class="textfield">
+              <input id="email" type="email" name="email" required />
+              <label id="emaiLabel" for="email">Email</label>
             </div>
+
+            <div class="textfield">
+              <input id="password" type="password" name="password" required minlength="8" />
+              <label id="passLabel" for="password">Senha</label>
+              <span id="strength-disp" class="strength-disp badge displayBadge"></span>
+            </div>
+
+            <div class="middle">
+              <label for="keep-alive" class="check">
+                <input id="keep-alive" name="keep-alive" type="checkbox" checked="checked" />
+                <span class="checkmark">Manter-se Conectado</span>
+              </label>
+              <div class="esqueceu">
+                <pre><a href="#">Esqueceu a senha?</a></pre>
+              </div>
+            </div>
+
+            <div class="main-btn">
+              <button id="cmi-login" class="btn-login" type="submit">
+                Entrar
+              </button>
+              <button class="btn-google">
+                <img src="img/icons8-google-logo-48.png" /> Entre com o Google
+              </button>
+            </div>
+          </form>
+          <div class="n-conta">
+            <h3>
+              Ainda não possui uma conta?<a href="cadastro.html">Cadastre-se</a>
+            </h3>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- final -->
-    </main>
+    <!-- final -->
+  </main>
 
-    <footer class="rodape">
-      <nav>
-        <ul class="rodape-2">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mb/quem-somos.html">Quem somos</a></li>
+  <footer class="rodape">
+    <nav>
+      <ul class="rodape-2">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quem-somos.html">Quem somos</a></li>
 
-          <li>
-            <a href="sb/politica-de-privacidade/index.html"
-              >Termos de Uso e Privacidade</a
-            >
-          </li>
-        </ul>
-        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
-      </nav>
-    </footer>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-      feather.replace();
-    </script>
-    <script src="/src/header/script.js"></script>
+        <li>
+          <a href="privacidade.html">Termos de Uso e Privacidade</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+    </nav>
+  </footer>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script src="header/script.js"></script>
 
-    <script src="/src/public/load-db.js"></script>
-    <script src="jd/login/script.js"></script>
-  </body>
+  <script src="public/load-db.js"></script>
+  <script src="jd/login/script.js"></script>
+</body>
+
 </html>
