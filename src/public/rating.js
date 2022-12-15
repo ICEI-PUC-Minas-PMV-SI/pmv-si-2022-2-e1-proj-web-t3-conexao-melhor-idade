@@ -3,11 +3,11 @@ var testWithOutLS = {};
 
 function saveStar(id) {
   if (!exampleWithoutLS) {
-    localStorage.setItem("rating", id);
+    localStorage.setItem("rating", "id");
   } else {
     testWithOutLS.rating = id;
   }
-
+  console.log("id");
   // Refresh our rating on screen
   loadData();
 }

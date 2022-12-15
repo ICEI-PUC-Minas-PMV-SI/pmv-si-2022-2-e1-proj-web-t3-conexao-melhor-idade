@@ -1,0 +1,59 @@
+.carousel-control-prev {
+  left: 35px;
+}
+
+.carousel-control-next {
+  right: 35px;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+.reviews {
+  font-size: 30px;
+  color: rgb(255, 217, 0);
+}
+
+.reviews span {
+  font-size: 30px;
+}
+
+.reviews span::before {
+  content: "☆";
+  color: rgba(0, 0, 0, 0.329);
+}
+
+.reviews span.active::before {
+  content: "★";
+  color: rgb(255, 217, 0);
+}
+
+.reviews span:hover {
+  cursor: pointer;
+}

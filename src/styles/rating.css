@@ -1,0 +1,21 @@
+.reviews {
+  font-size: 0;
+}
+
+.reviews span {
+  font-size: 40px;
+}
+
+.rating span::before {
+  content: "☆";
+  color: black;
+}
+
+.rating span.active::before {
+  content: "★";
+  color: orange;
+}
+
+.rating span:hover {
+  cursor: pointer;
+}

@@ -1,8 +1,3 @@
-function mostraMenu() {
-  const botao = document.querySelector(".menu-mobile");
-  botao.classList.toggle("show");
-}
-
 
 function initCEP() {
   const inputCep = document.querySelector("#cep");

@@ -1,288 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="img/icon.png" />
-    <link href="styles/mdb/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="editarperfil.css" />
-    <base href="/src/" target="_self" />
-    <title>Conexão Melhor Idade</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="logo">
-          <img class="logo-texto" src="img/logo-texto.png" alt="logo texto" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/src/" target="_self" />
+  <title>Conexão Melhor Idade</title>
+  <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  <link href="styles/mdb/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="jd/editar-perfil/reset.css" />
+  <link rel="stylesheet" href="jd/editar-perfil/editarperfil.css" />
+  <link rel="stylesheet" href="header/cabecalho.css" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav id="nav">
+      <a href="#">
+        <img href="index.html" class="logo" src="img/logo-texto.png" alt="logo" />
+      </a>
+      <ul class="uli">
+        <button onclick="emer()" class="bnt-nav">
+          <li>
+            <a id="a" href="#">
+              <span class="material-symbols-outlined out"> emergency </span><span id="emg">Emergências</span></a>
+            <ul class="drop-0">
+              <li>
+                <a href="gn/primeiros-socorros/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 ps">medical_services</span>
+                  Primeiros Socorros
+                </a>
+              </li>
+              <li>
+                <a href="bb/numeros-emergencia/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 nde">call</span>
+                  Números de Emergência</a>
+              </li>
+              <li>
+                <a href="jd/dicas-acidentes/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 pca">info</span>
+                  Prevenção de Acidentes</a>
+              </li>
+              <li>
+                <a class="ç" href="jd/hospitais/index.html">
+                  <span class="material-symbols-outlined text-danger me-2 hp">local_hospital</span>
+                  Hospitais Próximos</a>
+              </li>
+            </ul>
+          </li>
+        </button>
+        <div class="problem">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
         </div>
-        <nav class="menu-desktop">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mb/quem-somos/index.html">Quem somos</a></li>
-            <li>
-              <a href="#">Emergências</a>
-              <ul>
-                <li>
-                  <a href="bb/numeros-emergencia/index.html"
-                    >Numero de Emergências</a
-                  >
-                </li>
-                <li>
-                  <a href="gn/primeiros-socorros/index.html"
-                    >Primeiro Socorros</a
-                  >
-                </li>
-                <li>
-                  <a href="jd/dicas-acidentes/index.html"
-                    >Prevenção de Acidentes</a
-                  >
-                </li>
-                <li>
-                  <a href="jd/hospitais/index.html"
-                    >Hospitais e Postos de Saudes Próximos</a
-                  >
-                </li>
-              </ul>
-            </li>
-
-            <div class="login-cadastro"></div>
-          </ul>
-        </nav>
-        <button id="icone-mobile" title="Menu" onclick="mostraMenu()">
-          <i data-feather="menu"></i>
-        </button>
-
-        <button id="img">
-          <img src="img/outline_account_circle_white_24dp.png" alt="" />
-        </button>
-      </div>
-    </header>
-
-    <nav class="menu-mobile">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="mb/quem-somos.html">Quem somos</a></li>
-        <li>
-          <a href="#">Emergências</a>
-          <ul>
-            <li>
-              <a href="bb/numeros-emergencia/index.html"
-                >Numero de Emergências</a
-              >
-            </li>
-            <li>
-              <a href="gn/primeiros-socorros/index.html">Primeiro Socorros</a>
-            </li>
-            <li>
-              <a href="jd/dicas-acidentes/index.html">Prevenção de Acidentes</a>
-            </li>
-            <li>
-              <a href="jd/hospitais/index.html"
-                >Hospitais e Postos de Saudes Próximos</a
-              >
-            </li>
-          </ul>
-        </li>
-
-        <div class="login-cadastro"></div>
       </ul>
     </nav>
-    <main>
-      <div class="form">
-        <div class="perfil">
-          <img id="profile-avatar" src="" alt="Perfil" style="display: none" />
-          <div class="id-1">
-            <h1>Olá, <span id="user-fullname"></span></h1>
-            <h2>Preencha seu perfil!</h2>
-          </div>
-        </div>
-        <div class="form-edit">
-          <img
-            src="img/location_on_FILL0_wght400_GRAD0_opsz48.png"
-            alt="location"
-          />
-          <div class="text-edit">
-            <h3>Localização</h3>
-            Não se preocupe, não será mostrado sua lozalização exata.
-          </div>
-        </div>
-        <!-- edit1 -->
-        <form id="profile-form">
-          <div class="form-edit">
-            <div class="titi">
-              <textarea required name="bio" id="bio"></textarea>
-              <label for="bio">Sobre você</label>
-            </div>
-          </div>
 
-          <div class="form-edit">
-            <div class="text-edit">
-              <input
-                type="text"
-                id="cep"
-                name="cep"
-                minlength="9"
-                maxlength="9"
-                required
-              />
-              <label for="cep">Cep</label>
-            </div>
-          </div>
-          <!-- edit 2 -->
-          <div class="form-edit">
-            <div class="text-edit">
-              <input
-                type="text"
-                id="address"
-                name="address"
-                size="50"
-                maxlength="50"
-                required
-              />
-              <label for="address">Endereço</label>
-            </div>
-          </div>
-          <!-- edit 3 -->
-          <div class="form-edit">
-            <div class="text-edit">
-              <input
-                type="text"
-                id="city"
-                name="city"
-                maxlength="30"
-                required
-              />
-              <label for="city">Cidade</label>
-            </div>
-          </div>
-          <!-- edit 4 -->
-          <div class="form-edit">
-            <div class="text-edit">
-              <input
-                type="text"
-                id="phone"
-                name="phone"
-                minlength="15"
-                maxlength="15"
-                required
-              />
-              <label for="phone">Telefone</label>
-            </div>
-          </div>
-          <!-- edit 5 -->
-          <div class="form-edit">
-            <div class="text-edit">
-              <input
-                type="text"
-                id="cpf"
-                name="cpf"
-                minlength="14"
-                maxlength="14"
-                required
-              />
-              <label for="cpf">CPF</label>
-            </div>
-          </div>
+    <button onclick="dropd()" class="btn-nav-1">
+      <img class="img-1" src="img/perfil.png" alt="perfil" />
+      <ul class="drop">
+        <a href="jd/login/index.html" id="yo">
+          <li id="li">Entrar</li>
+        </a>
+        <a href="cadastro.html" id="yo">
+          <li>Cadastrar</li>
+        </a>
+      </ul>
+    </button>
 
-          <!--                  -->
-
-          <div class="form-edit">
-            <div class="text-edit">
-              <select id="gender" name="gender" class="sec">
-                <option value=""></option>
-                <option value="m">Masculino</option>
-                <option value="f">Feminino</option>
-                <option value="o">Outro</option>
-                <option value="n">Prefiro não informar</option>
-              </select>
-              <label for="gender">Gênero</label>
-            </div>
-          </div>
-
-          <!--  -->
-
-          <div class="form-edit">
-            <div style="width: 50%">
-              <label>O que você busca</label>
-
-              <div id="checkboxes">
-                <label for="profissional">
-                  <input
-                    name="interesse"
-                    type="checkbox"
-                    id="profissional"
-                    value="profissional"
-                  />
-                  Cuidador profissional
-                </label>
-                <label for="voluntario">
-                  <input
-                    name="interesse"
-                    type="checkbox"
-                    id="voluntario"
-                    value="voluntario"
-                  />
-                  Voluntário
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-edit">
-            <div class="hoppy-container">
-              <div class="text-edit">
-                <input
-                  type="text"
-                  id="input-hobby"
-                  name="input-hobby"
-                  maxlength="14"
-                />
-                <label for="input-hobby">Hobbies</label>
-              </div>
-              <button id="add-hob">
-                <img
-                  src="img/add_circle_FILL0_wght400_GRAD0_opsz48.png"
-                  alt=""
-                />
-              </button>
-            </div>
-          </div>
-          <ul id="hobby-list"></ul>
-
-          <div class="save">
-            <button type="submit">Salvar</button>
-            <button type="button">Cancelar</button>
-          </div>
-        </form>
-      </div>
-      <!-- ---------------------------------------------- -->
-    </main>
-
-    <footer class="rodape">
-      <nav>
-        <ul class="rodape-2">
+    <!--  -->
+    <button onclick="mostraMenu()" class="btn-nav-2">
+      <span class="material-symbols-outlined men"> menu </span>
+    </button>
+    <div class="div-mobile">
+      <nav class="menu-mobile">
+        <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="mb/quem-somos.html">Quem somos</a></li>
-
-          <li>
-            <a href="sb/politica-de-privacidade/index.html" target="_blank"
-              >Termos de uso e Privacidade</a
-            >
-          </li>
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <!-- <button onclick="dropda()" id="btn-nav" class="btn-nav-a">
+              <img class="img-1" src="/src/img/perfil.png" alt="perfil" />
+              <ul class="drop-a">
+                <a href="/src/jd/login/index.html" id="yo">
+                  <li id="li">Entrar</li></a
+                >
+                <a href="/src/mb/cadastro.html" id="yo"><li>Cadastrar</li></a>
+              </ul>
+            </button> -->
         </ul>
-        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
       </nav>
-    </footer>
+    </div>
+  </header>
+  <main>
+    <div class="form">
+      <div class="perfil">
+        <img id="profile-avatar" src="" alt="Perfil" style="display: none" />
+        <div class="id-1">
+          <h1>Olá, <span id="user-fullname"></span></h1>
+          <h2>Preencha seu perfil!</h2>
+        </div>
+      </div>
+      <div class="form-edit">
+        <img src="img/location_on_FILL0_wght400_GRAD0_opsz48.png" alt="location" />
+        <div class="text-edit">
+          <h3>Localização</h3>
+          Não se preocupe, não será mostrado sua lozalização exata.
+        </div>
+      </div>
+      <!-- edit1 -->
+      <form id="profile-form">
+        <div class="form-edit">
+          <div class="titi">
+            <textarea required name="bio" id="bio"></textarea>
+            <label for="bio">Sobre você</label>
+          </div>
+        </div>
 
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-      feather.replace();
-    </script>
-    <script src="/src/public/load-db.js"></script>
-    <script src="/src/public/protected.js"></script>
-    <script src="/src/jd/editar-perfil/script.js"></script>
-  </body>
+        <div class="form-edit">
+          <div class="text-edit">
+            <input type="text" id="cep" name="cep" minlength="9" maxlength="9" required />
+            <label for="cep">Cep</label>
+          </div>
+        </div>
+        <!-- edit 2 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <input type="text" id="address" name="address" size="50" maxlength="50" required />
+            <label for="address">Endereço</label>
+          </div>
+        </div>
+        <!-- edit 3 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <input type="text" id="city" name="city" maxlength="30" required />
+            <label for="city">Cidade</label>
+          </div>
+        </div>
+        <!-- edit 4 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <input type="text" id="phone" name="phone" minlength="15" maxlength="15" required />
+            <label for="phone">Telefone</label>
+          </div>
+        </div>
+        <!-- edit 5 -->
+        <div class="form-edit">
+          <div class="text-edit">
+            <input type="text" id="cpf" name="cpf" minlength="14" maxlength="14" required />
+            <label for="cpf">CPF</label>
+          </div>
+        </div>
+
+        <!--                  -->
+
+        <div class="form-edit">
+          <div class="text-edit">
+            <select id="gender" name="gender" class="sec">
+              <option value=""></option>
+              <option value="m">Masculino</option>
+              <option value="f">Feminino</option>
+              <option value="o">Outro</option>
+              <option value="n">Prefiro não informar</option>
+            </select>
+            <label for="gender">Gênero</label>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <div class="form-edit">
+          <div style="width: 50%">
+            <label>O que você busca</label>
+
+            <div id="checkboxes">
+              <label for="profissional">
+                <input name="interesse" type="checkbox" id="profissional" value="profissional" />
+                Cuidador profissional
+              </label>
+              <label for="voluntario">
+                <input name="interesse" type="checkbox" id="voluntario" value="voluntario" />
+                Voluntário
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-edit">
+          <div class="hoppy-container">
+            <div class="text-edit">
+              <input type="text" id="input-hobby" name="input-hobby" maxlength="14" />
+              <label for="input-hobby">Hobbies</label>
+            </div>
+            <button id="add-hob">
+              <img src="img/add_circle_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <ul id="hobby-list"></ul>
+
+        <div class="save">
+          <button type="submit">Salvar</button>
+          <button type="button">Cancelar</button>
+        </div>
+      </form>
+    </div>
+    <!-- ---------------------------------------------- -->
+  </main>
+
+  <footer class="rodape">
+    <nav>
+      <ul class="rodape-2">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mb/quem-somos.html">Quem somos</a></li>
+
+        <li>
+          <a href="privacidade.html" target="_blank">Termos de uso e Privacidade</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+    </nav>
+  </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script src="public/load-db.js"></script>
+  <script src="public/protected.js"></script>
+  <script src="header/script.js"></script>
+  <script src="jd/editar-perfil/script.js"></script>
+
+</body>
+
 </html>

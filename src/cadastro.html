@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <!-- MDB icon
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
+    <!-- MDB -->
+
+    <link rel="stylesheet" type="text/css" href="mdb/mdb.min.css" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles/shared.css" />
+    <base href="/src/" target="_self">
+    <title>Conexão Melhor Idade</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-lg">
+
+            <!-- Container wrapper -->
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <div class="flex-fill"></div>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="CMI Logo" height="42" src="img/logo-texto.png" loading="lazy" />
+                </a>
+                <!-- Navbar brand -->
+                <div class="flex-fill"></div>
+                <div class="flex-fill"></div>
+                <div class="flex-fill"></div>
+                <!-- Toggle button -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <button aria-expanded="false"
+                                class="d-flex align-items-center btn btn-sm btn-danger ms-auto dropdown-toggle"
+                                data-mdb-toggle="dropdown" type="button"><span
+                                    class="material-symbols-outlined text-white ">emergency
+                                </span> Emergências
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="gn/primeiros-socorros/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">medical_services</span>
+                                        <div>Primeiros socorros</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="bb/numeros-emergencia/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">call</span>
+                                        <div>Números de emergência</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="jd/dicas-acidentes/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">info</span>
+                                        <div>Prevenção de acidentes</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex mt-2" href="jd/hospitais/index.html">
+                                        <span class="material-symbols-outlined text-danger me-2">local_hospital</span>
+                                        <div>Hospitais e postos de saúde</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class=" nav-item ">
+                        <div class="nav-item ms-3">
+                            <div class="dropdown">
+                                <a href="#" aria-expanded="false" class="nav-link" data-mdb-toggle="dropdown"
+                                    data-bs-display="static" aria-expanded="false">
+                                    <span
+                                        class="nav-link material-symbols-outlined p-0 align-middle">account_circle</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-lg-end p-2">
+                                    <li>
+                                        <a class="btn btn-secondary d-block" href="jd/login/index.html">Entrar</a>
+                                    </li>
+                                    <li>
+                                        <hr class="divider-horizontal my-2" />
+                                    </li>
+                                    <li>
+                                        <a class=" btn btn-primary d-block" href="cadastro.html">Cadastrar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Collapsible wrapper -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-mdb-target="#navbarNav"
+                    data-mdb-toggle="collapse" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- Collapsible wrapper -->
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item d-flex flex-row-reverse">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item d-flex flex-row-reverse">
+                            <a class="nav-link" href="quem-somos.html">Quem Somos</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- Navbar -->
+
+    <main>
+        <div class="container py-5 ">
+            <div class="row">
+                <div class="col col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
+                    <div class="card px-5 py-5">
+                        <form action="#" class="form-detail needs-validation" id="cmi-cadastro" method="post"
+                            novalidate>
+                            <h3 class="text-center text-primary mb-4">Cadastre-se</h3>
+                            <div class="form-group">
+
+                                <div class="account-choice text-start" id="accountChoice">
+                                    <h6 class="mb-3">Tipo de conta:</h6>
+                                    <div class="radio mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input mb-1" id="accountChoice1"
+                                                name="accountChoice" type="radio" value="cliente" required />
+                                            <label class="form-check-label" for="accountChoice1">Cliente</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input mb-3" id="accountChoice2"
+                                                name="accountChoice" type="radio" value="profissional" required />
+                                            <label class="form-check-label" for="accountChoice2">Profissional ou
+                                                voluntário</label>
+                                            <div class="invalid-feedback"><small>Favor selecionar uma opção de
+                                                    conta</small></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3 validate-email"
+                                        id="email" name="email" placeholder="nome@dominio.com" required type="email" />
+                                    <label class="form-label" for="email">E-mail</label>
+                                    <div class="invalid-feedback"><small>Favor informar um e-mail válido</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="first"
+                                        maxlength="20" minlength="4" name="first" required type="text" />
+                                    <label class="form-label" for="first">Nome</label>
+                                    <div class="invalid-feedback"><small>Campo obrigatório</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="last"
+                                        maxlength="100" minlength="5" name="last" required type="text" />
+                                    <label class="form-label" for="last">Sobrenome</label>
+                                    <div class="invalid-feedback"><small>Campo obrigatório</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3 focus"
+                                        data="form-field-bithdate" id="dob" maxlength="8" minlength="4" name="dob"
+                                        required type="date" />
+                                    <label class=" form-label" for="dob">Data de nascimento</label>
+                                    <div class="invalid-feedback"><small>Data inválida. Verifique
+                                            novamente por favor</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="cpf" name="cpf"
+                                        maxlength="11" minlength="11" required type="text" />
+                                    <label class="form-label" for="cpf">CPF</label>
+                                    <div class="invalid-feedback"><small>O CPF inválido. Verifique novamente por
+                                            favor</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="phone" size="20"
+                                        minlength="9" maxlength="11" name="phone" required type="text" />
+                                    <label class=" form-label" for="phone">Telefone</label>
+                                    <div class="invalid-feedback"><small>O telefone inválido. Verifique
+                                            novamente por favor</small></div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="password"
+                                        maxlength="20" minlength="6" name="password" required type="password" />
+                                    <label class="form-label" for="password">Senha</label>
+                                    <div class="invalid-feedback"><small>A senha deve ter no mínimo 6 dígitos.</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input class="form-control form-control-lg bg-white shadow-3" id="passwordConfirm"
+                                        maxlength="20" minlength="6" name="password" required type="password" />
+                                    <label class="form-label" for="passwordConfirm">Confirmar senha</label>
+                                    <div class="invalid-feedback"><small>Senhas não conferem</small></div>
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input aria-label="checkbox" class="form-check-input shadow-3" id="checkbox"
+                                        name="termosCondicoes" required type="checkbox" value="li-e-concordo" />
+                                    <label class="form-check-label" for="checkbox">
+                                        Li e concordo com os <a class="fw-bold text-primary"
+                                            href="privacidade.html">Termos de Uso e
+                                            Política de
+                                            Privacidade</a>
+                                    </label>
+                                </div>
+
+                                <div class="d-flex justify-content-center mb-2">
+                                    <button id="btn-cadastro" class="btn btn-rounded btn-secondary btn-block mb-3"
+                                        type="submit">Cadastrar
+                                    </button>
+                                </div>
+
+                                <p class="text-center text-muted">Já tem uma conta? <a class="fw-bold text-primary"
+                                        href="jd/login/index.html"><u>Entre</u></a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-white bg-primary pt-3">
+        <div class="mt-3">
+            <ul class="p-0 m-0 footer-link pb-4">
+                <li class="d-inline pe-3">
+                    <a href="index.html" class="footer-link text-white">Home</a>
+                </li>
+                <li class="d-inline pe-3">
+                    <a href="quem-somos.html" class="footer-link text-white">Quem somos</a>
+                </li>
+                <li class="d-inline ">
+                    <a href="privacidade.html" class="footer-link text-white">Termos de uso e
+                        Privacidade</a>
+                </li>
+            </ul>
+
+            <!-- Copyright -->
+            <div class="pb-4 bg-primary opacity-75">
+                <small>© 2022 Conexão Melhor Idade -Todos os direitos reservados</small>
+            </div>
+            <!-- Copyright -->
+        </div>
+    </footer>
+    <!-- MDB -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom scripts -->
+
+    <script type="text/javascript" src="public/load-db.js"></script>
+    <script type="text/javascript" src="public/users.json"></script>
+    <script type="text/javascript" src="public/main.js"></script>
+
+</body>
+
+</html>
