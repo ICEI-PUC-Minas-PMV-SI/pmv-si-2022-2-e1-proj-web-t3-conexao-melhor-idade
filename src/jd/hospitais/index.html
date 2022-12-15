@@ -1,103 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
-    <link rel="stylesheet" href="hospitais.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="/src/header/cabecalho.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <base href="/src/" target="_self" />
-    <title>Conexão Melhor Idade</title>
-  </head>
 
-  <body>
-    <header id="cabecalho">
-      <nav id="nav">
-        <a href="#">
-          <img
-            href="index.html"
-            class="logo"
-            src="/src/img/logo-texto.png"
-            alt="logo"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/src/" target="_self" />
+  <title>Conexão Melhor Idade</title>
+  <link rel="icon" type="image/x-icon" href="img/icon.png" />
+  <link rel="stylesheet" href="jd/hospitais/hospitais.css" />
+  <link rel="stylesheet" href="jd/hospitais/reset.css" />
+  <link rel="stylesheet" href="header/cabecalho.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav id="nav">
+      <a href="#">
+        <img href="index.html" class="logo" src="img/logo-texto.png" alt="logo" />
+      </a>
+      <ul class="uli">
+        <button onclick="emer()" class="bnt-nav">
+          <li>
+            <a id="a" href="#">
+              <span class="material-symbols-outlined out"> emergency </span><span id="emg">Emergências</span></a>
+            <ul class="drop-0">
+              <li>
+                <a href="gn/primeiros-socorros/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 ps">medical_services</span>
+                  Primeiros Socorros
+                </a>
+              </li>
+              <li>
+                <a href="bb/numeros-emergencia/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 nde">call</span>
+                  Números de Emergência</a>
+              </li>
+              <li>
+                <a href="jd/dicas-acidentes/index.html" class="ç">
+                  <span class="material-symbols-outlined text-danger me-2 pca">info</span>
+                  Prevenção de Acidentes</a>
+              </li>
+              <li>
+                <a class="ç" href="jd/hospitais/index.html">
+                  <span class="material-symbols-outlined text-danger me-2 hp">local_hospital</span>
+                  Hospitais Próximos</a>
+              </li>
+            </ul>
+          </li>
+        </button>
+        <div class="problem">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <button onclick="dropd()" class="btn-nav-1">
+      <img class="img-1" src="img/perfil.png" alt="perfil" />
+      <ul class="drop">
+        <a href="jd/login/index.html" id="yo">
+          <li id="li">Entrar</li>
         </a>
-        <ul class="uli">
-          <button onclick="emer()" class="bnt-nav">
-            <li>
-              <a id="a" href="#">
-                <span class="material-symbols-outlined out"> emergency </span
-                ><span id="emg">Emergências</span></a
-              >
-              <ul class="drop-0">
-                <li>
-                  <a href="/src/gn/primeiros-socorros/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 ps"
-                      >medical_services</span
-                    >
-                    Primeiros Socorros
-                  </a>
-                </li>
-                <li>
-                  <a href="bb/numeros-emergencia/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 nde"
-                      >call</span
-                    >
-                    Números de Emergência</a
-                  >
-                </li>
-                <li>
-                  <a href="jd/dicas-acidentes/index.html" class="ç">
-                    <span class="material-symbols-outlined text-danger me-2 pca"
-                      >info</span
-                    >
-                    Prevenção de Acidentes</a
-                  >
-                </li>
-                <li>
-                  <a class="ç" href="jd/hospitais/index.html">
-                    <span class="material-symbols-outlined text-danger me-2 hp"
-                      >local_hospital</span
-                    >
-                    Hospitais Próximos</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </button>
-          <div class="problem">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mb/quem-somos.html">Quem Somos</a></li>
-          </div>
-        </ul>
-      </nav>
+        <a href="cadastro.html" id="yo">
+          <li>Cadastrar</li>
+        </a>
+      </ul>
+    </button>
 
-      <button onclick="dropd()" class="btn-nav-1">
-        <img class="img-1" src="/src/img/perfil.png" alt="perfil" />
-        <ul class="drop">
-          <a href="/src/jd/login/index.html" id="yo">
-            <li id="li">Entrar</li></a
-          >
-          <a href="/src/mb/cadastro.html" id="yo"> <li>Cadastrar</li></a>
-        </ul>
-      </button>
-
-      <!--  -->
-      <button onclick="mostraMenu()" class="btn-nav-2">
-        <span class="material-symbols-outlined men"> menu </span>
-      </button>
-      <div class="div-mobile">
-        <nav class="menu-mobile">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="mb/quem-somos.html">Quem somos</a></li>
-            <!-- <button onclick="dropda()" id="btn-nav" class="btn-nav-a">
+    <!--  -->
+    <button onclick="mostraMenu()" class="btn-nav-2">
+      <span class="material-symbols-outlined men"> menu </span>
+    </button>
+    <div class="div-mobile">
+      <nav class="menu-mobile">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Quem somos</a></li>
+          <!-- <button onclick="dropda()" id="btn-nav" class="btn-nav-a">
               <img class="img-1" src="/src/img/perfil.png" alt="perfil" />
               <ul class="drop-a">
                 <a href="/src/jd/login/index.html" id="yo">
@@ -106,62 +90,56 @@
                 <a href="/src/mb/cadastro.html" id="yo"><li>Cadastrar</li></a>
               </ul>
             </button> -->
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="main-div">
-        <div class="titulo">
-          <h1>Postos de saúde e hospitais próximos</h1>
-        </div>
-        <div>
-          <form id="pesq">
-            <img
-              src="img/location_searching_FILL0_wght400_GRAD0_opsz48.png"
-              alt="search"
-            />
-            <input type="text" id="endereco-input" />
-            <button type="submit" class="btn-bus">Buscar</button>
-          </form>
-        </div>
-        <div class="corpo">
-          <div class="corpo-e">
-            <div id="map"></div>
-          </div>
-
-          <div class="corpo-d">
-            <div id="card"></div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <footer class="rodape">
-      <nav>
-        <ul class="rodape-2">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mb/quem-somos.html">Quem somos</a></li>
-
-          <li>
-            <a href="sb/privacidade/index.html" target="_blank"
-              >Termos de uso e Privacidade</a
-            >
-          </li>
         </ul>
-        <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
       </nav>
-    </footer>
+    </div>
+  </header>
+  <main>
+    <div class="main-div">
+      <div class="titulo">
+        <h1>Postos de saúde e hospitais próximos</h1>
+      </div>
+      <div>
+        <form id="pesq">
+          <img src="img/location_searching_FILL0_wght400_GRAD0_opsz48.png" alt="search" />
+          <input type="text" id="endereco-input" />
+          <button type="submit" class="btn-bus">Buscar</button>
+        </form>
+      </div>
+      <div class="corpo">
+        <div class="corpo-e">
+          <div id="map"></div>
+        </div>
 
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-      feather.replace();
-    </script>
-    <script type="text/javascript" src="/src/jd/hospitais/script.js"></script>
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1DGaAqlubfBkpVzZsZEU9henZt0r4bIg&libraries=places&callback=initMap"
-    ></script>
-    <script src="/src/header/script.js"></script>
-  </body>
+        <div class="corpo-d">
+          <div id="card"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <nav>
+      <ul class="rodape-2">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Quem somos</a></li>
+
+        <li>
+          <a href="privacidade/index.html" target="_blank">Termos de uso e Privacidade</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Conexão Melhor Idade - 2022</p>
+    </nav>
+  </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script type="text/javascript" src="jd/hospitais/script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1DGaAqlubfBkpVzZsZEU9henZt0r4bIg&libraries=places&callback=initMap"></script>
+  <script src="header/script.js"></script>
+</body>
+
 </html>
