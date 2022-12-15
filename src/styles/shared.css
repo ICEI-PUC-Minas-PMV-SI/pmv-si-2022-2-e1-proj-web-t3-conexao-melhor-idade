@@ -333,7 +333,7 @@ navbar drop down menu-emergencias
 .cmi-hero {
   position: relative;
   padding: 120px 0;
-  background-image: url("/src/img/banner.jpg");
+  background-image: url("img/banner.jpg");
   background-size: cover;
   background-position: -20%;
 }
@@ -344,7 +344,7 @@ navbar drop down menu-emergencias
 
 .cmi-hero:before {
   content: " ";
-  background-image: url("/src/img/banner.jpg");
+  background-image: url("/img/banner.jpg");
   position: absolute;
   top: 0;
   bottom: 0;
