@@ -1,9 +1,13 @@
 .carousel-control-prev {
   left: 35px;
+  position: absolute;
+  top: 25%;
 }
 
 .carousel-control-next {
   right: 35px;
+  position: absolute;
+  top: 25%;
 }
 
 @media (max-width: 767px) {

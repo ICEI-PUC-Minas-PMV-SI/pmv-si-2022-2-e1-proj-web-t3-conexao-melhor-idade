@@ -113,7 +113,7 @@ color-profile {
   background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
 }
 .bg-light {
-  background-color: #ecf0f4 !important;
+  background-color: #f3f3f3 !important;
 }
 
 .border-light {
@@ -127,7 +127,7 @@ color-profile {
   background-color: #f40009 !important;
   color: #fff !important;
   color: rgba(255, 255, 255, 1);
-  border: 0;
+  border: 5px;
   box-shadow: 0 4px 9px -4px #f40009 !important;
 }
 .btn-danger:hover,
@@ -136,7 +136,7 @@ color-profile {
   background-color: #f40009 !important;
   color: #fff !important;
   color: rgba(255, 255, 255, 1);
-  border: 0;
+  border: 5;
   box-shadow: 0 8px 9px -4px rgba(220, 76, 100, 0.3) 0 4px 18px 0 rgba(220, 76, 100, 0.2) !important;
 }
 .btn-primary {
@@ -416,11 +416,12 @@ main .container-carousel {
   padding-left: 100px;
   padding-right: 100px;
 }
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 100%;
+.carousel-item p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
+
 .cmi-home-banner.banner-top {
   background-color: rgb(221, 248, 255);
 }
