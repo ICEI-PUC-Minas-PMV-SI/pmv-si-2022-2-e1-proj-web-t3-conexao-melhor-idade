@@ -107,7 +107,7 @@ color-profile {
   height: 800px;
 }
 .bg-primary {
-  background-color: rgb(73, 115, 242, 1) !important;
+  background-color: #4973f2 !important;
 }
 .bg-secondary {
   background-color: rgba(62, 231, 199, var(--mdb-bg-opacity)) !important;
@@ -144,7 +144,7 @@ color-profile {
   color: #fff !important;
   color: rgba(255, 255, 255, 1);
   border: 0;
-  box-shadow: 0 4px 9px -4px #14cc8f79 !important;
+  box-shadow: 0 4px 9px -4px #4973f2a8 !important;
 }
 .btn-secondary {
   background-color: #14cc8e !important;
@@ -168,7 +168,7 @@ hamburger menu
   color: #4973f2 !important;
 }
 .navbar {
-  background: rgb(73, 115, 242, 0.95);
+  background: rgb(73, 115, 242);
   transition: all 0.6s;
 }
 .navbar-collapse {
@@ -356,7 +356,7 @@ navbar drop down menu-emergencias
   background: -webkit-linear-gradient(
     180deg,
     rgb(73, 115, 242, 0.95),
-    rgb(20, 204, 142, 0.6) 60%
+    #14cc8e99 60%
   );
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -445,8 +445,8 @@ main .container-carousel {
 
 .cmi-how-it-works > div:first-child,
 .cmi-how-it-works > div:last-child {
-  padding-top: 50px;
-  flex: 1 1 50%;
+  padding-top: 40px;
+  flex: 1 1 40%;
 }
 
 .cmi-how-it-works-track {
