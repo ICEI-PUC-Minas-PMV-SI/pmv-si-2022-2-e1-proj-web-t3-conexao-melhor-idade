@@ -35,6 +35,9 @@
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
+.carousel-item p {
+  text-overflow: ellipsis;
+}
 .reviews {
   font-size: 30px;
   color: rgb(255, 217, 0);
