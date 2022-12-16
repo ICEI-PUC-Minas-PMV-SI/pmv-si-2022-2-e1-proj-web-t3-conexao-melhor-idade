@@ -408,7 +408,7 @@
     "id": "0016",
     "user_type": "profissional",
     "avatar": "img/beatriz.jpg",
-    "first": "Tatiana",
+    "first": "Beatriz",
     "last": "Castro",
     "age": 42,
     "cpf": "568.003.957-57",
@@ -429,7 +429,8 @@
     "cuidador": "",
     "voluntario": "Voluntário(a)",
     "hobbie1": "Assistir filmes e séries",
-    "hobbie2": "Jogar jogos de battle royale"
+    "hobbie2": "Jogar jogos de battle royale",
+    "profession": "Nutricionista"
   },
   {
     "id": "0017",
@@ -450,7 +451,7 @@
     "country": "Brasil",
     "phone": "(63) 3684-0259",
     "cell_phone": "(63) 99614-5838",
-    "profession": "Estudante de enfermagem",
+    "profession": "Estudante",
     "bio": "Sou um estudante de enfermagem, durante o dia estudo e durante a noite trabalho em uma loja de calçados, desejo ingressar no mercado de trabalho como enfermeiro, assim podendo cuidar de mais pessoas e exercer minha função na prática.",
     "rating": "4.5",
     "companhia": "",
@@ -825,7 +826,7 @@
     "profession": "Enfermeira"
   },
   {
-    "id": "0030",
+    "id": "0031",
     "user_type": "profissional",
     "avatar": "img/marli.jpg",
     "first": "Marli",

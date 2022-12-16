@@ -412,11 +412,15 @@ main .container > div {
 }
 
 main .container-carousel {
-  max-width: 1180px !important;
+  max-width: 1180px;
   padding-left: 100px;
   padding-right: 100px;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+}
 .cmi-home-banner.banner-top {
   background-color: rgb(221, 248, 255);
 }
