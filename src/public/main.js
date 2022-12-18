@@ -1,5 +1,5 @@
 /**
- * Check if input target of keyboard or focus event
+ /* Check if input target of keyboard or focus event
  * is valid and switch it's class accordingly;
  *
  * @param {KeyboardEvent|FocusEvent} e
@@ -48,8 +48,8 @@ function signUp(event) {
   let dob = document.getElementById("dob").value;
   let cpf = document.getElementById("cpf").value;
   let phone = document.getElementById("phone").value;
-  let password = document.getElementById("password").value;
-  let passwordConfirm = document.getElementById("passwordConfirm").value;
+  let password1 = document.getElementById("password1").value;
+  let password2 = document.getElementById("password2").value;
 
   let data = localStorage.getItem("users");
   let allUsers = JSON.parse(data || "[]");
@@ -65,8 +65,8 @@ function signUp(event) {
       dob,
       cpf,
       phone,
-      password,
-      passwordConfirm
+      password1,
+      password2
     });
 
     console.log(allUsers);
@@ -85,6 +85,10 @@ function signUp(event) {
   } else {
     alert("Este endereço de e-mail já está cadastrado.");
   }
+  $("datepicker").datepicker({
+    min: new Date(1925, 1, 01),
+    max: new Date(2010, 1, 01)
+  });
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {

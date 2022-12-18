@@ -1,226 +1,226 @@
 /* Conteudo principal: */
-.titulo-principal{
-    font-size: 3.3rem;
-    color: #3e9aee;
-    text-align: center;
-    margin-top: 60px;
+.titulo-principal {
+  font-size: 3.3rem;
+  color: #4973f2;
+  text-align: center;
+  margin-top: 60px;
 }
 
-.desc{
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    background: #ecf0f4;
-    height: 190px;
+.desc {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background: #ecf0f4;
+  height: 190px;
 }
 
 .base {
-    display: flex;
-    margin: auto;
+  display: flex;
+  margin: auto;
 }
 .base h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-.container{
-    padding: 1% 21%;
-    margin-top: 25px;
+.container {
+  padding: 1% 21%;
+  margin-top: 25px;
 }
 .container img {
-    max-width: 80px;
-    margin: 10px 15px;
+  max-width: 80px;
+  margin: 10px 15px;
 }
-.centro{
-    background: rgb(243, 242, 242);
-    flex-direction: column;
-    justify-content: center;
-    margin: 25px auto;
-    border: 2px solid rgb(243, 242, 242);
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
-    padding: 5% 7%;
+.centro {
+  background: rgb(243, 242, 242);
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px auto;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+  padding: 5% 7%;
 }
-.caixa{
-    display: flex;   
-    align-items: center; 
-    margin-bottom: 20px;
-    border-bottom: 1px solid #a59a9a;
+.caixa {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #a59a9a;
 }
 
 /* Cabeçalho */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: rgba(84, 99, 255);
-    padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #4973f2;
+  padding: 16px;
 }
 .header-container {
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-imagem {
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    border-radius: 35px;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 35px;
 }
 
 .logo-texto {
-    width: 160px;
-    margin-left: 20px;
+  width: 160px;
+  margin-left: 20px;
 }
 
 .menu-desktop {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
-    .menu-desktop {
-        display: flex;
-    }
+  .menu-desktop {
+    display: flex;
+  }
 }
 
 .menu-mobile {
-    display: none;
-    width: 100%;
-    padding: 16px 0;
-    background: rgba(84, 99, 255);
+  display: none;
+  width: 100%;
+  padding: 16px 0;
+  background: #4973f2;
 }
 
 @media screen and (min-width: 1200px) {
-    .menu-mobile {
-        display: none !important;
-    }
+  .menu-mobile {
+    display: none !important;
+  }
 }
 
 .menu-mobile ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .menu-mobile li {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .menu-mobile li a {
-    display: flex;
-    width: 100%;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 8px;
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
 }
 
 .menu-mobile li a:hover {
-    background-color: #3ee7c7;
+  background-color: #14cc8e;
 }
 
 #icone-mobile {
-    display: flex;
-    background: transparent;
-    color: white;
-    border: none;
+  display: flex;
+  background: transparent;
+  color: white;
+  border: none;
 }
 
 @media screen and (min-width: 1200px) {
-    #icone-mobile {
-        display: none;
-    }
+  #icone-mobile {
+    display: none;
+  }
 }
 
 .menu-desktop li {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .menu-desktop li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
 }
 
 .menu-desktop li a:hover {
-    background-color: #3ee7c7;
+  background-color: #14cc8e;
 }
 
 .login-cadastro {
-    display: inline-block;
+  display: inline-block;
 }
 /* Rodapé */
 
 .rodape {
-    margin-top: 150px;
-    padding: auto;
-    position: relative;
-    width: 100%;
-    height: 90px;
-    background-color: rgba(84, 99, 255);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .rodape-2 li {
-    display: inline-block;
-    margin-top: 10px;
-  }
-  .rodape-2 li a:hover {
-    text-decoration: none;
-    color: #3ee7c7;
-  }
-  
-  .rodape-2 li a {
-    text-decoration: none;
-    color: white;
-    margin-left: 30px;
-  }
-  
+  margin-top: 150px;
+  padding: auto;
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: #4973f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rodape-2 li {
+  display: inline-block;
+  margin-top: 10px;
+}
+.rodape-2 li a:hover {
+  text-decoration: none;
+  color: #14cc8e;
+}
+
+.rodape-2 li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.copyright {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: small;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.show {
+  display: flex;
+}
+@media screen and (max-width: 455px) {
   .copyright {
-    display: inline-block;
-    margin-top: 20px;
-    font-size: small;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);
+    font-size: 3.5vw;
   }
-  
-  .show {
-    display: flex;
+  .rodape-2 a {
+    font-size: 3.5vw;
   }
-  @media screen and (max-width: 455px) {
-    .copyright {
-      font-size: 3.5vw;
-    }
-    .rodape-2 a {
-      font-size: 3.5vw;
-    }
-    .menu-mobile li a {
-      font-size: 3.5vw;
-    }
-    .container{
-        padding: 2%;
-    }
+  .menu-mobile li a {
+    font-size: 3.5vw;
   }
+  .container {
+    padding: 2%;
+  }
+}
