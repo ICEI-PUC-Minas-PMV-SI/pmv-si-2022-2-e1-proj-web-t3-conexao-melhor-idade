@@ -1,254 +1,245 @@
-
 /* -----------------------------------------------------------CABECALHO//RODAPE------------------------------------------------------------------------------------ */
 
-
 .perfil {
-    display: flex;
-    width: 250px;
-    height: 100px;
+  display: flex;
+  width: 250px;
+  height: 100px;
 }
 
 .perfil img {
-    width: 35%;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-top: 10px;
+  width: 35%;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .id-1 {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .perfil h1 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: 15px;
-
-
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 .perfil h2 {
-    font-size: 14px;
-    opacity: 70%;
-    margin-left: 15px;
-    margin-bottom: 14px;
+  font-size: 14px;
+  opacity: 70%;
+  margin-left: 15px;
+  margin-bottom: 14px;
 }
-.uli{
-    padding-right: 73px !important;
+.uli {
+  padding-right: 73px !important;
 }
 
 /* -----------------------------------------------------------Ana------------------------------------------------------------------------------------ */
 .container-main {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 1300px;
-    margin: 40px auto;
-    border: 1px solid rgb(243, 242, 242);
-    border-radius: 10px;
-    box-shadow: 0px 10px 40px #00000056;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 1300px;
+  margin: 40px auto;
+  border: 1px solid rgb(243, 242, 242);
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px #00000056;
 }
 
 .form-edit {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .form-edit img {
-    height: 100%;
-    margin-top: 5px;
+  height: 100%;
+  margin-top: 5px;
 }
 
 .titi {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  height: 80px;
 }
 
 .text-edit {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  position: relative;
 }
 
-.text-edit input, select {
-    padding: 9px;
-    font-size: 16px;
-    border: 1px solid rgb(148, 145, 145);
-    border-radius: 3px;
-    width: 100%;
+.text-edit input,
+select {
+  padding: 9px;
+  font-size: 16px;
+  border: 1px solid rgb(148, 145, 145);
+  border-radius: 3px;
+  width: 100%;
 }
 
 .text-edit label {
-    font-size: 16px;
-    color: #4f4f4f;
-    margin: 5px;
-    position: absolute;
-    bottom: 7.5px;
-    pointer-events: none;
-    left: 3px;
-    letter-spacing: 0.5px;
+  font-size: 16px;
+  color: #4f4f4f;
+  margin: 5px;
+  position: absolute;
+  bottom: 7.5px;
+  pointer-events: none;
+  left: 3px;
+  letter-spacing: 0.5px;
 }
 
 .text-edit h3 {
-    font-weight: bold;
-    font-size: 16px;
-    color: #4f4f4f;
-    margin-top: 7px;
-    margin-bottom: 5px;
-
+  font-weight: bold;
+  font-size: 16px;
+  color: #4f4f4f;
+  margin-top: 7px;
+  margin-bottom: 5px;
 }
 
-.text-edit *:focus ~ label, .text-edit *:valid ~ label {
-    font-size: 12px;
-    bottom: 27px;
-    background-color: white;
-    transition: all 0.5s ease;
-    color: #3e9aee;
+.text-edit *:focus ~ label,
+.text-edit *:valid ~ label {
+  font-size: 12px;
+  bottom: 27px;
+  background-color: white;
+  transition: all 0.5s ease;
+  color: #4973f2;
 }
 
-.text-edit *:focus, .text-edit *:valid {
-    outline: none;
-    border: 1px solid #3E95E4 !important;
-    transition: all 1s ease-in;
+.text-edit *:focus,
+.text-edit *:valid {
+  outline: none;
+  border: 1px solid #4973f2 !important;
+  transition: all 1s ease-in;
 }
 
 .form-radio {
-    margin: 30px;
-    margin-bottom: 15px;
-    display: flex;;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .radio {
-    width: 60%;
-    font-size: 16px;
-    font-weight: 550;
-    display: flex;;
-    flex-direction: column;
-    margin-top: 40px;
-
+  width: 60%;
+  font-size: 16px;
+  font-weight: 550;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
 }
 
 .rain {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 2px;
-    margin-left: 28px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 2px;
+  margin-left: 28px;
 }
 
 .rain input {
-    margin: 5px;
-    justify-content: center;
-
+  margin: 5px;
+  justify-content: center;
 }
 
 .rain input[type="radio"] {
-    transform: scale(1.2);
-
+  transform: scale(1.2);
 }
 
 .radio h1 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #3E95E4;
-    margin-left: 27px;
-    margin-bottom: 5px;
-
+  font-size: 18px;
+  font-weight: bold;
+  color: #4973f2;
+  margin-left: 27px;
+  margin-bottom: 5px;
 }
 
 .hoppy-container {
-    width: 50%;
-    display: flex;
+  width: 50%;
+  display: flex;
 }
 
 .hoppy-container .text-edit {
-    flex: 1 1 auto;
-    width: auto;
-    margin-right: 10px;
+  flex: 1 1 auto;
+  width: auto;
+  margin-right: 10px;
 }
 
 .hoppy-container button {
-    width: 50px;
-    height: 38px;
+  width: 50px;
+  height: 38px;
 }
 
 #hobby-list {
-    width: 50%;
-    margin: 15px auto 0 auto;
-    padding: 0;
+  width: 50%;
+  margin: 15px auto 0 auto;
+  padding: 0;
 }
 
 #hobby-list li {
-    display: block;
-    padding: 4px;
-    border: 1px solid #eee;
+  display: block;
+  padding: 4px;
+  border: 1px solid #eee;
 }
 
 .hob-edit {
-    width: 76%;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;;
+  width: 76%;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .add {
-    width: 100%;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .add label {
-    font-size: 18px;
-    font-weight: bold;
-    color: #3E95E4;
-    margin-left: 35px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4973f2;
+  margin-left: 35px;
+  margin-bottom: 5px;
 }
 
-
 .add img {
-    width: 1.4vw;
-    margin-bottom: 2px;
+  width: 1.4vw;
+  margin-bottom: 2px;
 }
 
 .add button {
-    background-color: transparent !important;;
-    border: none;
-    position: relative;
-    left: 90px;
+  background-color: transparent !important;
+  border: none;
+  position: relative;
+  left: 90px;
 }
 
 .hob-edit h3 {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 5px;
-    position: relative;
-    right: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+  position: relative;
+  right: 40px;
 }
 
 /* .hobit{
@@ -262,425 +253,376 @@
 } */
 
 .save {
-    margin-top: 40px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .save button {
-    width: 22%;
-    height: 40px;
-    margin: 10px;
-    background-color: #3E95E4;
-    color: white;
-    border: hidden;
-    letter-spacing: 0.5px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: bold;
+  width: 22%;
+  height: 40px;
+  margin: 10px;
+  background-color: #4973f2;
+  color: white;
+  border: hidden;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .img-2 {
-    width: 10%;
+  width: 10%;
 }
 
 .teste {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .add-hob {
-    display: flex;
-    margin-top: 50px;
-    margin-right: 180px;
-    justify-content: flex-end;
-
+  display: flex;
+  margin-top: 50px;
+  margin-right: 180px;
+  justify-content: flex-end;
 }
 
 .add-hob > button {
-    background-color: transparent;
-    border: none;
-    position: relative;
-    bottom: 20px;
-    left: 0px;
-
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 20px;
+  left: 0px;
 }
 
 .add-hob > button img {
-
-    height: 100%;
-    width: 35%;
+  height: 100%;
+  width: 35%;
 }
 
 .form-edit .titi > textarea {
-    width: 100%;
-    height: 80px;
-    padding: 5px;
+  width: 100%;
+  height: 80px;
+  padding: 5px;
 }
 
 .titi label {
-    position: relative;
-    left: 5px;
-    bottom: 60px;
+  position: relative;
+  left: 5px;
+  bottom: 60px;
 }
 
-.form-edit .titi > textarea:focus ~ label, .form-edit .titi > textarea:valid ~ label {
-    position: relative;
-    background-color: white;
-    bottom: 73px;
-    font-size: 12px;
-    color: #3E95E4;
-    letter-spacing: 0.5px;
-    transition: all 0.5s ease;
+.form-edit .titi > textarea:focus ~ label,
+.form-edit .titi > textarea:valid ~ label {
+  position: relative;
+  background-color: white;
+  bottom: 73px;
+  font-size: 12px;
+  color: #4973f2;
+  letter-spacing: 0.5px;
+  transition: all 0.5s ease;
 }
 
 .form-edit .titi > textarea:focus {
-    outline: none;
-    border: 1px solid #3E95E4;
+  outline: none;
+  border: 1px solid #4973f2;
 }
 
 /*  */
 .multiselect {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 150px;
 }
 
 .selectBox {
-    position: relative;
+  position: relative;
 }
 
 .selectBox select {
-    position: relative;
-    width: 100%;
-    color: #3E95E4;
-    border: 1px solid #3E95E4;
+  position: relative;
+  width: 100%;
+  color: #4973f2;
+  border: 1px solid #4973f2;
 }
 
 .selectBox > option {
-    position: relative;
-    bottom: 45px;
-    left: 5px;
-    font-size: 12px;
-    width: 25%;
-    color: #3E95E4;
-    background-color: white;
+  position: relative;
+  bottom: 45px;
+  left: 5px;
+  font-size: 12px;
+  width: 25%;
+  color: #4973f2;
+  background-color: white;
 }
 
-
 .overSelect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 #checkboxes {
-    display: flex;
-    padding: 10px;
-    border: 1px #dadada solid;
-    width: 100%;
+  display: flex;
+  padding: 10px;
+  border: 1px #dadada solid;
+  width: 100%;
 }
 
 #checkboxes label {
-    display: block;
-    color: #4f4f4f;
-    flex: 1 1 auto;
+  display: block;
+  color: #4f4f4f;
+  flex: 1 1 auto;
 }
 
 #checkboxes label:hover {
-    background-color: #ebe4e4;
+  background-color: #ebe4e4;
 }
-
-
 
 /*  */
 
 /* ----------------------------------RESPONSIVE-------------------------------- */
 
-
-
-
 @media screen and (max-width: 1200px) {
-  
+  .form {
+    width: 70%;
+  }
 
-    .form {
-        width: 70%;
+  .hob-edit {
+    width: 80%;
+  }
 
-    }
+  .add img {
+    width: 1.7vw;
+  }
 
-    .hob-edit {
-        width: 80%;
-    }
-
-    .add img {
-        width: 1.7vw;
-    }
-
-    .hobbie {
-        margin-right: 80px !important;
-    }
+  .hobbie {
+    margin-right: 80px !important;
+  }
 }
 
-
 @media screen and (max-width: 1000px) {
-    .form {
-        width: 80%;
+  .form {
+    width: 80%;
+  }
 
-    }
+  .hob-edit {
+    width: 85%;
+  }
 
+  .radio {
+    width: 66%;
+  }
 
-    .hob-edit {
-        width: 85%;
-    }
+  .add img {
+    width: 2vw;
+  }
 
-    .radio {
-        width: 66%;
-    }
+  .add label {
+    margin-left: 20px;
+  }
 
-    .add img {
-        width: 2vw;
-    }
-
-    .add label {
-        margin-left: 20px;
-    }
-
-    .hob-edit h3 {
-        position: relative;
-        right: 45px;
-    }
-
-   
-
+  .hob-edit h3 {
+    position: relative;
+    right: 45px;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .hob-edit {
-        width: 100%;
-    }
+  .hob-edit {
+    width: 100%;
+  }
 
-    .add label {
-        margin-left: -25px;
-    }
+  .add label {
+    margin-left: -25px;
+  }
 
-    .hob-edit h3 {
-        position: relative;
-        right: 75px;
-    }
+  .hob-edit h3 {
+    position: relative;
+    right: 75px;
+  }
 
-    .add img {
-        width: 2.8vw;
-    }
+  .add img {
+    width: 2.8vw;
+  }
 
-    .add-hob {
-        margin-right: 160px;
+  .add-hob {
+    margin-right: 160px;
+  }
 
-    }
-
-    .selectBox > option {
-        width: 30%;
-    }
-
-  
+  .selectBox > option {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 750px) {
+  .form {
+    width: 90%;
+    margin-top: 20px;
+  }
 
-    .form {
-        width: 90%;
-        margin-top: 20px;
+  .hob-edit {
+    width: 85%;
+  }
 
-    }
+  .add label {
+    margin-left: 60px;
+  }
 
-    .hob-edit {
-        width: 85%;
-    }
+  .hob-edit h3 {
+    position: relative;
+    right: 25px;
+  }
 
-    .add label {
-        margin-left: 60px;
-    }
-
-    .hob-edit h3 {
-        position: relative;
-        right: 25px;
-    }
-
-    .add-hob {
-        margin-right: 150px;
-
-    }
-
+  .add-hob {
+    margin-right: 150px;
+  }
 }
 
 @media screen and (max-width: 620px) {
+  .form {
+    width: 90%;
+  }
 
-    .form {
-        width: 90%;
+  .hob-edit {
+    width: 95%;
+  }
 
-    }
+  .add img {
+    width: 3vw;
+  }
 
-    .hob-edit {
-        width: 95%;
-    }
+  .add label {
+    margin-left: 60px;
+  }
 
-    .add img {
-        width: 3vw;
-    }
+  .hob-edit h3 {
+    position: relative;
+    right: 30px;
+  }
 
-    .add label {
-        margin-left: 60px;
-    }
+  .add-hob {
+    margin-right: 120px;
+  }
 
-    .hob-edit h3 {
-        position: relative;
-        right: 30px;
-    }
-
-    .add-hob {
-        margin-right: 120px;
-
-    }
-
-    #icone-mobile {
-
-        margin-left: 200px;
-
-    }
-
+  #icone-mobile {
+    margin-left: 200px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .form {
-        width: 100%;
-        margin-left: 0px !important;
+  .form {
+    width: 100%;
+    margin-left: 0px !important;
+  }
 
-    }
+  .hob-edit {
+    width: 100%;
+  }
 
-    .hob-edit {
-        width: 100%;
-    }
+  .add img {
+    width: 3.5vw;
+  }
 
-    .add img {
-        width: 3.5vw;
+  .text-edit input[type="text"],
+  .text-edit input[type="textarea"],
+  select {
+    width: 140%;
+  }
 
-    }
+  .form-edit {
+    justify-content: flex-start;
+    margin-left: 40px;
+  }
 
-    .text-edit input[type=text], .text-edit input[type=textarea], select {
-        width: 140%;
-    }
+  .form-radio {
+    align-items: flex-start;
+    margin-left: 17px;
+  }
 
-    .form-edit {
-        justify-content: flex-start;
-        margin-left: 40px;
+  .add {
+    justify-content: flex-start;
+    margin-left: -60px;
+  }
 
-    }
+  .hob-edit h3 {
+    position: relative;
+    right: 90px;
+  }
 
-    .form-radio {
-        align-items: flex-start;
-        margin-left: 17px;
+  .add-hob {
+    margin-right: 90px;
+  }
 
-    }
+  .selectBox select {
+    width: 140%;
+  }
 
-    .add {
-        justify-content: flex-start;
-        margin-left: -60px;
+  .form-edit .titi > textarea {
+    width: 140%;
+  }
 
-    }
+  .selectBox > option {
+    width: 42%;
+  }
 
-    .hob-edit h3 {
-        position: relative;
-        right: 90px;
-    }
-
-    .add-hob {
-        margin-right: 90px;
-
-    }
-
-    .selectBox select {
-        width: 140%;
-    }
-
-    .form-edit .titi > textarea {
-        width: 140%;
-
-    }
-
-    .selectBox > option {
-        width: 42%;
-    }
-
-    .form-edit img {
-        width: 6%;
-        height: 80%;
-    }
-
- 
+  .form-edit img {
+    width: 6%;
+    height: 80%;
+  }
 }
 
 @media screen and (max-width: 420px) {
+  .add img {
+    width: 4vw;
+    margin-left: -60px;
+  }
 
-    .add img {
-        width: 4vw;
-        margin-left: -60px;
+  .add label {
+    margin-left: 60px;
+  }
 
-    }
+  .hob-edit h3 {
+    right: 65px;
+  }
 
-    .add label {
-        margin-left: 60px;
-    }
-
-    .hob-edit h3 {
-        right: 65px;
-    }
-
-    .add-hob {
-        margin-right: 60px;
-
-    }
-
-
+  .add-hob {
+    margin-right: 60px;
+  }
 }
 
 @media screen and (max-width: 375px) {
+  .add img {
+    width: 4.5vw;
+    margin-left: -80px;
+  }
 
-    .add img {
-        width: 4.5vw;
-        margin-left: -80px;
+  .radio {
+    width: 80% !important;
+  }
 
-    }
+  .add label {
+    margin-left: 3px;
+  }
 
-    .radio {
-        width: 80% !important;
-    }
+  .hob-edit h3 {
+    position: relative;
+    right: 50px;
+  }
 
-    .add label {
-        margin-left: 3px;
-    }
+  .add {
+    justify-content: flex-start;
+    margin-left: 53px;
+  }
 
-    .hob-edit h3 {
-        position: relative;
-        right: 50px;
+  .add-hob {
+    margin-right: 50px;
+  }
 
-    }
-
-    .add {
-        justify-content: flex-start;
-        margin-left: 53px;
-    }
-
-    .add-hob {
-        margin-right: 50px;
-
-    }
-
-    #icone-mobile {
-
-        margin-left: 20px;
-
-    }
+  #icone-mobile {
+    margin-left: 20px;
+  }
 }

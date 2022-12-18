@@ -21,7 +21,7 @@
 .titulo h1 {
   font-size: 48px;
   font-weight: bold;
-  color: #3e9aee;
+  color: #4973f2;
 }
 
 #pesq {
@@ -35,7 +35,7 @@
   width: 24px;
   position: relative;
   left: 28px;
-  color: #3e9aee;
+  color: #4973f2;
 }
 
 #pesq input {
@@ -43,7 +43,7 @@
   height: 36px;
   padding: 2px;
   padding-left: 30px;
-  border: 1px solid #3e9aee;
+  border: 1px solid #4973f2;
   border-radius: 8px 0px 0px 8px;
   outline: none;
 }
@@ -52,9 +52,9 @@
   font-size: 14px;
   color: white;
   letter-spacing: 0.5px;
-  background: #3e9aee;
+  background: #4973f2;
   height: 36px;
-  border: 1px solid #3e9aee;
+  border: 1px solid #4973f2;
   border-radius: 0px 8px 8px 0px;
 }
 .corpo {
