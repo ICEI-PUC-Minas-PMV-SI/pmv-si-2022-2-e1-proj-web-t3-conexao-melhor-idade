@@ -1,175 +1,174 @@
 /* Cabeçalho */
 * {
-    box-sizing: border-box;
-  }
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: rgba(84, 99, 255);
-    padding: 16px;
-  }
-  .header-container {
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-imagem {
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    border-radius: 35px;
-  }
-  
-  .logo-texto {
-    width: 160px;
-    margin-left: 20px;
-  }
-  
-  .menu-desktop {
-    display: none;
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .menu-desktop {
-        display: flex;
-    }
-  }
-  
-  .menu-mobile {
-    display: none;
-    width: 100%;
-    padding: 16px 0;
-    background: rgba(84, 99, 255);
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .menu-mobile {
-        display: none !important;
-    }
-  }
-  
-  .menu-mobile ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .menu-mobile li {
-    display: flex;
-    width: 100%;
-  }
-  
-  .menu-mobile li a {
-    display: flex;
-    width: 100%;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-  }
-  
-  .menu-mobile li a:hover {
-    background-color: #3ee7c7;
-  }
-  
-  #icone-mobile {
-    display: flex;
-    background: transparent;
-    color: white;
-    border: none;
-  }
-  
-  @media screen and (min-width: 1200px) {
-    #icone-mobile {
-        display: none;
-    }
-  }
-  
-  .menu-desktop li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .menu-desktop li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 15px;
-  }
-  
-  .menu-desktop li a:hover {
-    background-color: #3ee7c7;
-  }
-  
-  .login-cadastro {
-    display: inline-block;
-  }
-  
-  /* Conteudo principal */
-  .caixa-pesquisa {
-    width: 60%;
-    margin: auto;
-  }
-  .pesquisa-container {
-    width: 40%;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 25px;
-  }
-  main{
-    padding-top: 20px ;
-    height: 100%;
-    padding-bottom: 150px;
-    display: flex;
-    flex-direction: column;
-  }
-  .pesquisa {
-    background: #ffffff;
-    border: 1px solid #cecece;
-    padding: 7px;
-    border-radius: 5px;
-    width: 19vw;
-  }
-  .search-bnt {
-    color: black;
-    display: inline-block;
-    width: 2vw;
-    background-color: transparent;
-    border: none;
-    padding: 2%;
-  }
-  .containeir{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex: 1 1 100%;
+  box-sizing: border-box;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #4973f2;
+  padding: 16px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-imagem {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 35px;
+}
+
+.logo-texto {
+  width: 160px;
+  margin-left: 20px;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-desktop {
+    display: flex;
   }
-  .container-vagas{
-    background: rgb(243, 242, 242);
-    border: 1px solid rgb(243, 242, 242);
-    box-shadow: 0px 10px 40px #00000056;
-    border-radius: 5px;
-    max-height: 100%;
-    overflow: auto;
-    width: 25%;
-    margin-left: 20%;
+}
+
+.menu-mobile {
+  display: none;
+  width: 100%;
+  padding: 16px 0;
+  background: #4973f2;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-mobile {
+    display: none !important;
   }
-  .caixa-vagas{
+}
+
+.menu-mobile ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu-mobile li {
+  display: flex;
+  width: 100%;
+}
+
+.menu-mobile li a {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.menu-mobile li a:hover {
+  background-color: #14cc8e;
+}
+
+#icone-mobile {
+  display: flex;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+@media screen and (min-width: 1200px) {
+  #icone-mobile {
+    display: none;
+  }
+}
+
+.menu-desktop li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-desktop li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.menu-desktop li a:hover {
+  background-color: #14cc8e;
+}
+
+.login-cadastro {
+  display: inline-block;
+}
+
+/* Conteudo principal */
+.caixa-pesquisa {
+  width: 60%;
+  margin: auto;
+}
+.pesquisa-container {
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+main {
+  padding-top: 20px;
+  height: 100%;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.pesquisa {
+  background: #ffffff;
+  border: 1px solid #cecece;
+  padding: 7px;
+  border-radius: 5px;
+  width: 19vw;
+}
+.search-bnt {
+  color: black;
+  display: inline-block;
+  width: 2vw;
+  background-color: transparent;
+  border: none;
+  padding: 2%;
+}
+.containeir {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1 1 100%;
+}
+.container-vagas {
+  background: rgb(243, 242, 242);
+  border: 1px solid rgb(243, 242, 242);
+  box-shadow: 0px 10px 40px #00000056;
+  border-radius: 5px;
+  max-height: 100%;
+  overflow: auto;
+  width: 25%;
+  margin-left: 20%;
+}
+.caixa-vagas {
   width: 100%;
   padding: 12px;
   margin: auto;
@@ -178,259 +177,255 @@
   flex-direction: column;
 }
 
-  .caixa-vagas a {
-    text-decoration: none;
-  }
+.caixa-vagas a {
+  text-decoration: none;
+}
 
-  .caixa-vagas h2 {
-    font-size: 18px;
-    margin-bottom: 6px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
+.caixa-vagas h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.cidade {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 10px;
+}
+.pre-viw {
+  font-size: 14px;
+  text-align: justify;
+  color: rgb(75, 73, 73);
+}
+@media screen and (max-width: 1200px) {
+  .pesquisa-container {
+    width: 75%;
   }
-  .cidade {
-    font-size: 15px;
-    color: black;
+  .pesquisa {
+    width: 90%;
+  }
+  .secao-candidatar button {
+    display: flex;
+    width: 45%;
     margin-bottom: 10px;
+    flex-direction: column;
   }
-  .pre-viw{
-    font-size: 14px;
-    text-align: justify;
-    color: rgb(75, 73, 73);
+}
+@media screen and (max-width: 414px) {
+  .pesquisa {
+    width: 90%;
   }
-  @media screen and (max-width: 1200px) {
-    .pesquisa-container {
-      width: 75%;
-    }
-    .pesquisa {
-      width: 90%;
-    }
-    .secao-candidatar button{
-      display: flex;
-      width: 45%;
-      margin-bottom: 10px;
-      flex-direction: column;
-    }
-  }
-  @media screen and (max-width: 414px) {
-    .pesquisa {
-      width: 90%;
-    }
-  }
-  .container-vagas-desc{
+}
+.container-vagas-desc {
   display: flex;
   width: 35%;
   background: rgb(243, 242, 242);
   margin-left: 1px;
-
-  }
-  .vagas-desc{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background: rgb(243, 242, 242);
-    border: 1px solid rgb(243, 242, 242);
-    box-shadow: 0px 10px 40px #00000056;
-    border-radius: 5px;
-    flex-direction: column;
-    text-align: justify;
-    max-height: 100%;
-    overflow: auto;
-  }
-  .container-vagas button{
-    border-left: none;
-    border-top: none;
-    border-right: none;
-  }
-  .caixa-desc h2{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-  .first-section{
-    padding: 1% 20px;
-  }
-  .contratante pre{
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;   
-    margin-bottom: 25px;
-    flex-direction: column;
-    
-  }
-  .contratante a {
-    width: 50%;
-    text-decoration: none;
-    color: black;
-    display: flex;   
-    align-items: center; 
-    margin-bottom: 20px;
-  }
-  .contratante img {
-    max-width: 75px;
-    border-radius: 50%;
-  }
-  .contratante h3{
-    font-size: 16px;
-    margin-left: 6px;
-    margin-bottom: 6px;
-    font-weight: bold;
-  }
-  .contratante p{
-    font-size: 14px;
-    margin-left: 4px;
-    margin-bottom: 6px;
-  }
-  .informacoes-vaga h4{
-    font-size: 16px;
-    margin-bottom: 6px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  .informacoes-vaga p{
-    font-size: 14px;
-    margin-bottom: 6px;
-    margin-left: 20px;
-  }
-  .candidatar{
-    width: 20%;
-    padding: 8px;
-    border-radius: 10px;
-    border-color: transparent;
-    background: #3e9aee;
-    font-size: 16px ;
-    color: white;
-    margin-left: 15px;
-
-  }
-  .candidatar a{
-    text-decoration: none;
-    color: white;
-  }
-  .salvar-vaga{
-    width: 20%;
-    padding: 8px;
-    border-radius: 10px;
-    border-color: #3e9aee;
-    background: white;
-    font-size: 16px ;
-    color: white;
-    margin-left: 15px;
-  }
-  .salvar-vaga a{
-    text-decoration: none;
-    color: #3e9aee;
-  }
-  .segunda-secao{
-    width: 95%;
-    margin: auto;
-  }
-  .segunda-secao h3{
-    margin-top: 40px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 12px;
-  }
-  .terceira-secao{
-    width: 95%;
-    margin: auto;
-  }
-  .terceira-secao h3{
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 12px;
-  }
-  .terceira-secao p{
-    margin-top: 16px;
-    font-size: 15px;
-  }
-  .terceira-secao p:last-of-type{
-    margin-bottom: 25px;
-    font-size: 15px;
-  }
+}
+.vagas-desc {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgb(243, 242, 242);
+  border: 1px solid rgb(243, 242, 242);
+  box-shadow: 0px 10px 40px #00000056;
+  border-radius: 5px;
+  flex-direction: column;
+  text-align: justify;
+  max-height: 100%;
+  overflow: auto;
+}
+.container-vagas button {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.caixa-desc h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.first-section {
+  padding: 1% 20px;
+}
+.contratante pre {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+}
+.contratante a {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.contratante img {
+  max-width: 75px;
+  border-radius: 50%;
+}
+#4973f2 .contratante h3 {
+  font-size: 16px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.contratante p {
+  font-size: 14px;
+  margin-left: 4px;
+  margin-bottom: 6px;
+}
+.informacoes-vaga h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.informacoes-vaga p {
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-left: 20px;
+}
+.candidatar {
+  width: 20%;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: #4973f2;
+  font-size: 16px;
+  color: white;
+  margin-left: 15px;
+}
+.candidatar a {
+  text-decoration: none;
+  color: white;
+}
+.salvar-vaga {
+  width: 20%;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: #4973f2;
+  background: white;
+  font-size: 16px;
+  color: white;
+  margin-left: 15px;
+}
+.salvar-vaga a {
+  text-decoration: none;
+  color: #4973f2;
+}
+.segunda-secao {
+  width: 95%;
+  margin: auto;
+}
+.segunda-secao h3 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.terceira-secao {
+  width: 95%;
+  margin: auto;
+}
+.terceira-secao h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.terceira-secao p {
+  margin-top: 16px;
+  font-size: 15px;
+}
+.terceira-secao p:last-of-type {
+  margin-bottom: 25px;
+  font-size: 15px;
+}
 /* Rodapé */
 
 .rodape {
-    width: 100%;
-    height: 90px;
-    background-color: rgba(84, 99, 255);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .rodape-2 li {
-    display: inline-block;
-    margin-top: 10px;
-  }
-  .rodape-2 li a:hover {
-    text-decoration: none;
-    color: #3ee7c7;
-  }
-  
-  .rodape-2 li a {
-    text-decoration: none;
-    color: white;
-    margin-left: 30px;
-  }
-  
-  .copyright {
-    display: inline-block;
-    margin-top: 20px;
-    font-size: small;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);
-  }
-  
-  .show {
-    display: flex;
-  }
-  @media screen and (max-width: 455px) {
-    .copyright {
-      font-size: 3.5vw;
-    }
-    .rodape-2 a {
-      font-size: 3.5vw;
-    }
-    .menu-mobile li a {
-      font-size: 3.5vw;
-    }
-    .containeir{
-      display: flex;
-      flex-direction: column;
-      max-height: 100%;
-    }
-    .container-vagas-desc {
-        width: 90%;
-        margin: auto;
-    }
-    .container-vagas{
-      width: 90%;
-      padding-bottom: 300px;
-      margin: auto;
-      margin-bottom: 15px;
-    }
-  }
-  @media screen and (max-width: 414px) {
-    .rodape{
-        width: 100%;
-        
-        }
-    footer{
-      padding-top: 500px ;
-    }
+  width: 100%;
+  height: 90px;
+  background-color: #4973f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-    .secao-candidatar button{
-      display: flex;
-      width: 45%;
-      margin-bottom: 10px;
-      flex-direction: column;
-    }
+.rodape-2 li {
+  display: inline-block;
+  margin-top: 10px;
+}
+.rodape-2 li a:hover {
+  text-decoration: none;
+  color: #14cc8e;
+}
+
+.rodape-2 li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.copyright {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: small;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.show {
+  display: flex;
+}
+@media screen and (max-width: 455px) {
+  .copyright {
+    font-size: 3.5vw;
+  }
+  .rodape-2 a {
+    font-size: 3.5vw;
+  }
+  .menu-mobile li a {
+    font-size: 3.5vw;
+  }
+  .containeir {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+  }
+  .container-vagas-desc {
+    width: 90%;
+    margin: auto;
+  }
+  .container-vagas {
+    width: 90%;
+    padding-bottom: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .rodape {
+    width: 100%;
+  }
+  footer {
+    padding-top: 500px;
+  }
+
+  .secao-candidatar button {
+    display: flex;
+    width: 45%;
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
 }
