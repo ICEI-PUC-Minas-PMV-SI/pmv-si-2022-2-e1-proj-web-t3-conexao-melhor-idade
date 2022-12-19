@@ -37,6 +37,10 @@ Através da página “Busca de hospitais” o usuário pode pesquisar hospitais
 
 Na página de números de emergência o usuário encontrará os números mais usados para solicitar ajuda em casos de emergência. Números de emergência
 
+
+https://user-images.githubusercontent.com/109998601/208332213-a19fb293-ccea-4103-8d4a-f43d30f1dde0.mp4
+
+
 ### RF-007 - A aplicação fornecer informações sobre o projeto.
 
 A página “Quem somos” fornece informações sobre o projeto.
@@ -59,6 +63,10 @@ cadastro-vaga.html  **Não implementada**
 
 ### RF-012 A aplicação deve permitir a busca por prestadores de serviço.	
 
+
+https://user-images.githubusercontent.com/109998601/208332279-3016a5d0-4e8a-472d-bcf3-106a19eeb1ee.mp4
+
+
 pesquisar.html	
 
 ### RF-013 A aplicação deve permitir a troca de mensagens entre os usuários.	
@@ -73,9 +81,17 @@ pesquisar.html	**Não implementada**
 
 pesquisar.html	
 
+
+https://user-images.githubusercontent.com/109998601/208332382-07fc1ae7-5d25-4f91-b54e-cd5099ab43e0.mp4
+
+
 ###  RF-016 A aplicação deve permitir a visualização das vagas postadas pelos clientes.	
 
 pesquisar.html 
+
+https://user-images.githubusercontent.com/109998601/208332330-3e6bec24-8c89-4639-bc1d-6a6bfc194374.mp4
+
+
 
 ### RF-017 A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	
 
