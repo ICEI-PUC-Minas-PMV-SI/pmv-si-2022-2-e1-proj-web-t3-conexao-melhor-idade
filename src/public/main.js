@@ -69,7 +69,7 @@ function signUp(event) {
       password2
     };
 
-    newUser.id = (allUsers.length + 1).toSrting();
+    newUser.id = (allUsers.length + 1).toString();
 
     allUsers.push(newUser);
 
