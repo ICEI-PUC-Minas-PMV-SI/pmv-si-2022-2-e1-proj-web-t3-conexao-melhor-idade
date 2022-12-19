@@ -66,26 +66,24 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 Através desta página o usuário poderá poderá acessar páginas emergenciais, como primeiros socorros(RF-008), números de emergência(RF-009), localização de postos de saúde nas proximidades(RF-010) e informações do funcionamento da aplicação.
 
-<img src="img/home.png" alt="Página Home"/>
+![Web capture_18-12-2022_214256_icei-puc-minas-pmv-si github io](https://user-images.githubusercontent.com/43422620/208337574-9c366c08-5d13-490e-82c0-cb8ace4b4b13.jpeg)
 
 ### Página de Login
 
-<img src="img/login.png" alt="Página de Login"/>
+![Web capture_18-12-2022_214315_icei-puc-minas-pmv-si github io](https://user-images.githubusercontent.com/43422620/208337592-712c726d-db0c-4ac4-bc30-10b5ff991623.jpeg)
 
 ### Home do cliente
 
 Nesta página o Cliente poderá iniciar a busca por Prestadores De Serviços(RF-006), visualizar perfis recomendados de acordo com os dados informados em seu perfil como a proximidade física, tipo de serviço que procura e habilidades. O Cliente também poderá conferir suas avaliações, acessar a caixa de mensagens(RF-011), poderá visualizar vagas já postadas ou ser direcionado ao cadastro de novas vagas.
 
-![userflow-logado](https://user-images.githubusercontent.com/109998601/194774535-a23a010a-8984-4bbf-9eac-a2812f6ee1ba.png)
-
 ### Página de perfil
 
-![userflow-perfil](https://user-images.githubusercontent.com/109998601/194774624-63452833-e282-40ab-ae46-00ddf8eecec3.png)
+![Web capture_18-12-2022_214356_icei-puc-minas-pmv-si github io](https://user-images.githubusercontent.com/43422620/208337650-f3acc8d4-5333-4c8c-b715-93e054113289.jpeg)
+
 
 ### Página de login mobile
 
-![userflow-login-mobile](https://user-images.githubusercontent.com/109998601/194774896-6b7a2492-a8c4-40aa-9123-4cb388a5afe5.png)
-
+![Web capture_18-12-2022_214744_icei-puc-minas-pmv-si github io](https://user-images.githubusercontent.com/43422620/208337920-75f21d02-20f1-4528-af51-6f1dfd7d2c66.jpeg)
 
 <!--
 ![Exemplo de Wireframe](img/wireframe-example.png)
