@@ -4,13 +4,13 @@
 
 A landing page do site é a porta de entrada para a aplicação. Nela o usuário pode ter uma visão geral do projeto, acessar os links de páginas que não necessitam de login, se cadastrar para ter acesso às funcionalidades do site ou fazer o login para acessar sua conta.  
 
-![]https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Landing-Page.mp4
+![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Landing-Page.mp4)
 
 #  RF-002 - cadastro.html
 
 Ao acessar a página de cadastro, o usuário deve realizar o cadastro como cliente ou prestador de serviços para ter acesso às funcionalidades do site. A página de cadastro pode ser acessada através do ícone localizado no cabeçalho do site e também em um botão localizado no banner próximo ao rodapé da landing page. 
 
-![]
+![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Cadastro.mp4)
 		
 # RF-003   
 
@@ -23,7 +23,7 @@ O usuário deverá acessar a página “Login” através do ícone localizado n
 
 A página “Primeiros socorros” fornece informações sobre como realizar procedimentos simples de primeiros socorros em casos de acidentes domésticos.	Primeiros socorros	
 
-![]
+![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Primeiros-socorros.mp4)
 
 # RF-005	
 
