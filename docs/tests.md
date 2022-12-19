@@ -18,6 +18,10 @@ Ao acessar a página de cadastro, o usuário deve realizar o cadastro como clien
 		
 ### RF-003 - A aplicação deve permitir que o usuário faça o login. 
 
+
+https://user-images.githubusercontent.com/31388518/208333425-88c98377-2a5e-4b51-976e-4146570dcb36.mp4
+
+
 O usuário deverá acessar a página “Login” através do ícone localizado no cabeçalho do site, preencher os dados previamente cadastrados para acessar sua conta e as demais funcionalidades do site.
 	login.html	
 
@@ -30,6 +34,10 @@ A página “Primeiros socorros” fornece informações sobre como realizar pro
 ![ps](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/ps.mp4)
 
 ### RF-005 - A aplicação fornecer informações sobre a localização de postos de saúde próximos.	
+
+
+https://user-images.githubusercontent.com/31388518/208333533-e8967645-af2c-48e6-a414-e79e61d61fdb.mp4
+
 
 Através da página “Busca de hospitais” o usuário pode pesquisar hospitais e postos de saúde próximos a sua localização. O usuário não precisa estar logado para utilizar esta funcionalidade 	Busca de hospitais
 
@@ -95,7 +103,14 @@ https://user-images.githubusercontent.com/109998601/208332330-3e6bec24-8c89-4639
 
 ### RF-017 A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	
 
-dicas-acidentes.html	
+
+https://user-images.githubusercontent.com/31388518/208333789-3c383c92-3ff7-4044-9f7e-bc191f911dcc.mp4
+
+
+
+Através do botão de emergência o usuário pode acessar a página “Dicas de acidentes” aonde o mesmo pode usufruir de informações para prevenir e tratar acidentes domésticos. 
+O usuário não precisa estar logado para utilizar esta funcionalidade. dicas-acidentes.html.
+	
 
 ### RF-018 A aplicação deve permitir seja feita a edição dos perfis dos clientes.	
 
