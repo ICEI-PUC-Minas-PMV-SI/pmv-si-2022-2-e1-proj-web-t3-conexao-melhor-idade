@@ -1,13 +1,5 @@
 # Apresentação
 
-![Slide1](https://user-images.githubusercontent.com/43422620/208335881-745d948b-d77a-4c61-9865-82208c9076b8.jpg)
-![Slide2](https://user-images.githubusercontent.com/43422620/208335914-7649a76d-2177-4c3e-a9e4-3bfeabb6cbee.jpg)
-![Slide3](https://user-images.githubusercontent.com/43422620/208335922-59c96fd6-5e09-4344-8c99-9949af02108e.jpg)
-![Slide4](https://user-images.githubusercontent.com/43422620/208335930-84db6c4f-e665-4231-b1b5-aeb5dfae6e97.jpg)
-![Slide5](https://user-images.githubusercontent.com/43422620/208335935-dbe23f87-5a15-43c7-af57-d0348d77bb23.jpg)
-![Slide6](https://user-images.githubusercontent.com/43422620/208335940-c6200152-00e2-4714-b71f-aa3ee92254ac.jpg)
-
-
 [Apresentação.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/files/10255360/Apresentacao.pptx)
 
 
@@ -26,9 +18,12 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+![Slide1](https://user-images.githubusercontent.com/43422620/208336066-7c0a7953-05aa-440c-b610-5dba7bdb0979.jpg)
+![Slide2](https://user-images.githubusercontent.com/43422620/208336070-f587bcb0-27d1-4582-8e0c-d3519e31589a.jpg)
+![Slide3](https://user-images.githubusercontent.com/43422620/208336076-a2a2bcb2-fb0f-44cc-902a-024dc72b1f1c.jpg)
+![Slide4](https://user-images.githubusercontent.com/43422620/208336082-f2162061-5f88-4687-8ffc-2b380a00cd0a.jpg)
+![Slide5](https://user-images.githubusercontent.com/43422620/208336089-fa883d4a-b0e8-42c7-b385-9e847f06b39c.jpg)
+![Slide6](https://user-images.githubusercontent.com/43422620/208336097-75cfb450-0ba0-4ca7-ba47-8e71b9c74386.jpg)
+
+
+
