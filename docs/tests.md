@@ -6,7 +6,7 @@ index.html
 
 A landing page do site é a porta de entrada para a aplicação. Nela o usuário pode ter uma visão geral do projeto, acessar os links de páginas que não necessitam de login, se cadastrar para ter acesso às funcionalidades do site ou fazer o login para acessar sua conta.  
 
-![landing](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/landing.mp4)
+https://user-images.githubusercontent.com/43422620/208334015-f72a4146-dd5d-4a22-a151-9193598162b5.mp4
 
 ###  RF-002 - A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço.
 
@@ -14,7 +14,7 @@ cadastro.html
 
 Ao acessar a página de cadastro, o usuário deve realizar o cadastro como cliente ou prestador de serviços para ter acesso às funcionalidades do site. A página de cadastro pode ser acessada através do ícone localizado no cabeçalho do site e também em um botão localizado no banner próximo ao rodapé da landing page. 
 
-![cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/cadastro.mp4)
+https://user-images.githubusercontent.com/43422620/208334042-c8dabe54-c7c2-487a-96bf-0ee3aefb334a.mp4
 		
 ### RF-003 - A aplicação deve permitir que o usuário faça o login. 
 
@@ -31,7 +31,7 @@ O usuário deverá acessar a página “Login” através do ícone localizado n
 
 A página “Primeiros socorros” fornece informações sobre como realizar procedimentos simples de primeiros socorros em casos de acidentes domésticos.	Primeiros socorros	
 
-![ps](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/ps.mp4)
+https://user-images.githubusercontent.com/43422620/208334060-82c40f07-b969-47fb-9596-8dbb62434d76.mp4
 
 ### RF-005 - A aplicação fornecer informações sobre a localização de postos de saúde próximos.	
 
@@ -134,4 +134,4 @@ perfil.html
 
 Ao clicar em um dos perfis na página  de busca de clientes e prestadores de serviço, o úsuário é direcionado para a página de visualização do perfil selecionado. Nela o úsuário poderá obter detalhes sobre o perfil do cliente, do profissional ou do voluntário, como: bio do usuário, o que ele(a)  busca, seus hobbies e interesses, e também visualizar sua localização aproximada no mapa. 
 
-![perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/perfil.mp4)
+https://user-images.githubusercontent.com/43422620/208334076-83605cb7-447b-4adc-9378-0497f3690856.mp4
