@@ -43,11 +43,9 @@ Através da página “Busca de hospitais” o usuário pode pesquisar hospitais
 
 ### RF-006 - A aplicação fornecer informações sobre números de emergências.
 
-Na página de números de emergência o usuário encontrará os números mais usados para solicitar ajuda em casos de emergência. Números de emergência
-
-
 https://user-images.githubusercontent.com/109998601/208332213-a19fb293-ccea-4103-8d4a-f43d30f1dde0.mp4
 
+Na página de números de emergência o usuário encontrará os números mais usados para solicitar ajuda em casos de emergência. Números de emergência
 
 ### RF-007 - A aplicação fornecer informações sobre o projeto.
 
@@ -74,8 +72,7 @@ cadastro-vaga.html  **Não implementada**
 
 https://user-images.githubusercontent.com/109998601/208332279-3016a5d0-4e8a-472d-bcf3-106a19eeb1ee.mp4
 
-
-pesquisar.html	
+Na página "Pesquisa usuários", pode se pesquisar todos usuários, filtrando por nome, e acessar o perfil de cada usuário cadastrado no sistema. 
 
 ### RF-013 A aplicação deve permitir a troca de mensagens entre os usuários.	
 
@@ -87,19 +84,15 @@ pesquisar.html	**Não implementada**
 
 ###  RF-015 A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.	
 
-pesquisar.html	
-
-
 https://user-images.githubusercontent.com/109998601/208332382-07fc1ae7-5d25-4f91-b54e-cd5099ab43e0.mp4
 
+A página de pesquisa principal é a página responsável por linkar a página de pesquisa de usuários e vagas em uma só, filtrando todos usuários e vagas cadastradas no sistema e levando para a página de pesquisa de usuários e pesquisa de vagas.
 
 ###  RF-016 A aplicação deve permitir a visualização das vagas postadas pelos clientes.	
 
-pesquisar.html 
-
 https://user-images.githubusercontent.com/109998601/208332330-3e6bec24-8c89-4639-bc1d-6a6bfc194374.mp4
 
-
+A página de pesquisa de vagas pode filtrar todas vagas cadastradas no sistema, fornecer uma visualização da vaga cadastrada, acesso ao perfil do cliente e a opção de cadastra-se a vaga em questão. 
 
 ### RF-017 A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	
 
