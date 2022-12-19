@@ -1,4 +1,4 @@
-# Plano de Testes de Software
+# Registro de Testes de Software
 
 # RF-001 - index.html
 
