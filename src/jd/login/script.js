@@ -31,22 +31,20 @@ form.addEventListener("submit", function entrar(event) {
   console.log("event", event);
   event.preventDefault();
   const email = document.getElementById("email");
-  const password = document.getElementById("password");
-
-  const passLabel = document.getElementById("passLabel");
-  const emaiLabel = document.getElementById("emaiLabel");
-
-  const msgError = document.getElementById("msgError");
+  const password = document.getElementById("password1");
 
   const users = JSON.parse(localStorage.getItem("users"));
 
   const loggedUser = users.find((item) => {
-    return email.value === item.email && password.value === item.password;
+    return email.value === item.email && password.value === item.password1;
   });
+
   if (loggedUser) {
     localStorage.setItem("loggedUser", JSON.stringify(loggedUser));
 
-    window.location.assign("gn/home-cliente/index.html");
+    window.location.href = "perfil.html?id=" + loggedUser.id;
+  } else {
+    alert("Email ou senha invalido.");
   }
 });
 // function entrar(event) {

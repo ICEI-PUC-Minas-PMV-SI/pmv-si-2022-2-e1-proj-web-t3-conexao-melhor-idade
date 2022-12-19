@@ -8,7 +8,7 @@
 
 .rating span::before {
   content: "☆";
-  color: black;
+  color: rgba(0, 0, 0, 0.411);
 }
 
 .rating span.active::before {

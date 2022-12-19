@@ -49,6 +49,10 @@ h6 {
 .text-justify {
   text-align: justify;
 }
+.bg-primary {
+  --mdb-bg-opacity: 1;
+  background-color: #4973f2 !important;
+}
 
 /*************************************************************
 * HERO
@@ -71,18 +75,10 @@ h6 {
   z-index: 0;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(62, 154, 238, 0.95),
-    rgba(67, 253, 208, 0.9) 60%
-  );
+  background: -webkit-linear-gradient(180deg, #4973f2f2, #14cc8e 60%);
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(
-    180deg,
-    rgba(62, 154, 238, 0.95),
-    rgba(67, 253, 208, 0.9) 60%
-  );
+  background: linear-gradient(180deg, #4973f2f2, #14cc8e 60%);
 }
 
 .cmi-hero > div {
@@ -102,7 +98,7 @@ h6 {
 }
 
 .cmi-hero-search ul li.active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .cmi-hero-search .form-control {
@@ -118,6 +114,15 @@ h6 {
   line-height: 0.6;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 /*************************************************************
 *Como funciona 
 *************************************************************/

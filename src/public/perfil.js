@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "Você precisa estar logado para visualizar esta página, faça seu login ou cadastre-se."
     );
     location.href = "login/index.html";
-  }
-  {
+  } else {
     console.log(user);
 
     document.getElementById("profile-first").innerHTML = user.first;
@@ -62,5 +61,26 @@ document.addEventListener("DOMContentLoaded", function () {
       const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBDVBCs7vNWXu2-kwp4gQmuSdxbvlVBTv4&q=${user.area},+${user.city}+-+${user.state},+${user.country}&zoom=16`;
       document.getElementById("profile-map").src = mapUrl;
     }
+
+    const rating = document.getElementById("rating");
+    const userRating = Math.floor(user.rating);
+
+    for (let i = 0; i < userRating; i++) {
+      rating.children[i].classList.add("active");
+    }
+
+    // Atualiza as estrelas do rating quando clica nas estrelas
+    rating.addEventListener("click", function (e) {
+      const updatedUsers = users.map(function (user) {
+        if (user.id === userId) {
+          user.rating = e.target.dataset.value;
+        }
+        return user;
+      });
+
+      localStorage.setItem("users", JSON.stringify(updatedUsers));
+
+      location.reload();
+    });
   }
 });
