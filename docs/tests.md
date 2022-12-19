@@ -45,19 +45,19 @@ Na página “Política de privacidade e termos de uso”, o usuário pode se in
 
 ![]
 
-# # # # # RF-009	
+# RF-009	
 
 A aplicação deve recomendar perfis de prestadores de serviços para os clientes.	home-cliente.html	Não implementada
 
-# # # # RF-010  
+# RF-010  
 
 Não implementada. cadastro-vaga.html	
 
-# # # RF-012	
+# RF-012	
 
 A aplicação deve permitir a busca por prestadores de serviço.	pesquisar.html	
 
-# # RF-013	
+# RF-013	
 
 A aplicação deve permitir a troca de mensagens entre os usuários.	chat.html	Não implementada.
 
