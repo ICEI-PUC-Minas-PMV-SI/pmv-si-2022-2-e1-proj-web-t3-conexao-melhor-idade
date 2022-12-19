@@ -24,11 +24,11 @@ const containerPessoas = document.getElementById("users");
 usersFiltrados.forEach((user, index) => {
   console.log(index, user);
   const userHtml = `
-    <a href="perfil.html">
+    <a href="perfil.html?id=${user.id}">
     <div class="caixa-pessoa">
-        <img src="${user.avatar}" alt="${user.first} ${user.last}">
+        <img src="${user.avatar}" alt="${user.first} ">
         <div class="edit">
-        <h2>${user.first} ${user.last}</h2>
+        <h2>${user.first}</h2>
         <p>${user.city}, ${user.area}.</p>
         </div>
         </div>
