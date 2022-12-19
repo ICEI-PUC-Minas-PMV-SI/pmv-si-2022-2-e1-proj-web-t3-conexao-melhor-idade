@@ -5,12 +5,12 @@
 |RF-001| A aplicação ter uma página de apresentação e captação de clientes. | index.html | Marilia |
 |RF-002| A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço. | cadastro.html | Marilia |
 |RF-003| A aplicação deve permitir que o usuário faça o login. | login.html | José |
-|RF-004| A aplicação fornecer informações sobre primeiros socorros. | primeiros-socorros.html | Gustavo |
+|RF-004| A aplicação fornecer informações sobre primeiros socorros. | primeiros-socorros.html | Marilia |
 |RF-005| A aplicação fornecer informações sobre a localização de postos de saúde próximos. | hospitais.html | José |
 |RF-006| A aplicação fornecer informações sobre números de emergências. | numeros-emergencia.html | Breno |
-|RF-007| A aplicação fornecer informações sobre o projeto. | quem-somos.html | Marilia |
-|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários.  | politica.html | Bruno |
-|RF-009| A aplicação fornecer informações sobre os termos de uso. | politica.html | Bruno |
+|RF-007| A aplicação fornecer informações sobre o projeto. | sobre.html | Marilia |
+|RF-008| A aplicação fornecer informações sobre a privacidade dos usuários.  | politica.html | Marilia |
+|RF-009| A aplicação fornecer informações sobre os termos de uso. | politica.html | Marilia |
 |RF-010| A aplicação deve recomendar perfis de prestadores de serviços para os clientes. | home-cliente.html | Gustavo |
 |RF-011| A aplicação deve permitir o gerenciamento de novas vagas pelos clientes. | cadastro-vaga.html | Gustavo |
 |RF-012| A aplicação deve permitir a busca por prestadores deserviço.| pesquisar.html | Breno |
@@ -18,12 +18,11 @@
 |RF-014| A aplicação deve recomendar vagas de clientes para os prestadores de serviço. | pesquisar.html | Breno |
 |RF-015| A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.| pesquisar.html | Breno |
 |RF-016| A aplicação deve permitir a vizualização das vagas postadas pelos clientes. | pesquisar.html | Marilia/Breno |
-|RF-017| A aplicação deve permitir a vizualização dos perfis dos clientes. | perfil.html | Marilia |
-|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domésticos. | prev.html | Jose |
-|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | editar-perfil.html | José |
+|RF-017| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | editar-perfil.html | Bruno |
+|RF-018| A aplicação fornecer informações sobre como se prevenir de acidentes domésticos. | dicas-acidentes.html | Jose |
+|RF-019| A aplicação deve permitir seja feita a edição dos perfis dos clientes. | editar-perfil.html | Bruno |
 |RF-020| A aplicação deve permitir a visualização do perfil dos clientes. | perfil.html | Marilia |
-|RF-021| A aplicação deve permitir seja feita a edição dos perfis dos profissionais. | editar-perfil.html | Bruno | 
-|RF-022| A aplicação deve permitir a visualização do perfil dos profissionais. | perfil-profissional.html | Bruno |
+|RF-021| A aplicação deve permitir a visualização do perfil dos profissionais. | perfil-profissional.html | Marilia |
 
 
 # Estrutura de dados

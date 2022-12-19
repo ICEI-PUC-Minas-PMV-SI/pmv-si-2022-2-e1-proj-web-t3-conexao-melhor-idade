@@ -20,7 +20,7 @@ const containerPessoas = document.getElementById("identifica_pessoa");
 usersFiltrados.forEach((user, index) => {
   console.log(index, user);
   const userHtml = `
-      <a href="bb/perfil-profissional/index.html">
+      <a href="perfil.html">
       <div class="caixa-pessoa">
             <img src="${user.avatar}" alt="${user.first} ${user.last}">
                 <div class="edit">
@@ -46,7 +46,7 @@ vagasFiltradas.forEach((vaga, index) => {
   console.log(index, vaga);
   const vagaHtml = `
     <div class="caixa-vagas">
-        <a href="perfil.html?q=${query || ""}&id=${vaga.id}">
+        <a href="bb/busca-vagas/index.html?q=${query || ""}&id=${vaga.id}">
             <h2>${vaga.titulo_vaga}</h2>
             <p class="cidade">${vaga.area}, ${vaga.city}</p>
         </a>

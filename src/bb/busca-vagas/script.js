@@ -32,7 +32,7 @@ function mostraInfoVagas(event) {
                         <div class="first-section">
                             <div class="contratante">
                                 <pre>Conheça o contrante</pre>
-                                <a href="href="bb/perfil-profissional/index.html">
+                                <a href="href="perfil.html">
                                 <img src="${vagaAtual.avatar}" alt="${vagaAtual.first} ${vagaAtual.last}">
                                     <div class="contrante-desc">
                                         <h3>${vagaAtual.first}</h3>

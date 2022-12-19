@@ -1,28 +1,130 @@
-# Plano de Testes de Software
-
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 # Registro de Testes de Software
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+### RF-001 - A aplicação ter uma página de apresentação e captação de clientes. 
 
-## Avaliação
+index.html
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+A landing page do site é a porta de entrada para a aplicação. Nela o usuário pode ter uma visão geral do projeto, acessar os links de páginas que não necessitam de login, se cadastrar para ter acesso às funcionalidades do site ou fazer o login para acessar sua conta.  
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+https://user-images.githubusercontent.com/43422620/208334015-f72a4146-dd5d-4a22-a151-9193598162b5.mp4
+
+###  RF-002 - A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço.
+
+cadastro.html
+
+Ao acessar a página de cadastro, o usuário deve realizar o cadastro como cliente ou prestador de serviços para ter acesso às funcionalidades do site. A página de cadastro pode ser acessada através do ícone localizado no cabeçalho do site e também em um botão localizado no banner próximo ao rodapé da landing page. 
+
+https://user-images.githubusercontent.com/43422620/208334042-c8dabe54-c7c2-487a-96bf-0ee3aefb334a.mp4
+		
+### RF-003 - A aplicação deve permitir que o usuário faça o login. 
+
+
+https://user-images.githubusercontent.com/31388518/208333425-88c98377-2a5e-4b51-976e-4146570dcb36.mp4
+
+
+O usuário deverá acessar a página “Login” através do ícone localizado no cabeçalho do site, preencher os dados previamente cadastrados para acessar sua conta e as demais funcionalidades do site.
+	login.html	
+
+## Botão "Emergências" (localizado no cabeçalho do site)
+
+### RF-004 - A aplicação fornecer informações sobre primeiros socorros.	
+
+A página “Primeiros socorros” fornece informações sobre como realizar procedimentos simples de primeiros socorros em casos de acidentes domésticos.	Primeiros socorros	
+
+https://user-images.githubusercontent.com/43422620/208334060-82c40f07-b969-47fb-9596-8dbb62434d76.mp4
+
+### RF-005 - A aplicação fornecer informações sobre a localização de postos de saúde próximos.	
+
+
+https://user-images.githubusercontent.com/31388518/208333533-e8967645-af2c-48e6-a414-e79e61d61fdb.mp4
+
+
+Através da página “Busca de hospitais” o usuário pode pesquisar hospitais e postos de saúde próximos a sua localização. O usuário não precisa estar logado para utilizar esta funcionalidade 	Busca de hospitais
+
+### RF-006 - A aplicação fornecer informações sobre números de emergências.
+
+https://user-images.githubusercontent.com/109998601/208332213-a19fb293-ccea-4103-8d4a-f43d30f1dde0.mp4
+
+Na página de números de emergência o usuário encontrará os números mais usados para solicitar ajuda em casos de emergência. Números de emergência
+
+### RF-007 - A aplicação fornecer informações sobre o projeto.
+
+A página “Quem somos” fornece informações sobre o projeto.
+
+### RF-008 - A aplicação fornecer informações sobre a privacidade dos usuários e termos de uso do site.
+
+Na página “Política de privacidade e termos de uso”, o usuário pode se informar sobre as práticas e processos da aplicação em relação à segurança dos dados dos usuários e também sobre as regras de uso a serem seguidas por eles.
+
+### RF-009 A aplicação deve recomendar perfis de prestadores de serviços para os clientes.	
+
+home-cliente.html  **Não implementada** 
+
+### RF-010 A aplicação deve permitir o gerenciamento de novas vagas pelos clientes.
+
+cadastro-vaga.html  **Não implementada** 	
+
+### RF-011 A aplicação deve permitir o gerenciamento de novas vagas pelos clientes.
+
+cadastro-vaga.html  **Não implementada** 
+
+### RF-012 A aplicação deve permitir a busca por prestadores de serviço.	
+
+
+https://user-images.githubusercontent.com/109998601/208332279-3016a5d0-4e8a-472d-bcf3-106a19eeb1ee.mp4
+
+Na página "Pesquisa usuários", pode se pesquisar todos usuários, filtrando por nome, e acessar o perfil de cada usuário cadastrado no sistema. 
+
+### RF-013 A aplicação deve permitir a troca de mensagens entre os usuários.	
+
+chat.html **Não implementada** 
+
+### RF-014 A aplicação deve recomendar vagas de clientes para os prestadores de serviço.	
+
+pesquisar.html	**Não implementada** 
+
+###  RF-015 A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.	
+
+https://user-images.githubusercontent.com/109998601/208332382-07fc1ae7-5d25-4f91-b54e-cd5099ab43e0.mp4
+
+A página de pesquisa principal é a página responsável por linkar a página de pesquisa de usuários e vagas em uma só, filtrando todos usuários e vagas cadastradas no sistema e levando para a página de pesquisa de usuários e pesquisa de vagas.
+
+###  RF-016 A aplicação deve permitir a visualização das vagas postadas pelos clientes.	
+
+https://user-images.githubusercontent.com/109998601/208332330-3e6bec24-8c89-4639-bc1d-6a6bfc194374.mp4
+
+A página de pesquisa de vagas pode filtrar todas vagas cadastradas no sistema, fornecer uma visualização da vaga cadastrada, acesso ao perfil do cliente e a opção de cadastra-se a vaga em questão. 
+
+### RF-017 A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	
+
+
+https://user-images.githubusercontent.com/31388518/208333789-3c383c92-3ff7-4044-9f7e-bc191f911dcc.mp4
+
+
+
+Através do botão de emergência o usuário pode acessar a página “Dicas de acidentes” aonde o mesmo pode usufruir de informações para prevenir e tratar acidentes domésticos. 
+O usuário não precisa estar logado para utilizar esta funcionalidade. dicas-acidentes.html.
+	
+
+### RF-018 A aplicação deve permitir seja feita a edição dos perfis dos clientes.	
+
+editar-perfil.html **Não implementada** 
+
+### RF-019 A aplicação deve permitir seja feita a edição dos perfis dos profissionais.	
+
+editar-perfil.html **Não implementada** 
+	
+### RF-020 A aplicação deve permitir a visualização do perfil dos clientes.	
+
+perfil.html(É necessário que o usuário esteja "logado" para ter acesso ao perfil)
+
+Ao clicar em um dos perfis na página  de busca de clientes e prestadores de serviço, o usuário é direcionado para a página de visualização do perfil selecionado. Nela o usuário poderá obter detalhes sobre o perfil do cliente, do profissional ou do voluntário, como: bio do usuário, o que ele(a)  busca, seus hobbies e interesses, e também visualizar sua localização aproximada no mapa. 	
+
+***Vídeo abaixo 👇
+
+### RF-021	A aplicação deve permitir a visualização do perfil dos profissionais.	
+
+perfil.html	 
+
+Ao clicar em um dos perfis na página  de busca de clientes e prestadores de serviço, o úsuário é direcionado para a página de visualização do perfil selecionado. Nela o úsuário poderá obter detalhes sobre o perfil do cliente, do profissional ou do voluntário, como: bio do usuário, o que ele(a)  busca, seus hobbies e interesses, e também visualizar sua localização aproximada no mapa. 
+
+https://user-images.githubusercontent.com/43422620/208334076-83605cb7-447b-4adc-9378-0497f3690856.mp4
