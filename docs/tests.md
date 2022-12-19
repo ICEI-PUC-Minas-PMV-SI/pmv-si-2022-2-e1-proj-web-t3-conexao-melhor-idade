@@ -1,100 +1,106 @@
 # Registro de Testes de Software
 
-# RF-001 - index.html
+### RF-001 - A aplicação ter uma página de apresentação e captação de clientes. 
+
+index.html
 
 A landing page do site é a porta de entrada para a aplicação. Nela o usuário pode ter uma visão geral do projeto, acessar os links de páginas que não necessitam de login, se cadastrar para ter acesso às funcionalidades do site ou fazer o login para acessar sua conta.  
 
-![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Landing-Page.mp4)
+![landing](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/landing.mp4)
 
-#  RF-002 - cadastro.html
+###  RF-002 - A aplicação deve permitir o cadastro de usuário como cliente ou prestador de serviço.
+
+cadastro.html
 
 Ao acessar a página de cadastro, o usuário deve realizar o cadastro como cliente ou prestador de serviços para ter acesso às funcionalidades do site. A página de cadastro pode ser acessada através do ícone localizado no cabeçalho do site e também em um botão localizado no banner próximo ao rodapé da landing page. 
 
-![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Cadastro.mp4)
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/cadastro.mp4)
 		
-# RF-003   
+### RF-003 - A aplicação deve permitir que o usuário faça o login. 
 
 O usuário deverá acessar a página “Login” através do ícone localizado no cabeçalho do site, preencher os dados previamente cadastrados para acessar sua conta e as demais funcionalidades do site.
 	login.html	
 
-# Botão "Emergências" (localizado no cabeçalho do site)
+## Botão "Emergências" (localizado no cabeçalho do site)
 
-# RF-004	
+### RF-004 - A aplicação fornecer informações sobre primeiros socorros.	
 
 A página “Primeiros socorros” fornece informações sobre como realizar procedimentos simples de primeiros socorros em casos de acidentes domésticos.	Primeiros socorros	
 
-![](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/Primeiros-socorros.mp4)
+![ps](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/ps.mp4)
 
-# RF-005	
+### RF-005 - A aplicação fornecer informações sobre a localização de postos de saúde próximos.	
 
 Através da página “Busca de hospitais” o usuário pode pesquisar hospitais e postos de saúde próximos a sua localização. O usuário não precisa estar logado para utilizar esta funcionalidade 	Busca de hospitais
 
-# RF-006	
+### RF-006 - A aplicação fornecer informações sobre números de emergências.
 
 Na página de números de emergência o usuário encontrará os números mais usados para solicitar ajuda em casos de emergência. Números de emergência
 
-# RF-007	
+### RF-007 - A aplicação fornecer informações sobre o projeto.
 
 A página “Quem somos” fornece informações sobre o projeto.
 
-![]
-
-# RF-008		
+### RF-008 - A aplicação fornecer informações sobre a privacidade dos usuários e termos de uso do site.
 
 Na página “Política de privacidade e termos de uso”, o usuário pode se informar sobre as práticas e processos da aplicação em relação à segurança dos dados dos usuários e também sobre as regras de uso a serem seguidas por eles.
 
-![]
+### RF-009 A aplicação deve recomendar perfis de prestadores de serviços para os clientes.	
 
-# RF-009	
+home-cliente.html  **Não implementada** 
 
-A aplicação deve recomendar perfis de prestadores de serviços para os clientes.	home-cliente.html	Não implementada
+### RF-010 A aplicação deve permitir o gerenciamento de novas vagas pelos clientes.
 
-# RF-010  
+cadastro-vaga.html  **Não implementada** 	
 
-Não implementada. cadastro-vaga.html	
+### RF-011 A aplicação deve permitir o gerenciamento de novas vagas pelos clientes.
 
-# RF-012	
+cadastro-vaga.html  **Não implementada** 
 
-A aplicação deve permitir a busca por prestadores de serviço.	pesquisar.html	
+### RF-012 A aplicação deve permitir a busca por prestadores de serviço.	
 
-# RF-013	
+pesquisar.html	
 
-A aplicação deve permitir a troca de mensagens entre os usuários.	chat.html	Não implementada.
+### RF-013 A aplicação deve permitir a troca de mensagens entre os usuários.	
 
-# RF-014	
+chat.html **Não implementada** 
 
-A aplicação deve recomendar vagas de clientes para os prestadores de serviço.	pesquisar.html	
+### RF-014 A aplicação deve recomendar vagas de clientes para os prestadores de serviço.	
 
-#  RF-015
+pesquisar.html	**Não implementada** 
 
-A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.	pesquisar.html	
+###  RF-015 A aplicação deve permitir a busca por novas vagas através de campos de pesquisa.	
 
-#  RF-016
+pesquisar.html	
 
-A aplicação deve permitir a visualização das vagas postadas pelos clientes.	pesquisar.html
+###  RF-016 A aplicação deve permitir a visualização das vagas postadas pelos clientes.	
 
-# RF-017	
+pesquisar.html 
 
-A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	dicas-acidentes.html	
+### RF-017 A aplicação deve fornecer informações sobre como se prevenir de acidentes domésticos.  	
 
-# RF-018	
+dicas-acidentes.html	
 
-A aplicação deve permitir seja feita a edição dos perfis dos clientes.	editar-perfil.html	Não implementada   editar-perfil.html
+### RF-018 A aplicação deve permitir seja feita a edição dos perfis dos clientes.	
 
-# RF-019	A aplicação deve permitir seja feita a edição dos perfis dos profissionais.	editar-perfil.html	Não implementada
+editar-perfil.html **Não implementada** 
 
-Não implementada.
+### RF-019 A aplicação deve permitir seja feita a edição dos perfis dos profissionais.	
+
+editar-perfil.html **Não implementada** 
 	
-#RF-020	
+### RF-020 A aplicação deve permitir a visualização do perfil dos clientes.	
 
-A aplicação deve permitir a visualização do perfil dos clientes.	perfil.html
+perfil.html(É necessário que o usuário esteja "logado" para ter acesso ao perfil)
 
 Ao clicar em um dos perfis na página  de busca de clientes e prestadores de serviço, o usuário é direcionado para a página de visualização do perfil selecionado. Nela o usuário poderá obter detalhes sobre o perfil do cliente, do profissional ou do voluntário, como: bio do usuário, o que ele(a)  busca, seus hobbies e interesses, e também visualizar sua localização aproximada no mapa. 	
 
-![] https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/perfil.mp4
+***Vídeo abaixo 👇
 
-# RF-021	A aplicação deve permitir a visualização do perfil dos profissionais.	perfil.html	 
+### RF-021	A aplicação deve permitir a visualização do perfil dos profissionais.	
+
+perfil.html	 
 
 Ao clicar em um dos perfis na página  de busca de clientes e prestadores de serviço, o úsuário é direcionado para a página de visualização do perfil selecionado. Nela o úsuário poderá obter detalhes sobre o perfil do cliente, do profissional ou do voluntário, como: bio do usuário, o que ele(a)  busca, seus hobbies e interesses, e também visualizar sua localização aproximada no mapa. 
 
-![] https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/perfil.mp4
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t3-conexao-melhor-idade/blob/main/src/perfil.mp4)
