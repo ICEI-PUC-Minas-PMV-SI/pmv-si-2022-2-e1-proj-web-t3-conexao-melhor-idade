@@ -6,15 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const users = JSON.parse(localStorage.getItem("users"));
   console.log(users);
   const user = users.find(function (user) {
-    return userId === user.id;
+    return userId === user.id.toString();
   });
   console.log(userId, "user.first");
 
   if (!user) {
-    window.confirm(
+    window.alert(
       "Você precisa estar logado para visualizar esta página, faça seu login ou cadastre-se."
     );
-    location.href = "login/index.html";
+    location.href = "jd/login/index.html";
   } else {
     console.log(user);
 

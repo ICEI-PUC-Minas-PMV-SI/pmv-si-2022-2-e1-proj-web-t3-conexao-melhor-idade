@@ -57,7 +57,7 @@ function signUp(event) {
   let exist = allUsers.find((user) => user.email === email);
 
   if (!exist) {
-    allUsers.push({
+    const newUser = {
       accountChoice,
       email,
       firstName,
@@ -67,7 +67,11 @@ function signUp(event) {
       phone,
       password1,
       password2
-    });
+    };
+
+    newUser.id = (allUsers.length + 1).toSrting();
+
+    allUsers.push(newUser);
 
     console.log(allUsers);
 
@@ -85,10 +89,6 @@ function signUp(event) {
   } else {
     alert("Este endereço de e-mail já está cadastrado.");
   }
-  $("datepicker").datepicker({
-    min: new Date(1925, 1, 01),
-    max: new Date(2010, 1, 01)
-  });
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {
