@@ -31,11 +31,7 @@ Nesta página constará informações do Cliente anunciante e dos serviços a se
 
 Nossa aplicação será composta por cores com tons de azul, verde claro e branco. Escolhemos essas cores pois nosso publico será composto por idosos e cuidadores, visando trazer tons mais claros para que seja agradável aos olhos e torne um ambiente seguro, visto que psicologicamente essas cores remetem a paz, tranquilidade, confiança estabilidade e harmonia.
 
-![image](https://user-images.githubusercontent.com/90632832/194731335-90a92a79-abda-4082-9b8e-ea6df54b2a26.png)
-
-
-
-
+![image](https://user-images.githubusercontent.com/43422620/208337181-f65efd16-7602-4983-b4b2-78462f97686d.png)
 
 
 <!-- Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
