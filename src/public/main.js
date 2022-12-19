@@ -43,8 +43,8 @@ function signUp(event) {
   ).value;
 
   let email = document.getElementById("email").value;
-  let firstName = document.getElementById("first").value;
-  let lastName = document.getElementById("last").value;
+  let first = document.getElementById("first").value;
+  let last = document.getElementById("last").value;
   let dob = document.getElementById("dob").value;
   let cpf = document.getElementById("cpf").value;
   let phone = document.getElementById("phone").value;
@@ -60,8 +60,8 @@ function signUp(event) {
     const newUser = {
       accountChoice,
       email,
-      firstName,
-      lastName,
+      first,
+      last,
       dob,
       cpf,
       phone,
